@@ -8,10 +8,16 @@
     {% endif %}
 
     <p class='c-post-card__excerpt u-font-medium'>
-      {{ post.content | strip_html | truncatewords:35 }}
+      {% if post.excerpt %}
+        {{ post.excerpt }}
+      {% else %}
+        {{ post.content | strip_html | truncatewords:35 }}
+      {% endif %}
     </p>
 
-    <span class='c-post-card__date'>{{ post.date | date: '%d %b %Y' }}</span>
+    {% comment %}
+      <span class='c-post-card__date'>{{ post.date | date: '%d %b %Y' }}</span>
+    {% endcomment %}
   </a>
 
 </div>
