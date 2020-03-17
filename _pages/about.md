@@ -1,10 +1,10 @@
 ---
 layout: page
 title: About
-image: '/images/pages/about.jpeg'
+image: '/images/pages/about2.jpg'
 ---
 
-I am Alex Oliveira.
+Hi 👋 I am Alex Oliveira.
 
 I make software.
 
