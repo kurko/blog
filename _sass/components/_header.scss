@@ -3,6 +3,17 @@
 \*------------------------------------*/
 
 .c-header {
+  img.logo-image {
+    border-radius: 50%;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+  }
+  .c-logo__link, .js-off-canvas-toggle {
+    padding-top: 4px;
+    display: table;
+  }
+
   &__inner {
     padding: $base-spacing-unit 0;
     border-bottom: 1px solid $color-border;

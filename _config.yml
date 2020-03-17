@@ -6,18 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:       Type
+title:       Alex Oliveira
 email:       ''
 description: ''
 baseurl:     '' # The subpath of your site, e.g. /blog
-url:         'https://type-jekyll.aspirethemes.com/' # The base hostname & protocol for your site
-twitter:     ''
-github:      ''
-instagram:   ''
+url:         'https://alexoliveira.cc/' # The base hostname & protocol for your site
+twitter:     'https://twitter.com/kurko'
+github:      'https://github.com/kurko'
+instagram:   'https://instagram.com/alrowan'
 facebook:    ''
+linkedin:    'https://www.linkedin.com/in/alexandredeoliveira/'
 
 markdown:  kramdown
-permalink: pretty
+permalink: none
 paginate:  10
 
 sass:

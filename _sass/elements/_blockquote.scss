@@ -3,6 +3,12 @@
 \*------------------------------------*/
 
 blockquote {
-  padding-left: $base-spacing-unit;
-  border-left: 3px solid $color-gray;
+  padding-left: $blockquote-padding;
+  margin-left: $base-margin-unit;
+  border-left: 4px solid $color-border-blockquote;
+
+  &, & * {
+    color: $color-blockquote;
+    // font-style: italic;
+  }
 }

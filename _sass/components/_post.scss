@@ -6,6 +6,11 @@
   margin: 0 auto;
   max-width: 740px;
 
+  ol, ul {
+    list-style-position: outside;
+    padding-left: 1.2em;
+  }
+
   &__title {
     font-size: double($font-size-tiny);
     margin-bottom: $base-spacing-unit;

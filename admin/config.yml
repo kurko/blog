@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: aspirethemes/type # Path to your Github repository
-  branch: master # Branch to update (master by default)
+  repo: kurko/blog
+  branch: master
 
 media_folder: "images" # Folder where user uploaded files should go
 
@@ -10,7 +10,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Post" # Used in the UI, e.g., "New Post"
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
