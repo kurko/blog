@@ -4,7 +4,7 @@ layout: post
 title:  "Black Boxes"
 date:   2016-11-24 15:02:54 -0200
 tags: [software-complexity]
-front_page_image: '/images/posts/black-boxes/cover.png'
+# front_page_image: '/images/posts/black-boxes/cover.png'
 excerpt: "This is an excerpt omg"
 
 ---
