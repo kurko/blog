@@ -13,29 +13,37 @@ excerpt: "This is an excerpt omg"
 
 > Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves - **Alan Kay**
 
-Mark's night was ruined at 11:28pm after the voice announced, "flight 1921 delayed due to...". Airline staff had no good news to any of 261 angry travelers. Best news for Mark is a flight leaving at 5:58am, so he waits. Tired and hungry, he decides to check out a vending machine nearby. Coin inserted, snack selected, a relief, "that was easy".
+There’s beauty when things look simple and are easy to operate despite hiding unthinkinkable complexity. Driving a car around requires no mechanical knowledge. Your foot is influencing thousands of explosions per minute.
 
-Consider a parallel universe where Mark has to not just insert a coin, but declare a full list of details that the vending machine has to execute in order to eject snacks. 7 billion people knowing all technical details of every vending machine. Then, one day, one vending machine is replaced and the entire society falls apart. Unthinkable.
+The simplicity has levels, and as we uncover each layer, complexity‘s growth is gradual and hierarchical. The hood, the components, the engine, the mechanisms inside the engine, spark plug, the camshaft, and the descent into physics and chemistry.
 
-That bizarre scenario is, albeit crazy, a perfect metaphor to depict the state of software today. Components intertwined with other components knowing internal details and procedures that don't belong to them cannot be changed so easily. Maintaining such systems is a very complicated and stressful task.
+The gradual compartment of complexity makes maintenance simpler. There’s no need to think about the things that are out of sight.
 
-A perspective on components that passed the test of time is Object Orientation (OO), developed by Alan Kay. Started in the 70's in the hardware industry, the rule was treating every electronic component as a computer. Inspired in biology, where each cell is a machine, now processors were machines too interacting with other machines, like memories boards. With those individual machines communicating among themselves, the mind could conceive systems composed from a few virtual machines up to billions. In this new perspective, no more would components sneak into each other's internals.
+Unfortunately, there’s a lot of software architectures disrespecting this basic principle. Leaky abstractions go in the opposite direction of compartmentalizing components. Maintaining such systems is a very complicated and stressful task.
 
-In this world of countless components, however, Alan Kay regretted defining Object Orientation because it implied that objects and components were the priority in a system. For him, it was about "messaging, local retention and protection and hiding of state", nothing else. According to Kay, messaging was the main feature.
+The art of making complex things simple is lost.
 
-Messaging at center gives rise to protection and hiding of state, decoupling components. Now components are black boxes.
+## Forward Thinking
+
+The 70's brought new ways of thinking. The hardware industry began experimenting with treating each electronic component as a separate, individual virtual machine <sup>[1](https://en.wikipedia.org/wiki/Dynabook)</sup>. It removed much of the linear thinking and enabled us to load our thought with an ever increasing number of simultaneous things.
+
+From biology came the inspiration to look at components as cells. When Alan Kay envisioned an electronic board as composed of interdependent, tiny little machines communicating among themselves, it opened a door <sup>[2](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=12&ved=2ahUKEwjs2LCrl6PoAhX9G7kGHSPFDh4QFjALegQIAxAB&url=https%3A%2F%2Farchive.org%2Fdetails%2FAlanKayAtOOPSLA1997TheComputerRevolutionHasntHappenedYet&usg=AOvVaw03bkD9lyQTy4foDmclBQgZ)</sup>. The mind could now conceive systems composed from a few virtual machines up to billions.
+
+In the world of countless components, focus ought to be given to "messaging, local retention and protection and hiding of state" [3](https://www.quora.com/What-is-Alan-Kays-definition-of-Object-Oriented/answer/Alan-Kay-11). Alan Kay called that mental model Object-Oriented.
 
 ## Software
 
-When asked what languages could OO be applied to, Alan Kay replied, "Smalltalk and Lisp". Lisp, the functional language? Why would anyone do that? Because OO is a _perspective_.
+Object Orientation is a way of perceiving the world. At its core, it has no relation to programming languages, classes, functions, methods, polymorphism, inheritance, prototypes, mutability, immutability. It has nothing to do with code, instances or how you reference objects in memory. It is about one component calling another.
 
-I'll say it again: OO is a perspective. It is not about programming languages, classes, functions, methods, polymorphism, inheritance, prototypes, mutability, immutability. It has nothing to do with code, instances or how you reference objects in memory. It is about one object calling for another. Languages like C++ and Java successfully narrowed the concept down to classes and methods. Marketing.
+The value of object orientation is in managing the application’s state in a way that it is self-contained.
 
-In a functional language, messages are passed between the components of your system to provide logical encapsulation. You're still going to try to avoid leaking implementation details to the outside world. In Erlang, for instance, each process is a functional program getting a stream of messages. Outside the process there could be all sorts of chaotic occurrences, a storm raging, but on the inside things are calm, letting you focus on what that process should do and only that.
+When asked what languages could apply it, Alan Kay replied, "Lisp", a functional language. Despite the paradigm, it’s good to avoid leaking implementation details to the outside world. 
 
-In 1969, Smalltalk started as an initiative to apply these concepts into a language. It sure does have messages, protection and hiding of state, but that's totally another dimension. Other languages came along afterwards. The two biggest names today are C++ and Java created in 1983 and 1995 respectively. Unfortunately, they have distorted what OO really means. When asked about C++, Kay replied, "actually I made up the term object-oriented, and I can tell you I did not have C++ in mind."
+Take Erlang. Each BEAM process is a functional program getting a stream of messages. Outside a particular process there could be all sorts of chaotic occurrences, a storm raging. But we don’t care. This compartmentalization lets us focus on what individual components need to do and only that.
 
-To be able to leverage Object Orientation to manage the systems complexity, we need to decouple ourselves from the thought that it is primarily related to languages.
+Smalltalk started as an initiative to codify these concepts into a language in 1969 and added its own mental models. Other languages came along afterwards including C++ (1983) and Java (1995). When asked about C++, Kay replied, "actually I made up the term object-oriented, and I can tell you I did not have C++ in mind".
+
+We can have any To be able to leverage Object Orientation to manage the systems complexity, we need to decouple ourselves from the thought that it is primarily related to languages.
 
 ## In The Wild: Curiosity Mars Rover
 
