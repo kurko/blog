@@ -13,41 +13,39 @@ excerpt: "This is an excerpt omg"
 
 > Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves - **Alan Kay**
 
-There’s beauty when things look simple and are easy to operate despite hiding unthinkinkable complexity. Driving a car around requires no mechanical knowledge. Your foot is influencing thousands of explosions per minute.
+There’s beauty when things look simple and are easy to operate despite hiding utmost complexity. Driving a car around requires no mechanical knowledge. Your foot is influencing thousands of explosions per minute.
 
-The simplicity has levels, and as we uncover each layer, complexity‘s growth is gradual and hierarchical. The hood, the components, the engine, the mechanisms inside the engine, spark plug, the camshaft, and the descent into physics and chemistry.
+Simplicity has levels, and as we dig deeper, each new layer reveals gradual and hierarchical complexity. The hood, the components, the engine, the mechanisms inside the engine, the spark plug, the camshaft, and the descent into physics and chemistry.
 
-The gradual compartment of complexity makes maintenance simpler. There’s no need to think about the things that are out of sight.
+The progressive compartment of complexity makes maintenance simpler. These _black boxes_ reduce the need to think about what is out of sight until we have to. Onboarding new workers is gradual, cognitive load is low.
 
-Unfortunately, there’s a lot of software architectures disrespecting this basic principle. Leaky abstractions go in the opposite direction of compartmentalizing components. Maintaining such systems is a very complicated and stressful task.
+However, lots of software architectures disrespect this principle. Leaky abstractions go in the opposite direction of components with good boundaries. Maintaining such systems is a very complicated and stressful task.
 
 The art of making complex things simple is lost.
 
-## Forward Thinking
+## Tiny, Tiny Machines
 
-The 70's brought new ways of thinking. The hardware industry began experimenting with treating each electronic component as a separate, individual virtual machine <sup>[1](https://en.wikipedia.org/wiki/Dynabook)</sup>. It removed much of the linear thinking and enabled us to load our thought with an ever increasing number of simultaneous things.
+From biology came the inspiration to think about components as cells, called objects. When engineers at Xerox PARC in 60’s and 70's envisioned an electronic board as composed of interdependent, tiny little machines communicating among themselves, it opened a door into a future that [is waiting to happen](https://archive.org/details/AlanKayAtOOPSLA1997TheComputerRevolutionHasntHappenedYet)</sup>. 
 
-From biology came the inspiration to look at components as cells. When Alan Kay envisioned an electronic board as composed of interdependent, tiny little machines communicating among themselves, it opened a door <sup>[2](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=12&ved=2ahUKEwjs2LCrl6PoAhX9G7kGHSPFDh4QFjALegQIAxAB&url=https%3A%2F%2Farchive.org%2Fdetails%2FAlanKayAtOOPSLA1997TheComputerRevolutionHasntHappenedYet&usg=AOvVaw03bkD9lyQTy4foDmclBQgZ)</sup>. The mind could now conceive systems composed from a few virtual machines up to billions.
+The greatest system to have flourished from this framework is the Internet itself. Peers anywhere on the planet are able to send and receive messages through millions of network nodes. This cell-like architecture enabled the countless revolutions we have experienced.
 
-In the world of countless components, focus ought to be given to "messaging, local retention and protection and hiding of state" [3](https://www.quora.com/What-is-Alan-Kays-definition-of-Object-Oriented/answer/Alan-Kay-11). Alan Kay called that mental model Object-Oriented.
+The cell membrane separates and protects its interior from the environment. The many different types of specialized cells cooperate with each other by passing materials around. Alan Kay argued that applying these concepts to human-made systems, making objects bounded by these functionalities, ["messaging, local retention and protection and hiding of state"](https://www.quora.com/What-is-Alan-Kays-definition-of-Object-Oriented/answer/Alan-Kay-11), would yield better and more robust systems.
+
+Object orientation is a mental model about the world. It segregates components and hides their complexity by abstracting away their internals, like small _black boxes_. Information about the system is compacted, and the brain can scale reasoning.
 
 ## Software
 
-Object Orientation is a way of perceiving the world. At its core, it has no relation to programming languages, classes, functions, methods, polymorphism, inheritance, prototypes, mutability, immutability. It has nothing to do with code, instances or how you reference objects in memory. It is about one component calling another.
+In its roots, object orientation had no relation to programming languages. Classes, inheritance, mutability versus immutability came to be associated with it decades later. It was always about the messages components exchange.
 
-The value of object orientation is in managing the application’s state in a way that it is self-contained.
+The debate _object orientation versus functional languages_ has always been moot. When asked what languages could apply it, "Lisp" was Alan Kay’s reply. Whatever the paradigm, there is value in managing the application’s state in a way that is self-contained.
 
-When asked what languages could apply it, Alan Kay replied, "Lisp", a functional language. Despite the paradigm, it’s good to avoid leaking implementation details to the outside world. 
+Take Erlang, a functional language. Each BEAM process is a functional program getting a stream of messages. Outside a particular process there could be all sorts of chaotic occurrences, a storm raging. But we don’t care. This compartmentalization lets us focus on what individual components need to do and only that.
 
-Take Erlang. Each BEAM process is a functional program getting a stream of messages. Outside a particular process there could be all sorts of chaotic occurrences, a storm raging. But we don’t care. This compartmentalization lets us focus on what individual components need to do and only that.
+In 1969, a project to create a programming language based on these principles started. [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) was born. C++ (1983) and Java (1995) are the most famous, although not the most representative. When asked about C++, Kay replied, "actually I made up the term object-oriented, and I can tell you I did not have C++ in mind".
 
-Smalltalk started as an initiative to codify these concepts into a language in 1969 and added its own mental models. Other languages came along afterwards including C++ (1983) and Java (1995). When asked about C++, Kay replied, "actually I made up the term object-oriented, and I can tell you I did not have C++ in mind".
+## Curiosity Mars Rover
 
-We can have any To be able to leverage Object Orientation to manage the systems complexity, we need to decouple ourselves from the thought that it is primarily related to languages.
-
-## In The Wild: Curiosity Mars Rover
-
-Curiosity Mars Rover is one of the greatest examples of a system that is built entirely with OO in mind to keep complexity under an accepted level. And guess what? It's written in C.
+Curiosity Mars Rover is a great example of system built with object orientation in mind. Its complexity is contained. And guess what? It's written in C.
 
 ![http://cdn.cantechletter.com/wp-content/uploads/2012/09/NASA-Mars-Rover.jpg](/images/posts/black-boxes/mars_rover_c.jpg)
 
@@ -57,16 +55,16 @@ If a message is a command, module A never expects an answer or return value from
 
 Besides the evident robustness, this decouples module A from module B. There are no setters. When working on a module, you're not required to know how another module works. Cognitive load is lower. Different teams can comply with a contract of how the interfaces are designed and work in parallel.
 
-When debugging, things get easier too. You can apply binary search to figure out which modules are buggy. Once you find the problematic 50%, you search again.
+Debugging gets easier too. You can apply binary search to figure out which modules are the root cause.
 
-Changing the system is relatively easies. Due to how things are decoupled, changing one part of the system won't require you to change anything else. It's virtually impossible to violate the Law of Demeter. In Erlang, for instance, processes are deployed to production independently while other components continue running.
+Changing the system is easier due to how things are decoupled, provided changing one part of the system won't require you to change anything else. Like in Erlang, for instance, processes are deployed to production independently while other components continue running.
 
-Put from another perspective, NASA basically rewrote Erlang, which has all those features, in C. And as Joe Armstrong once said,
+Put from another perspective, NASA basically rewrote Erlang, which has all those features, in C. And as Joe Armstrong once jokingly said,
 
 > Erlang might be the only object oriented language.
 
 ## Perspective
 
-We can apply this perspective of messages to distributed systems, microservices, text codebases, and even Unix pipes. In code, use proper namespaces to convey components, hide your states from other components and start seeing your methods as representations of messages.
+This perspective can be applied to distributed systems, microservices, text codebases, and even Unix pipes. In code, we tend to use namespaces to convey components, hide states from other components and see methods as representations of messages.
 
-All systems will have coupled components, a certain level of complexity and a required cognitive load. This is how nature is, our job is to manage it.
+In the end, all systems have some coupling, some level of complexity and an unescapable cognitive burden because that’s nature. It’s our job, however, to manage it.
