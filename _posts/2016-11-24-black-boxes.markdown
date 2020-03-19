@@ -5,7 +5,7 @@ title:  "Black Boxes"
 date:   2016-11-24 15:02:54 -0200
 tags: [software-complexity]
 # front_page_image: '/images/posts/black-boxes/cover.png'
-excerpt: "This is an excerpt omg"
+excerpt: "There’s beauty when things look simple and are easy to operate despite hiding utmost complexity. Simplicity has levels, and as we dig deeper, each new layer reveals gradual and intricate components. This progressive compartment of complexity makes maintenance simpler and scalable."
 
 ---
 
@@ -19,7 +19,7 @@ Simplicity has levels, and as we dig deeper, each new layer reveals gradual and 
 
 The progressive compartment of complexity makes maintenance simpler. These _black boxes_ reduce the need to think about what is out of sight until we have to. Onboarding new workers is gradual, cognitive load is low.
 
-However, lots of software architectures disrespect this principle. Leaky abstractions go in the opposite direction of components with good boundaries. Maintaining such systems is a very complicated and stressful task.
+However, lots of software architectures disrespect this principle with leaky abstractions that go in the opposite direction. Maintaining systems with bad boundaries is hard and stressful.
 
 The art of making complex things simple is lost.
 
