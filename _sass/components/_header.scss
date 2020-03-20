@@ -9,9 +9,13 @@
     display: inline;
     margin-right: 10px;
   }
+
   .c-logo__link, .js-off-canvas-toggle {
-    padding-top: 4px;
     display: table;
+  }
+
+  .js-off-canvas-toggle {
+    padding-top: 6px;
   }
 
   &__inner {
@@ -19,7 +23,38 @@
     border-bottom: 1px solid $color-border;
   }
 
+  @media only screen and (min-width: $mobile-width) {
+    &__inner {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+  }
+
   &__icon {
     vertical-align: middle;
+  }
+}
+
+/*------------------------------------*\
+  Components > Logo
+\*------------------------------------*/
+
+.c-logo {
+  &__link {
+    @media only screen and (min-width: $mobile-width) {
+      padding-top: 8px;
+      font-size: $font-size-sitename;
+    }
+    @media only screen and (max-width: $mobile-width) {
+      padding-top: 7px;
+      font-size: $font-size-sitename;
+    }
+    // font-weight: $font-weight-bolder;
+    transition: $global-transition;
+
+    @include attention() {
+      color: $color-brand;
+      text-decoration: none;
+    }
   }
 }
