@@ -10,7 +10,7 @@ title:       Alex Oliveira
 email:       ''
 description: ''
 baseurl:     '' # The subpath of your site, e.g. /blog
-url:         'https://alexoliveira.cc/' # The base hostname & protocol for your site
+url:         'https://alexoliveira.cc' # The base hostname & protocol for your site
 twitter:     'https://twitter.com/kurko'
 github:      'https://github.com/kurko'
 instagram:   'https://instagram.com/alrowan'

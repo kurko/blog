@@ -2,6 +2,8 @@
 layout: page
 title: About
 image: '/images/pages/about2.jpg'
+rss: false
+date: 2020-01-02 15:02:54 -0200
 ---
 
 Hi 👋 I'm Alex Oliveira. 👨‍💻 I make software. 
