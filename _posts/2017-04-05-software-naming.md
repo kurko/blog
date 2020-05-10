@@ -83,9 +83,11 @@ Pretty obvious, but now that we have some rules, let's try to apply them to this
 <br />
 <br />
 
-If our system is a house, a bed and a toilet in the **same room** makes the room definition, by all known standards, pretty much blurry, foggy. Do you notice how using corollaries 1 and 2 becomes non-trivial to name this room? We could very well name it the _Monster Room_.
+If our system is a house, a bed and a toilet in the **same room** makes the room definition, by all known western standards, pretty much blurry, foggy. Do you notice how using corollaries 1 and 2 becomes non-trivial to name this room? We could very well name it the _Ambiguous Room_.
 
-The problem here lies not in the amount of objects in the same room, but that completely unrelated things are being treated as if they had similar functions. At home, we put together things that have the same concern, purpose and intent and that makes organizing easier, whereas by messing with these responsibilities we cannot be sure what the architects wanted or how these objects are meant to be used. By messing, we block flow.
+In my experience, most of the time the challenge of naming things results from bad modeling. When the elements in software have been introduced without coherence, naming will be impossible. The developer, with short deadlines, are forced to deliver whatever comes to mind first. 
+
+At home, we put together things that have the same function, purpose and intent. That makes organizing easier, whereas by messing with these responsibilities we cannot be sure what the architects wanted or how these objects are meant to be used, blocking flow.
 
 **Corollary 3: the clarity with which a container is defined is proportional to how closely related its components are.**
 
@@ -133,9 +135,13 @@ A common pattern is appending Builder and other Er-ending words in class names. 
 
 ![](../images/posts/software-naming/builders.png)
 
-Judging the name, we can interpret three things. First, the verb Build in the class name implies that it's a function in class clothes, procedural. Second, it has two inner, hidden entities within it, a User and a Builder, meaning a probable encapsulation violation. Third, it implies that Builder has access to how a User's works internally because, after all, they're entangled with one another.
+Judging by the name, we can interpret three things. First, the verb _Build_ in the class name implies that it's a function, when in fact it’s in the class title. Functions do stuff, classes embody entities and context. A function is not an entity, and without entities well defined the codebase quickly develops into procedural code because it’s sub-utilizing the class pattern’s original intention.
 
-This is similar to the Factory Pattern, which has its place. Our example becomes a problem when it is abused throughout the codebase. Also, a reminder that in the Factory Pattern, you don't need to have a class for it. `Application`'s `createUser()` could very well do the factory job.
+Second, it has two inner, hidden entities within it, a User and a Builder, meaning a probable encapsulation violation. By that we mean that a User shouldn’t be responsible for generating new Users.
+
+Third, it implies that Builder has access to how a User functions internally because, after all, they're entangled with one another.
+
+I’ve seen entire codebases littered with this approach. There are complicated patterns that attempt to solve this, like `FactoryPattern`. Some times they’re useful, but when we have a modeling problem, we better fix it, not bandaid it.
 
 **Example 3: Base**
 
@@ -188,9 +194,9 @@ end
 ```
 
 
-**Example 5: monster names**
+**Example 5: ambiguous names**
 
-The Spring framework has a few examples that illustrate components that do too much and, as a result, require names that resemble our _Monster Room_. Here is [one](http://docs.spring.io/spring/docs/2.5.x/javadoc-api/org/springframework/aop/config/SimpleBeanFactoryAwareAspectInstanceFactory.html) (because [this one](http://www.javafind.net/gate.jsp?q=%2Flibrary%2F36%2Fjava6_full_apidocs%2Fcom%2Fsun%2Fjava%2Fswing%2Fplaf%2Fnimbus%2FInternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonWindowNotFocusedState.html) would be just a bit too much):
+The Spring framework has a few examples that illustrate components that do too much and, as a result, require names that resemble our _Ambiguous Room_. Here is [one](http://docs.spring.io/spring/docs/2.5.x/javadoc-api/org/springframework/aop/config/SimpleBeanFactoryAwareAspectInstanceFactory.html) (because [this one](http://www.javafind.net/gate.jsp?q=%2Flibrary%2F36%2Fjava6_full_apidocs%2Fcom%2Fsun%2Fjava%2Fswing%2Fplaf%2Fnimbus%2FInternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonWindowNotFocusedState.html) would be just a bit too much):
 
 ```java
 class SimpleBeanFactoryAwareAspectInstanceFactory {
@@ -293,7 +299,7 @@ Second, consider specificity. `postTweet()` is very specific, whereas `makeHttpR
 
 **Example 4: generalization**
 
-A long ago, a CMS had database tables *news*, *history*, *videos*, *articles*, *pages* and other. Most of them had the same columns, *title*, *summary*, *text*. *videos* table had extra attributes such as *url* (to embed YouTube) and *history* had a *date* attribute so the page would show a list of historic events by year. All these tables looked like copies, with a few differences here and there, and adding new functionality required rewriting a lot of boilerplate all over again.
+A long ago, a CMS had database tables *news*, *history*, *videos*, *articles*, *pages* and other. Most of them had the same columns, *title*, *summary* and *text*. The *videos* table had extra attributes such as *url* (to embed YouTube) and *history* had a *date* attribute so the page would show a list of historic events by year. All these tables looked like copies, with a few differences here and there, and adding new functionality required rewriting a lot of boilerplate all over again.
 
 I collapsed all those tables into one called `contents` with a foreign key pointing to a table called `sections`, which had the list of sections such as news, history, videos and others. Now, one code for `contents` was enough. Years later, a friend had to write a small CMS and I suggested the same approach. Once the forms for managing content were done, it took 1/N of the time it would normally take to implement anything because for every new section of the same type, it was already done.
 
