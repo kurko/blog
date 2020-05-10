@@ -17,9 +17,11 @@ excerpt: "Code is written once but read many times. Good writing, as it turns ou
 
 We all want to read and understand software. We want code to make sense, to speak the language of the business model, to convey meaning and relationships with clarity. Although code is written once, it is read many times.
 
-Bad code confuses us. Bad code codifies assumptions that might make sense for the writer, but doesn't for readers. Have you needed help to understand a piece of code? Have you ever been demanded disproportionate energy and effort to make sense of what code was doing? That's bad code.
+Bad code confuses us. Bad code codifies assumptions that make sense for the writer but not for the readers. Have you ever needed help to understand a piece of code? Have you ever been demanded disproportionate energy and effort to make sense of what code was doing? That's bad code.
 
-The first step to succeed in any area is understanding its elements and their impact on other people and the environment. Good movie directors internalize *elements* and *patterns* after watching movies for countless hours, and then that manipulated them to tell stories effectively. The same can be said for novelists, musicians, chess players.
+But how do we go from bad to good?
+
+The first step to succeed in any area is a solid understanding of its elements and their impact on other people and the environment. Good movie directors internalize *elements* and *patterns* after watching movies for countless hours, then manipulate them to tell stories effectively. The same can be said for novelists, musicians, chess players.
 
 Similarly, a software developer should be able to scan a business domain and discover its elements and patterns. Some are obvious, some are not, and this is where it gets tricky: finding names for some of these elements is not a trivial task. Some elements don't exist in the real world, some do but lack names everyone will understand. Some relationships are inevitable for the success of the business domain but were never discussed by the business owners.
 
@@ -27,7 +29,7 @@ Some names individualize elements whereas others aggregate them. Some reveal abs
 
 Good writing, as it turns out, is about optimizing for ease of reading. 
 
-## Naming Components
+## Naming Components and Elements
 
 There's a whole universe of types of relationships among elements. Some things live side by side (e.g nodes), some contain others (organization vs employees). Some things depend on others (purchases and payments methods) while some generate others (bills and installments).
 
