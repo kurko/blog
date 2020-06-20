@@ -5,4 +5,18 @@
 .c-footer {
   padding: double($base-spacing-unit) 0;
   background-color: $bg-color-gray;
+
+  li.single-icon {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    margin: 0 auto;
+
+    img {
+      top: 2px;
+      width: 13px;
+      display: initial;
+      position: relative;
+    }
+  }
 }

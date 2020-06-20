@@ -7,9 +7,10 @@
 
 # Site settings
 title:       Alex Oliveira
+author:      Alex Oliveira
 email:       ''
-description: ''
-baseurl:     '' # The subpath of your site, e.g. /blog
+description: 'Software, Systems and Thinking.'
+#baseurl:     '' # The subpath of your site, e.g. /blog
 url:         'https://alexoliveira.cc' # The base hostname & protocol for your site
 twitter:     'https://twitter.com/kurko'
 github:      'https://github.com/kurko'
@@ -19,7 +20,7 @@ linkedin:    'https://www.linkedin.com/in/alexandredeoliveira/'
 
 markdown:  kramdown
 permalink: none
-paginate:  10
+paginate:  15
 
 sass:
   style: compressed
@@ -27,6 +28,8 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll/tagging
+  - jekyll-mentions
+  - jekyll-feed
 
 include:
   - _pages
@@ -40,6 +43,9 @@ exclude:
 tag_page_dir:         tag
 tag_page_layout:      tag_page
 tag_permalink_style:  pretty
+
+feed:
+  path: atom.xml
 
 # Pages path
 defaults:
