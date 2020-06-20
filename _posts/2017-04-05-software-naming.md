@@ -3,9 +3,9 @@
 layout: post
 title: "Software Complexity: Naming"
 date: 2017-04-05 15:02:54 -0200
-tags: [software-complexity]
+tags: [software]
 # front_page_image: '/images/posts/black-boxes/cover.png'
-excerpt: "Code is written once but read many times. Good writing, as it turns out, is about optimizing for ease of reading. Naming "
+excerpt: "Code is written once but read many times. Good writing is, therefore, about optimizing for ease of reading."
 
 ---
 
