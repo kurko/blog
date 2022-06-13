@@ -5,7 +5,7 @@ title:  "A Fractal of Black Boxes"
 date:   2016-11-24 15:02:54 -0200
 tags: [software-complexity]
 # front_page_image: '/images/posts/a-fractal-of-black-boxes/cover.png'
-excerpt: "The beauty of things that look simple and are easy to operate despite hiding utmost complexity is astonishing. Simplicity has levels, and as we dig deeper, each new layer reveals gradual and intricate components. We can use this progressive compartment to make maintenance and innovation simpler and scalable."
+excerpt: "On the beauty of complex things that look simple and easy, and how to use Progressive Compartment to simplify maintenance and innovation at work and in life."
 
 ---
 
@@ -30,7 +30,7 @@ This is the art of making complex things simple and hard things easy. Flat hiera
 
 ## Tiny Tiny Machines
 
-Biology inspired engineers to think about components as cells, or objects. When engineers at Xerox PARC in 60’s and 70's envisioned an electronic board as composed of interdependent, tiny little machines communicating among themselves, it opened a door into a future that [is still waiting to happen](https://archive.org/details/AlanKayAtOOPSLA1997TheComputerRevolutionHasntHappenedYet).
+Biology inspired engineers to think about components as cells, or objects. When engineers at Xerox PARC in 60’s and 70's envisioned an electronic board as composed of interdependent, tiny little machines communicating among themselves, it opened a door into a future that incredibly vast (but in great part [is still waiting to happen](https://archive.org/details/AlanKayAtOOPSLA1997TheComputerRevolutionHasntHappenedYet)).
 
 The greatest system to have flourished from this framework is the Internet itself. Peers anywhere on the planet are able to send and receive messages through millions of network nodes. This cell-like architecture enabled the countless revolutions we have experienced.
 
