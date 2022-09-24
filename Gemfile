@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'bundler'
+gem 'webrick'
 gem 'rb-fsevent'
 gem "listen", "~> 3.2"
 gem 'jekyll', '~> 4.0'
