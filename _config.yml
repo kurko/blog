@@ -34,10 +34,7 @@ plugins:
 
 include:
   - _pages
-  - essay
-  - field_note
-  - guide
-  - book
+  - _essay
 
 exclude:
   - vendor
@@ -47,10 +44,17 @@ exclude:
 # Tags
 tag_page_dir:         tag
 tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+permalink: /:categories/:title
 
 feed:
   path: atom.xml
+
+#collections_dir: obsidian
+
+collections:
+  essay:
+    output: true
+    permalink: /:title
 
 # Pages path
 defaults:
@@ -58,6 +62,11 @@ defaults:
       path: ''
     values:
       layout: post
+
+  - scope:
+      path: 'obsidian/essay'
+    values:
+      permalink: essay/:title
 
   - scope:
       path: 'essay'
@@ -68,4 +77,4 @@ defaults:
       path: '_pages'
     values:
       layout: page
-      permalink: /:basename:output_ext
+      permalink: /:basename
