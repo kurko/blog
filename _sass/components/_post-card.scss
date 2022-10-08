@@ -29,7 +29,9 @@
   }
 
   &__excerpt {
-    margin-bottom: half($font-size-base);
+    p {
+      margin-bottom: $font-size-base;
+    }
   }
 
   &__date {

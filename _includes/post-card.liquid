@@ -8,13 +8,13 @@
            class='c-post__image' alt='{{ post.title }}'>
     {% endif %}
 
-    <p class='c-post-card__excerpt u-font-medium'>
+    <span class='c-post-card__excerpt'>
       {% if post.excerpt %}
-        {{ post.excerpt }}
+        {{ post.excerpt | markdownify }}
       {% else %}
         {{ post.content | strip_html | truncatewords:35 }}
       {% endif %}
-    </p>
+    </span>
 
     {% comment %}
       <span class='c-post-card__date'>{{ post.date | date: '%d %b %Y' }}</span>
