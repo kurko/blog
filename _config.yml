@@ -30,9 +30,14 @@ plugins:
   - jekyll/tagging
   - jekyll-mentions
   - jekyll-feed
+  - jekyll-redirect-from
 
 include:
   - _pages
+  - essay
+  - field_note
+  - guide
+  - book
 
 exclude:
   - vendor
@@ -50,6 +55,17 @@ feed:
 # Pages path
 defaults:
   - scope:
+      path: ''
+    values:
+      layout: post
+
+  - scope:
+      path: 'essay'
+    values:
+      layout: post
+
+  - scope:
       path: '_pages'
     values:
+      layout: page
       permalink: /:basename:output_ext

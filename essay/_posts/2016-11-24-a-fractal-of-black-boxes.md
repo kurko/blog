@@ -1,9 +1,11 @@
 ---
 
 layout: post
-title:  "A Fractal of Black Boxes"
-date:   2016-11-24 15:02:54 -0200
+title: "A Fractal of Black Boxes"
+date: 2016-11-24 15:02:54 -0200
 tags: [software-complexity]
+redirect_from:
+  - a-fractal-of-black-boxes
 # front_page_image: '/images/posts/a-fractal-of-black-boxes/cover.png'
 excerpt: "On the beauty of complex things that look simple and easy, and how to use Progressive Compartment to simplify maintenance and innovation at work and in life."
 
