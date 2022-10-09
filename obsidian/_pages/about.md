@@ -24,3 +24,5 @@ coded and led teams in:
 </ul>
 
 I spoke at RubyConfs, Euruko, universities, and more.
+
+[Check out my work setup]({% link  obsidian/my-digital-workbench.md %}).
