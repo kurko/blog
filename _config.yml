@@ -69,6 +69,11 @@ defaults:
       permalink: essay/:title
 
   - scope:
+      path: 'obsidian*'
+    values:
+      permalink: /:basename
+
+  - scope:
       path: 'essay'
     values:
       layout: post
