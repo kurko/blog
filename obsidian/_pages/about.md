@@ -25,5 +25,5 @@ coded and led teams in:
 
 I spoke at RubyConfs, Euruko, universities, and more.
 
-- [Check out my work setup](_pages/my-digital-workbench)
-- [Article, Software Complexity - Naming](essay/_posts/2017-04-05-software-naming)
+- [Check out my work setup]({% link  obsidian/_pages/my-digital-workbench.md %})
+- [Article, Software Complexity - Naming]({% link  obsidian/essay/_posts/2017-04-05-software-naming.md %})
