@@ -56,6 +56,10 @@ collections:
     output: true
     permalink: /:title
 
+  guides:
+    output: true
+    permalink: /:title
+
 # Pages path
 defaults:
   - scope:
@@ -75,6 +79,11 @@ defaults:
 
   - scope:
       path: 'essay'
+    values:
+      layout: post
+
+  - scope:
+      path: 'guide'
     values:
       layout: post
 
