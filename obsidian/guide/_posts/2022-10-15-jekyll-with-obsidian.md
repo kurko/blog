@@ -90,7 +90,7 @@ A *wikilink*, like this
 becomes the following in markdown,
 
 <pre>
-[My Page]({% link obsidian/my-page)
+[My Page]({% link obsidian/my-page.md %})
 </pre>
 
 However, Jekyll expects 
@@ -104,11 +104,11 @@ Second, it appends `obsidian` to links, which the plugin wasn't doing automatica
 In the *Text Replacer* section, each line has two fields. Let's call the first `entry` and the second `replacer`. Here's my configuration entries:
 
 **Entry 1, Remove ./**: set entry to `\]\(\.\/` and *replacer* to `]({% link obsidian/`.
-Why: Some links start with `./`, and we want to remove that. The `regex` rule states that whenever we have a link like `[a]({% link obsidian/b)`, it matches `]({% link obsidian/` and replaces that with the `link` function and appends the path with `obsidian`, removing `./`.
+Why: Some links start with `./`, and we want to remove that. The `regex` rule states that whenever we have a link like `[a]({% link obsidian/b.md %})`, it matches `]({% link obsidian/` and replaces that with the `link` function and appends the path with `obsidian`, removing `./`.
 
-**Entry 2, add link function**: set entry to `\]\((?!(\{|http))` and *replacer* to `]({% link obsidian/$1`. Why: whenever we have a link like `[a]({% link obsidian/b)`, makes sure `b` has the `{% link b %}` format expected by Jekyll.
+**Entry 2, add link function**: set entry to `\]\((?!(\{|http))` and *replacer* to `]({% link obsidian/$1`.md %})`, makes sure `b` has the `{% link b %}` format expected by Jekyll.
 
-**Entry 3, add .md extension:** set entry to `\({% link(.*?!(\.md))\)` and *replacer* to, `({% link $1.md %})`. Why: makes sure the links reference a markdown file (note the `$1.md` extension) expected by Jekyll.
+**Entry 3, add .md extension:** set entry to `\({% link(.*?!(\.md))\)` and *replacer* to, `({% link $1.md %}) expected by Jekyll.
 
 If you need to debug the conversion, search for `censorText()` function and add breakpoints to it in Chrome's dev console.
 
