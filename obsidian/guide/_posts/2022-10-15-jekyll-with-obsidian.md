@@ -111,7 +111,7 @@ Why: Some links start with `./`, and we want to remove that. The `regex` rule st
 [a]&#40;./b&#41;
 </span>
 
-it matches `]({% link obsidian/` and replaces that with the `link` function and appends the path with `obsidian`, removing `./`.
+it matches <span class="code">]&#40;./</span> and replaces that with the `link` function and appends the path with `obsidian`, removing `./`.
 
 **Entry 2, add link function**: set entry to `\]\((?!(\{|http))` and *replacer* to <span class="code">]&#40;&#123;% link obsidian/$1</span>. Why: whenever we have a link like 
 
@@ -119,7 +119,7 @@ it matches `]({% link obsidian/` and replaces that with the `link` function and 
 
 it makes sure `b` has the <span class="code">&#123;% link b %&#125;</span> format expected by Jekyll.
 
-**Entry 3, add .md extension:** set entry to <span class="code">\(&#123;% link(.*?!(\.md))\)` and *replacer* to, <span class="code">&#40;&#123;% link $1.md %&#125;&#41;</span>. Why: makes sure the links reference a markdown file (note the `$1.md` extension) expected by Jekyll.
+**Entry 3, add .md extension:** set entry to <span class="code">\(&#123;% link(.*?!(\.md))\)</span> and *replacer* to, <span class="code">&#40;&#123;% link $1.md %&#125;&#41;</span>. Why: makes sure the links reference a markdown file (note the `$1.md` extension) expected by Jekyll.
 
 If you need to debug the conversion, search for `censorText()` function and add breakpoints to it in Chrome's dev console.
 
