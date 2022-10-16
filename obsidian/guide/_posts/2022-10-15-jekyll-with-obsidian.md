@@ -164,15 +164,15 @@ Sure. Below is a copy of mine. If you want, paste into the plugin's data file wh
   "censorText": [
     {
       "entry": "\\]\\(\\.\\/",
-      "replace": "]({% link obsidian/"
+      "replace": "]({% link obsidian/&#123;% link obsidian/"
     },
     {
       "entry": "\\]\\((?!(\\{|http))",
-      "replace": "]({% link obsidian/$1"
+      "replace": "]({% link obsidian/&#123;% link obsidian/$1"
     },
     {
-      "entry": "\\({% link(.*?!(\\.md))\\)",
-      "replace": "({% link $1.md %})"
+      "entry": "\\(&#123;% link(.*?!(\\.md))\\)",
+      "replace": "(&#123;% link $1.md %})"
     }
   ],
   "inlineTags": false,
