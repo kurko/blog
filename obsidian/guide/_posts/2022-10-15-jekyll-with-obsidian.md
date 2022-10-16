@@ -119,7 +119,7 @@ it matches <span class="code">]&#40;./</span> and replaces that with the `link` 
 
 it makes sure `b` has the <span class="code">&#123;% link b %&#125;</span> format expected by Jekyll.
 
-**Entry 3, add .md extension:** set entry to <span class="code">\(&#123;% link(.*?!(\.md))\)</span> and *replacer* to, <span class="code">&#40;&#123;% link $1.md %&#125;&#41;</span>. Why: makes sure the links reference a markdown file (note the `$1.md` extension) expected by Jekyll.
+**Entry 3, add .md extension:** set entry to <span class="code">\&#40;&#123;% link&#40;.*?!&#40;\.md))\)</span> and *replacer* to, <span class="code">&#40;&#123;% link $1.md %&#125;&#41;</span>. Why: makes sure the links reference a markdown file (note the `$1.md` extension) expected by Jekyll.
 
 If you need to debug the conversion, search for `censorText()` function and add breakpoints to it in Chrome's dev console.
 
@@ -130,7 +130,7 @@ If you need to debug the conversion, search for `censorText()` function and add 
 
 Sure. Below is a copy of mine. If you want, paste into the plugin's data file which lives in `.obsidian/obsidian-mkdocs-publisher/data.json` (in your Obsidian Vault directory). You have to replace the github keys and `GhToken` (as of version [4.4.0](https://github.com/ObsidianPublisher/obsidian-github-publisher/commit/c8d75bd16d29a37b07b4761b5f624be90a92f596)).
 
-```json
+<pre>
 {
   "githubRepo": "blog",
   "githubName": "kurko",
@@ -184,5 +184,4 @@ Sure. Below is a copy of mine. If you want, paste into the plugin's data file wh
   "frontmatterTitleKey": "filename",
   "shareExternalModified": false
 }
-```
-
+</pre>
