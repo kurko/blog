@@ -8,8 +8,9 @@ code {
   font-family: $font-monospace;
   background-color: $color-code-bg;
   border-radius: 3px;
+  font-size: $font-size-small;
 
-  @include mq(mobile) {
+  @include mq($until: mobile) {
     font-size: $font-size-small;
   }
 }
@@ -18,7 +19,7 @@ code {
   background-color: $color-code-bg !important;
   overflow-x: auto;
 
-  @include mq(mobile) {
+  @include mq($until: mobile) {
     max-width: 370px;
   }
 }
