@@ -22,9 +22,19 @@ To set the foundation, here's my idealistic goals for a blog:
 - **it is (mostly) free:** the idea of paying too much for hosting a few static files is obnoxious.
 - **it is my 2nd-brain:** I can take my tiny little notes, guides, and share with the world, not only essays.
 
-I've gone through various technological iterations through the years, hitting a checkbox in one ideal but compromising in another. I've gone from admin panels with Rails (full control), Wordpress (quick publishing), to static pages on Netlify with Ember.js (for offline support), and lately [Jekyll](https://jekyllrb.com) (plain files). But the whole list of ideals was never hit. Jekyll is supported by Github for free, but having to open a terminal to `git-commit` my markdown files is far from being a pleasure.
+I've gone through various technological iterations through the years, hitting a checkbox in one ideal but compromising in another. I've gone from admin panels with Rails (full control), Wordpress (quick publishing), to static pages on Netlify with Ember.js (for offline support), and lately [Jekyll](https://jekyllrb.com) (plain files). But the whole list of ideals was never satisfied. Jekyll is supported by Github for free, but having to open a terminal to `git-commit` my markdown files is far from being a pleasure.
 
-When I start writing into Obsidian all my tiny little ideas in tiny little paragraphs, I had a sense that _that_ should be my personal site (this text started as a note for organizing my own thoughts, and here it is now, public). However, my personal website is none of that. It's hard to post anything so I will definitely avoid posting a couple paragraphs. The character-to-energy ratio is too low.
+### Why Obsidian for note taking?
+
+Obsidian promotes the concept of a *wiki* on steroids. It enables you to create links between notes in a very simple manner. Every time you type <span class="code">&#91;&#91;some note name&#93;&#93;, it suggests notes automatically or creates new ones on demand. You end up with tons of notes connected.
+
+This image shows a graph with all my notes and their connections in Obsidian.
+
+![Graph of all notes in my Obsidian and their connections]({% link obsidian/images/obsidian/obsidian-graph-zoomed-out.md %})
+
+You can zoom in and learn how multiple concepts connect together, and it opens up a whole new mental level. Obsidian deserves a post of its own.
+
+When I started writing into Obsidian all my tiny little ideas in tiny little paragraphs, I had a sense that _that_ should be my personal site (this text started as a note for organizing my own thoughts, and here it is now, public). However, my personal website is none of that. It's hard to post anything so I will definitely avoid posting a couple paragraphs. The character-to-energy ratio is too low.
 
 But I think I found a sensible way of keeping the simplicity of Jekyll with the offline support I've been looking for, by leveraging Obsidian's plugin support. I now can click a button and post this note to Github in 3 seconds, which posts automatically. Here's how the ideal list stands:
 
