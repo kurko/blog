@@ -23,7 +23,7 @@ coded and led teams in:
   <li> 💻 software intelligence</li>
 </ul>
 
-I spoke at RubyConfs, Euruko, universities, and more.
+I spoke at RubyConfs, Euruko, universities, and more. I believe [good writing is an act of empathy](https://github.com/ObsidianPublisher/obsidian-github-publisher/pull/36/files#diff-c49cb89b66bc4961c47c867b709bcb7956c00bff469ff5ad622be0a0e73c5dd2R94-R124).
 
 Some personal texts:
 
