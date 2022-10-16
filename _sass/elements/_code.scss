@@ -10,7 +10,7 @@ code {
   border-radius: 3px;
   font-size: $font-size-small;
 
-  @include mq($until: mobile) {
+  @include mq($until: tablet) {
     font-size: $font-size-small;
   }
 }
@@ -19,7 +19,7 @@ code {
   background-color: $color-code-bg !important;
   overflow-x: auto;
 
-  @include mq($until: mobile) {
+  @include mq($until: tablet) {
     max-width: 370px;
   }
 }
@@ -36,15 +36,26 @@ p span.code {
   white-space: normal;
 }
 
+pre.highlight code,
 pre {
   overflow: auto;
-  padding: double($base-spacing-unit);
   margin-bottom: $base-spacing-unit;
   font-size: $font-size-medium;
   line-height: $line-height-medium;
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-all;
+
+  @include mq($until: tablet) {
+    font-size: $font-size-small;
+    line-height: $line-height-medium;
+    white-space: pre;
+    overflow-x: auto;
+  }
+}
+
+pre {
+  padding: double($base-spacing-unit);
 }
 
 li code,
