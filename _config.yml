@@ -73,9 +73,14 @@ defaults:
       permalink: essay/:title
 
   - scope:
+      path: 'obsidian/guide'
+    values:
+      permalink: guide/:title
+
+  - scope:
       path: 'obsidian*'
     values:
-      permalink: /:title
+      permalink: /:basename
 
   - scope:
       path: 'essay'
@@ -91,4 +96,4 @@ defaults:
       path: '_pages'
     values:
       layout: page
-      permalink: /:title
+      permalink: /:basename
