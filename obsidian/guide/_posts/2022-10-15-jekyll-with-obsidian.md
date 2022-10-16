@@ -171,7 +171,7 @@ Sure. Below is a copy of mine. If you want, paste into the plugin's data file wh
       "replace": "]&#40;&#123;% link obsidian/$1"
     },
     {
-      "entry": "\\&#40;&#123;% link(.*?!(\\.md))\\)",
+      "entry": "\\&#40;&#123;% link &#40;[^\\.\\s\\)]&#42;)(.&#42;)\\)",
       "replace": "&#40;&#123;% link $1.md %}&#41;"
     }
   ],
