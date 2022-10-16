@@ -6,6 +6,7 @@ filename: "guide/_posts/2022-10-15-jekyll-with-obsidian"
 tags: [obsidian]
 # front_page_image: '/images/posts/black-boxes/cover.png'
 excerpt: "Guide on how to use Jekyll with Obsidian."
+render_with_liquid: false
 ---
 
 I've always been dissatisfied with my blog. The technology has always that bothered the engineer-slash-idealist in me. I attribute the intolerably tedious publishing process as reason for why I don't post more often - although laziness is not out of question. Then, in 2021, [Obsidian.md](https://obsidian.md) came into my life and I started using it for personal and work notes (2nd-Brain) on MacOS, iPad and iOS, and I realized that maybe, just maybe, if I could easily publish from it to [Jekyll](https://jekyllrb.com), I might have solved all those problems that held me back.
