@@ -36,6 +36,8 @@ But I think I found a sensible way of keeping the simplicity of Jekyll with the 
 - **✅ it is (mostly) free:** Github Pages is free.
 - **✅ it is my 2nd-brain:** this is still in a discovery phase, but given I can publish any of my personal notes, I'll say yes for this. I will have to improve my website layout for it to truly encompass all my notes.
 
+If you're intested, from here it gets more technical.
+
 ### How can I configure Jekyll and Obsidian together?
 
 This is mostly instructions for myself.
@@ -50,6 +52,9 @@ This is mostly instructions for myself.
 - Folder Behavior: I set as `Fixed`. [More details here]({% link  obsidian/https://github.com/ObsidianPublisher/obsidian-github-publisher#folder-reception-settings.md %}).
 - Default Folder: I'm using `obsidian`. This puts all files published into the [obsidian/ directory]({% link  obsidian/https://github.com/kurko/blog/tree/642bf6816c50b7b666726163a9a8b3aeba73d2e0/obsidian.md %}) in Github.
 - Title frontmatter: I've set mine to `filename`. This determines where the file will be sent to. For example, this post `filename: guide/_posts/2022-10-15-jekyll-with-obsidian` at the top, so the plugin will use it to figure out that it should move it to `obsidian/guide/_posts/2022-10-15-jekyll-with-obsidian.md`
+- Links: I turn on both `Internal Links` and `Wikilinks`. I want them to be processed.
+- Embed: `Transfer Attachment` should be on. For images, I set the Default Attachment Folder, I set `images/obsidian` (my Jekyll config expects `images/`).
+- I think it makes sense to turn on `Auto Clean`.
 
 **Step 2b:** the *Text Replacer* field is a bit more complicated. In short, it allows you to set some `regex` rules to rewrite some of the text during publishing.
 
@@ -63,7 +68,9 @@ In *Text Replacer*, each line has two fields. Let's call the first `entry` and t
 2. `entry` field is `\]\(([^\{])`, `replace` value, `]({% link  obsidian/$1`. Reason: whenever we have a link like `[a]({% link obsidian/b.md %})`, makes sure `b` has the `{% link b %}` format expected by Jekyll.
 3. `entry` field is `\({% link (.*)\)`, `replace` value, `({% link $1.md %})`. Reason: makes sure the links reference a markdown file (note the `$1.md` extension.md %}) expected by Jekyll.
 
-### Is there a `data.json` file I can use for the plugin?
+**Step 3:** set a nice keyboard shortcut for publishing. I configured `Cmd+Shift+Option+D` for publishing only the open file, and `Cmd+Shift+D` for everything.
+
+### Is there a ready-made`data.json` file I can use for the plugin?
 
 Sure. Below is a copy of mine. If you want, paste into the plugin's data file which lives in `.obsidian/obsidian-mkdocs-publisher/data.json` (in your Obsidian Vault directory). You have to replace the github keys and `GhToken` (as of version [4.4.0]({% link  obsidian/https://github.com/ObsidianPublisher/obsidian-github-publisher/commit/c8d75bd16d29a37b07b4761b5f624be90a92f596).md %}).
 
