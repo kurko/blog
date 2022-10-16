@@ -106,9 +106,11 @@ In the *Text Replacer* section, each line has two fields. Let's call the first `
 **Entry 1, Remove ./**: set entry to `\]\(\.\/` and *replacer* to `]({% link obsidian/`.
 Why: Some links start with `./`, and we want to remove that. The `regex` rule states that whenever we have a link like `[a]({% link obsidian/b)`, it matches `]({% link obsidian/` and replaces that with the `link` function and appends the path with `obsidian`, removing `./`.
 
-**Entry 2, add link function**: set entry to `\]\(([^\{])` and *replacer* to `]({% link obsidian/$1`. Why: whenever we have a link like `[a]({% link obsidian/b)`, makes sure `b` has the `{% link b %}` format expected by Jekyll.
+**Entry 2, add link function**: set entry to `\]\((?!(\{|http))` and *replacer* to `]({% link obsidian/$1`. Why: whenever we have a link like `[a]({% link obsidian/b)`, makes sure `b` has the `{% link b %}` format expected by Jekyll.
 
-**Entry 3, add .md extension:** set entry to `\({% link(.*)\)` and *replacer* to, `({% link $1.md %})`. Why: makes sure the links reference a markdown file (note the `$1.md` extension) expected by Jekyll.
+**Entry 3, add .md extension:** set entry to `\({% link(.*?!(\.md))\)` and *replacer* to, `({% link $1.md %})`. Why: makes sure the links reference a markdown file (note the `$1.md` extension) expected by Jekyll.
+
+If you need to debug the conversion, search for `censorText()` function and add breakpoints to it in Chrome's dev console.
 
 **Step 4:** set a nice keyboard shortcut for publishing. I configured `Cmd+Shift+Option+D` for publishing only the open file, and `Cmd+Shift+D` for everything.
 
@@ -154,11 +156,11 @@ Sure. Below is a copy of mine. If you want, paste into the plugin's data file wh
       "replace": "]({% link obsidian/"
     },
     {
-      "entry": "\\]\\(([^\\{])",
+      "entry": "\\]\\((?!(\\{|http))",
       "replace": "]({% link obsidian/$1"
     },
     {
-      "entry": "\\({% link(.*)\\)",
+      "entry": "\\({% link(.*?!(\\.md))\\)",
       "replace": "({% link $1.md %})"
     }
   ],
@@ -172,3 +174,4 @@ Sure. Below is a copy of mine. If you want, paste into the plugin's data file wh
   "shareExternalModified": false
 }
 ```
+
