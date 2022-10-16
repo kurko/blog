@@ -59,7 +59,7 @@ This is mostly instructions for myself.
 
 **Step 2b:** the *Text Replacer* field is a bit more complicated. In short, it allows you to set some `regex` rules to rewrite some of the text during publishing.
 
-First, I want links to look correct. For example, links have to match what Jekyll expects, so I set it to transform them. A *wikilink* like `&#91;&#91;my-page|My Page]]` becomes `[My Page]({% link  obsidian/my-page)` in markdown, but Jekyll expects `[My Page]({% link my-page.md %}.md %})`.
+First, I want links to look correct. For example, links have to match what Jekyll expects, so I set it to transform them. A *wikilink* like <span class="code">&#91;&#91;my-page&#124;My Pages&#93;&#93;</span> becomes `[My Page]({% link  obsidian/my-page)` in markdown, but Jekyll expects `[My Page]({% link my-page.md %}.md %})`.
 
 Second, it appends links with `obsidian`, which the plugin wasn't doing automatically (bug?).
 
