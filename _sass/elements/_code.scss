@@ -6,13 +6,33 @@ pre,
 span.code,
 code {
   font-family: $font-monospace;
-  background-color: #EFEFEF;
+  background-color: $color-code-bg;
   border-radius: 3px;
+
+  @include mq(mobile) {
+    font-size: $font-size-small;
+  }
 }
 
-code,
-span.code {
-  white-space: nowrap;
+.highlighter-rouge, .highlight {
+  background-color: $color-code-bg !important;
+  overflow-x: auto;
+
+  @include mq(mobile) {
+    max-width: 370px;
+  }
+}
+
+pre.highlight code {
+  background: none
+}
+
+p code,
+ol code, ol span.code,
+ul code, ul span.code,
+h1 span.code, h2 span.code, h3 span.code, h4 span.code, h5 span.code, h6 span.code,
+p span.code {
+  white-space: normal;
 }
 
 pre {
@@ -28,4 +48,7 @@ pre {
 
 li code,
 h3 code,
-p code { padding: quarter($base-spacing-unit) half($base-spacing-unit); }
+p span.code,
+p code {
+  padding: quarter($base-spacing-unit) half($base-spacing-unit);
+}
