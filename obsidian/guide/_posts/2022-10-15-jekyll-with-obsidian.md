@@ -9,9 +9,9 @@ excerpt: "Guide on how to use Jekyll with Obsidian."
 render_with_liquid: false
 ---
 
-I've always been dissatisfied with blogging. The technologies bother the *engineer-slash-idealist* in me. I attribute the tedious publishing process as reason for not posting more often - although laziness is not out of question. In 2021, however, [Obsidian.md](https://obsidian.md) came into my life and it changed things. I use it for personal and work notes (2nd-Brain) on MacOS, iPad and iOS, and realized that maybe, *just maybe*, if I could easily publish from it to [Jekyll](https://jekyllrb.com), I might have solved all those problems that held me back.
+I've always been dissatisfied with blogging. The technologies bother the *engineer-slash-idealist* in me. I attribute the tedious publishing process as reason for not posting more often - although laziness is not out of question. In 2021, however, [Obsidian.md](https://obsidian.md) came into my life and it changed my perspective on personal notes. I use it now for all my notes (2nd-Brain) on MacOS, iPad and iOS, and realized that maybe, *just maybe*, if I could somehow publish into [Jekyll](https://jekyllrb.com), I might have solved all those problems that held me back.
 
-To set the foundation, here's my idealistic goals for a blog:
+To set the background, my idealistic goals for a blog can be summ:
 
 - **it is just files:** it has to be simple. I don't want to manage databases, adapters, migrations, seed files. Just good ol' files.
 - **I have full control:** I want to control the design, the file structure, the domain, everything. With a just-files policy, I can move my site anywhere at any time. I learned a hard lesson with Evernote in the old days: migrating notes isn't fun.
@@ -30,7 +30,7 @@ Obsidian promotes the concept of a *wiki* on steroids. It enables you to create 
 
 This image shows a graph with all my notes and their connections in Obsidian.
 
-![Graph of all notes in my Obsidian and their connections](/images/obsidian/obsidian-graph-zoomed-out.png)
+![Graph of all notes in my Obsidian and their connections]({% link obsidian/images/obsidian/obsidian-graph-zoomed-out.md %})
 
 You can zoom in and learn how multiple concepts connect together, and it opens up a whole new mental level. Obsidian deserves a post of its own.
 
