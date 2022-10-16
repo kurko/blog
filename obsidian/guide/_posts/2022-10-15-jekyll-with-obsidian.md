@@ -30,7 +30,7 @@ Obsidian promotes the concept of a *wiki* on steroids. It enables you to create 
 
 This image shows a graph with all my notes and their connections in Obsidian.
 
-![Graph of all notes in my Obsidian and their connections]({% link obsidian/images/obsidian/obsidian-graph-zoomed-out.md %})
+![Graph of all notes in my Obsidian and their connections](/images/obsidian/obsidian-graph-zoomed-out.png)
 
 You can zoom in and learn how multiple concepts connect together, and it opens up a whole new mental level. Obsidian deserves a post of its own.
 
