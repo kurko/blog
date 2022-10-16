@@ -90,13 +90,13 @@ A *wikilink*, like this
 becomes the following in markdown,
 
 <pre>
-[My Page]({% link  obsidian/my-page.md %})
+[My Page]({% link obsidian/my-page)
 </pre>
 
 However, Jekyll expects 
 
 <pre>
-[My Page]({% link  my-page.md %}.md %})
+[My Page]({% link my-page.md %})
 </pre>
 
 Second, it appends `obsidian` to links, which the plugin wasn't doing automatically (bug?).
@@ -104,11 +104,11 @@ Second, it appends `obsidian` to links, which the plugin wasn't doing automatica
 In the *Text Replacer* section, each line has two fields. Let's call the first `entry` and the second `replacer`. Here's my configuration entries:
 
 **Entry 1, Remove ./**: set entry to `\]\(\.\/` and *replacer* to `]({% link obsidian/`.
-Why: Some links start with `./`, and we want to remove that. The `regex` rule states that whenever we have a link like `[a]({% link  obsidian/b.md %})`, it matches `]({% link obsidian/` and replaces that with the `link` function and appends the path with `obsidian`, removing `./`.
+Why: Some links start with `./`, and we want to remove that. The `regex` rule states that whenever we have a link like `[a]({% link obsidian/b)`, it matches `]({% link obsidian/` and replaces that with the `link` function and appends the path with `obsidian`, removing `./`.
 
-**Entry 2, add link function**: set entry to `\]\(([^\{])` and *replacer* to `]({% link  obsidian/$1`. Why: whenever we have a link like `[a]({% link obsidian/b.md %})`, makes sure `b` has the `{% link b %}` format expected by Jekyll.
+**Entry 2, add link function**: set entry to `\]\(([^\{])` and *replacer* to `]({% link obsidian/$1`. Why: whenever we have a link like `[a]({% link obsidian/b)`, makes sure `b` has the `{% link b %}` format expected by Jekyll.
 
-**Entry 3, add .md extension:** set entry to `\({% link (.*)\)` and *replacer* to, `({% link $1.md %})`. Why: makes sure the links reference a markdown file (note the `$1.md` extension.md %}) expected by Jekyll.
+**Entry 3, add .md extension:** set entry to `\({% link(.*)\)` and *replacer* to, `({% link $1.md %})`. Why: makes sure the links reference a markdown file (note the `$1.md` extension) expected by Jekyll.
 
 **Step 4:** set a nice keyboard shortcut for publishing. I configured `Cmd+Shift+Option+D` for publishing only the open file, and `Cmd+Shift+D` for everything.
 
@@ -158,8 +158,8 @@ Sure. Below is a copy of mine. If you want, paste into the plugin's data file wh
       "replace": "]({% link obsidian/$1"
     },
     {
-      "entry": "\\({% link (.*)\\.md %})",
-      "replace": "({% link  $1.md %}.md %})"
+      "entry": "\\({% link(.*)\\)",
+      "replace": "({% link $1.md %})"
     }
   ],
   "inlineTags": false,
