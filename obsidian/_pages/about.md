@@ -27,5 +27,5 @@ I spoke at RubyConfs, Euruko, universities, and more.
 
 Some personal texts:
 
-- [Check out my work setup]({% link  obsidian/_pages/my-digital-workbench.md %})
-- [How to use Jekyll with Obsidian.md]({% link  obsidian/guide/_posts/2022-10-15-jekyll-with-obsidian.md %})
+- [Check out my work setup]({% link obsidian/_pages/my-digital-workbench)
+- [How to use Jekyll with Obsidian.md]({% link obsidian/guide/_posts/2022-10-15-jekyll-with-obsidian)
