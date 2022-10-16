@@ -111,7 +111,7 @@ Why: Some links start with `./`, and we want to remove that. The `regex` rule st
 [a]&#40;./b&#41;
 </span>
 
-it matches `]({% link obsidian/` and replaces that with the `link` function and appends the path with `obsidian`, removing `./`.
+it matches <span class="code">]&#40;./</span> and replaces that with the `link` function and appends the path with `obsidian`, removing `./`.
 
 **Entry 2, add link function**: set entry to `\]\((?!(\{|http))` and *replacer* to <span class="code">]&#40;&#123;% link obsidian/$1</span>. Why: whenever we have a link like 
 
