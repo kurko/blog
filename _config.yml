@@ -56,7 +56,7 @@ collections:
     output: true
     permalink: /:title
 
-  guides:
+  guide:
     output: true
     permalink: /:title
 
@@ -75,7 +75,7 @@ defaults:
   - scope:
       path: 'obsidian*'
     values:
-      permalink: /:basename
+      permalink: /:title
 
   - scope:
       path: 'essay'
@@ -91,4 +91,4 @@ defaults:
       path: '_pages'
     values:
       layout: page
-      permalink: /:basename
+      permalink: /:title
