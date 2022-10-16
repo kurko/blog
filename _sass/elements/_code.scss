@@ -6,7 +6,13 @@ pre,
 span.code,
 code {
   font-family: $font-monospace;
-  background-color: $bg-color-gray;
+  background-color: #EFEFEF;
+  border-radius: 3px;
+}
+
+code,
+span.code {
+  white-space: nowrap;
 }
 
 pre {
@@ -21,4 +27,5 @@ pre {
 }
 
 li code,
+h3 code,
 p code { padding: quarter($base-spacing-unit) half($base-spacing-unit); }

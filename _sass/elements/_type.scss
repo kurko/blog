@@ -24,11 +24,15 @@ h1 {
   font-size: $font-size-h1;
 }
 
-h2 {
+h2,
+h2 code,
+h2 span.code {
   font-size: $font-size-h2;
 }
 
-h3 {
+h3,
+h3 code,
+h3 span.code {
   font-size: $font-size-h3;
 }
 
