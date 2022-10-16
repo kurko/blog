@@ -25,5 +25,7 @@ coded and led teams in:
 
 I spoke at RubyConfs, Euruko, universities, and more.
 
+Some personal texts:
+
 - [Check out my work setup]({% link  obsidian/_pages/my-digital-workbench.md %})
-- [Article, Software Complexity - Naming]({% link  obsidian/essay/_posts/2017-04-05-software-naming.md %})
+- [How to use Jekyll with Obsidian.md]({% link  obsidian/guide/_posts/2022-10-15-jekyll-with-obsidian.md %})
