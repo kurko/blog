@@ -11,7 +11,7 @@ render_with_liquid: false
 
 I've always been dissatisfied with blogging. The technologies bother the *engineer-slash-idealist* in me. I attribute the tedious publishing process as reason for not posting more often - although laziness is not out of question. In 2021, however, [Obsidian.md](https://obsidian.md) came into my life and it changed my perspective on personal notes. I use it now for all my notes (2nd-Brain) on MacOS, iPad and iOS, and realized that maybe, *just maybe*, if I could somehow publish into [Jekyll](https://jekyllrb.com), I might have solved all those problems that held me back.
 
-To set the background, my idealistic goals for a blog can be summ:
+To set the background, my idealistic goals for a blog can be summarized as follows:
 
 - **it is just files:** it has to be simple. I don't want to manage databases, adapters, migrations, seed files. Just good ol' files.
 - **I have full control:** I want to control the design, the file structure, the domain, everything. With a just-files policy, I can move my site anywhere at any time. I learned a hard lesson with Evernote in the old days: migrating notes isn't fun.
@@ -26,7 +26,7 @@ I've gone through various technological iterations through the years, hitting a 
 
 ### Why Obsidian for note taking?
 
-Obsidian promotes the concept of a *wiki* on steroids. It enables you to create links between notes in a very simple manner. Every time you type <span class="code">&#91;&#91;some note name&#93;&#93;, it suggests notes automatically or creates new ones on demand. You end up with tons of notes connected.
+Obsidian promotes the concept of a *wiki* on steroids. It enables you to create links between notes in a very simple manner. Every time you type <span class="code">&#91;&#91;some note name&#93;&#93;</span>, it suggests notes automatically or creates new ones on demand. You end up with tons of notes connected.
 
 This image shows a graph with all my notes and their connections in Obsidian.
 
@@ -53,14 +53,16 @@ If you're intested, from here it gets more technical.
 
 This is mostly instructions for myself.
 
-**Step 0:** have Jekyll in a repository. It's outside the scope of this text teaching how to use it. It's fairly simple if you know how to use it, but getting started can be tricky for non-developers.
+**Step 0:** have Jekyll in a repository. It's outside the scope of this text teaching how to use it. It's fairly simple if you know how to use it, but getting started can be tricky for non-developers. You can find tons of tutorials online, it's a very basic blogging framework.
 
-**Step 1:** write your notes in Obsidian. The frontmatter of each file should look like the following:
+**Step 1:** write your notes in Obsidian. 
+
+The frontmatter of each file should look like the following:
 
 ```yaml
 ---
 share: true
-title: "Jekyll Blogging with Obsidian.md"
+title: "Jekyll Blogging with Obsidian"
 date: 2022-10-15 06:00:00 -0400
 filename: "guide/_posts/2022-10-15-jekyll-with-obsidian"
 tags: [obsidian]
@@ -77,7 +79,21 @@ When you create a *wikilink* in Obsidian (an internal link), the publishing plug
 
 **Step 2:** install the [obsidian-github-publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) plugin. This is a community plugin, so you'll have to enable non-core plugins.
 
-**Step 3:** time to configure the plugin. The following are details about its Settings screen (`Cmd+comma` on MacOS, then Community Plugins).
+What it does is it sends files to a Github repository. For that to work, you need to configure a user, Github token, and the final file structure. These are described in the next step.
+
+**Step 3:** time to configure the plugin. Go the plugin Settings (`Cmd+comma` on MacOS, then Community Plugins, then Github Publisher), you will find a list of properties to set.
+
+The following are details about those properties.
+
+| **Property** | **Comment** |
+|---|---|
+| **Repository** | The plugin's `README` has instructions on that. You'll need a Github username, repo and token. |
+| **Folder Behavior** | I set as `Fixed`. [More details here](https://github.com/ObsidianPublisher/obsidian-github-publisher#folder-reception-settings). |
+| **Default Folder** | I'm using `obsidian`. This puts all files published into the [obsidian/ directory](https://github.com/kurko/blog/tree/642bf6816c50b7b666726163a9a8b3aeba73d2e0/obsidian) in Github. |
+| **Title Frontmatter** | I've set mine to `filename`. This determines where the file will be sent to. For example, this post's `filename: guide/_posts/2022-10-15-jekyll-with-obsidian` at the top, so the plugin will use it to figure out that it should move it to `obsidian/guide/_posts/2022-10-15-jekyll-with-obsidian.md` |
+| **Links** | I turn on both `Internal Links` and `Wikilinks`. I want them to be processed. |
+| **Embed** | `Transfer Attachment` should be on. For images, I set the Default Attachment Folder, I set `images/obsidian` (my Jekyll config expects `images/`). |
+| **Auto Clean** | I think it makes sense to turn on `Auto Clean`. |
 
 - The *repository* details are self-explanatory. The plugin's `README` has instructions on that. You'll need a Github token.
 - *Folder Behavior*: I set as `Fixed`. [More details here](https://github.com/ObsidianPublisher/obsidian-github-publisher#folder-reception-settings).
