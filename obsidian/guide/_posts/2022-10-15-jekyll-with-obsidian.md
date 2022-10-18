@@ -9,55 +9,21 @@ excerpt: "Guide on how to use Jekyll with Obsidian."
 render_with_liquid: false
 ---
 
-I've always been dissatisfied with blogging. The technologies bother the *engineer-slash-idealist* in me. I attribute the tedious publishing process as reason for not posting more often - although laziness is not out of question. In 2021, however, [Obsidian.md](https://obsidian.md) came into my life and it changed my perspective on personal notes. I use it now for all my notes (2nd-Brain) on MacOS, iPad and iOS, and realized that maybe, *just maybe*, if I could somehow publish into [Jekyll](https://jekyllrb.com), I might have solved all those problems that held me back.
+I wrote about what would be [ideal blogging process]({% link obsidian/essay/_posts/2022-10-16-jekyll-with-obsidian.md %}). I've always been dissatisfied with blogging due to how hard it is to post. When it is easy to post, then you generally lack freedom in some other fundamental area. I recommend reading that for context.
 
-To set the background, my idealistic goals for a blog can be summarized as follows:
+This post is about to use [Obsidian](https://obsidian.md) to post articles to Github. It should work with any blogging framework, but given I use [Jekyll](https://jekyllrb.com), that's what I'll use here.
 
-- **it is just files:** it has to be simple. I don't want to manage databases, adapters, migrations, seed files. Just good ol' files.
-- **I have full control:** I want to control the design, the file structure, the domain, everything. With a just-files policy, I can move my site anywhere at any time. I learned a hard lesson with Evernote in the old days: migrating notes isn't fun.
-- **I write offline:** writing should depend on internet. I want to go camping, be flying over the ocean, be in another country backpacking, and I want my ideas to come to life unencumbered.
-- **writing is pleasing:** what's the point of writing offline but using Notepad? Some solutions feel good, but either require specific backends or internet. [iA Writer](https://ia.net/writer) feels amazing, but publishes to Wordpress, and I want none of that. [Substack](https://substack.com) is ok but requires you to have the browser open and connected.
-- **easy to publish:** I should write somewhere offline, on a computer or on my phone, click a button and it goes online later.
-- **quick iteration:** I want to publish a not-totally-finished essay and improve over time. If publishing is one click, excellent. Copying/pasting is definitely no-go (looking at you, iA Writer).
-- **it is (mostly) free:** the idea of paying too much for hosting a few static files is obnoxious.
-- **it is my 2nd-brain:** I can take my tiny little notes, guides, and share with the world, not only essays.
+### Ok, so how can I configure Jekyll and Obsidian together?
 
-I've gone through various technological iterations through the years, hitting a checkbox in one ideal but compromising in another. I've gone from admin panels with Rails (full control), Wordpress (quick publishing), to static pages on Netlify with Ember.js (for offline support), and lately [Jekyll](https://jekyllrb.com) (plain files). But the whole list of ideals was never satisfied. Jekyll is supported by Github for free, but having to open a terminal to `git-commit` my markdown files is far from being a pleasure.
-
-### Why Obsidian for note taking?
-
-Obsidian promotes the concept of a *wiki* on steroids. It enables you to create links between notes in a very simple manner. Every time you type <span class="code">&#91;&#91;some note name&#93;&#93;</span>, it suggests notes automatically or creates new ones on demand. You end up with tons of notes connected.
-
-This image shows a graph with all my notes and their connections in Obsidian.
-
-![Graph of all notes in my Obsidian and their connections](/images/obsidian/obsidian-graph-zoomed-out.png)
-
-You can zoom in and learn how multiple concepts connect together, and it opens up a whole new mental level. Obsidian deserves a post of its own.
-
-When I started writing into Obsidian all my tiny little ideas in tiny little paragraphs, I had a sense that _that_ should be my personal site (this text started as a note for organizing my own thoughts, and here it is now, public). However, my personal website is none of that. It's hard to post anything so I will definitely avoid posting a couple paragraphs. The character-to-energy ratio is too low.
-
-But I think I found a sensible way of keeping the simplicity of Jekyll with the offline support I've been looking for, by leveraging Obsidian's plugin support. I now can click a button and post this note to Github in 3 seconds, which posts automatically. Here's how the ideal list stands:
-
-- **✅ it is just files:** it's markdown, Obsidian and Jekyll. It's a directory in my computer.
-- **✅ I have full control:** the [site is on Github Pages](https://github.com/kurko/blog#readme) and I control the design. It's not Wordpress. Any sign of problem and I move somewhere, even a [Raspberry Pi](https://www.raspberrypi.com) would do.
-- **✅ I write offline:** yes, and works on my mobile phone.
-- **✅ writing is pleasing:** I created a theme in Obsidian that mimics iA Writer's. It's a joy to write (although I miss Writer's adjective checks).
-- **✅ easy to publish:** with the [obsidian-github-publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher), it is.
-- **✅ quick iteration:** it's a matter of pressing `Cmd+Shift+D` for deploying.
-- **✅ it is (mostly) free:** Github Pages is free.
-- **✅ it is my 2nd-brain:** this is still in a discovery phase, but given I can publish any of my personal notes, I'll say yes for this. I will have to improve my website layout for it to truly encompass all my notes.
-
-If you're intested, from here it gets more technical.
-
-### How can I configure Jekyll and Obsidian together?
-
-This is mostly instructions for myself.
+These are the instructions I'd need if I had to setup everything from scratch.
 
 **Step 0:** have Jekyll in a repository. It's outside the scope of this text teaching how to use it. It's fairly simple if you know how to use it, but getting started can be tricky for non-developers. You can find tons of tutorials online, it's a very basic blogging framework.
 
-**Step 1:** write your notes in Obsidian. 
+If you don't use Jekyll, you can still publish to a directory in Github.
 
-The frontmatter of each file should look like the following:
+**Step 1:** write your notes in Obsidian.
+
+The frontmatter of each file should look like the following. Frontmatter is really just a header for the file, and the `---` indicate where it begins and ends.
 
 ```yaml
 ---
@@ -67,6 +33,8 @@ date: 2022-10-15 06:00:00 -0400
 filename: "guide/_posts/2022-10-15-jekyll-with-obsidian"
 tags: [obsidian]
 ---
+
+The actual article goes here.
 ```
 
 where,
@@ -97,15 +65,13 @@ The following are details about those properties.
 
 **Step 3b:** the *Text Replacer* field is a bit more complicated. In short, it allows you to set some `regex` rules to rewrite some of the text during publishing.
 
-First, I want links to match what Jekyll expects, so I set it to transform them. 
-
-A *wikilink*, like this
+Why would we want to rewrite the text? First, links need to match what Jekyll expects, so I set it to transform a *wikilink* like this
 
 <pre>
 &#91;&#91;my-page&#124;My Pages&#93;&#93;
 </pre>
 
-becomes the following in markdown,
+to become the following in markdown,
 
 <pre>
 [My Page]&#40;my-page&#41;
@@ -121,25 +87,15 @@ Second, it appends `obsidian` to links, which the plugin wasn't doing automatica
 
 In the *Text Replacer* section, each line has two fields. Let's call the first `entry` and the second `replacer`. Here's my configuration entries:
 
-**Entry 1, Remove ./**: set entry to `\]\(\.\/` and *replacer* to <span class="code">]&#40;&#123;% link obsidian/</span>.
+**Rule 1, transform links ./**: set entry to <span class="code">&#40;&#63;&#60;&#33;&#92;&#92;&#96;&#41;&#92;&#92;&#91;&#40;&#46;&#42;&#63;&#41;&#92;&#92;&#93;&#92;&#92;&#40;&#40;&#63;&#33;&#40;&#104;&#116;&#116;&#112;&#124;&#92;&#92;&#47;&#42;&#105;&#109;&#97;&#103;&#101;&#124;&#111;&#98;&#115;&#105;&#100;&#105;&#97;&#110;&#92;&#92;&#47;&#105;&#109;&#97;&#103;&#101;&#41;&#41;&#40;&#92;&#92;&#46;&#92;&#92;&#47;&#41;&#42;&#40;&#46;&#43;&#63;&#41;&#40;&#92;&#92;&#46;&#109;&#100;&#41;&#42;&#92;&#92;&#41;</span> and *replacer* to <span class="code">&#91;&#36;&#49;&#93;&#40;&#123;&#37;&#32;&#108;&#105;&#110;&#107;&#32;&#111;&#98;&#115;&#105;&#100;&#105;&#97;&#110;&#47;&#36;&#52;&#46;&#109;&#100;&#32;&#37;&#125;&#41;</span>.
 
-Why: Some links start with `./`, and we want to remove that. The `regex` rule states that whenever we have a link like,
+Why: this makes so wikilinks include the link function that Jekyll expects. If you are a little more technical and wants more details, [here's a commit I did with a nice `ascii` explanation](https://github.com/ObsidianPublisher/obsidian-github-publisher/pull/36/files#diff-c49cb89b66bc4961c47c867b709bcb7956c00bff469ff5ad622be0a0e73c5dd2R94-R123).
 
-<span class="code">
-[a]&#40;./b&#41;
-</span>
+**Rule 2, adjusts image paths**: set entry to <span class="code">&#40;&#63;&#60;&#33;&#92;&#92;&#96;&#41;&#92;&#92;&#91;&#40;&#46;&#42;&#63;&#41;&#92;&#92;&#93;&#92;&#92;&#40;&#40;&#40;&#111;&#98;&#115;&#105;&#100;&#105;&#97;&#110;&#92;&#92;&#47;&#41;&#63;&#105;&#109;&#97;&#103;&#101;&#41;&#40;&#46;&#43;&#41;&#92;&#92;&#41;</span> and *replacer* to <span class="code">&#91;&#36;&#49;&#93;&#40;&#47;&#105;&#109;&#97;&#103;&#101;&#36;&#52;&#41;</span>. 
 
-it matches <span class="code">]&#40;./</span> and replaces that with the `link` function and appends the path with `obsidian`, removing `./`.
+Why: image paths in Jekyll start at `/images`, but the plugin is converting it to `/obsidian/images`. This rule set removes `/obsidian` in those cases.
 
-**Entry 2, add link function**: set entry to `\]\((?!(\{|http))` and *replacer* to <span class="code">]&#40;&#123;% link obsidian/$1</span>. Why: whenever we have a link like 
-
-[a]&#40;b&#41;
-
-it makes sure `b` has the <span class="code">&#123;% link b %&#125;</span> format expected by Jekyll.
-
-**Entry 3, add .md extension:** set entry to <span class="code">\&#40;&#123;% link&#40;.&#42;?!&#40;\.md))\)</span> and *replacer* to, <span class="code">&#40;&#123;% link $1.md %&#125;&#41;</span>. Why: it makes sure the links reference a markdown file (note the `$1.md` extension) expected by Jekyll.
-
-If you need to debug the conversion, search for `censorText()` function and add breakpoints to it in Chrome's dev console.
+Finally, if you need to debug the conversion, search for the `findAndReplaceText()` function in Chrome's dev console and add breakpoints to it.
 
 **Step 4:** set a nice keyboard shortcut for publishing. I configured `Cmd+Shift+Option+D` for publishing only the open file, and `Cmd+Shift+D` for everything.
 
