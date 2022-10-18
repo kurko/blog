@@ -21,7 +21,7 @@ To set the background, my idealistic goals for a blog can be described as:
 - **it is (mostly) free:** the idea of paying too much for hosting a few static files is obnoxious.
 - **it is my 2nd-brain:** I can take my tiny little notes, guides, and share with the world, not only essays.
 
-I've gone through various technological iterations through the years, hitting a checkbox in one ideal but compromising another. Solution either (a) require too much technical knowledge to maintain, like Jekyll requiring us to git checkout a directory in a terminal just to write posts, or (b) preclude content ownership, like in Wordpress how are moving away from it if we change our minds in the future? 
+I've gone through various technological iterations through the years, hitting a checkbox in one ideal but compromising another. Generally, solutions either (a) require too much technical knowledge to setup and maintain, like Jekyll requiring us to `git checkout` a directory in a terminal just to write posts, or (b) preclude content ownership, like in Wordpress - how are moving away from it if we change our minds in the future? 
 
 I've experimented through that pendulum more than I'd like to admit. From admin panels with Rails (full control, requires software engineering knowledge), Wordpress/Ghost/Substack (quick publishing, good for laypeople but makes changes difficult), to static pages on Netlify with Ember.js (for offline support), and lately [Jekyll](https://jekyllrb.com) (plain files). But the whole list of ideals was never satisfied. Jekyll is supported by Github for free, but having to open a terminal to `git-commit` my markdown files is far from being a pleasure.
 
