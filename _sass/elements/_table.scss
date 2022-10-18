@@ -1,0 +1,32 @@
+/*------------------------------------*\
+  Elements > Typography
+\*------------------------------------*/
+
+table {
+  background: $bg-color-gray;
+  thead {
+    tr {
+      background: $color-code-bg;
+
+      th {
+        box-sizing: border-box;
+        padding: 3px 6px;
+        text-align: left;
+      }
+    }
+  }
+
+  td {
+    box-sizing: border-box;
+    text-align: left;
+    border-bottom: 1px solid white;
+    padding: 3px 6px;
+  }
+
+  th, td {
+
+    @include mq(mobile) {
+      font-size: $font-size-small;
+    }
+  }
+}

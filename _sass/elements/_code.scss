@@ -58,9 +58,18 @@ pre {
   padding: double($base-spacing-unit);
 }
 
-li code,
-h3 code,
-p span.code,
-p code {
-  padding: quarter($base-spacing-unit) half($base-spacing-unit);
+table,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  & span.code,
+  & code {
+    padding: quarter($base-spacing-unit) half($base-spacing-unit);
+  }
 }
