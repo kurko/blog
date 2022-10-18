@@ -95,14 +95,6 @@ The following are details about those properties.
 | **Embed** | `Transfer Attachment` should be on. For images, I set the Default Attachment Folder, I set `images/obsidian` (my Jekyll config expects `images/`). |
 | **Auto Clean** | I think it makes sense to turn on `Auto Clean`. |
 
-- The *repository* details are self-explanatory. The plugin's `README` has instructions on that. You'll need a Github token.
-- *Folder Behavior*: I set as `Fixed`. [More details here](https://github.com/ObsidianPublisher/obsidian-github-publisher#folder-reception-settings).
-- *Default Folder*: I'm using `obsidian`. This puts all files published into the [obsidian/ directory](https://github.com/kurko/blog/tree/642bf6816c50b7b666726163a9a8b3aeba73d2e0/obsidian) in Github.
-- *Title Frontmatter*: I've set mine to `filename`. This determines where the file will be sent to. For example, this post's `filename: guide/_posts/2022-10-15-jekyll-with-obsidian` at the top, so the plugin will use it to figure out that it should move it to `obsidian/guide/_posts/2022-10-15-jekyll-with-obsidian.md`
-- *Links*: I turn on both `Internal Links` and `Wikilinks`. I want them to be processed.
-- *Embed*: `Transfer Attachment` should be on. For images, I set the Default Attachment Folder, I set `images/obsidian` (my Jekyll config expects `images/`).
-- I think it makes sense to turn on `Auto Clean`.
-
 **Step 3b:** the *Text Replacer* field is a bit more complicated. In short, it allows you to set some `regex` rules to rewrite some of the text during publishing.
 
 First, I want links to match what Jekyll expects, so I set it to transform them. 
@@ -189,17 +181,13 @@ Sure. Below is a copy of mine. If you want, paste into the plugin's data file wh
   "useFrontmatterTitle": true,
   "censorText": [
     {
-      "entry": "\\]\\(\\.\\/",
-      "replace": "]&#40;&#123;% link obsidian/"
-    },
-    {
-      "entry": "\\]\\((?!(\\{|http))",
-      "replace": "]&#40;&#123;% link obsidian/$1"
-    },
-    {
-      "entry": "\\&#40;&#123;% link &#40;[^\\.\\s\\)]&#42;)(.&#42;)\\)",
-      "replace": "&#40;&#123;% link $1.md %}&#41;"
-    }
+      "entry": "&#40;&#63;&#60;&#33;&#92;&#92;&#96;&#41;&#92;&#92;&#91;&#40;&#46;&#42;&#63;&#41;&#92;&#92;&#93;&#92;&#92;&#40;&#40;&#63;&#33;&#40;&#104;&#116;&#116;&#112;&#124;&#92;&#92;&#47;&#42;&#105;&#109;&#97;&#103;&#101;&#124;&#111;&#98;&#115;&#105;&#100;&#105;&#97;&#110;&#92;&#92;&#47;&#105;&#109;&#97;&#103;&#101;&#41;&#41;&#40;&#92;&#92;&#46;&#92;&#92;&#47;&#41;&#42;&#40;&#46;&#43;&#63;&#41;&#40;&#92;&#92;&#46;&#109;&#100;&#41;&#42;&#92;&#92;&#41;",
+      "replace": "&#91;&#36;&#49;&#93;&#40;&#123;&#37;&#32;&#108;&#105;&#110;&#107;&#32;&#111;&#98;&#115;&#105;&#100;&#105;&#97;&#110;&#47;&#36;&#52;&#46;&#109;&#100;&#32;&#37;&#125;&#41;"
+    },
+    {
+      "entry": "&#40;&#63;&#60;&#33;&#92;&#92;&#96;&#41;&#92;&#92;&#91;&#40;&#46;&#42;&#63;&#41;&#92;&#92;&#93;&#92;&#92;&#40;&#40;&#40;&#111;&#98;&#115;&#105;&#100;&#105;&#97;&#110;&#92;&#92;&#47;&#41;&#63;&#105;&#109;&#97;&#103;&#101;&#41;&#40;&#46;&#43;&#41;&#92;&#92;&#41;",
+      "replace": "&#91;&#36;&#49;&#93;&#40;&#47;&#105;&#109;&#97;&#103;&#101;&#36;&#52;&#41;"
+    }
   ],
   "inlineTags": false,
   "dataviewFields": [],
