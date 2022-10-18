@@ -2,7 +2,7 @@
 share: true
 title: "Blogging Manifesto"
 date: 2022-10-15 06:00:01 -0400
-filename: "essay/_posts/2022-10-16-jekyll-with-obsidian"
+filename: "essay/_posts/2022-10-16-blogging-manifesto"
 tags: [obsidian, writing]
 # front_page_image: '/images/posts/black-boxes/cover.png'
 excerpt: "I've always been dissatisfied with blogging. Now I have an objective measure of what makes it pleasing."
