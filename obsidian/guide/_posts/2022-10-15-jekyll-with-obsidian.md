@@ -11,7 +11,7 @@ render_with_liquid: false
 
 I wrote about what would be [ideal blogging process]({% link obsidian/essay/_posts/2022-10-16-jekyll-with-obsidian.md %}). I've always been dissatisfied with blogging due to how hard it is to post. When it is easy to post, then you generally lack freedom in some other fundamental area. I recommend reading that for context.
 
-This post is about to use [Obsidian](https://obsidian.md) to post articles to Github. It should work with any blogging framework, but given I use [Jekyll](https://jekyllrb.com), that's what I'll use here.
+This post is about using [Obsidian](https://obsidian.md) to send file to Github. It should work with any blogging framework, but given I use [Jekyll](https://jekyllrb.com), that's what I'll use here.
 
 ### Ok, so how can I configure Jekyll and Obsidian together?
 
