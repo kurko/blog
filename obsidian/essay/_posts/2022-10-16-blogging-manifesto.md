@@ -8,9 +8,11 @@ tags: [obsidian, writing]
 excerpt: "I've always been dissatisfied with blogging. Now I have an objective measure of what makes it pleasing."
 ---
 
-I've always been dissatisfied with blogging. The technologies bother the *engineer-slash-idealist* in me. I attribute the tedious publishing process as reason for not posting more often - although laziness is not out of question. In 2021, however, [Obsidian.md](https://obsidian.md) came into my life and changed my perspective on personal notes, and subsequently blogs.
+I've always been dissatisfied with blogging. The technologies bother the *engineer-slash-idealist* in me. I attribute the tedious publishing process as reason for not posting more often - although laziness is not out of question. In 2021, however, [Obsidian.md](https://obsidian.md) came into my life and changed my perspective on personal notes, subsequently blogs.
 
-To set the background, my idealistic goals for a blog can be described as:
+### The Ideal Blog
+
+To set the scenario, here are my idealistic goals for a blog.
 
 - **it is just files:** it has to be simple. I don't want to manage databases, adapters, migrations, seed files. Just good ol' files.
 - **I have full control:** I want to control the design, the file structure, the domain, everything. With a just-files policy, I can move my site anywhere at any time. I learned a hard lesson with Evernote in the old days: migrating notes isn't fun.
@@ -25,7 +27,7 @@ I've gone through various technological iterations through the years, hitting a 
 
 I've experimented through that pendulum more than I'd like to admit. From admin panels with Rails (full control, requires software engineering knowledge), Wordpress/Ghost/Substack (quick publishing, good for laypeople but makes changes difficult), to static pages on Netlify with Ember.js (for offline support), and lately [Jekyll](https://jekyllrb.com) (plain files). But the whole list of ideals was never satisfied. Jekyll is supported by Github for free, but having to open a terminal to `git-commit` my markdown files is far from being a pleasure.
 
-It sounds like splitting hair because, after all, it's just... blogging, and the whole world is doing it. However, parallel to this *analysis-paralysis* in one area, in another I was thriving: I write a lot in Obsidian on my personal computer, it just stays private. The more fundamental Obsidian became in my process, the more I realized that maybe, *just maybe*, if I could somehow combine blog and Obsidian, publishing my notes into [Jekyll](https://jekyllrb.com) hosted on [Github](https://github.com/kurko/blog), then maybe I might have solved all - or most of - those problems that bothered in the past.
+It sounds like splitting hair because, after all, it's just... blogging, and the whole world has done it. However, concurrent to this *analysis-paralysis* in one area, on another I was actually thriving: I was writing a lot in Obsidian on my personal computer, it just happens to stay private. The more fundamental Obsidian became in my process, the more I realized that maybe, *just maybe*, if I could somehow combine blogging and Obsidian, publishing my notes into [Jekyll](https://jekyllrb.com) hosted on [Github](https://github.com/kurko/blog), then maybe I might had solved all - or most of - those problems that bothered in the past.
 
 ### Wait, but why Obsidian for note taking?
 
