@@ -5,7 +5,7 @@ date: 2022-10-15 06:00:00 -0400
 filename: "guide/_posts/2022-10-15-jekyll-with-obsidian"
 tags: [obsidian]
 # front_page_image: '/images/posts/black-boxes/cover.png'
-excerpt: "Guide on how to use Jekyll with Obsidian."
+excerpt: "Follow this step-by-step guide to setup Obsidian so you can post to Jekyll seamlessly."
 render_with_liquid: false
 ---
 
