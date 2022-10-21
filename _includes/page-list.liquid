@@ -1,20 +1,20 @@
 <div class='o-grid__col o-grid__col--full'>
 
   <a href='{{ post.url | prepend: site.baseurl }}'
-     class='c-post-card
-            {% if forloop.first == true %} c-post-card--first {% endif %}
-            {% if forloop.last == true %} c-post-card--last {% endif %}
+     class='c-page-list
+            {% if forloop.first == true %} c-page-list--first {% endif %}
+            {% if forloop.last == true %} c-page-list--last {% endif %}
             '
     >
 
-    <h3 class='c-post-card__title'>{{ post.title }}</h3>
+    <h4 class='c-page-list__title'>{{ post.title }}</h4>
 
     {% if post.front_page_image %}
       <img src='{{ post.front_page_image | prepend: site.baseurl }}'
            class='c-post__image' alt='{{ post.title }}'>
     {% endif %}
 
-    <span class='c-post-card__excerpt'>
+    <span class='c-page-list__excerpt'>
       {% if post.excerpt %}
         {{ post.excerpt | markdownify }}
       {% else %}
@@ -23,7 +23,7 @@
     </span>
 
     {% comment %}
-      <span class='c-post-card__date'>{{ post.date | date: '%d %b %Y' }}</span>
+      <span class='c-page-list__date'>{{ post.date | date: '%d %b %Y' }}</span>
     {% endcomment %}
   </a>
 

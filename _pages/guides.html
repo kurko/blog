@@ -1,0 +1,29 @@
+---
+share: true
+title: Guides
+filename: '_pages/guides'
+rss: false
+layout: default
+date: 2022-10-20 06:00:00 -0400
+---
+
+<div class='o-wrapper'>
+  <div class='o-grid'>
+
+    <div class='o-grid__col o-grid__col--full'>
+      <h2>Guides</h2>
+    </div>
+
+    <div class='o-grid__col o-grid__col--full'>
+      <p>
+        These guides are focused on specific areas.
+      </p>
+    </div>
+
+    {% for post in site.posts %}
+      {% if post.categories contains "guide" %}
+        {% include page-list.liquid %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

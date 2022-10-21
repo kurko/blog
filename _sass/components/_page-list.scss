@@ -2,7 +2,7 @@
   Components > Post Card
 \*------------------------------------*/
 
-h3.c-post-card {
+.c-page-list {
   display: block;
   padding: double($base-spacing-unit) 0;
   word-break: break-word;
@@ -19,20 +19,10 @@ h3.c-post-card {
 
   &__title {
     margin-bottom: half($font-size-base);
-    font-size: $font-size-base;
+    font-size: $font-size-h4;
     font-weight: $font-weight-bold;
     transition: $global-transition;
-
-    @include mq($from: tablet) {
-      font-size: double($font-size-small);
-    }
   }
-
-  h4:&__title {
-    font-size: $font-size-h4 !important;
-    margin-bottom: 0 !important;
-  }
-
 
   &__excerpt {
     p {
