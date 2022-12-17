@@ -1,9 +1,11 @@
 ---
 share: true
+layout: post
 title: Meditation
-filename: _pages/meditation
+filename: essay/_posts/2022-12-17-meditation
 rss: true
 date: 2022-12-17 06:00:00 -0200
+excerpt: "How I meditate, what I feel, how better my life is with it."
 ---
 
 When I meditate, my mind calms down. I start in the midst of chaos, but I finish in total control, ready to conquer.
@@ -22,7 +24,7 @@ The day ahead of me awaits with many traps and challenges, but I am ready to con
 
 ---
 
-Years ago, I used to need several, several minutes of meditation until the internal battle with my mind would settle. It would parry my efforts, only to lunge back into controlling me - back and forth, many times. But over time it would retreat back and surrender. Today, I might need only 3 minutes to end the dispute.
+Years ago, I used to need several, several minutes of meditation until the internal battle with my mind would settle. It would parry my efforts, only to lunge back into controlling me - back and forth, many times. But over time it would retreat back and surrender. Today, I might need only 5 minutes to end the dispute, some times more, some times less.
 
 When I forgo meditation for months, I notice the deterioration in the quality of life, in my peace of mind, in my control over whatever wants to control me. I become less stoic. I forget meditation even exists. The everyday events affect me before I can have a say. My mind seeks short-term rewards to get through the anxieties of the day. It procrastinates. It binges on sugar, on breaks, on the news. I am responsible, but those are not my decisions.
 
