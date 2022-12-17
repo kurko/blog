@@ -10,11 +10,11 @@ excerpt: "How I meditate, what I feel, how better my life is with it."
 
 When I meditate, my mind calms down. I start in the midst of chaos, but I finish in total control, ready to conquer.
 
-As I close my eyes and start the session, my brain continues its automatic course, pulling new threads and ideas, ignoring my intention. It brings me memories from work, new ideas, things I forgot to put into my to-do list. It gets slightly anxious.
+As I close my eyes and start the session, my brain continues its automatic course, pulling new ideas and threads, ignoring my intention. It brings me memories from work, new propositions, deadlines, things I forgot to put into my to-do list. It gets slightly anxious.
 
-I realize these automated thoughts with a few seconds of delay, and then intentionally put my focus on my breath. I stay there for a few seconds. I notice the physical aspects of my chest moving back and forward. I stay grounded. Temporarily.
+I realize these automated thoughts after a few seconds of delay, and then intentionally put my focus on my breath. I stay there for a few seconds. I notice the physical aspects of my chest moving back and forward. I stay grounded. Temporarily.
 
-A sudden sound far away impels my mind again. Random questions pop in my head, but I gently remind it that we aren't here right now to think, to ponder, to imagine, to get anxious about the future, to remember the past, but solely to enjoy the present. My mind surrenders. I am in control again. I am in the present, I am the present.
+A sudden sound far away impels my mind again. Random questions pop into my head, but I gently remind it that we aren't here right now to think, to ponder, to imagine, to get anxious about the future, to remember the past, but solely to enjoy the present. My mind surrenders. I am in control again. I am in the present, I am the present.
 
 But then, suddenly, the mind starts to wander, and periods of focus are followed by periods of thinking and worrying. This repeats multiple times throughout. In reality, the mind is a wild horse, quickly responding to fight-or-flight impulses, uncontrollable, but we need to be patient, gently pulling the rope tossed around its neck whenever it acts abrupt or independent. We have to domesticate it. When arbitrary thoughts pop into my mind, I bring back my focus into breathing.
 
