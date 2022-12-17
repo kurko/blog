@@ -1,7 +1,9 @@
 ---
 share: true
+title: Meditation
 filename: _pages/meditation
 rss: true
+date: 2022-12-17 06:00:00 -0200
 ---
 
 When I meditate, my mind calms down. I start in the midst of chaos, but I finish in total control, ready to conquer.
