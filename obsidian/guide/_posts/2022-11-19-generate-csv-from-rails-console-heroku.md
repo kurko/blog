@@ -22,7 +22,13 @@ report = CSV.generate do |csv|
     csv << [user.name, user.email]
   end
 end
+```
 
+### Method One: Pipe Into a File
+
+Add the following at the end of the code:
+
+```ruby
 STDOUT.puts report
 ```
 
@@ -41,3 +47,16 @@ where:
 - `heroku run ...`: the console itself. It could be another console (e.g AWS, GCP or local). `--no-tty` is used for preventing characters used for user interaction. Replace `--app` with the name of the app.
 - `grep ... NewRelic`: this removes those annoying booting lines from 3rd-party libs in Rails.
 - `> results.csv`: write the results from the Rails console into a CSV file.
+
+### Method Two: With Slack
+
+If you have an array like in the original, you can 
+
+```
+Slack::Web::Client.new.
+  files_upload(
+    channels: '#some-channel',
+    content: report,
+    filename: "file.csv"
+  )
+```
