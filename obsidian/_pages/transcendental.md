@@ -3,10 +3,10 @@ share: true
 image: '/images/pages/transcendental.jpeg'
 filename: '_pages/transcendental'
 rss: false
-date: 2020-01-02 15:02:54 -0200
+date: 2022-06-24 16:00:00 -0300
 ---
 
-![]({% link obsidian/../../images/obsidian/transcendental.jpeg.md %})
+![]({% link obsidian/../../images/obsidian/transcendental.jpg.md %})
 
 Over the years, I learned some specific activities transport me above my reality plane, to a state I call transcendental. Some are more mundane things like driving or sipping coffee in a cold forest, but others cause states including awe or gratitude. Some are bizarre and intimate while others are simple. 
 
@@ -31,7 +31,7 @@ This only works if I have excellent headphones, from Airpods Max and up. I've tr
 
 #### Gap, by Hans Zimmer (0:55 - 2:40)
 
-![left|200](/images/obsidian/gap-by-hans-zimmer.jpeg)
+![left|200](/images/obsidian/gap-by-hans-zimmer.jpg)
 
 The segment in question is 0:55-2:40 ([YouTube link](https://youtu.be/AetAIRtV-Wc?t=55)). This is the image and reality that flashes through my mind when listening to this segment.
 
