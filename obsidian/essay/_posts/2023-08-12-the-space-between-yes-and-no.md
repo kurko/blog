@@ -2,8 +2,8 @@
 share: true
 layout: post
 title: "The Space Between Yes and No"
-date: "2023-08-13 16:00:00 -0300"
-filename: "essay/_posts/2023-08-13-the-space-between-yes-and-no"
+date: "2023-08-12 16:00:00 -0300"
+filename: "essay/_posts/2023-08-12-the-space-between-yes-and-no"
 tags: [thinking]
 excerpt: "Questions shape our perception. Good ones explore the often overlooked realm of uncertainty, challenging us to think beyond binary choices and embracing the complex nuances shaping our world."
 ---
