@@ -8,7 +8,7 @@ tags: [software]
 excerpt: "Code is written once but read many times. Good writing is, therefore, about optimizing for ease of reading."
 ---
 
-![The Magic Acid, or the art of naming]({% link obsidian/../../../images/obsidian/naming.png.md %})
+![The Magic Acid, or the art of naming]({% link obsidian/../../../images/obsidian/naming.png %})
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.
 >
@@ -41,7 +41,7 @@ To illustrate our first concept, let's start simple. Given the picture below, wh
 <br />
 <br />
 
-![A couch, what room does it belong to?]({% link obsidian/../../../images/obsidian/couch-in-what-room.png.md %})
+![A couch, what room does it belong to?]({% link obsidian/../../../images/obsidian/couch-in-what-room.png %})
 
 <br />
 <br />
@@ -53,7 +53,7 @@ Judging from this furniture, this is very likely to be a **living room**. Based 
 <br />
 <br />
 
-![A toilet, what room does it belong to?]({% link obsidian/../../../images/obsidian/toilet-in-what-room.png.md %})
+![A toilet, what room does it belong to?]({% link obsidian/../../../images/obsidian/toilet-in-what-room.png %})
 
 <br />
 <br />
@@ -77,7 +77,7 @@ Pretty obvious, but now that we have some rules, let's try to apply them to this
 <br />
 <br />
 
-![What room has a toilet and a bed?]({% link obsidian/../../../images/obsidian/toilet-bed.png.md %})
+![What room has a toilet and a bed?]({% link obsidian/../../../images/obsidian/toilet-bed.png %})
 
 <br />
 <br />
@@ -92,7 +92,7 @@ At home, we put together things that have the same function, purpose and intent.
 
 This is hard to read, so let's use a picture:
 
-![Clarity vs relation]({% link obsidian/../../../images/obsidian/clarity-vs-relation.png.md %})
+![Clarity vs relation]({% link obsidian/../../../images/obsidian/clarity-vs-relation.png %})
 
 When components are related, it's easier to find a good name. When things are unrelated, it becomes increasingly difficult. The word relation here could be their functionality, their purpose, their strategy, their type, and others. Relation on its own doesn't mean much until we talk about criteria. Bear with me here, and we'll get to that soon.
 
@@ -126,13 +126,13 @@ public interface WhatIsAGoodNameForThis {
 }
 ```
 
-![]({% link obsidian/../../../images/obsidian/car-http.png.md %})
+![]({% link obsidian/../../../images/obsidian/car-http.png %})
 
 **Example 2: Coupling through words**
 
 A common pattern is appending Builder and other Er-ending words in class names. SomethingBuilder. UserBuilder, AccountBuilder, AccountCreator, UserHelper, JobPerformer.
 
-![]({% link obsidian/../../../images/obsidian/builders.png.md %})
+![]({% link obsidian/../../../images/obsidian/builders.png %})
 
 Judging by the name, we can interpret three things. First, the verb _Build_ in the class name implies that it's a function, when in fact it’s in the class title. Functions do stuff, classes embody entities and context. A function is not an entity, and without entities well defined the codebase quickly develops into procedural code because it’s sub-utilizing the class pattern’s original intention.
 
@@ -155,7 +155,7 @@ class Base
 end
 ```
 
-![]({% link obsidian/../../../images/obsidian/base.png.md %})
+![]({% link obsidian/../../../images/obsidian/base.png %})
 
 Here, `Base` doesn't express meaning. It can configure and translate, as well as figure out whether a locale is available or not. It's doing a few different, unrelated things.
 
@@ -228,11 +228,11 @@ export default function() {
 
 Each one of these methods make total sense: they are all named after what an arc has. And what I love about the image below is how simple it is.
 
-![]({% link obsidian/../../../images/obsidian/arc.png.md %})
+![]({% link obsidian/../../../images/obsidian/arc.png %})
 
 ### Method 1: Break Apart
 
-![Divide and... name]({% link obsidian/../../../images/obsidian/divide-and-name.png.md %})
+![Divide and... name]({% link obsidian/../../../images/obsidian/divide-and-name.png %})
 
 <br />
 **When to use:** you cannot find a good name for a class or component, but you already have isolated concepts and want to find good names for their groupings.
@@ -254,7 +254,7 @@ When the code is hard, don't think about the whole first. Don't. Think about the
 
 ### Method 2: Discover New Concepts
 
-![Compound concept]({% link obsidian/../../../images/obsidian/compound-concepts.png.md %})
+![Compound concept]({% link obsidian/../../../images/obsidian/compound-concepts.png %})
 
 **When to apply:** when a class is not simple or coherent.
 
@@ -286,7 +286,7 @@ After launch, our customers always referred to trips as `rides`. Soon we had pro
 
 **Example 3: levels of abstraction**
 
-![]({% link obsidian/../../../images/obsidian/abstract-canvas.png.md %})
+![]({% link obsidian/../../../images/obsidian/abstract-canvas.png %})
 
 One person says, *move right leg then left leg then right leg*, other says *walk*. Both mean the same, but the latter is said to be more abstract.
 
@@ -322,7 +322,7 @@ Based on the document format, a variety of subsequent decisions will be made aut
 
 Every app has a different context, and every module within it, every class within them, down to every function. The word _User_ alone could mean user of the system, but also perhaps a database table, or a 3rd-party service credential. `lib/billing/user` differs from `lib/booking/user`, but they're still `user`.
 
-![]({% link obsidian/../../../images/obsidian/contexts.png.md %})
+![]({% link obsidian/../../../images/obsidian/contexts.png %})
 
 Imagine that every container, such as a module, is a bucket. Within them, components are insulated from the outer world. You're free to name those classes whatever you want. It frees the mind from having to find esoteric names for common things.
 
@@ -354,7 +354,7 @@ In practice, they're lumped together in an unnatural grouping to provide reusabi
 
 **Base:** classes named _Base_ were a convention a long time ago in C# to designate inheritance when lacking a better name. For example, the parent class of _Automobile_ and _Bicycle_ would be _Base_ instead of _Vehicle_. In spite of Microsoft's recommendations to avoid that name (Cwalina, 2009), it infected the Ruby world, most notable via _ActiveRecord_. To this day we still see _Base_ as a class name for something that developers cannot find a name for.
 
-![]({% link obsidian/../../../images/obsidian/base.png.md %})
+![]({% link obsidian/../../../images/obsidian/base.png %})
 
 Variations of _Base_ include _Common_ and _Utils_. The [JSON](https://github.com/flori/json/blob/65297fbae1e92e26fdde886fe156bac322977db2/lib/json/common.rb) Ruby gem _Common_ class has the methods _parse_, _generate_, _load_ and _jj_, for instance, but what does common really mean here?
 
