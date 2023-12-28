@@ -104,6 +104,8 @@ Finally, if you need to debug the conversion, search for the `findAndReplaceText
 
 Sure. Below is a copy of mine. If you want, paste into the plugin's data file which lives in `.obsidian/obsidian-mkdocs-publisher/data.json` (in your Obsidian Vault directory). You have to replace the github keys and `GhToken` (as of version [4.4.0](https://github.com/ObsidianPublisher/obsidian-github-publisher/commit/c8d75bd16d29a37b07b4761b5f624be90a92f596)).
 
+Note: the regex might be outdated, so copy them from the steps above. The JSON below requires `\\`, or has a GhToken I need to keep removing, so I might leave this outdated eventually.
+
 <pre>
 {
   "githubRepo": "blog",
@@ -155,3 +157,6 @@ Sure. Below is a copy of mine. If you want, paste into the plugin's data file wh
   "shareExternalModified": false
 }
 </pre>
+
+
+_ps. I'm using [this website](https://mothereff.in/html-entities) to convert code text into HTML entities._
