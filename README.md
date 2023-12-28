@@ -5,6 +5,10 @@
 1. `bundle install`
 2. `jekyll serve`
 
+For testing Obsidian's obsidian-github-publisher's regex,
+run `bin/test-obsidian-regex`. See `obsidian_regex_publisher.test.js` for more
+details.
+
 ## Organization
 
 ### Posts

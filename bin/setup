@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+set -e
+
+echo "Installing Ruby dependencies"
+bundle install
+
+echo "Installing Node dependencies"
+yarn install
