@@ -6,6 +6,8 @@ rss: false
 date: 2022-06-24 16:00:00 -0300
 ---
 
+![](/images/blog/pages/transcendental.jpeg)
+
 Over the years, I learned some specific activities transport me above my reality plane, to a state I call transcendental. Some are more mundane things like driving or sipping coffee in a cold forest, but others cause states including awe or gratitude. Some are bizarre and intimate while others are simple. 
 
 When those states happen, I'm still physically looking through my eyes, but the imaginations that intrude my mind are sort of stronger than my senses and superimpose my visual field. 
