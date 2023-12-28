@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name='description' content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <link rel='canonical' href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" id="vc_google_text_fonts-css" href="//fonts.googleapis.com/css?family=Playfair+Display%3A400%2C700%7CLato%3A400%7C&amp;quot:400|&amp;quot:italic|&amp;quot&amp;ver=6.3.2" type="text/css" media="all">
+
+  <link rel="stylesheet" href="/css/services.css">
+
+</head>
+
+<body id='page-services'>
+
+  {% include analytics.html %}
+
+  <div id='main-content'>
+
+    {{ content }}
+
+  </div>
+
+  <script src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}">   </script>
+</body>
+
+</html>

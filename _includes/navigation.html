@@ -1,6 +1,6 @@
 {% for page in site.pages %}
   {% unless page.name == '404.md' %}
-    {% if page.title %}
+    {% if page.title and page.share %}
       <li class='c-nav__item' role='presentation'>
         <a class='c-nav__link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
       </li>

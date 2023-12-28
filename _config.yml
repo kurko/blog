@@ -29,6 +29,7 @@ plugins:
   - jekyll-paginate
   - jekyll/tagging
   - jekyll-mentions
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
 

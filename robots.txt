@@ -1,0 +1,8 @@
+---
+layout: none
+---
+User-agent: *
+Sitemap: {{ site.url }}/sitemap.xml
+
+Disallow: /consultoria/*
+Disallow: /consultancy/*
