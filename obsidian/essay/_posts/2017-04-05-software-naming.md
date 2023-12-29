@@ -2,19 +2,20 @@
 share: true
 title: "Software Complexity: Naming"
 date: 2017-04-05 15:02:54 -0200
-filename: "essay/_posts/2017-04-05-software-naming"
-tags: [software]
-# front_page_image: '/images/posts/black-boxes/cover.png'
-excerpt: "Code is written once but read many times. Good writing is, therefore, about optimizing for ease of reading."
+filename: essay/_posts/2017-04-05-software-naming
+tags:
+  - software
+excerpt: Code is written once but read many times. Good writing is, therefore, about optimizing for ease of reading.
 ---
 
-![The Magic Acid, or the art of naming](../../../images/obsidian/naming.png)
+
+![The Magic Acid, or the Art of Naming](naming.png)
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.
 >
 > Phil Karlton
 
-We all want to read and understand software. We want code to make sense, to speak the language of the business model, to convey meaning and relationships with clarity. Although code is written once, it is read many times.
+We all want to read and understand software. We want code to make sense, to speak the language of the business model, to convey meaning and relationships with clarity. Despite being written once, code is read many times over.
 
 Bad code confuses us. Bad code codifies assumptions that make sense for the writer but not for the readers. Have you ever needed help to understand a piece of code? Have you ever been demanded disproportionate energy and effort to make sense of what code was doing? That's bad code.
 
@@ -41,7 +42,7 @@ To illustrate our first concept, let's start simple. Given the picture below, wh
 <br />
 <br />
 
-![A couch, what room does it belong to?](../../../images/obsidian/couch-in-what-room.png)
+![A couch, what room does it belong to?](couch-in-what-room.png)
 
 <br />
 <br />
@@ -53,7 +54,7 @@ Judging from this furniture, this is very likely to be a **living room**. Based 
 <br />
 <br />
 
-![A toilet, what room does it belong to?](../../../images/obsidian/toilet-in-what-room.png)
+![A toilet, what room does it belong to?](toilet-in-what-room.png)
 
 <br />
 <br />
@@ -77,7 +78,7 @@ Pretty obvious, but now that we have some rules, let's try to apply them to this
 <br />
 <br />
 
-![What room has a toilet and a bed?](../../../images/obsidian/toilet-bed.png)
+![What room has a toilet and a bed?](toilet-bed.png)
 
 <br />
 <br />
@@ -92,7 +93,7 @@ At home, we put together things that have the same function, purpose and intent.
 
 This is hard to read, so let's use a picture:
 
-![Clarity vs relation](../../../images/obsidian/clarity-vs-relation.png)
+![Clarity vs relation](clarity-vs-relation.png)
 
 When components are related, it's easier to find a good name. When things are unrelated, it becomes increasingly difficult. The word relation here could be their functionality, their purpose, their strategy, their type, and others. Relation on its own doesn't mean much until we talk about criteria. Bear with me here, and we'll get to that soon.
 
@@ -124,46 +125,14 @@ public interface WhatIsAGoodNameForThis {
 	/* methods for an HTTP client */
 	public Response makeGetRequest(String param);	
 }
-```
-
-![](../../../images/obsidian/car-http.png)
-
-**Example 2: Coupling through words**
-
-A common pattern is appending Builder and other Er-ending words in class names. SomethingBuilder. UserBuilder, AccountBuilder, AccountCreator, UserHelper, JobPerformer.
-
-![](../../../images/obsidian/builders.png)
-
-Judging by the name, we can interpret three things. First, the verb _Build_ in the class name implies that it's a function, when in fact it’s in the class title. Functions do stuff, classes embody entities and context. A function is not an entity, and without entities well defined the codebase quickly develops into procedural code because it’s sub-utilizing the class pattern’s original intention.
-
-Second, it has two inner, hidden entities within it, a User and a Builder, meaning a probable encapsulation violation. By that we mean that a User shouldn’t be responsible for generating new Users.
-
-Third, it implies that Builder has access to how a User functions internally because, after all, they're entangled with one another.
-
-I’ve seen entire codebases littered with this approach. There are complicated patterns that attempt to solve this, like `FactoryPattern`. Some times they’re useful, but when we have a modeling problem, we better fix it, not bandaid it.
-
-**Example 3: Base**
-
-Let's look at a few real life examples. First one, the [I18n](https://github.com/svenfuchs/i18n/blob/master/lib/i18n.rb) Ruby gem (only class and method names provided for brevity):
-
-```ruby
+<pre class="dataview dataview-error">Dataview JS queries are disabled. You can enable them in the Dataview settings.</pre>ruby
 class Base
   def config
   def translate
   def locale_available?(locale)
   def transliterate
 end
-```
-
-![](../../../images/obsidian/base.png)
-
-Here, `Base` doesn't express meaning. It can configure and translate, as well as figure out whether a locale is available or not. It's doing a few different, unrelated things.
-
-**Example 4: names guiding design**
-
-When we talk about how names can guide our design, Discourse has a few examples, one of which interests us.
-
-```ruby
+<pre class="dataview dataview-error">Dataview JS queries are disabled. You can enable them in the Dataview settings.</pre>ruby
 class PostAlerter
   def notify_post_users
   def notify_group_summary
@@ -173,11 +142,7 @@ class PostAlerter
   def unread_count
   def group_stats
 end
-```
-
-The name *PostAlerter* suggests functionalities that *alert* someone about a post. However, *unread_posts*, *unread_count* and *group_stats* clearly deal with something else, making this class name not ideal for what it does. Moving those three methods to a class called *PostsStatistics* would make matters clearer and more predictable for newcomers.
-
-```ruby
+<pre class="dataview dataview-error">Dataview JS queries are disabled. You can enable them in the Dataview settings.</pre>ruby
 class PostAlerter
   def notify_post_users
   def notify_group_summary
@@ -190,14 +155,7 @@ class PostsStatistics
   def unread_count
   def group_stats
 end
-```
-
-
-**Example 5: ambiguous names**
-
-The Spring framework has a few examples that illustrate components that do too much and, as a result, require names that resemble our _Ambiguous Room_. Here is [one](http://docs.spring.io/spring/docs/2.5.x/javadoc-api/org/springframework/aop/config/SimpleBeanFactoryAwareAspectInstanceFactory.html) (because [this one](http://www.javafind.net/gate.jsp?q=%2Flibrary%2F36%2Fjava6_full_apidocs%2Fcom%2Fsun%2Fjava%2Fswing%2Fplaf%2Fnimbus%2FInternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonWindowNotFocusedState.html) would be just a bit too much):
-
-```java
+<pre class="dataview dataview-error">Dataview JS queries are disabled. You can enable them in the Dataview settings.</pre>java
 class SimpleBeanFactoryAwareAspectInstanceFactory {
   public ClassLoader getAspectClassLoader()
   public Object getAspectInstance()
@@ -205,13 +163,7 @@ class SimpleBeanFactoryAwareAspectInstanceFactory {
   public void setAspectBeanName(String aspectBeanName) 
   public void setBeanFactory(BeanFactory beanFactory)
 } 
-```
-
-**Example 6: good naming, for a change**
-
-Enough of bad naming. Good naming can be found in D3's  [arc](https://github.com/d3/d3-shape/blob/master/src/arc.js), for instance:
-
-```javascript
+<pre class="dataview dataview-error">Dataview JS queries are disabled. You can enable them in the Dataview settings.</pre>javascript
 export default function() {
   /* ... */
   arc.centroid     = function() { /* ... */ }
@@ -228,11 +180,11 @@ export default function() {
 
 Each one of these methods make total sense: they are all named after what an arc has. And what I love about the image below is how simple it is.
 
-![](../../../images/obsidian/arc.png)
+![](arc.png)
 
 ### Method 1: Break Apart
 
-![Divide and... name](../../../images/obsidian/divide-and-name.png)
+![Divide and... name](divide-and-name.png)
 
 <br />
 **When to use:** you cannot find a good name for a class or component, but you already have isolated concepts and want to find good names for their groupings.
@@ -254,7 +206,7 @@ When the code is hard, don't think about the whole first. Don't. Think about the
 
 ### Method 2: Discover New Concepts
 
-![Compound concept](../../../images/obsidian/compound-concepts.png)
+![Compound concept](compound-concepts.png)
 
 **When to apply:** when a class is not simple or coherent.
 
@@ -286,7 +238,7 @@ After launch, our customers always referred to trips as `rides`. Soon we had pro
 
 **Example 3: levels of abstraction**
 
-![](../../../images/obsidian/abstract-canvas.png)
+![](abstract-canvas.png)
 
 One person says, *move right leg then left leg then right leg*, other says *walk*. Both mean the same, but the latter is said to be more abstract.
 
@@ -322,7 +274,7 @@ Based on the document format, a variety of subsequent decisions will be made aut
 
 Every app has a different context, and every module within it, every class within them, down to every function. The word _User_ alone could mean user of the system, but also perhaps a database table, or a 3rd-party service credential. `lib/billing/user` differs from `lib/booking/user`, but they're still `user`.
 
-![](../../../images/obsidian/contexts.png)
+![](contexts.png)
 
 Imagine that every container, such as a module, is a bucket. Within them, components are insulated from the outer world. You're free to name those classes whatever you want. It frees the mind from having to find esoteric names for common things.
 
@@ -354,7 +306,7 @@ In practice, they're lumped together in an unnatural grouping to provide reusabi
 
 **Base:** classes named _Base_ were a convention a long time ago in C# to designate inheritance when lacking a better name. For example, the parent class of _Automobile_ and _Bicycle_ would be _Base_ instead of _Vehicle_. In spite of Microsoft's recommendations to avoid that name (Cwalina, 2009), it infected the Ruby world, most notable via _ActiveRecord_. To this day we still see _Base_ as a class name for something that developers cannot find a name for.
 
-![](../../../images/obsidian/base.png)
+![](base.png)
 
 Variations of _Base_ include _Common_ and _Utils_. The [JSON](https://github.com/flori/json/blob/65297fbae1e92e26fdde886fe156bac322977db2/lib/json/common.rb) Ruby gem _Common_ class has the methods _parse_, _generate_, _load_ and _jj_, for instance, but what does common really mean here?
 
