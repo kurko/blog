@@ -1,10 +1,13 @@
 ---
 share: true
-image: '/images/pages/transcendental.jpeg'
-filename: '_pages/transcendental'
+image: /images/pages/transcendental.jpeg
+filename: _pages/transcendental
 rss: false
 date: 2022-06-24 16:00:00 -0300
 ---
+
+
+![](images/blog/pages/transcendental.jpeg)
 
 Over the years, I learned some specific activities transport me above my reality plane, to a state I call transcendental. Some are more mundane things like driving or sipping coffee in a cold forest, but others cause states including awe or gratitude. Some are bizarre and intimate while others are simple. 
 
@@ -25,11 +28,11 @@ Specific instrumental song segments paired with excellent headphones put me in a
 
 This only works if I have excellent headphones, from Airpods Max and up. I've tried with Sony WH-1000XM4 and similar and it gets me like 60% there, but not quite.
 
-![simon-hrozian-P7KF3cTRKcE-unsplash.jpg](/images/obsidian/simon-hrozian-P7KF3cTRKcE-unsplash.jpg)
+![simon-hrozian-P7KF3cTRKcE-unsplash.jpg](../../images/obsidian/simon-hrozian-P7KF3cTRKcE-unsplash.jpg)
 
 #### Gap, by Hans Zimmer (0:55 - 2:40)
 
-![left|200](/images/obsidian/gap-by-hans-zimmer.jpg)
+![left|200](../../images/obsidian/gap-by-hans-zimmer.jpg)
 
 The segment in question is 0:55-2:40 ([YouTube link](https://youtu.be/AetAIRtV-Wc?t=55)). This is the image and reality that flashes through my mind when listening to this segment.
 
