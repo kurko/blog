@@ -5,8 +5,9 @@ title: Meditation
 filename: essay/_posts/2022-12-17-meditation
 rss: true
 date: 2022-12-17 06:00:00 -0200
-excerpt: "How I meditate, what I feel, how better my life is with it."
+excerpt: How I meditate, what I feel, how better my life is with it.
 ---
+
 
 When I meditate, my mind calms down. I start in the midst of chaos, but I finish in total control, ready to conquer.
 
