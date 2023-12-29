@@ -137,58 +137,34 @@ I’ve seen entire codebases littered with this approach. There are complicated 
 
 Let's look at a few real life examples. First one, the [I18n](https://github.com/svenfuchs/i18n/blob/master/lib/i18n.rb) Ruby gem (only class and method names provided for brevity):
 
-```ruby
-class Base
-  def config
-  def translate
-  def locale_available?(locale)
-  def transliterate
-end
-ruby
-class PostAlerter
-  def notify_post_users
-  def notify_group_summary
-  def notify_non_pm_users
-  def create_notification
-  def unread_posts
-  def unread_count
-  def group_stats
-end
-ruby
-class PostAlerter
-  def notify_post_users
-  def notify_group_summary
-  def notify_non_pm_users
-  def create_notification
-end
 
-class PostsStatistics
-  def unread_posts
-  def unread_count
-  def group_stats
-end
-java
-class SimpleBeanFactoryAwareAspectInstanceFactory {
-  public ClassLoader getAspectClassLoader()
-  public Object getAspectInstance()
-  public int getOrder() 
-  public void setAspectBeanName(String aspectBeanName) 
-  public void setBeanFactory(BeanFactory beanFactory)
-} 
-javascript
-export default function() {
-  /* ... */
-  arc.centroid     = function() { /* ... */ }
-  arc.innerRadius  = function() { /* ... */ }
-  arc.outerRadius  = function() { /* ... */ }
-  arc.cornerRadius = function() { /* ... */ }
-  arc.padRadius    = function() { /* ... */ }
-  arc.startAngle   = function() { /* ... */ }
-  arc.endAngle     = function() { /* ... */ }
-  arc.padAngle     = function() { /* ... */ }
-  return arc;
-}
-```
+
+![](../../../images/obsidian/base.png)
+
+Here, `Base` doesn't express meaning. It can configure and translate, as well as figure out whether a locale is available or not. It's doing a few different, unrelated things.
+
+**Example 4: names guiding design**
+
+When we talk about how names can guide our design, Discourse has a few examples, one of which interests us.
+
+
+
+The name *PostAlerter* suggests functionalities that *alert* someone about a post. However, *unread_posts*, *unread_count* and *group_stats* clearly deal with something else, making this class name not ideal for what it does. Moving those three methods to a class called *PostsStatistics* would make matters clearer and more predictable for newcomers.
+
+
+
+
+**Example 5: ambiguous names**
+
+The Spring framework has a few examples that illustrate components that do too much and, as a result, require names that resemble our _Ambiguous Room_. Here is [one](http://docs.spring.io/spring/docs/2.5.x/javadoc-api/org/springframework/aop/config/SimpleBeanFactoryAwareAspectInstanceFactory.html) (because [this one](http://www.javafind.net/gate.jsp?q=%2Flibrary%2F36%2Fjava6_full_apidocs%2Fcom%2Fsun%2Fjava%2Fswing%2Fplaf%2Fnimbus%2FInternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonWindowNotFocusedState.html) would be just a bit too much):
+
+
+
+**Example 6: good naming, for a change**
+
+Enough of bad naming. Good naming can be found in D3's  [arc](https://github.com/d3/d3-shape/blob/master/src/arc.js), for instance:
+
+
 
 Each one of these methods make total sense: they are all named after what an arc has. And what I love about the image below is how simple it is.
 
@@ -326,7 +302,7 @@ Variations of _Base_ include _Common_ and _Utils_. The [JSON](https://github.com
 
 Does everyone in the team understand it? Then it's fine! But what about when someone new joins the team and nomenclature that exist since the 60's are thrown into garbage?
 
-I worked in a project where the name of a class was, guess it, **Atlanta**. Yes, Atlanta. Fucking Atlanta. No one knew or could tell me why that was called that way.
+I worked in a project where the name of a class was, guess it, **Atlanta**. Yes, Atlanta. No one knew or could tell me why that was called that way.
 
 ## Communicating
 
