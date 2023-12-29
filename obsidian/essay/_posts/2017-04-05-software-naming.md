@@ -115,17 +115,29 @@ This creates incentives for developers to add code anywhere because there are no
 
 HTTP is a domain and it has requests and responses. If we were to put a component called _Car_ within it, we wouldn't be able to call it HTTP anymore. In this case, it becomes something confusing.
 
-```java
-public interface WhatIsAGoodNameForThis {
-	
-	/* methods for a car */
-	public void gas();
-	public void brake();
 
-	/* methods for an HTTP client */
-	public Response makeGetRequest(String param);	
-}
-ruby
+
+![](../../../images/obsidian/car-http.png)
+
+**Example 2: Coupling through words**
+
+A common pattern is appending Builder and other Er-ending words in class names. SomethingBuilder. UserBuilder, AccountBuilder, AccountCreator, UserHelper, JobPerformer.
+
+![](../../../images/obsidian/builders.png)
+
+Judging by the name, we can interpret three things. First, the verb _Build_ in the class name implies that it's a function, when in fact it’s in the class title. Functions do stuff, classes embody entities and context. A function is not an entity, and without entities well defined the codebase quickly develops into procedural code because it’s sub-utilizing the class pattern’s original intention.
+
+Second, it has two inner, hidden entities within it, a User and a Builder, meaning a probable encapsulation violation. By that we mean that a User shouldn’t be responsible for generating new Users.
+
+Third, it implies that Builder has access to how a User functions internally because, after all, they're entangled with one another.
+
+I’ve seen entire codebases littered with this approach. There are complicated patterns that attempt to solve this, like `FactoryPattern`. Some times they’re useful, but when we have a modeling problem, we better fix it, not bandaid it.
+
+**Example 3: Base**
+
+Let's look at a few real life examples. First one, the [I18n](https://github.com/svenfuchs/i18n/blob/master/lib/i18n.rb) Ruby gem (only class and method names provided for brevity):
+
+```ruby
 class Base
   def config
   def translate
