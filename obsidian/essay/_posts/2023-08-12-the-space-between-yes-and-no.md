@@ -1,12 +1,14 @@
 ---
 share: true
 layout: post
-title: "The Space Between Yes and No"
-date: "2023-08-12 16:00:00 -0300"
-filename: "essay/_posts/2023-08-12-the-space-between-yes-and-no"
-tags: [thinking]
-excerpt: "Questions shape our perception. Good ones explore the often overlooked realm of uncertainty, challenging us to think beyond binary choices and embracing the complex nuances shaping our world."
+title: The Space Between Yes and No
+date: 2023-08-12 16:00:00 -0300
+filename: essay/_posts/2023-08-12-the-space-between-yes-and-no
+tags:
+  - thinking
+excerpt: Questions shape our perception. Good ones explore the often overlooked realm of uncertainty, challenging us to think beyond binary choices and embracing the complex nuances shaping our world.
 ---
+
 
 We humans tend to perceive the world as a series of yes/no answers. Limited questions nurture limiting beliefs. Our questions yield black and white answers.
 
