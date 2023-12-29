@@ -125,14 +125,14 @@ public interface WhatIsAGoodNameForThis {
 	/* methods for an HTTP client */
 	public Response makeGetRequest(String param);	
 }
-<pre class="dataview dataview-error">Dataview JS queries are disabled. You can enable them in the Dataview settings.</pre>ruby
+ruby
 class Base
   def config
   def translate
   def locale_available?(locale)
   def transliterate
 end
-<pre class="dataview dataview-error">Dataview JS queries are disabled. You can enable them in the Dataview settings.</pre>ruby
+ruby
 class PostAlerter
   def notify_post_users
   def notify_group_summary
@@ -142,7 +142,7 @@ class PostAlerter
   def unread_count
   def group_stats
 end
-<pre class="dataview dataview-error">Dataview JS queries are disabled. You can enable them in the Dataview settings.</pre>ruby
+ruby
 class PostAlerter
   def notify_post_users
   def notify_group_summary
@@ -155,7 +155,7 @@ class PostsStatistics
   def unread_count
   def group_stats
 end
-<pre class="dataview dataview-error">Dataview JS queries are disabled. You can enable them in the Dataview settings.</pre>java
+java
 class SimpleBeanFactoryAwareAspectInstanceFactory {
   public ClassLoader getAspectClassLoader()
   public Object getAspectInstance()
@@ -163,7 +163,7 @@ class SimpleBeanFactoryAwareAspectInstanceFactory {
   public void setAspectBeanName(String aspectBeanName) 
   public void setBeanFactory(BeanFactory beanFactory)
 } 
-<pre class="dataview dataview-error">Dataview JS queries are disabled. You can enable them in the Dataview settings.</pre>javascript
+javascript
 export default function() {
   /* ... */
   arc.centroid     = function() { /* ... */ }
