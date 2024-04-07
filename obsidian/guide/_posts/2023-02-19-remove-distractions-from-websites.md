@@ -1,17 +1,18 @@
 ---
 share: true
-title: "Remove Distractions From Websites"
+title: Remove Distractions From Websites
 date: 2023-02-19 06:00:00 -0400
-filename: "guide/_posts/2023-02-19-remove-distractions-from-websites"
-tags: [productivity-hack]
-excerpt: "Apply arbitrary CSS to remove websites sections."
+filename: guide/_posts/2023-02-19-remove-distractions-from-websites
+tags:
+  - productivity-hack
+excerpt: Apply arbitrary CSS to remove websites sections.
 ---
 
 Some friends use Instagram as primary chat app. Whenever I open it, I'm sucked into a swirl of content. Some times it pulls me for several, several minutes until my mind steps back and realizes what's going on.
 
 The solution I found was using Instagram on my Mac and inserting arbitrary CSS into its page to strip out everything that is not chat. The image below is what Instagram looks like to me. Notice how there are no menu, no Explore, no Search:
 
-![Screenshot blur.png](/images/obsidian/Screenshot%20blur.png)
+![Screenshot blur.png](../../../images/obsidian/Screenshot%20blur.png)
 
 I have a [shortcut](https://www.alfredapp.com) that takes me directly to `https://www.instagram.com/direct/inbox/` whenever I want to check what's going on. If you think about it, you could even turn on chat notifications if you wanted without fear of falling into traps by advertisers. This should work with other websites like Twitter and Youtube as well.
 
