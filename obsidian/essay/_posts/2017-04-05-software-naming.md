@@ -2,19 +2,19 @@
 share: true
 title: "Software Complexity: Naming"
 date: 2017-04-05 15:02:54 -0200
-filename: "essay/_posts/2017-04-05-software-naming"
-tags: [software]
-# front_page_image: '/images/posts/black-boxes/cover.png'
-excerpt: "Code is written once but read many times. Good writing is, therefore, about optimizing for ease of reading."
+filename: essay/_posts/2017-04-05-software-naming
+tags:
+  - software
+excerpt: Code is written once but read many times. Good writing is, therefore, about optimizing for ease of reading.
 ---
 
-![The Magic Acid, or the art of naming](../../../images/obsidian/naming.png)
+![The Magic Acid, or the Art of Naming](../../../images/obsidian/naming.png)
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.
 >
 > Phil Karlton
 
-We all want to read and understand software. We want code to make sense, to speak the language of the business model, to convey meaning and relationships with clarity. Although code is written once, it is read many times.
+We all want to read and understand software. We want code to make sense, to speak the language of the business model, to convey meaning and relationships with clarity. Despite being written once, code is read many times over.
 
 Bad code confuses us. Bad code codifies assumptions that make sense for the writer but not for the readers. Have you ever needed help to understand a piece of code? Have you ever been demanded disproportionate energy and effort to make sense of what code was doing? That's bad code.
 
@@ -362,7 +362,7 @@ Variations of _Base_ include _Common_ and _Utils_. The [JSON](https://github.com
 
 Does everyone in the team understand it? Then it's fine! But what about when someone new joins the team and nomenclature that exist since the 60's are thrown into garbage?
 
-I worked in a project where the name of a class was, guess it, **Atlanta**. Yes, Atlanta. Fucking Atlanta. No one knew or could tell me why that was called that way.
+I worked in a project where the name of a class was, guess it, **Atlanta**. Yes, Atlanta. No one knew or could tell me why that was called that way.
 
 ## Communicating
 
