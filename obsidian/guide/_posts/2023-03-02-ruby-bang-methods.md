@@ -1,10 +1,12 @@
 ---
 share: true
-title: "What does bang methods mean in Ruby?"
+title: What does bang methods mean in Ruby?
 date: 2023-03-02 06:00:00 -0400
-filename: "guide/_posts/2023-03-02-ruby-bang-methods"
-tags: [ruby, programming]
-excerpt: "It might not mean what you think it means."
+filename: guide/_posts/2023-03-02-ruby-bang-methods
+tags:
+  - ruby
+  - programming
+excerpt: It might not mean what you think it means.
 ---
 
 The Ruby convention for using bangs (`!`) is, mostly, "when there are two versions of the same method, and one of them is _more_ dangerous than the other, use the bang". Citation is none others than [Eric Hodel and David Black](https://archive.is/mgDiH).
