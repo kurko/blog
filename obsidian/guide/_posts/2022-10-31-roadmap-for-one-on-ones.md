@@ -1,10 +1,12 @@
 ---
 share: true
-title: "Roadmap for One-on-One's"
+title: Roadmap for One-on-One's
 date: 2022-10-31 06:00:00 -0400
-filename: "guide/_posts/2022-10-31-roadmap-for-one-on-ones"
-tags: [one-on-one, management]
-excerpt: "A template for new one-on-ones."
+filename: guide/_posts/2022-10-31-roadmap-for-one-on-ones
+tags:
+  - one-on-one
+  - management
+excerpt: A template for new one-on-ones.
 ---
 
 These are foundational topics for one-on-one's. They are the first ones I bring for discussion every week to set out the background for the relationship that will follow. They are not the definitive list of topics for one-on-one's, but the most important ones for starting out.
