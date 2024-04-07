@@ -1,10 +1,11 @@
 ---
 share: true
-title: "Generate CSV from Rails console (Heroku)"
+title: Generate CSV from Rails console (Heroku)
 date: 2022-11-19 06:00:00 -0400
-filename: "guide/_posts/2022-11-19-generate-csv-from-rails-console-heroku"
-tags: [software]
-excerpt: "Extract data out of Rails console into a CSV."
+filename: guide/_posts/2022-11-19-generate-csv-from-rails-console-heroku
+tags:
+  - software
+excerpt: Extract data out of Rails console into a CSV.
 render_with_liquid: true
 ---
 
