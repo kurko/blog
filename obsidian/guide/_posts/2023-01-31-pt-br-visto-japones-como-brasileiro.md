@@ -1,10 +1,11 @@
 ---
 share: true
-title: "Visto Japonês como Brasileiro"
+title: Visto Japonês como Brasileiro
 date: 2023-01-31 06:00:00 -0400
-filename: "guide/_posts/2023-01-31-pt-br-visto-japones-como-brasileiro"
-tags: [personal]
-excerpt: "Dicas para tirar o visto."
+filename: guide/_posts/2023-01-31-pt-br-visto-japones-como-brasileiro
+tags:
+  - personal
+excerpt: Dicas para tirar o visto.
 ---
 
 Não sei se é só comigo, mas a experiência de tirar o visto japonês é aterrorizante. Já voei mais de 400.000km, não-sei-quantos-países, mas esse visto me tira o sono. 
