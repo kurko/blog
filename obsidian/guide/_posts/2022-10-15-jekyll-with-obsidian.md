@@ -9,7 +9,7 @@ excerpt: Follow this step-by-step guide to setup Obsidian so you can post to Jek
 render_with_liquid: false
 ---
 
-I wrote about what would be [ideal blogging process](../../essay/_posts/2022-10-16-blogging-manifesto.md). I've always been dissatisfied with blogging due to how hard it is to post. When it is easy to post, then you generally lack freedom in some other fundamental area. I recommend reading that for context.
+I wrote about what would be [[Article, Blogging Manifesto|ideal blogging process]]. I've always been dissatisfied with blogging due to how hard it is to post. When it is easy to post, then you generally lack freedom in some other fundamental area. I recommend reading that for context.
 
 This post is about using [Obsidian](https://obsidian.md) to send file to Github. It should work with any blogging framework, but given I use [Jekyll](https://jekyllrb.com), that's what I'll use here.
 
