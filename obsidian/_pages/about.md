@@ -27,5 +27,5 @@ I spoke at RubyConfs, Euruko, universities, and more. I believe [good writing is
 
 Some personal texts:
 
-- [Check out my work setup](./my-digital-workbench.md)
-- [How to use Jekyll with Obsidian.md](../guide/_posts/2022-10-15-jekyll-with-obsidian.md)
+- [[my-digital-workbench|Check out my work setup]]
+- [[jekyll-and-obsidian-blogging|How to use Jekyll with Obsidian.md]]
