@@ -1,8 +1,8 @@
 ---
 share: true
 title: About
-image: '/images/pages/about2.jpg'
-filename: '_pages/about'
+image: /images/pages/about2.jpg
+filename: _pages/about
 rss: false
 date: 2020-01-02 15:02:54 -0200
 ---
@@ -27,5 +27,5 @@ I spoke at RubyConfs, Euruko, universities, and more. I believe [good writing is
 
 Some personal texts:
 
-- [Check out my work setup]({% link obsidian/_pages/my-digital-workbench.md %})
-- [How to use Jekyll with Obsidian.md]({% link obsidian/guide/_posts/2022-10-15-jekyll-with-obsidian.md %})
+- [Check out my work setup](my-digital-workbench.md)
+- [How to use Jekyll with Obsidian.md](jekyll-and-obsidian-blogging.md)
