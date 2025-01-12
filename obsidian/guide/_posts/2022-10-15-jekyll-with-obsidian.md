@@ -1,15 +1,15 @@
 ---
 share: true
-title: "Jekyll Blogging with Obsidian"
+title: Jekyll Blogging with Obsidian
 date: 2022-10-15 06:00:00 -0400
-filename: "guide/_posts/2022-10-15-jekyll-with-obsidian"
-tags: [obsidian]
-# front_page_image: '/images/posts/black-boxes/cover.png'
-excerpt: "Follow this step-by-step guide to setup Obsidian so you can post to Jekyll seamlessly."
+filename: guide/_posts/2022-10-15-jekyll-with-obsidian
+tags:
+  - obsidian
+excerpt: Follow this step-by-step guide to setup Obsidian so you can post to Jekyll seamlessly.
 render_with_liquid: false
 ---
 
-I wrote about what would be [ideal blogging process]({% link obsidian/essay/_posts/2022-10-16-blogging-manifesto.md %}). I've always been dissatisfied with blogging due to how hard it is to post. When it is easy to post, then you generally lack freedom in some other fundamental area. I recommend reading that for context.
+I wrote about what would be [[Article, Blogging Manifesto|ideal blogging process]]. I've always been dissatisfied with blogging due to how hard it is to post. When it is easy to post, then you generally lack freedom in some other fundamental area. I recommend reading that for context.
 
 This post is about using [Obsidian](https://obsidian.md) to send file to Github. It should work with any blogging framework, but given I use [Jekyll](https://jekyllrb.com), that's what I'll use here.
 
@@ -104,6 +104,8 @@ Finally, if you need to debug the conversion, search for the `findAndReplaceText
 
 Sure. Below is a copy of mine. If you want, paste into the plugin's data file which lives in `.obsidian/obsidian-mkdocs-publisher/data.json` (in your Obsidian Vault directory). You have to replace the github keys and `GhToken` (as of version [4.4.0](https://github.com/ObsidianPublisher/obsidian-github-publisher/commit/c8d75bd16d29a37b07b4761b5f624be90a92f596)).
 
+Note: the regex might be outdated, so copy them from the steps above. The JSON below requires `\\`, or has a GhToken I need to keep removing, so I might leave this outdated eventually.
+
 <pre>
 {
   "githubRepo": "blog",
@@ -155,3 +157,6 @@ Sure. Below is a copy of mine. If you want, paste into the plugin's data file wh
   "shareExternalModified": false
 }
 </pre>
+
+
+_ps. I'm using [this website](https://mothereff.in/html-entities) to convert code text into HTML entities._
