@@ -67,4 +67,4 @@ The experimentation never ends, and I'll definitely be improving the process as 
 
 ***
 
-If you're interested in setting up this combination with Jekyll and Obsidian, I've written a [super technical guide on how to setup Obsidian for publishing on Github and Jekyll]({% link obsidian/../../guide/_posts/2022-10-15-jekyll-with-obsidian.md %}).
+If you're interested in setting up this combination with Jekyll and Obsidian, I've written a [super technical guide on how to setup Obsidian for publishing on Github and Jekyll]({% link obsidian/guide/_posts/2022-10-15-jekyll-with-obsidian.md %}).
