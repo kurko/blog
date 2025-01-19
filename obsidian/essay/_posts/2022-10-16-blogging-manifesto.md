@@ -34,17 +34,17 @@ It sounds like splitting hair because, after all, it's just... blogging, and the
 
 The concept of *wikilinks* [are as old as 1995](https://wiki.c2.com/?WikiHistory), but creating them had always been cumbersome. I think [Roam Research was the first to introduce a simple User Experience](https://medium.com/age-of-awareness/the-history-of-roam-research-and-the-roamcult-4c1e1897633d) for autocompleting *wikilinks* - in 2017. They enable you to create links between large and small notes in a very simple manner. Every time you type <span class="code">&#91;&#91;some note name&#93;&#93;</span>, it suggests other notes automatically, or creates new ones on demand. You end up with tons of notes connected.
 
-![obsidian-screenshot-for-blogging-manifesto.png](/images/obsidian/obsidian-screenshot-for-blogging-manifesto.png)
+![obsidian-screenshot-for-blogging-manifesto.png](../../../images/obsidian/obsidian-screenshot-for-blogging-manifesto.png)
 
 Obsidian improved on Roam by making it pure markdown files on your computer. It means you can synchronize them across devices with whatever you want, from iCloud and Dropbox to [rsync](https://en.wikipedia.org/wiki/Rsync) and `git`. You can also create your own code and iterate through your text. It's open for extension, so you can use [one of its hundreds of plugins](https://obsidian.md/plugins).
 
 If you like to take notes about books, for example, the generated visualizations are awe inspiring. To get a sense of how fun it is to have these notes connected, check the following two images. The first one shows a graph with all my notes and their connections (which doesn't mean anything to you, but check the next one):
 
-![Graph of all notes in my Obsidian and their connections](/images/obsidian/obsidian-graph-zoomed-out.png)
+![Graph of all notes in my Obsidian and their connections](../../../images/obsidian/obsidian-graph-zoomed-out.png)
 
 The usefulness of it is quickly zooming in and learning how multiple concepts connect together, remembering things I've written but had forgotten. It's super fun and opens up a whole new mental level.
 
-![Highlighting notes for a book, helping spaced-repetition in a fun way](/images/obsidian/obsidian-graph-screenshot-black-swan.png)
+![Highlighting notes for a book, helping spaced-repetition in a fun way](../../../images/obsidian/obsidian-graph-screenshot-black-swan.png)
 
 Obsidian deserves a post of its own.
 
