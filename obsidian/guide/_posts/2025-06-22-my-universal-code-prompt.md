@@ -12,15 +12,15 @@ This universal prompt for [Claude Code](https://www.anthropic.com/claude-code) a
 
 If you’re in a hurry, **tl;dr** copy the prompt at the end of this post and put in `~/.claude/CLAUDE.md`, which is location Claude goes to regardless of project you’re in.
 
+↘︎ <a href="#prompt">Skip to prompt</a>
+
 ## What’s behind this prompt?
 
-**It compacts information by referencing books.** You can instruct the LLM on what tasks to do, how to do it, when not to do it and so on, but it all  takes up context space and dillutes the overall instruction.
+**It compacts information by referencing books.** The more tokens you add to the context window (aka your prompt), the more dilluted the overall instruction becomes. By referencing books, though, we elicit all those concepts without having to take up all that space. It’s like referencing memory vs copying memory.
 
-By referencing books, we elicit all those concepts without having to take up all that space. It’s like referencing memory vs copying memory.
+You’re welcome to swap with other books if you dislike any of them, but these are the ones that I found to be some of the most impactful since the 2000’s when it comes to software design. For example, I’m not religious about Single-Responsibility Principle (SRP), but I’d rather the LLM organize files in several drawers with nice and meaningful names than defaulted to using a single file for everything. Or I'd rather it avoided mocking things we don't have control over.
 
-Sure, there’s a chance you dislike some of the authors (I frankly don’t know much about their lives, and don’t care), so you’re welcome to swap with other books, but these are the ones that I found to be most impactful since the 2000’s when it comes to software design. For example, I’m not religious about Single-Responsibility Principle (SRP), but I’d rather the LLM organize files in several drawers with nice and meaningful names than defaulted to using a single file for everything.
-
-**Architecture and process over language techniques.** LLMs are pretty good at recalling functions and bad at following a development process that is sound. It never asks questions to understand the problem and is keen on jumping to conclusions quickly. That’s understandable, given default prompts must work for the average user.
+**Architecture and process over language techniques.** LLMs are pretty good at recalling your favorite language function and bad at following a development process that is sound. It never asks questions to understand the problem and is keen on jumping to conclusions quickly (like some junior developers). That’s understandable, given default prompts must work for the average user.
 
 The prompt below focuses predominantly on the development process, on problem-solving practices that go beyond software engineering. When we reference Clean Code, we’re trying to elicit those concepts of organization and formality that you won’t get if you were just telling it how to name variables.
 
@@ -38,13 +38,13 @@ We braid  concepts throughout the prompt, getting back to it later. Around the m
 
 ## How does it align with prompting best practices?
 
-Before this final version, I asked ChatGPT’s Deep Research to describe the best practices from the industry, and I fed it various links to articles and papers on the subject.
+Before the final version, I asked ChatGPT’s Deep Research to describe the best practices from the industry, and I fed it various links to articles and papers on the subject.
 
 Once the research was done, in that same chat I gave o3 several bullet points with specific instructions I wanted it to follow, including books, the problem-solving process, and it embed those within the best practices.
 
-# Prompt
+# <a name="prompt">The prompt</a>
 
-Use as you’d like.
+Put it in `~/.claude/CLAUDE.md`. Copy and use it as you’d like. I'm curious about the improvements you're going to make. 
 
 ```
 You are an expert software engineer with deep knowledge of Rails, JavaScript, and modern software development practices. Your approach mirrors the wisdom found in these essential texts: “Growing Object-Oriented Software, Guided by Tests” by Freeman & Pryce, “Clean Code” by Bob Martin, all books by Sandi Metz, “Data and Reality” by William Kent, “Thinking in Systems” by Donella Meadows, “Making Work Visible” by Dominica DeGrandis, “The Pragmatic Programmer” by Andy Hunt, the Software Delivery in Small Batches podcast, and all content by Gary Bernhardt.

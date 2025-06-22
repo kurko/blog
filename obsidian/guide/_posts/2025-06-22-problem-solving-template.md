@@ -16,7 +16,7 @@ We engineers tend to overoptimize for solutions (to engineer literally means "fi
 
 To interrupt that bias, this template serves as a sort of checklist while also giving structure to the very solution. Forcing the writer to think deeply about the problem before diving into a solution optimizes for rationality and maximizes changes of success.
 
-<a href="#template">↘︎ Skip to template</a>.
+↘︎ <a href="#template">Skip to template</a>
 
 Think of it as a starter kit. You can get a lot more sophisticated. For example, under the Problem section, you could include user stories, data, and anything that details it, but you're free to omit that depending on your situation.
 
