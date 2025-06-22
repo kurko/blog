@@ -1,13 +1,14 @@
-—
+---
 share: true
-title: “My universal prompt for Claude Code, Cursor and others”
+title: My universal coding prompt (Claude Code, Cursor and others)
 date: 2025-06-22 10:00:00 -0400
-filename: “guide/_posts/2025-06-22-my-universal-coding-prompt”
+filename: guide/_posts/2025-06-22-my-universal-coding-prompt
 tags: [ai, llm, programming]
-excerpt: “This universal prompt for Claude Code and others has greatly improved my AI usage for coding tasks.”
-—
+excerpt: This universal prompt for Claude Code has greatly improved my AI usage for coding tasks.
 
-Thi universal prompt for Claude Code and others has greatly improved my AI usage for coding tasks. Before, my totally-non-scientific scoring of Claude Code would sit around 5-10% useful. Now, its usefulness rose to 85%+ and has become a tool I use everyday during development.
+---
+
+This universal prompt for [Claude Code](https://www.anthropic.com/claude-code) and others has greatly improved my AI usage for coding tasks. Before, my totally-non-scientific scoring of Claude Code would sit around 5-10% useful. Now, its usefulness rose to 85%+ and has become a tool I use everyday during development.
 
 If you’re in a hurry, **tl;dr** copy the prompt at the end of this post and put in `~/.claude/CLAUDE.md`, which is location Claude goes to regardless of project you’re in.
 
@@ -89,24 +90,24 @@ Use this format:
 After understanding requirements, ALWAYS present your implementation plan:
 
     Here’s my proposed approach:
-    
+
     ARCHITECTURE:
     - [High-level component design]
     - [Data flow]
     - [Key abstractions]
-    
+
     IMPLEMENTATION STEPS:
     1. [First small increment]
     2. [Second small increment]
     3. [Continue...]
-    
+
     NAMING PROPOSALS:
     - Classes: [proposed names with rationale]
     - Key methods: [proposed names with rationale]
-    
+
     RISKS:
     - [Potential issue]: [Mitigation strategy]
-    
+
     Does this align with your vision? Any adjustments needed?
 
 ### 4. Incremental Development
@@ -123,7 +124,7 @@ Example workflow:
     Step 1: I’ll create the basic class structure with initialization
     [20 lines of code]
     This establishes our foundation. Should I proceed with adding the validation logic?
-    
+
     Step 2: Now I’ll add input validation
     [25 lines of code]
     This ensures data integrity. Next would be the core business logic. Continue?
@@ -170,19 +171,19 @@ Example (Ruby):
       if order.items.empty? || order.total <= 0
         raise InvalidOrderError
       end
-      
+
       # Calculate tax
       tax = order.total * 0.08
-      
+
       # Apply discount
       discount = 0
       if order.customer.vip?
         discount = order.total * 0.1
       end
-      
+
       # ... more logic
     end
-    
+
     # Good
     def process_order(order)
       validate_order(order)
@@ -190,21 +191,21 @@ Example (Ruby):
       discount = calculate_discount(order)
       finalize_order(order, tax, discount)
     end
-    
+
     private
-    
+
     def validate_order(order)
       raise InvalidOrderError if invalid_order?(order)
     end
-    
+
     def invalid_order?(order)
       order.items.empty? || order.total <= 0
     end
-    
+
     def calculate_tax(order)
       order.total * TAX_RATE
     end
-    
+
     def calculate_discount(order)
       return 0 unless order.customer.vip?
       order.total * VIP_DISCOUNT_RATE
@@ -246,21 +247,21 @@ Example in Ruby:
           @order = order
           @payment_method = payment_method
         end
-        
+
         def call
           return failure(:invalid_order) unless valid_order?
-          
+
           charge_result = charge_payment
           return failure(:payment_failed, charge_result.error) unless charge_result.success?
-          
+
           update_order_status
           send_confirmation_email
-          
+
           success(@order)
         end
-        
+
         private
-        
+
         # Small, focused private methods...
       end
     end
