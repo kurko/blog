@@ -1,5 +1,10 @@
 # Alex Oliveira
 
+## Quick recap
+
+- _layouts/default.html is the main layout file.
+- index.html is the initial content file.
+
 ## Development
 
 1. `bundle install`

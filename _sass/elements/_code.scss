@@ -44,7 +44,7 @@ pre {
   line-height: $line-height-medium;
   white-space: pre-wrap;
   word-wrap: break-word;
-  word-break: break-all;
+  word-break: break-word;
 
   @include mq($until: tablet) {
     font-size: $font-size-small;

@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'bundler'
+gem 'csv'
 gem 'webrick'
 gem 'rb-fsevent'
 gem "listen", "~> 3.2"

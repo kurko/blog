@@ -10,7 +10,10 @@
   href="{{ '/atom.xml' | prepend: site.baseurl | prepend: site.url }}">
 
   <style>
+    {% include css/reset.css %}
+    {% include css/layout.css %}
     {% capture inlineCSS %}
+
       {% include app.scss %}
     {% endcapture %}
 

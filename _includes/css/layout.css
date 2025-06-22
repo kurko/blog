@@ -1,0 +1,10 @@
+/**
+ * Entry file
+ *
+ * This file was added late in the project because the SASS ones become too
+ * complex, so we are using this one to override the SASS ones.
+ * Someday I will rewrite everything in pure CSS.
+ */
+body {
+  background-color: #ffffff;
+}

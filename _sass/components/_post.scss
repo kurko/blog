@@ -12,11 +12,11 @@
   }
 
   &__title {
-    font-size: double($font-size-tiny);
+    font-size: double($font-size-small);
     margin-bottom: $base-spacing-unit;
 
     @include mq($from: tablet) {
-      font-size: double($font-size-small);
+      font-size: double($font-size-medium);
     }
   }
 
