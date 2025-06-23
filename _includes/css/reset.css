@@ -1,0 +1,17 @@
+/**
+ * Entry file
+ *
+ * This file was added late in the project because the SASS ones become too
+ * complex, so we are using this one to override the SASS ones.
+ * Someday I will rewrite everything in pure CSS.
+ */
+a:not([href]),
+h1 a:not([href]),
+h2 a:not([href]),
+h3 a:not([href]),
+h4 a:not([href]),
+h5 a:not([href]),
+h6 a:not([href]) {
+  color: inherit;
+  text-decoration: none !important;
+}

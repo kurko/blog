@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .c-content {
-  a:not(.c-btn) {
+  a[href]:not(.c-btn) {
     text-decoration: underline;
     text-decoration-skip: ink;
 
