@@ -159,14 +159,17 @@ code {
 .highlighter-rouge,
 .highlight {
   background-color: var(--color-code-bg) !important;
-  overflow-x: auto;
   margin-bottom: calc(var(--base-spacing-unit) * 2);
+  border-radius: 4px;
 }
 
 @media (max-width: 640px) {
   .highlighter-rouge,
-  .highlight {
-    max-width: 370px;
+  .highlight,
+  .c-post .highlight {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    transform: none !important;
   }
 }
 
@@ -199,7 +202,6 @@ pre {
     font-size: var(--font-size-small);
     line-height: var(--line-height-medium);
     white-space: pre;
-    overflow-x: auto;
   }
 }
 

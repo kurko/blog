@@ -92,6 +92,17 @@
 .c-content ul li,
 .c-content ol li {
   margin-left: 2em;
+  margin-right: 2em;
+}
+
+/* Code blocks breakout */
+.c-post .highlight {
+  width: 100vw;
+  max-width: 800px; /* Fallback for older browsers */
+  max-width: min(100vw, 800px);
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: calc(2 * var(--base-spacing-unit));
 }
 
 /* ============================================
