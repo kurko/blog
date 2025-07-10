@@ -13,18 +13,22 @@
   --base-spacing-unit: 12px;
   --base-margin-unit: 18px;
   --grid-gutter: var(--base-spacing-unit);
-  
+
   /* Layout dimensions */
-  --grid-width: 700px;
+  --grid-width: 640px;
   --off-canvas-width: 300px;
-  
+
   /* Breakpoints */
   --mobile-width: 400px;
   --tablet-breakpoint: 640px;
   --desktop-breakpoint: 1024px;
-  
+
   /* Transitions */
   --global-transition: .15s;
+
+  /* Colors */
+  --color-text: #323232;
+  --color-brand: #006aa9;
 }
 
 /* ============================================
@@ -99,6 +103,15 @@ body {
 
 .o-grid__col--end {
   margin-left: auto;
+}
+
+/* ============================================
+   Plain List Object
+   ============================================ */
+.o-plain-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* ============================================
@@ -186,6 +199,7 @@ body {
 
 .c-header__inner {
   padding: var(--base-spacing-unit) 0;
+  border-bottom: 1px solid var(--color-border);
 }
 
 @media only screen and (min-width: 400px) {
@@ -201,14 +215,27 @@ body {
 
 /* Logo layout */
 .c-logo__link {
-  padding-top: 2px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8px;
+}
+.c-logo__link:hover {
+  color: var(--color-brand);
+  text-decoration: none;
+}
+
+@media (min-width: 400px) {
+  .c-logo__link {
+    padding-top: 2px;
+    font-size: 22px;
+  }
 }
 
 /* ============================================
    Footer Layout
    ============================================ */
 .c-footer {
-  padding: calc(2 * var(--base-spacing-unit)) 0;
+  padding: calc(4 * var(--base-spacing-unit)) 0;
 }
 
 .c-footer li.single-icon {
@@ -230,6 +257,24 @@ body {
    ============================================ */
 .c-nav__link {
   display: block;
+}
+
+/* ============================================
+   Social Navigation
+   ============================================ */
+.c-social-nav__item {
+  display: inline-block;
+}
+
+.c-social-nav__icon {
+  fill: var(--color-text);
+  vertical-align: middle;
+  transition: var(--global-transition);
+}
+
+.c-social-nav__icon:hover,
+.c-social-nav__icon:focus {
+  fill: var(--color-brand);
 }
 
 /* ============================================

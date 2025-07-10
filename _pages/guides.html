@@ -7,22 +7,18 @@ layout: default
 date: 2022-10-20 06:00:00 -0400
 ---
 
-<div class='o-wrapper'>
+<div class='o-wrapper c-page-list'>
   <div class='o-grid'>
-
     <div class='o-grid__col o-grid__col--full'>
       <h1>Guides</h1>
+      <p>These are useful reminders for myself on how to do certain things.</p>
     </div>
+  </div>
 
-    <div class='o-grid__col o-grid__col--full'>
-      <p>
-        These guides are focused on specific areas.
-      </p>
-    </div>
-
+  <div class='o-grid'>
     {% for post in site.posts %}
       {% if post.categories contains "guide" %}
-        {% include page-list.liquid %}
+        {% include post-card.liquid %}
       {% endif %}
     {% endfor %}
   </div>

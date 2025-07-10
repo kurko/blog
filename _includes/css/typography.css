@@ -5,14 +5,14 @@
   /* Font families */
   --font-base: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   --font-monospace: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  
+
   /* Font sizes */
   --font-size-sitename: 22px;
   --font-size-base: 16px;      /* Default body text size */
   --font-size-medium: 16px;     /* Same as base, used for emphasis */
   --font-size-small: 14px;      /* Smaller text like captions */
   --font-size-tiny: 12px;       /* Smallest text like timestamps */
-  
+
   /* Heading font sizes */
   --font-size-h1: 42px;
   --font-size-h2: 28px;
@@ -20,34 +20,34 @@
   --font-size-h4: 20px;
   --font-size-h5: 18px;
   --font-size-h6: 16px;
-  
+
   /* Font weights */
   --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-bold: 600;
   --font-weight-bolder: 900;
-  
+
   /* Line heights */
   --line-height-base: 1.6;          /* Default line height for body text */
   --line-height-medium: 25px;       /* 16px * 1.55 rounded */
   --line-height-small: 22px;        /* 14px * 1.55 rounded */
   --line-height-tiny: 19px;         /* 12px * 1.55 rounded */
-  
+
   /* Colors */
   --color-text: #323232;
   --color-link: #323232;
   --color-link-hover: #00A0FF;
-  --color-brand: #00A0FF;
+  --color-brand: #006aa9;
   --color-white: #FFFFFF;
   --color-blockquote: #666;
   --color-code-bg: #F2F2F2;
   --color-border-blockquote: #eee;
-  
+
   /* Spacing */
   --base-spacing-unit: 12px;       /* Foundation for all spacing (margins, padding) */
   --base-margin-unit: 18px;        /* Standard margin between elements */
   --blockquote-padding: 10px;
-  
+
   /* Transitions */
   --global-transition: .15s;
 }
