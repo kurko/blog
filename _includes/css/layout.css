@@ -186,6 +186,8 @@ body {
   float: left;
   display: inline;
   margin-right: 10px;
+  width: 40px;
+  height: 40px;
 }
 
 .c-header .c-logo__link,
