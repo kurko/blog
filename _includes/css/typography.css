@@ -1,0 +1,303 @@
+/* Typography CSS - Consolidated from SCSS files */
+
+/* CSS Custom Properties (converted from SCSS variables) */
+:root {
+  /* Font families */
+  --font-base: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --font-monospace: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  
+  /* Font sizes */
+  --font-size-sitename: 22px;
+  --font-size-base: 16px;      /* Default body text size */
+  --font-size-medium: 16px;     /* Same as base, used for emphasis */
+  --font-size-small: 14px;      /* Smaller text like captions */
+  --font-size-tiny: 12px;       /* Smallest text like timestamps */
+  
+  /* Heading font sizes */
+  --font-size-h1: 42px;
+  --font-size-h2: 28px;
+  --font-size-h3: 24px;
+  --font-size-h4: 20px;
+  --font-size-h5: 18px;
+  --font-size-h6: 16px;
+  
+  /* Font weights */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 600;
+  --font-weight-bolder: 900;
+  
+  /* Line heights */
+  --line-height-base: 1.6;          /* Default line height for body text */
+  --line-height-medium: 25px;       /* 16px * 1.55 rounded */
+  --line-height-small: 22px;        /* 14px * 1.55 rounded */
+  --line-height-tiny: 19px;         /* 12px * 1.55 rounded */
+  
+  /* Colors */
+  --color-text: #323232;
+  --color-link: #323232;
+  --color-link-hover: #00A0FF;
+  --color-brand: #00A0FF;
+  --color-white: #FFFFFF;
+  --color-blockquote: #666;
+  --color-code-bg: #F2F2F2;
+  --color-border-blockquote: #eee;
+  
+  /* Spacing */
+  --base-spacing-unit: 12px;       /* Foundation for all spacing (margins, padding) */
+  --base-margin-unit: 18px;        /* Standard margin between elements */
+  --blockquote-padding: 10px;
+  
+  /* Transitions */
+  --global-transition: .15s;
+}
+
+/* Base body styles */
+body {
+  color: var(--color-text);
+  font-size: var(--font-size-base);
+  font-family: var(--font-base);
+  line-height: var(--line-height-base);
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Text selection */
+*::selection {
+  color: var(--color-white);
+  background: var(--color-brand);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  line-height: initial;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: calc(var(--base-spacing-unit) * 2);
+}
+
+h2, h3, h4, h5, h6 {
+  padding-top: calc(var(--base-spacing-unit) * 2);
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  margin-bottom: 16px;
+}
+
+h2,
+h2 code,
+h2 span.code {
+  font-size: var(--font-size-h2);
+}
+
+h3,
+h3 code,
+h3 span.code {
+  font-size: var(--font-size-h3);
+}
+
+h4 {
+  font-size: var(--font-size-h4);
+}
+
+h5 {
+  font-size: var(--font-size-h5);
+}
+
+h6 {
+  font-size: var(--font-size-h6);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: var(--color-link);
+  transition: var(--global-transition);
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+
+/* Content area links */
+.c-content a[href]:not(.c-btn) {
+  text-decoration: underline;
+  text-decoration-skip: ink;
+}
+
+.c-content a[href]:not(.c-btn):hover,
+.c-content a[href]:not(.c-btn):focus,
+.c-content a[href]:not(.c-btn):active {
+  color: var(--color-brand);
+}
+
+/* Blockquotes */
+blockquote {
+  padding-left: var(--blockquote-padding);
+  margin-left: var(--base-margin-unit);
+  border-left: 4px solid var(--color-border-blockquote);
+  margin-bottom: calc(var(--base-spacing-unit) * 2);
+}
+
+blockquote,
+blockquote * {
+  color: var(--color-blockquote);
+}
+
+/* Code and pre elements */
+pre,
+span.code,
+code {
+  font-family: var(--font-monospace);
+  background-color: var(--color-code-bg);
+  border-radius: 3px;
+  font-size: var(--font-size-small);
+}
+
+.highlighter-rouge,
+.highlight {
+  background-color: var(--color-code-bg) !important;
+  overflow-x: auto;
+  margin-bottom: calc(var(--base-spacing-unit) * 2);
+}
+
+@media (max-width: 640px) {
+  .highlighter-rouge,
+  .highlight {
+    max-width: 370px;
+  }
+}
+
+pre.highlight code {
+  background: none;
+}
+
+p code,
+ol code, ol span.code,
+ul code, ul span.code,
+h1 span.code, h2 span.code, h3 span.code, h4 span.code, h5 span.code, h6 span.code,
+p span.code {
+  white-space: normal;
+}
+
+pre.highlight code,
+pre {
+  overflow: auto;
+  margin-bottom: var(--base-spacing-unit);
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-medium);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+@media (max-width: 640px) {
+  pre.highlight code,
+  pre {
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-medium);
+    white-space: pre;
+    overflow-x: auto;
+  }
+}
+
+pre {
+  padding: calc(var(--base-spacing-unit) * 2);
+  margin-bottom: calc(var(--base-spacing-unit) * 2);
+}
+
+table code,
+table span.code,
+li code,
+li span.code,
+ol code,
+ol span.code,
+h1 code,
+h1 span.code,
+h2 code,
+h2 span.code,
+h3 code,
+h3 span.code,
+h4 code,
+h4 span.code,
+h5 code,
+h5 span.code,
+h6 code,
+h6 span.code,
+p code,
+p span.code {
+  padding: calc(var(--base-spacing-unit) / 4) calc(var(--base-spacing-unit) / 2);
+}
+
+/* Tables */
+table {
+  background: #FAFAFA;
+  margin-bottom: calc(var(--base-spacing-unit) * 2);
+}
+
+table thead tr {
+  background: var(--color-code-bg);
+}
+
+table thead tr th {
+  box-sizing: border-box;
+  padding: 3px 6px;
+  text-align: left;
+}
+
+table td {
+  box-sizing: border-box;
+  text-align: left;
+  border-bottom: 1px solid white;
+  padding: 3px 6px;
+}
+
+@media (max-width: 480px) {
+  table th,
+  table td {
+    font-size: var(--font-size-small);
+  }
+}
+
+/* Lists */
+dd, ol, ul {
+  list-style-position: inside;
+  margin-left: var(--base-spacing-unit);
+}
+
+ol, ul {
+  margin-bottom: calc(var(--base-spacing-unit) * 2);
+}
+
+.c-content ul.no-bullets li {
+  list-style: none;
+  padding-right: 10px;
+}
+
+/* Paragraphs and other block elements */
+address,
+p,
+dl,
+figure,
+hr,
+fieldset {
+  margin-bottom: calc(var(--base-spacing-unit) * 2);
+}
+
+/* Utility classes */
+.u-font-medium {
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-medium);
+}
+
+.u-font-small {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+.u-font-tiny {
+  font-size: var(--font-size-tiny);
+  line-height: var(--line-height-tiny);
+}

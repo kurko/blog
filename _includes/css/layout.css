@@ -1,10 +1,339 @@
 /**
- * Entry file
+ * Layout CSS - Grid, structure, and positioning
  *
- * This file was added late in the project because the SASS ones become too
- * complex, so we are using this one to override the SASS ones.
- * Someday I will rewrite everything in pure CSS.
+ * This file consolidates all layout-related styles from the SCSS files.
+ * It includes grid system, containers, utilities, and structural components.
  */
+
+/* ============================================
+   CSS Custom Properties (converted from SCSS)
+   ============================================ */
+:root {
+  /* Spacing */
+  --base-spacing-unit: 12px;
+  --base-margin-unit: 18px;
+  --grid-gutter: var(--base-spacing-unit);
+  
+  /* Layout dimensions */
+  --grid-width: 700px;
+  --off-canvas-width: 300px;
+  
+  /* Breakpoints */
+  --mobile-width: 400px;
+  --tablet-breakpoint: 640px;
+  --desktop-breakpoint: 1024px;
+  
+  /* Transitions */
+  --global-transition: .15s;
+}
+
+/* ============================================
+   Base Body
+   ============================================ */
 body {
   background-color: #ffffff;
+}
+
+/* ============================================
+   Grid System
+   ============================================ */
+.o-grid {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: var(--grid-width);
+}
+
+.o-grid::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.o-grid .o-grid {
+  margin-right: calc(-1 * var(--grid-gutter));
+  margin-left: calc(-1 * var(--grid-gutter));
+  padding: 0;
+}
+
+.o-grid--full {
+  max-width: 100vw;
+}
+
+.o-grid__col {
+  float: left;
+  padding-right: var(--grid-gutter);
+  padding-left: var(--grid-gutter);
+}
+
+/* Grid column sizes - Small (mobile) */
+.o-grid__col--1-4-s { width: 25%; }
+.o-grid__col--1-3-s { width: 33.33333%; }
+.o-grid__col--2-4-s { width: 50%; }
+.o-grid__col--3-4-s { width: 75%; }
+.o-grid__col--4-4-s { width: 100%; }
+
+/* Grid column sizes - Medium (tablet) */
+@media (min-width: 640px) {
+  .o-grid__col--1-4-m { width: 25%; }
+  .o-grid__col--1-3-m { width: 33.33333%; }
+  .o-grid__col--2-4-m { width: 50%; }
+  .o-grid__col--3-4-m { width: 75%; }
+}
+
+/* Grid column sizes - Large (desktop) */
+@media (min-width: 1024px) {
+  .o-grid__col--1-4-l { width: 25%; }
+  .o-grid__col--1-3-l { width: 33.33333%; }
+  .o-grid__col--2-4-l { width: 50%; }
+  .o-grid__col--3-4-l { width: 75%; }
+}
+
+.o-grid__col--full {
+  width: 100%;
+}
+
+.o-grid__col--center {
+  margin: 0 auto;
+}
+
+.o-grid__col--end {
+  margin-left: auto;
+}
+
+/* ============================================
+   Wrapper / Container
+   ============================================ */
+.o-wrapper {
+  padding: calc(2 * var(--base-spacing-unit)) 0;
+}
+
+/* Sticky footer setup */
+.c-off-canvas-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.c-off-canvas-container .o-wrapper {
+  flex: 1 0 auto;
+}
+
+/* ============================================
+   Layout Utilities
+   ============================================ */
+.u-inline { display: inline; }
+.u-block { display: block; }
+.u-inline-block { display: inline-block; }
+.u-left { float: left; }
+.u-right { float: right; }
+
+/* ============================================
+   Alignment Utilities
+   ============================================ */
+.u-text-left { text-align: left; }
+.u-text-right { text-align: right; }
+.u-text-center { text-align: center; }
+.u-text-justify { text-align: justify; }
+
+/* ============================================
+   Visibility Utilities
+   ============================================ */
+/* Hide visually and from screen readers */
+.u-hidden {
+  display: none;
+}
+
+/* Hide only visually, but have it available for screen readers */
+.u-hidden-visually {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* ============================================
+   Clearfix Utility
+   ============================================ */
+.u-clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* ============================================
+   Header Layout
+   ============================================ */
+.c-header img.logo-image {
+  border-radius: 50%;
+  float: left;
+  display: inline;
+  margin-right: 10px;
+}
+
+.c-header .c-logo__link,
+.c-header .js-off-canvas-toggle {
+  display: table;
+}
+
+.c-header .js-off-canvas-toggle {
+  padding-top: 6px;
+}
+
+.c-header__inner {
+  padding: var(--base-spacing-unit) 0;
+}
+
+@media only screen and (min-width: 400px) {
+  .c-header__inner {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+.c-header__icon {
+  vertical-align: middle;
+}
+
+/* Logo layout */
+.c-logo__link {
+  padding-top: 2px;
+}
+
+/* ============================================
+   Footer Layout
+   ============================================ */
+.c-footer {
+  padding: calc(2 * var(--base-spacing-unit)) 0;
+}
+
+.c-footer li.single-icon {
+  display: inline-block;
+  width: 25px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.c-footer li.single-icon img {
+  top: 2px;
+  width: 13px;
+  display: initial;
+  position: relative;
+}
+
+/* ============================================
+   Navigation Layout
+   ============================================ */
+.c-nav__link {
+  display: block;
+}
+
+/* ============================================
+   Off-Canvas Mobile Menu
+   ============================================ */
+/* Prevent horizontal scroll during off-canvas */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Toggle button */
+.c-off-canvas-toggle {
+  float: right;
+  position: relative;
+  top: calc(var(--base-spacing-unit) / 2);
+  z-index: 10;
+  height: 19px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.c-off-canvas-toggle--close {
+  top: 0;
+  float: none;
+  display: block;
+  margin-left: auto;
+}
+
+/* Hamburger icon */
+.c-off-canvas-toggle__icon {
+  position: absolute;
+  left: 0;
+  height: 1px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.c-off-canvas-toggle__icon::before,
+.c-off-canvas-toggle__icon::after {
+  content: '';
+  display: block;
+  height: 100%;
+  transition: var(--global-transition);
+}
+
+.c-off-canvas-toggle__icon::before {
+  transform: translateY(16px);
+}
+
+.c-off-canvas-toggle__icon::after {
+  transform: translateY(7px);
+}
+
+/* Close state (X icon) */
+.c-off-canvas-toggle--close .c-off-canvas-toggle__icon {
+  height: 2px;
+  background-color: transparent;
+}
+
+.c-off-canvas-toggle--close .c-off-canvas-toggle__icon::before,
+.c-off-canvas-toggle--close .c-off-canvas-toggle__icon::after {
+  position: relative;
+  visibility: visible;
+}
+
+.c-off-canvas-toggle--close .c-off-canvas-toggle__icon::before {
+  top: 11px;
+  transform: rotate(-45deg);
+}
+
+.c-off-canvas-toggle--close .c-off-canvas-toggle__icon::after {
+  top: 9px;
+  transform: rotate(45deg);
+}
+
+/* Off-canvas content panel */
+.c-off-canvas-content {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: var(--off-canvas-width);
+  height: 100%;
+  padding: calc(var(--base-spacing-unit) + var(--base-spacing-unit) / 2) calc(2 * var(--base-spacing-unit));
+  transform: translate3d(var(--off-canvas-width), 0, 0);
+}
+
+/* Off-canvas container transitions */
+.c-off-canvas-container {
+  transform: translate3d(0, 0, 0);
+  transition: transform var(--global-transition) cubic-bezier(.16, .68, .43, .99);
+}
+
+.c-off-canvas-container.is-active {
+  transform: translate3d(calc(-1 * var(--off-canvas-width)), 0, 0);
+}
+
+/* Overlay when menu is active */
+.c-off-canvas-container.is-active::after {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  background-color: rgba(0, 0, 0, .2);
 }

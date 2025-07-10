@@ -22,9 +22,6 @@ markdown:  kramdown
 permalink: none
 paginate:  300
 
-sass:
-  style: compressed
-
 plugins:
   - jekyll-paginate
   - jekyll/tagging
