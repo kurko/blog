@@ -233,6 +233,37 @@ body {
   }
 }
 
+/* Header navigation */
+.c-header__nav {
+  text-align: right;
+  padding-top: 10px;
+  color: var(--color-gray);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.c-header__nav-link {
+  color: var(--color-gray);
+  text-decoration: none;
+  transition: var(--global-transition);
+}
+
+.c-header__nav-link:hover {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.c-header__nav-link--current {
+  color: var(--color-text);
+}
+
+@media (min-width: 426px) {
+  .c-header__nav {
+    padding-top: 8px;
+    font-size: 16px;
+  }
+}
+
 /* ============================================
    Footer Layout
    ============================================ */

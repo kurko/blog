@@ -62,12 +62,17 @@
 }
 
 /* Post image */
-.c-post p img {
+.c-post img {
   width: 100vw;
   max-width: 800px; /* Fallback for older browsers */
   max-width: min(100vw, 800px);
   margin-left: 50%;
   transform: translateX(-50%);
+  margin-bottom: calc(2 * var(--base-spacing-unit));
+}
+
+.c-post p img {
+  margin-bottom: 0;
 }
 
 /* Post content lists */
