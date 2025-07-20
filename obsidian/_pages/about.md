@@ -1,13 +1,15 @@
 ---
 share: true
 title: About
-image: '/images/pages/about2.jpg'
+title_is_image: true
+layout: page
+image: '/images/pages/about2bw.jpeg'
 filename: '_pages/about'
 rss: false
 date: 2020-01-02 15:02:54 -0200
 ---
 
-Hi 👋 I'm Alex Oliveira. 👨‍💻 I make software. 
+Hi 👋 I'm Alex Oliveira. 👨‍💻 I make software.
 
 For over 15 years, as an engineer, systems architect and engineering lead, I
 coded and led teams in:

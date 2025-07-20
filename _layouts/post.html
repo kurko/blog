@@ -8,7 +8,10 @@ layout: default
   <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
 {% endif %}
 
-<div class='o-wrapper'>
+<div class="
+  o-wrapper
+  {% unless page.title_is_image %}spaced{% endunless %}
+">
   <div class='o-grid'>
     <div class='o-grid__col o-grid__col--4-4-s'>
       <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>

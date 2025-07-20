@@ -118,6 +118,9 @@ body {
    Wrapper / Container
    ============================================ */
 .o-wrapper {
+  /* padding: calc(2 * var(--base-spacing-unit)) 0; */
+}
+.o-wrapper.spaced {
   padding: calc(2 * var(--base-spacing-unit)) 0;
 }
 
@@ -181,6 +184,11 @@ body {
 /* ============================================
    Header Layout
    ============================================ */
+.c-header {
+  background-color: #fcfcfc;
+  border-bottom: 1px solid var(--color-border);
+}
+
 .c-header img.logo-image {
   border-radius: 50%;
   float: left;
@@ -201,7 +209,7 @@ body {
 
 .c-header__inner {
   padding: var(--base-spacing-unit) 0;
-  border-bottom: 1px solid var(--color-border);
+  /* border-bottom: 1px solid var(--color-border); */
 }
 
 @media only screen and (min-width: 400px) {

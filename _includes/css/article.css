@@ -13,7 +13,7 @@
   --color-gray: #919191;
   --color-light-gray: #FAFAFA;
   --color-bg-gray: #F2F2F2;
-  --color-border: #E9EFF3;
+  --color-border: #f6f6f6;
   --color-brand: #006aa9;
   --color-text: #323232;
 
@@ -69,6 +69,7 @@
   margin-left: 50%;
   transform: translateX(-50%);
   margin-bottom: calc(2 * var(--base-spacing-unit));
+  border-radius: 3px;
 }
 
 .c-post p img {
