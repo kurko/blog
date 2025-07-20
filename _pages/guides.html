@@ -17,7 +17,7 @@ date: 2022-10-20 06:00:00 -0400
 
   <div class='o-grid'>
     {% for post in site.posts %}
-      {% if post.categories contains "guide" %}
+      {% if post.categories contains "guide" and (post.draft != true or jekyll.environment == "development") and post.published != false %}
         {% include post-card.liquid %}
       {% endif %}
     {% endfor %}

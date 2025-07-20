@@ -12,7 +12,9 @@ layout: default
 
   <div class='o-grid'>
     {% for post in page.posts %}
-      {% include post-card.liquid %}
+      {% if post.published != false %}
+        {% include post-card.liquid %}
+      {% endif %}
     {% endfor %}
   </div>
 

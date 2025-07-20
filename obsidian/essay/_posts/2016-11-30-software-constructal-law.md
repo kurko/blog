@@ -4,8 +4,9 @@ layout: post
 title: "Constructal Law And Software"
 date: 2016-11-30 15:02:54 -0200
 tags: [software]
+draft: true
 # front_page_image: '/images/posts/black-boxes/cover.png'
-excerpt: ""
+excerpt: "A look at physics for inspiration on how to control complexity in software systems."
 
 ---
 

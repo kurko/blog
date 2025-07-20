@@ -71,6 +71,14 @@
   margin-bottom: calc(2 * var(--base-spacing-unit));
   border-radius: 3px;
 }
+.c-post img.small {
+  display: block;
+  width: 100%;
+  max-width: 400px; /* Fallback for older browsers */
+  transform: none;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .c-post p img {
   margin-bottom: 0;
@@ -147,6 +155,13 @@
   font-weight: 600;
   margin-top: calc(var(--base-spacing-unit) / 2);
   margin-bottom: calc(3 * var(--base-spacing-unit));
+}
+
+.c-post-card__draft {
+  color: #999;
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-left: 0.5em;
 }
 
 .c-post .dinkus,
