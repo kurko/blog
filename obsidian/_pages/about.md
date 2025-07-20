@@ -1,5 +1,6 @@
 ---
 share: true
+site_title: Who's Alex
 title: About
 title_is_image: true
 layout: page
