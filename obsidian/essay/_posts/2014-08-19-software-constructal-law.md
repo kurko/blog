@@ -1,10 +1,10 @@
 ---
-
+share: true
 layout: post
 title: "Constructal Law And Software"
 date: 2014-08-19 15:02:54 -0200
 tags: [software]
-draft: true
+draft: false
 # front_page_image: '/images/posts/black-boxes/cover.png'
 excerpt: "A look at physics for inspiration on how to control complexity in software systems."
 
@@ -81,7 +81,7 @@ Modularization isolates subsystems, as long as the entrypoints are designed inte
 
 <img src="../images/posts/software-complexity-constructal-law/order-with-constructal-law-2.png" alt="order with constructal law" class="small">
 
-On the other hand, here's how to take the first step to mess up your subsystems. 
+On the other hand, here's how to take the first step to mess up your subsystems.
 
 <img src="../images/posts/software-complexity-constructal-law/order-with-constructal-law-breaking-encapsulation.png" alt="breaking encapsulation as shown in the 2nd article of the series" class="small">
 
