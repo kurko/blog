@@ -136,7 +136,7 @@ a:active {
 /* Blockquotes */
 blockquote {
   padding-left: var(--blockquote-padding);
-  margin-left: var(--base-margin-unit);
+  margin-left: 0px;
   border-left: 4px solid var(--color-border-blockquote);
   margin-bottom: calc(var(--base-spacing-unit) * 2);
 }

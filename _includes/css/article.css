@@ -12,6 +12,7 @@
   /* Colors - reusing from typography for consistency */
   --color-gray: #919191;
   --color-light-gray: #FAFAFA;
+  --color-dark-gray: #777777;
   --color-bg-gray: #F2F2F2;
   --color-border: #f6f6f6;
   --color-brand: #006aa9;
@@ -71,6 +72,12 @@
   margin-bottom: calc(2 * var(--base-spacing-unit));
   border-radius: 3px;
 }
+.c-post img.crop-vertical-1-5 {
+  height: 200px;
+  object-fit: cover;
+  object-position: center center;
+}
+
 .c-post img.small {
   display: block;
   width: 100%;
@@ -82,6 +89,24 @@
 
 .c-post p img {
   margin-bottom: 0;
+}
+
+img.c-post__image {
+  margin-bottom: var(--base-spacing-unit);
+}
+
+/* Post update box */
+.c-post__update {
+  background: var(--color-bg-gray);
+  border-left: 3px solid var(--color-border);
+  padding: calc(var(--base-spacing-unit) * 1.5);
+  margin-bottom: calc(var(--base-spacing-unit) * 3);
+  font-size: 0.95em;
+  color: var(--color-dark-gray);
+}
+
+.c-post__update strong {
+  color: var(--color-text);
 }
 
 /* Post content lists */
@@ -158,7 +183,7 @@
 }
 
 .c-post-card__draft {
-  color: #999;
+  color: orange;
   font-size: 0.8em;
   font-weight: normal;
   margin-left: 0.5em;

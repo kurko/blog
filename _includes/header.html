@@ -5,16 +5,25 @@
       <div class='c-header__inner'>
 
         <div class='o-grid'>
-          <div class='o-grid__col o-grid__col--2-4-s'>
+          <div class='
+            o-grid__col
+            o-grid__col--4-10-s
+            o-grid__col--5-5-m
+          '>
             <div class='c-logo u-text-left'>
               <img class="logo-image"
                    width="40"
                    src="/images/header-alex.jpg">
-              <a class='c-logo__link' href='{{ site.baseurl }}/'>{{ site.title }}</a>
+              <a class='c-logo__link'
+                 href='{{ site.baseurl }}/'>{{ site.title }}</a>
             </div>
           </div>
 
-          <div class='o-grid__col o-grid__col--2-4-s'>
+          <div class='
+            o-grid__col
+            o-grid__col--6-10-s
+            o-grid__col--5-5-m
+          '>
             <nav class='c-header__nav'>
               <a class='c-header__nav-link{% if page.url == "/" %} c-header__nav-link--current{% endif %}' href='{{ site.baseurl }}/'>Essays</a>,
               <a class='c-header__nav-link{% if page.url == "/guides/" or page.url == "/guides" %} c-header__nav-link--current{% endif %}' href='{{ site.baseurl }}/guides'>Guides</a> &
