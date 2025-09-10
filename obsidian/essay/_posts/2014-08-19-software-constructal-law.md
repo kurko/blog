@@ -21,7 +21,7 @@ Some time in 2013, I picked up a book that connected several dots in my understa
 
 <img src="../images/posts/software-complexity-constructal-law/constructal-law-what-is-it.jpg" alt="ramifications in leaves of different sizes and types" class="crop-vertical-1-5">
 
-If feels off reading nature and design in the same sentence without hint of religion or mythology. After all, everything resulted from random, stochastic processes. Rivers, mountains and vulcanoes had to compete for space, expanding, contracting, flowing, pressuring and many other verbs throughout millennia. How come design played any role?
+I does feel off reading _nature_ and _design_ in the same sentence without a hint of religion or mythology. After all, everything resulted from random, stochastic processes. Rivers, mountains and vulcanoes had to compete for space, expanding, contracting, flowing, pressuring and many other verbs throughout millennia. How come design played any role?
 
 Well, what [Adrian Bejan](https://en.wikipedia.org/wiki/Adrian_Bejan) figured out is that the processes are as random as we think. The fundamental law underneath the battle of the elements connects disparate manifestations and discovers what drives their shapes,
 
