@@ -62,6 +62,7 @@
   color: var(--color-gray);
 }
 
+/* IMAGES */
 /* Post image */
 .c-post img {
   width: 100vw;
@@ -69,13 +70,29 @@
   max-width: min(100vw, 800px);
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-bottom: calc(2 * var(--base-spacing-unit));
+  /* margin-bottom: calc(2 * var(--base-spacing-unit)); */
   border-radius: 3px;
 }
+
+figure figcaption {
+  font-size: 0.9em;
+  color: var(--color-dark-gray);
+  text-align: center;
+  margin-top: -4px;
+  margin-bottom: calc(2 * var(--base-spacing-unit));
+}
+
 .c-post img.crop-vertical-1-5 {
   height: 200px;
   object-fit: cover;
   object-position: center center;
+}
+
+c-post img.gray,
+c-post img.grey,
+c-post img.grayscale {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%); /* older Safari */
 }
 
 .c-post img.small {
@@ -87,12 +104,35 @@
   margin-right: auto;
 }
 
+/* p with only image inside shouldn't have bottom-margin the same as when text
+ * is present */
+p:has(> :is(img,picture,svg):only-child) {
+  margin-bottom: calc(var(--base-spacing-unit));
+}
+
 .c-post p img {
   margin-bottom: 0;
 }
 
 img.c-post__image {
   margin-bottom: var(--base-spacing-unit);
+}
+
+/* Gallery for side-by-side images */
+.c-post gallery {
+  display: flex;
+  gap: 12px;
+  margin-bottom: calc(2 * var(--base-spacing-unit));
+}
+
+.c-post gallery img {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  object-fit: cover;
+  transform: none;
 }
 
 /* Post update box */
@@ -107,6 +147,30 @@ img.c-post__image {
 
 .c-post__update strong {
   color: var(--color-text);
+}
+
+/* Post subtitle - for secondary info under headings */
+.c-post__subtitle,
+.c-post .subheader,
+.c-post .subtitle {
+  display: block;
+  margin-top: -18px;
+  margin-bottom: calc(var(--base-spacing-unit) * 1.5);
+  font-size: 0.9em;
+  font-style: italic;
+  color: var(--color-dark-gray);
+}
+
+/* Post eyebrow/kicker - for text above headings */
+.c-post .eyebrow,
+.c-post .kicker {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-dark-gray);
 }
 
 /* Post content lists */
