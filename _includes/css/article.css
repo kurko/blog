@@ -74,6 +74,14 @@
   border-radius: 3px;
 }
 
+/* When we don't want the image to be full-bleed */
+.c-post.limit-img-width img {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  transform: none;
+}
+
 figure figcaption {
   font-size: 0.9em;
   color: var(--color-dark-gray);

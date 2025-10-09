@@ -14,7 +14,13 @@ layout: default
 ">
   <div class='o-grid'>
     <div class='o-grid__col o-grid__col--4-4-s'>
-      <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
+      <article
+        class="
+          c-post
+          {% if page.page_css_class %}{{ page.page_css_class }}{% endif %}
+        "
+        itemscope
+        itemtype='http://schema.org/BlogPosting'>
 
         <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
 
