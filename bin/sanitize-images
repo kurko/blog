@@ -2,7 +2,16 @@
 
 # Configuration Constants
 IMAGE_FORMATS = %w[jpeg jpg png tiff avif].freeze
-MAX_WIDTH = 2880
+
+# Width limits for different image types
+HERO_MAX_WIDTH = 2880        # Full-bleed hero/cover images
+DEFAULT_MAX_WIDTH = 2880 # 1600     # In-article images (single column)
+MOBILE_MAX_WIDTH = 1400      # Mobile-specific images
+
+# Keywords for categorizing images (case-insensitive matching)
+HERO_KEYWORDS = %w[cover hero large big wide].freeze
+MOBILE_KEYWORDS = %w[mobile].freeze
+
 BACKUP_DATE_FORMAT = '%Y-%m-%d'
 TARGET_DIRECTORIES = ['images/posts', 'images/pages'].freeze
 
@@ -15,12 +24,16 @@ class ImageSanitizer
     @dry_run = dry_run
     @resized_count = 0
     @skipped_count = 0
-    @resized_files = []
+    @resized_files = { hero: [], mobile: [], default: [] }
   end
 
   def run
     puts "Starting image sanitization#{' (DRY RUN)' if @dry_run}..."
-    puts "Looking for images wider than #{MAX_WIDTH}px in formats: #{IMAGE_FORMATS.join(', ')}"
+    puts "Width limits:"
+    puts "  - Hero/Cover images: #{HERO_MAX_WIDTH}px"
+    puts "  - Mobile images: #{MOBILE_MAX_WIDTH}px"
+    puts "  - Standard images: #{DEFAULT_MAX_WIDTH}px"
+    puts "Formats: #{IMAGE_FORMATS.join(', ')}"
     puts
 
     process_directories
@@ -28,6 +41,18 @@ class ImageSanitizer
   end
 
   private
+
+  def determine_target_width(filename)
+    basename = File.basename(filename, '.*').downcase
+
+    if MOBILE_KEYWORDS.any? { |keyword| basename.match?(/.*#{keyword}.*/) }
+      return { width: MOBILE_MAX_WIDTH, category: :mobile }
+    elsif HERO_KEYWORDS.any? { |keyword| basename.match?(/.*#{keyword}.*/) }
+      return { width: HERO_MAX_WIDTH, category: :hero }
+    else
+      return { width: DEFAULT_MAX_WIDTH, category: :default }
+    end
+  end
 
   def process_directories
     TARGET_DIRECTORIES.each do |dir|
@@ -46,9 +71,10 @@ class ImageSanitizer
 
   def process_image(image_path)
     image = MiniMagick::Image.open(image_path)
+    target = determine_target_width(image_path)
 
-    if needs_resize?(image)
-      resize_image(image_path, image)
+    if needs_resize?(image, target[:width])
+      resize_image(image_path, image, target)
     else
       @skipped_count += 1
     end
@@ -57,19 +83,19 @@ class ImageSanitizer
     @skipped_count += 1
   end
 
-  def needs_resize?(image)
-    image.width > MAX_WIDTH
+  def needs_resize?(image, target_width)
+    image.width > target_width
   end
 
-  def resize_image(image_path, image)
+  def resize_image(image_path, image, target)
     unless @dry_run
       create_backup(image_path)
-      image.resize("#{MAX_WIDTH}x")
+      image.resize("#{target[:width]}x")
       image.write(image_path)
     end
 
     @resized_count += 1
-    @resized_files << image_path
+    @resized_files[target[:category]] << image_path
     print '.'
   end
 
@@ -107,7 +133,21 @@ class ImageSanitizer
 
     if @resized_count > 0
       puts "\nResized #{@resized_count} image(s):"
-      @resized_files.each { |path| puts "  - #{path}" }
+
+      if @resized_files[:hero].any?
+        puts "\n  Hero/Cover images (#{HERO_MAX_WIDTH}px): #{@resized_files[:hero].count} files"
+        @resized_files[:hero].each { |path| puts "    - #{path}" }
+      end
+
+      if @resized_files[:mobile].any?
+        puts "\n  Mobile images (#{MOBILE_MAX_WIDTH}px): #{@resized_files[:mobile].count} files"
+        @resized_files[:mobile].each { |path| puts "    - #{path}" }
+      end
+
+      if @resized_files[:default].any?
+        puts "\n  Standard images (#{DEFAULT_MAX_WIDTH}px): #{@resized_files[:default].count} files"
+        @resized_files[:default].each { |path| puts "    - #{path}" }
+      end
     else
       puts "\nNo images needed resizing."
     end
