@@ -16,6 +16,7 @@
 
   /* Layout dimensions */
   --grid-width: 640px;
+  --grid-width-half: calc(var(--grid-width) / 2);
   --off-canvas-width: 300px;
 
   /* Breakpoints */

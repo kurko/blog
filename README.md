@@ -74,6 +74,7 @@ Social media links included in `_includes/footer.html` are using
 Consider 2px for retina:
 
 - Full-bleed hero: 2560–2880 px wide; 400-900kb, ideally <700Kb).
+    - For mobile: 800-1000px
 - In-article (single column ~700–800px): 1400–1600px wide, 12p-300Kb.
 - Card/grid items (half width): 1000–1200px wide. 80-200Kb.
 - Thumbnails: 400–600px wide, 30-80kb.
@@ -90,5 +91,5 @@ Use AVIF when possible, then WebP, then JPEG fallback.
 
 Note that tags are not working with GitHub Pages, that's because the used
 [jekyll-tagging ](https://github.com/pattex/jekyll-tagging) plugin is not
-[whitelisted](https://pages.github.com/versions/) by GitHub.  To make this work,
+[whitelisted](https://pages.github.com/versions/) by GitHub. To make this work,
 use [Netlify.com](https://www.netlify.com/) for deployment.

@@ -4,7 +4,7 @@ layout: post
 title: Planning a walk in Japan
 filename: essay/_posts/2025-08-16-planning-a-walk-in-japan
 rss: true
-date: 2025-08-16 06:00:00 -0200
+date: 2025-09-29 09:00:00 +0900
 excerpt: ""
 draft: true
 page_css_class: "limit-img-width"
@@ -18,8 +18,6 @@ My humble walk from guesthouse to guesthouse is meant to be distraction-free. No
 
 > "All truly great thoughts are conceived while walking." - Nietzsche
 
-- [ ] https://buenkumano.info nice image
-
 Concepts
 
 - the walk is the destination, the temples are just rewards
@@ -28,17 +26,17 @@ Concepts
 
 In my book, a good walk will be *boring*, *memorable*, and *pleasant*. Boredom benefits our brains by opening space for inward reflection and creativity. External impulses, on the other hand, steals our focus. In a world of infinite stimulation, boredom heals. Thoughts get shaken like a tree, and the bad apples fall to the ground.
 
-Nearing fourty, you bet it has to be goddamm memorable. Trails are everywhere, but they don't come with flights to the other side of the planet, trains sliding by at 200-miles-per-hour, and milenial history. "I walked for days in Japan" carries its own weight to anyone who hears it, regardless of their origins. It absolutely does for me.
+Nearing fourty, you bet it has to be goddamm memorable. Trails are everywhere, but they don't come with flights to the other side of the planet, trains sliding by at 200-miles-per-hour, and milenial history. "I walked for days in Japan" carries its own weight to anyone who hears it, regardless of their origins. It absolutely does for me. Plus, the Nachisan temple and waterfall are a spectacularly great finale.
 
 Making it pleasant means primary memories will be about reconnection, reflections, mindfulness. The adventure needs challenges to be fun and rewarding. However, a monumental struggle through mood, torrential rain or scorching sun would tip the scale in the opposite direction. I don't want to remember it being 75% good, the rest being burden and annoying problems. I mean, I don't expect it will be perfect, but I'll do what I can to keep it a great experience.
 
 Five-to-six days feels like the absolute sweet spot. A one-day walk doesn't carve out enough memories. It doesn't get boring enough. A 10-day walk, on the other hand, advances the boredom and pain. Two days, three, none look like it'd leave a deep enough mark. Five days, though, that's the perfect shape for this walk's objectives.
 
-<img src="../images/posts/planning-a-walk-in-japan/kumano-map-handdrawn.jpg" alt="" class="crop-vertical-1">
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/kumano-map-handdrawn.jpg" alt="" class="crop-vertical-1">
 
 ## The shape of the walk
 
-To be in the present, no modern distractions are allowed. No mobile phone, no social media, no podcasts or music transporting us elsewhere. Taking pictures is a must (memorable, remember?), but even that could be distracting, so I'll be intentional and keep the shutter movements limited to certain windows of time.
+To be in the present, no modern distractions are allowed. No mobile phone, no social media, no podcasts or music transporting us elsewhere. Taking pictures is a must (memorable, remember?), but even that could be distracting, so I'll be intentional and keep the shutter movements limited to certain time windows.
 
 One rule is that no more than 15 miles (~20 km) will be walked per day. I need to keep in mind that I'm an amateur that will be carrying a 15-20 pounds backpack. Guesthouses will be waiting before dawn everyday. I won't feel bad if I have to take a bus to respect my limits. 
 
@@ -55,17 +53,19 @@ The decision to walk the Kumano Kodo was made a long ago, but the indecision lin
 
 The ones that stand out are the *Iseji*, a 130 mile (~170km) journey from the city of Ise, threading through mountains and beaches, through fishermen villages by the Pacific coast; the *Nakahechi*, a more traditional hike starting from Tanabe through gorgeous forests and mountains passes; the *Kohechi*, a tougher version of the *Nakahechi*, starting or ending *Koyasan* to the north; or the *Nakasendo*, a 350 miles (~500 km) traditional road people used to travel between Tokyo and Kyoto (not Kumano Kodo, though).
 
-I spent *a lot* of time reading about these trails, you have no idea. The Nakasendo looks absolutely gorgeous, it still preserves the architecture and style from the Sengoku period, when Samurais would traverse those roads towards the capital, but my heart is inclined to Iseji and Nakahechi. The Kohechi looks ok, but I sense it'll be too painful for an amateur like me.
+I spent *a lot* of time reading about these trails, you have no idea. The Nakasendo looks absolutely gorgeous, it still preserves the architecture and style from the Sengoku period, when Samurai's would traverse those roads towards the capital, but my heart is inclined to Iseji and Nakahechi. The Kohechi looks ok, but I sense it'll be too painful for an amateur like me.
 
 *Iseji* is longer and its beaches add variety to the walk. Walkers mention an awe, as you walk down from the mountains towards the ocean. *Nakahechi* is a traditional hiking trail, with more severe elevation gains, deep into the forest. It is beautiful, don't get me wrong, but it's not *as beautiful*, although its utmost historic importance.
 
+The more I research, the more crystalline is the fact that the walk is the destination. The temples a gorgeous, but they aren't as special as the process. The true reward is living in the moment, slowing down, entertaining primitive thoughts as the lush forest opens up with every step.
+
 ### Planning takes a hit
 
-Personal and business matters force me to spend a month in the United States immediately before the walk. Now, I'm planning another juggernaut of a trip, which slows down the Japanese one to a halt. There are simply too many logistic details to figure out.
+Personal and business matters force me to spend a month in the United States immediately before the walk. I'm suddenly forced to pause the Kumano Kodo's research and plan another juggernaut of a trip. There are simply too many logistic details to figure out.
 
 Where can I exercise? Where can I practice stair climbing? For each Airbnb option, are there grocery stores at walking distance? Should I purchase hiking gear in the US, and if yes, where?
 
-Spoiler alert: the trip will get way more complex with US in the equation.
+Spoiler alert: the trip gets considerably more challenging with US in the equation.
 
 ### A new partner
 
@@ -80,95 +80,110 @@ The scale tips towards Iseji. My wife has a preference for the coastal walk. The
 
 So, *Iseji* or *Nakahechi*? I've spent way more time than I'd like to admit choosing between the two trails. So-much-research. One such aspect is bears. My YouTube feed algorithm suggests now only topics like, "How you'd not survive a bear attack", and "The ten worst bear attacks in history". I regret having searched about that at any point.
 
-A whole article could be written about the Japanese black bears. They are more pervasive in the north of Japan, roaming villages, foraging trash, but nonetheless present along the Kumano Kodo. Encounters are extremely rare, but my instinct of leaving no stone unturned means I've spent the last few weeks reading about the topic, triangulating sightings from local prefecture maps to calculate odds of being the lucky one to hug a bear. By my calculations, it's 4 times more likely to be bitten by a dog than encounter a bear. Unfortunately, I've already been bitten by a dog...
+A whole article could be written about the Japanese black bears. They are more pervasive in the north of Japan, roaming villages, foraging trash, but nonetheless present along the Kumano Kodo. Encounters are extremely rare, but my instinct compels me to spend weeks reading about the topic, triangulating sightings from local prefecture maps to calculate odds of being the lucky one to hug a bear (or be hugged by one). By my estimations, it's 4 times more likely to be bitten by a dog than encounter a bear. The bad news is that I've already been bitten by one.
 
-Out of a sudden, a magnitude 8.8 earthquake off Russia's Kamchatka Peninsula triggers [tsunami warnings across Japan and the US](https://archive.is/8KcTE), and the decision about Iseji sort of self-resolves. It's a road on the coast!
+Then, something unexpected happens. A magnitude 8.8 earthquake off Russia's Kamchatka Peninsula triggers [tsunami warnings across Japan and the US](https://archive.is/8KcTE), and the decision about Iseji sort of self-resolves. It's a road on the coast!
 
 I mean, tsunamis are rare and even if they occur, sirens would howl hours before any catastrophy. We'd just walk to high ground. However, would I want to walk while my brain is in constant alert about a potential wave washing us off? I don't think so, despite how gorgeous *Iseji* is. More or less at the same time, I learned that bear sightings are way more common along the *Iseji* road too (probably because it's a longer road, I suspect), in relation to the *Nakahechi*.
 
-In any case, it feels way, way less stressful to go with the *Nakahechi* and leave the *Iseji* for another time.
+In any case, it feels way, way less stressful to walk the *Nakahechi* and leave the *Iseji* for another time.
 
-## Nakahechi
+## The Nakahechi trail
 
-I ponder about different trails, how they connect, how to limit a day's total distance walked, where to grab food, potential guesthouses, and more or less settle on starting in Takigiri. The truth is that I spent a long time considering a simple route, like starting in Takahara, but what fun would that be?
+The objective is reaching three checkpoints: Hongu Taisha, a humongously tall torii gate; Shingu taisha temple; and finalizing in Nachisan, a majestic red temple built in the 7th century, with Japan's tallest waterfall as background.
 
-The overall goal is reaching the three religious places, Hongu Taisha, Shingu temple, and Nachi-san. The itinerary in my mind looks a bit like this:
+To hit those goals, I've spent more time researching trails than I'd like to admit. In which order should we arrive at those temples? How do these trails connect? How to limit a day's total distance walked and still make to destinations? Where to grab food? What are the potential guesthouses? And then checking a guesthouse's availability you discover it's alreayd fully booked, forcing you to get back to square one.
 
-- **Day 1:** take a bus to Takijiri, and from there walk to Takahara (~3.7 km, 1.5–2.5 h; difficulty 2.5 / 5), then to Gyuba-dōji-guchi (~8 km, ~3 h; difficulty 3 / 5), and arrive in Chikatsuyu for the day (~1.3 km, 30 min; score 1).
-- **Day 2, arriving in Hongu:** take the bus to Hosshinmon-oji, and walk to Hongu (~7.5 km, 2–3 h). Why take a bus?, you might ask. Well, the views as you walk down the Hosshinmon-oji are way more beautiful, and the distance is more or less the same. There's a nice spot to take pictures of the Hongu Taisha as you descend the mountains.
-- **Day 3:** rest day. Uncertain where to go, but Yunomine is the best candidate. It's the oldest onsen in the world. People travel the world to bath in these waters, and it's only 3-4km from Hongu.
-- **Day 4, arriving in Shingu:** here, we hike the Kogumotori-goe, the longest and hardest day, arriving in Koguchi. (a note from the future: I learned later that Koguchi doesn't have logding anymore, so the plan is to get there before 5pm, which is the last bus to Shingu. Somewhat... dangerous?)
-- **Day 5, Nachisan:** we take a bus from Shingu and climb the famous Daimon-zaka stone stairs to Nachi Taisha and falls. Later, we take a train out back to civilization.
+Overall, we know where we want to start and end. Takijiri-oji to Nachisan. We could start in Takahara which is close, but we'd miss the traditional stone stairs. Nachisan is the great finale we are looking for, with one of the most beautiful temples I've seen, with the highest waterfall in Japan as background.
+
+After much deliberation, the overall itinerary in my mind looks a bit like this:
+
+**Day 1:** take a bus to Takijiri-oji, and from there walk to Takahara (~3.7 km, 1.5–2.5 h; difficulty 2.5 / 5), then to Gyuba-dōji-guchi (~8 km, ~3 h; difficulty 3 / 5), and arrive in Chikatsuyu to sleep (~1.3 km, 30 min; score 1).
+
+**Day 2, arriving in Hongu:** we start the day in a bus to Hosshinmon-oji, and walk to Hongu (~7.5 km, 2–3 h), where we will see the tall gate (Taisha).
+
+*"Why take a bus?"*, I can hear you asking. Well, the views as you walk down the Hosshinmon-oji are way more beautiful, and the distance is more or less the same. There's also a nice spot to take pictures of the Hongu Taisha as you descend the mountains.
+
+**Day 3, rest day:** I'm uncertain where to go, but Yunomine is the best candidate. It's the oldest onsen in the world. People travel the world to bath in these waters, and it's only 3-4km from Hongu.
+
+**Day 4, hardest walk to Shingu:** we walk the Kogumotori-goe, the longest and hardest day, arriving in Koguchi. Difficulty score 4 out of 5.
+
+*(A note from the future: I learned later that Koguchi doesn't have logding anymore, so the plan is to get there before 5pm, which is the last bus to Shingu. Somewhat... dangerous?)*
+
+**Day 5, Nachisan finale:** we take a bus from Shingu early morning and climb the famous Daimon-zaka stone stairs to Nachi Taisha and falls. We take a train out back to civilization.
 
 ## T-44 days to hike
 
-It feels like an eternity, the wait until we put our foot on the trail. Despite the ample time, some of these villages have a handful of places to sleep, and they book fast.
+It feels like an eternity, the wait until we put our foot on the trail. Despite the ample time, some of these villages have only a handful of places to sleep, and they book fast.
 
-<img src="../images/posts/planning-a-walk-in-japan/chatgpt-google-maps-ios.png" class="small" />
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/chatgpt-google-maps-ios.png" class="small" />
 
 Koguchi seem to have one available place to stay (although if you walk into further trails, there are more options, but after a long day, that's not going to be great). You'll see that two days later, I learn that Koguchi doesn't have any lodging available anymore.
 
-<img src="../images/posts/planning-a-walk-in-japan/t-44-koguchi.png" alt="" class="crop-vertical-1-5 small">
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/t-44-koguchi.png" alt="" class="crop-vertical-1-5 small">
 
 <span class="dinkus">***</span>
 
-I'm far from the ideal physical conditioning. I live in a very flat area, so you basically have long walks to gyms for training.
+Physical conditioning is another issue. I'm far from the ideal shape. Where I live, surfaces are flat everywhere. The only option is gym training and long walks.
 
-When walking, it takes about 20 minutes for my thoughts to start getting gradually more constrained until they almost disappear, like a meditation session. I'm more focused on whatever is important, whereas in the beginning, my thoughts are all over the place.
+During walking practice, I realize my back isn't in great shape. I suspect it's due to posture. ChatGPT tells me its suspicion is weak minor stabilizing muscles. I consciously hold my core stiff as I walk and the pain subsides. One pain points relieves, yet another starts: my left heel is starting to ache, like a tiny knife is pushing up. The back pain returns, now closer to my hips.
 
-During practice, I also realize that my back isn't in great shape. I believe it's due to posture, so I consciously hold my core stiff and the pain decreases. One pain relif, another starts: my left heel is starting to ache, like a tiny knife is pushing up. The back pain returns, now closer to my hips.
+*(Comment by a traveler from the future: these specific pain points remained a challenge until the very end of the walk.)*
 
-<img src="../images/posts/planning-a-walk-in-japan/t-44-training-shadow.jpeg" alt="" class="">
+After 20 minutes, my thoughts get gradually more constrained until they almost disappear. It's like a kind of meditation session. I'm more focused on whatever is important. My thoughts aren't all over the place anymore.
+
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/t-44-training-shadow.jpeg" alt="" class="">
 
 After 9 km, my back pain score is 5 out of 10. It's not terrible, but just enough for me to remember every second that my back exists. I also didn't have lunch and now it's 3:14 PM so I had to have a banana. Coincidentally or not I feel like this was the most delicious banana I ever had.
 
 I finish the training after 10 km. Two hours, an annoying back pain, and a knife in my shoe.
 
-<img src="../images/posts/planning-a-walk-in-japan/t-44-training-end.jpeg" alt="" class="">
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/t-44-training-end.jpeg" alt="" class="">
 
-<img src="../images/posts/planning-a-walk-in-japan/t-44-training-watch.jpeg" alt="" class="small">
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/t-44-training-watch.jpeg" alt="" class="small">
 
 
-**Logding:** I get a scary message by Craig Mod. I completely underestimated the scarcity of places to stay along the Nakahechi.
+### Logding
 
-<img src="../images/posts/planning-a-walk-in-japan/t-44-cmod-on-late-logding-booking.png" alt="" class="small">
+I get a scary message by Craig Mod. I completely underestimated the scarcity of places to stay along the Nakahechi.
 
-The Japanese reservation system is terrible. Using a Japanese website feels like time travelling to the 1991. The [Tanabe prefecture website](https://www.tb-kumano.jp/en/2024/03/13/12612/), which intermediates reservations with the various village inns, doesn't work before 9am Japan time.
+> *Alex, if you haven't booked lodging yet, I suspect you may just have to do with whatever's available. For Nakahechi, a lot of folks book 6-months out at least. Please report back how finding lodging goes.*
+
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/t-44-cmod-on-late-logding-booking.png" alt="" class="small">
+
+Using the Japanese reservation website feels like time travelling to the 1991. The system is terrible. The [Tanabe prefecture website](https://www.tb-kumano.jp/en/2024/03/13/12612/), which intermediates reservations with the various village inns, **does not work before 9am Japan time**.
 
 > The KUMANO TRAVEL Community Reservation Site is only open to receive new requests during set operational times: Daily 9:00 to 17:00 (Japan Standard Time).
 
-Yeah, they took the physical world and replicated online. Well, I'm thankful that at least I wasn't required to send them a fax.
+Yeah, they took the physical world and replicated online. Well, I'm thankful that at least I wasn't required to fax them!
 
-For the next 2 days, I aggressively research and book guesthouses / lodging. What a relief. I learned everyone's reservations start six months earlier, so I was pretty lucky to have found some options. None are great, though.
+For the next 2 days, I aggressively research and book guesthouses / lodging. What a relief. I feel pretty lucky to have found options: a series of simple 
 
-# Day zero
+**Day zero at Michelin guide guesthouse:** a proud discovery we made was this [Airbnb in the mountains near Takijiri by an italian chef](https://www.balsamicojam-nankiwakayama.com/kumano-winery-guest-house). *Dal* creates has own goats to make his own cheese, and sources his vegetables from his own garden. It feels like the perfect to sleep before the walk.
 
-One proud 
-mas um lugar eu to orgulhoso de ter conseguido pegar: no dia zero pré-caminhada, vamos ficar num casébrio dum chef que é indicado Michelin (sem estrela), com fazenda própria. depois das infindáveis 8-9h de trem, só tem como chegar lá (e ir embora) de taxi.
+Getting there, however, is a huge challenge, and the whole operation feels like we compressed a thousand tasks into a few hours. Once landing in Tokyo after a sleepless 12h flight, we have 24 hours to travel roughly [todo - numbers] 430 miles (690 km), buy hiking gear, organize our bags, store our luggage somewhere, and figure out how to navigate the transporation system.
 
-ele produz tudo pro jantar e café da manhã. até as cabras pra produzir o próprio queijo
+***
 
-https://www.balsamicojam-nankiwakayama.com/kumano-winery-guest-house
+**T-40 days to walk:** a message from the Kawayu's guesthouse (Day 3) arrives detailing what they serve and don't. On that Wedsnesday we stay there, dinners won't be served. It's also a village without grocery stores or restaurants.
 
-**T-40 days:** I get a detailed message from the Kawayu's guesthouse with everything they serve or don't. Unlucky me, dinners aren't served on Wednesdays.
-
-<img src="../images/posts/planning-a-walk-in-japan/t-40-no-dinner.png" alt="" class="small">
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/t-40-no-dinner.png" alt="" class="small">
 
 ## Elevation Reckoning
 <span class="subtitle">
-Realizing my walk had +1,000m / 3,600 ft of climb. 41 days to go, and I completely underestimated this walk.
+The day I realized a trail has +1,000m / 3,600 ft of climb. I completely underestimated the walk. Just 41 to prepare.
 </span>
 
-I sip a cup of tea on a Wednesday, 9pm. Watching random thoughts run free in my mind, some walk-related, some are work-related, I recall how untrustworthy *Google Maps* is for plotting trails, and wonder how *Apple Maps* is doing on that front. A recent announcement promised hiking trails with higher precision.
+I sip a cup of tea on a Wednesday at home, 9pm. Watching random thoughts run free in my mind, some walk-related, some are work-related, I recall how untrustworthy *Google Maps* is for plotting trails, and wonder how *Apple Maps* is doing on that front. A recent announcement promised hiking trails with higher precision, so I check it out.
 
 <figure>
-<img src="../images/posts/planning-a-walk-in-japan/t-37-0-shock-maps.jpeg" />
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/t-37-0-shock-maps.jpeg" />
 <figcaption>Apple Maps displays 3,608ft elevation</figcaption>
 </figure>
 
 "What?", I gasp. "A kilometer?", I incredulously stare at my screen for a few seconds while my head spins around. "That can't be right, *riiiight*!? This is Apple's new software, maybe it's a bug.
 
-I suddenly feel dumb for not checking that kind of very-critical-detail before. I mean, I'm flying to the opposite side the planet, watched dozens of videos, checked routes, bus lines and schedules over and over, but no, I skipped one of the most important parts.
+I suddenly feel the dumbest person for not being aware of that kind of *very-critical-detail*. I mean, I'm flying to the other side the planet, watched dozens of videos, checked routes, bus lines and schedules over and over, how one of the most important aspects went unnoticed?
 
 I'm already at arms-length into this hike, lodging is booked, I can't give up. I won't give up. So I turn to Claude to get more details.
 
@@ -222,7 +237,7 @@ That obsession kicked in this week in full force. Once the reality of my miscalc
 
 My hatred for exercising vanished the next morning. There was no procrastination, and the concept of pain felt secondary. I suspect that's a tiny bit how people like [David Goggins](https://en.wikipedia.org/wiki/David_Goggins) feel when running endless marathons. While I'd have given up sooner when lifting weights, that day I kept pushing to the final count while the Hongu Taisha Otorii flashes blinked in my mind. The exercising process had ceased from being an end in and of itself, and became a conduit, a means to a greater end. I had never felt that towards gym.
 
-<img src="../images/posts/planning-a-walk-in-japan/t-37-gym-leg-day.jpg" alt="Gym leg day" />
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/t-37-gym-leg-day.jpg" alt="Gym leg day" />
 
 Whenever thinking about the exercising I'd need to do, that thought was overlaid with the trail image I had to walk, all its tree roots and the rocky steps.
 
@@ -233,22 +248,24 @@ On August 22, I head to the ground floor after a workday, carrying my 1L sling b
 My lower glutes punch me at every step. After every loop, I head down via elevator to preserve my knees (my focus is gaining muscle, not damaging my joints). After the 47th floor, small 20-30s pauses for breathing are necessary. The fight is ending, and after 37min, I complete 89 floors.
 
 <gallery>
-<img src="../images/posts/planning-a-walk-in-japan/t-37-first-stair-session.jpeg" class="crop-vertical-2-3 crop-top" />
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/t-37-first-stair-session.jpeg" class="crop-vertical-2-3 crop-top" />
 
-<img src="../images/posts/planning-a-walk-in-japan/t-37-first-stair-session-ios.png" class="crop-vertical-2-3" />
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/t-37-first-stair-session-ios.png" class="crop-vertical-2-3" />
 </gallery>
 
 Eighty-nine-floors. It might look like nothing to you, or a lot, but I had not clue what to expect. I'm both jubilant that my first session finished above the *No-Go* threshold, and worried that it's below the *Minimum*. All in all, this is August 22, not September 22, so I'll keep my judgment in suspension for another month, but it looks much more doable and less scary now.
 
 I laydown ice bags with trembling legs for my precious glutes.
 
-<img src="../images/posts/planning-a-walk-in-japan/t-37-gym-ice.jpeg" alt="Ice for the glutes" />
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/t-37-gym-ice.jpeg" alt="Ice for the glutes" />
 
-TODO - We travel to the United States for the wedding.
+# Travel starts 
 
-<img src="../images/posts/planning-a-walk-in-japan/t-29-minneapolis.jpg" alt="Traveling to the US" />
+We travel to the United States for a wedding over the weekend in Minneapolis. The general plan is spending a week in San Francisco and two in San Jose. Training will resume anywhere possible.
 
-# A lost week
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/t-29-minneapolis.jpg" alt="Traveling to the US" />
+
+## A lost week
 <span class="subtitle">I get sick and stay stuck in a hotel room. 25 days to walk.</span>
 
 - San Francisco
@@ -256,18 +273,24 @@ TODO - We travel to the United States for the wedding.
 - I am not productive for the whole week
 
 <!-- TODO: should this image show up? -->
-<!-- img src="../images/posts/planning-a-walk-in-japan/t-25-sickness.jpeg" alt="Drugs, tissues and a trash bucket" -->
+<!-- img src="../images/posts/2025-10-02-planning-a-walk-in-japan/t-25-sickness.jpeg" alt="Drugs, tissues and a trash bucket" -->
 
 Our next destination is San Jose, California, where we will stay for two weeks. The Airbnb is located in a nice and convenient area in Santana Row.
 
-# Back to square one
+## San Jose: back to square one
 <span class="subtitle">21 days to walk.</span>
 
-The bus speeds through San Jose, showcasing a repetition of blocks that look all alike, like a music in a loop. The endless suburb is tidy and organized, no trash on the streets, lush grass
+The bus speeds through San Jose, I see a repetition of blocks and houses that all look the same, like if we were walking in circles. The endless suburb is tidy and organized, no trash on the streets, lush grass, and cars. Lots of cars.
 
-Back hurts
+Cities in America aren't made for walking. You either hit some area lacking a sidewalk, or you find yourself suddenly walking on a highway, and your ears work non-stop for the tires on the tarmac. Training just isn't fun.
 
-# The last mile
+I Back hurts [todo]
+
+[todo]
+
+<img src="../images/posts/2025-10-02-planning-a-walk-in-japan/san-jose/L1000263.jpeg" alt="">
+
+## The last mile
 <span class="subtitle">We land in Colorado for the last week before the walk. Over the weekend we take a short walk through the Garden of the Gods.</span>
 
 I'm optimistic we'll have a good time next week. My back still hurts after long walks with a backpack, but it's manageable. My legs are doing their job well so far, to the extent I have tested them. However, most of the training has been on flat surfaces or in the gym, so it's time to go out there and start hiking more complex surfaces.
@@ -294,5 +317,11 @@ My left foot starts hurting after about 70 minutes. I become more intentional ab
 
 The hike continues for another hour, no more pain, my glutes are fine, my legs are marching along and I'm just used to the walk. I get into a tunnel vision and just enjoy nature.
 
-The walk comes to an end. I'm back at the hotel. Maybe tomorrow I'll do it all over again. Should I?
+The walk comes to an end. I'm back at the hotel. Maybe tomorrow I'll do it all over again. Or should I?
 
+# Tokyo, Kyoto, Tanabe
+
+
+We land in Tokyo after a sleepless 12h flight and travel straight 3-4 hours to Kyoto, where we will sleep. We arrive 8pm and go shopping for hiking gear around the station until 9pm, along with our heavy luggages. We move hiking gear to our backpacks and get to bed. Next morning, we ship our need to
+
+[todo] 

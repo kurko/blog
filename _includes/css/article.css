@@ -62,6 +62,57 @@
   color: var(--color-gray);
 }
 
+.c-post__header_for_cover_image {
+  width: 100%;
+  height: auto;
+  background-color: #111;
+  text-align: left;
+}
+
+  :root {
+    --cover-image-width: 2540px;
+    --cover-image-ratio: 52%;
+  }
+
+  .c-post__header_for_cover_image div.c-post__cover_image {
+    margin: 0 auto;
+    max-width: var(--cover-image-width);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+
+  .c-post__header-content-grid {
+    width: 100%;
+    max-width: calc(var(--grid-width));
+    position: relative;
+    text-align: left;
+    padding-bottom: var(--cover-image-ratio);
+    margin: 0 auto;
+  }
+
+  .c-post__header-text {
+    position: absolute;
+    display: table;
+    bottom: 20px;
+    width: 100%;
+    max-width: calc(var(--grid-width) - var(--grid-gutter) * 2);
+    text-align: left;
+    padding-left: var(--grid-gutter);
+    padding-right: var(--grid-gutter);
+  }
+
+  .c-post__header_for_cover_image h1 {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  .c-post__header_for_cover_image time {
+    color: #eee;
+    text-align: left;
+  }
+
 /* IMAGES */
 /* Post image */
 .c-post img {
@@ -262,6 +313,7 @@ img.c-post__image {
 }
 
 .c-post .dinkus,
+.c-post .asterisk,
 .c-post .asterisks,
 .c-post .asterism {
   display: block;

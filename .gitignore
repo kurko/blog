@@ -7,3 +7,4 @@ _drafts
 node_modules
 yarn-error.log
 tmp/*
+*.dng

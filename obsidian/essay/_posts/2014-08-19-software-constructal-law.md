@@ -1,12 +1,12 @@
 ---
 share: true
 layout: post
-title: "Constructal Law And Software"
+title: "Physics of Software"
 date: 2014-08-19 15:02:54 -0200
 tags: [software]
 draft: false
 # front_page_image: '/images/posts/black-boxes/cover.png'
-excerpt: "A look at physics for inspiration on how to control complexity in software systems."
+excerpt: "A look at physics and the Constructal Law as inspiration on how to control complexity in software systems."
 
 ---
 

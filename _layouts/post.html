@@ -8,6 +8,10 @@ layout: default
   <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
 {% endif %}
 
+{% if page.cover_image %}
+  {% include post-header.html %}
+{% endif %}
+
 <div class="
   o-wrapper
   {% unless page.title_is_image %}spaced{% endunless %}
@@ -22,9 +26,15 @@ layout: default
         itemscope
         itemtype='http://schema.org/BlogPosting'>
 
-        <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
 
-        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%b %Y' }}</time>
+        {% unless page.cover_image %}
+          <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
+
+          <time
+            class='c-post__date'
+            datetime='{{ page.date | date_to_xmlschema }}'
+            itemprop='datePublished'>{{ page.date | date: '%b %Y' }}</time>
+        {% endunless %}
 
         <div class='c-content' itemprop='articleBody'>
           {% include page-image.html %}
