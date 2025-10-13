@@ -1,0 +1,131 @@
+#!/usr/bin/env ruby
+
+# Configuration Constants
+IMAGE_FORMATS = %w[jpeg jpg png tiff avif].freeze
+MAX_WIDTH = 2880
+BACKUP_DATE_FORMAT = '%Y-%m-%d'
+TARGET_DIRECTORIES = ['images/posts', 'images/pages'].freeze
+
+require 'fileutils'
+require 'mini_magick'
+require 'date'
+
+class ImageSanitizer
+  def initialize(dry_run: false)
+    @dry_run = dry_run
+    @resized_count = 0
+    @skipped_count = 0
+    @resized_files = []
+  end
+
+  def run
+    puts "Starting image sanitization#{' (DRY RUN)' if @dry_run}..."
+    puts "Looking for images wider than #{MAX_WIDTH}px in formats: #{IMAGE_FORMATS.join(', ')}"
+    puts
+
+    process_directories
+    print_summary
+  end
+
+  private
+
+  def process_directories
+    TARGET_DIRECTORIES.each do |dir|
+      next unless Dir.exist?(dir)
+
+      find_images(dir).each do |image_path|
+        process_image(image_path)
+      end
+    end
+  end
+
+  def find_images(directory)
+    pattern = "#{directory}/**/*.{#{IMAGE_FORMATS.join(',')}}"
+    Dir.glob(pattern, File::FNM_CASEFOLD)
+  end
+
+  def process_image(image_path)
+    image = MiniMagick::Image.open(image_path)
+
+    if needs_resize?(image)
+      resize_image(image_path, image)
+    else
+      @skipped_count += 1
+    end
+  rescue MiniMagick::Error => e
+    puts "\nError processing #{image_path}: #{e.message}"
+    @skipped_count += 1
+  end
+
+  def needs_resize?(image)
+    image.width > MAX_WIDTH
+  end
+
+  def resize_image(image_path, image)
+    unless @dry_run
+      create_backup(image_path)
+      image.resize("#{MAX_WIDTH}x")
+      image.write(image_path)
+    end
+
+    @resized_count += 1
+    @resized_files << image_path
+    print '.'
+  end
+
+  def create_backup(image_path)
+    backup_dir = File.join('tmp', Date.today.strftime(BACKUP_DATE_FORMAT))
+    FileUtils.mkdir_p(backup_dir)
+
+    filename = File.basename(image_path)
+    backup_path = find_available_backup_path(backup_dir, filename)
+
+    FileUtils.cp(image_path, backup_path)
+    backup_path
+  end
+
+  def find_available_backup_path(backup_dir, filename)
+    base_name = File.basename(filename, '.*')
+    extension = File.extname(filename)
+    backup_path = File.join(backup_dir, filename)
+
+    return backup_path unless File.exist?(backup_path)
+
+    counter = 2
+    loop do
+      new_filename = "#{base_name}-#{counter}#{extension}"
+      backup_path = File.join(backup_dir, new_filename)
+      return backup_path unless File.exist?(backup_path)
+      counter += 1
+    end
+  end
+
+  def print_summary
+    puts "\n\n" + "=" * 60
+    puts "Summary"
+    puts "=" * 60
+
+    if @resized_count > 0
+      puts "\nResized #{@resized_count} image(s):"
+      @resized_files.each { |path| puts "  - #{path}" }
+    else
+      puts "\nNo images needed resizing."
+    end
+
+    puts "\nSkipped #{@skipped_count} image(s) (already within size limits or errors)"
+    puts "\nTotal processed: #{@resized_count + @skipped_count}"
+
+    if @dry_run
+      puts "\n*** DRY RUN - No changes were made ***"
+    elsif @resized_count > 0
+      backup_dir = File.join('tmp', Date.today.strftime(BACKUP_DATE_FORMAT))
+      puts "\nBackups saved to: #{backup_dir}/"
+    end
+
+    puts "=" * 60
+  end
+end
+
+# Script execution
+dry_run = ARGV.include?('--dry-run')
+ImageSanitizer.new(dry_run: dry_run).run
