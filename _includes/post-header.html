@@ -1,6 +1,14 @@
 <header class='c-post__header_for_cover_image'>
   <style>
     .c-post__cover_image {
+      {% if page.cover_image_align == "top" %}
+        background-position: top;
+      {% elsif page.cover_image_align == "bottom" %}
+        background-position: bottom;
+      {% else %}
+        background-position: center;
+      {% endif %}
+
       {% if page.cover_image_mobile %}
         @media (min-width: 481px) {
           background-image: url('{{ page.cover_image }}')

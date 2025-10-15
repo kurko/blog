@@ -319,9 +319,16 @@ The hike continues for another hour, no more pain, my glutes are fine, my legs a
 
 The walk comes to an end. I'm back at the hotel. Maybe tomorrow I'll do it all over again. Or should I?
 
-# Tokyo, Kyoto, Tanabe
-
+# Tokyo to Kyoto to Tanabe
 
 We land in Tokyo after a sleepless 12h flight and travel straight 3-4 hours to Kyoto, where we will sleep. We arrive 8pm and go shopping for hiking gear around the station until 9pm, along with our heavy luggages. We move hiking gear to our backpacks and get to bed. Next morning, we ship our need to
 
 [todo] 
+
+[TODO] 2025-09-28 Estamos bem, chegamos mortos ontem. 21h de viagem depois de ter dormido 4. 
+
+Acordamos 5:50 e estamos arrumando mochilas e tal. Vai chover então alguns planos precisam ser ajustados.
+
+7:30 agora, pausa pro café. Depois, finalizar malas para despachar para o hotel que chegaremos em 7 dias. Cada dia é crítico e se a gente não conseguir chegar no destino, gera uma reação em cadeia bizarra 🥲
+
+Hoje vamos pra Tanabe onde o chef aquele vai nos pegar de carro, e vamos dai pras montanhas. Caminhada começa amanhã.

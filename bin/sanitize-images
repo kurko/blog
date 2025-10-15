@@ -5,7 +5,7 @@ IMAGE_FORMATS = %w[jpeg jpg png tiff avif].freeze
 
 # Width limits for different image types
 HERO_MAX_WIDTH = 2880        # Full-bleed hero/cover images
-DEFAULT_MAX_WIDTH = 2880 # 1600     # In-article images (single column)
+DEFAULT_MAX_WIDTH = 2000     # In-article images (single column)
 MOBILE_MAX_WIDTH = 1400      # Mobile-specific images
 
 # Keywords for categorizing images (case-insensitive matching)

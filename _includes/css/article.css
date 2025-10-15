@@ -69,6 +69,13 @@
   text-align: left;
 }
 
+  @media (max-width: 600px) {
+    .c-post__header_for_cover_image {
+      --cover-image-width: 100vw;
+      --cover-image-ratio: 150%;
+    }
+  }
+
   :root {
     --cover-image-width: 2540px;
     --cover-image-ratio: 52%;
@@ -125,6 +132,13 @@
   border-radius: 3px;
 }
 
+/* Remove rounded corners on mobile when images reach screen edges */
+@media (max-width: 600px) {
+  .c-post img {
+    border-radius: 0;
+  }
+}
+
 /* When we don't want the image to be full-bleed */
 .c-post.limit-img-width img {
   width: 100%;
@@ -161,6 +175,60 @@ c-post img.grayscale {
   transform: none;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*
+ * Mobile zoom classes for landscape images that need to be cropped/zoomed on
+ * mobile
+ */
+@media (max-width: 600px) {
+  .c-post p:has(> :is(img[class^="mobile-zoom"])),
+  .c-post figure:has(> :is(img[class^="mobile-zoom"])) {
+    /*
+     * We are scaling the image size up, and that goes over the container (and
+     * text below). By setting a hidden overflow, we make it look like a cropped
+     * zoom.
+     */
+    overflow: hidden;
+    width: 100vw;
+    /*
+     * The container elements usually keep a grid gutter on the sides, so we
+     * need to negate that here to make the image full-bleed
+     */
+    margin-left: calc(-1 * var(--grid-gutter));
+
+    /*
+     * The bottom margin ends up being necessary to avoid the following content
+     * to jump up and get too close to the image zoomed in
+     */
+    padding-bottom: calc(3 * var(--grid-gutter));
+  }
+
+  .c-post img.mobile-zoom,
+  .c-post img.mobile-zoom-110,
+  .c-post img.mobile-zoom-120,
+  .c-post img.mobile-zoom-150 {
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .c-post img.mobile-zoom {
+    transform: translateX(-50%) scale(1.6);
+  }
+
+  .c-post img.mobile-zoom-110 { transform: translateX(-50%) scale(1.1); }
+  .c-post img.mobile-zoom-120 { transform: translateX(-50%) scale(1.2); }
+  .c-post img.mobile-zoom-150 { transform: translateX(-50%) scale(1.5); }
+  .c-post img.mobile-zoom-160 { transform: translateX(-50%) scale(1.6); }
+  .c-post img.mobile-zoom-170 { transform: translateX(-50%) scale(1.7); }
+  .c-post img.mobile-zoom-180 { transform: translateX(-50%) scale(1.8); }
+  .c-post img.mobile-zoom-190 { transform: translateX(-50%) scale(1.9); }
+  .c-post img.mobile-zoom-200 { transform: translateX(-50%) scale(2.0); }
+  .c-post img.mobile-zoom-210 { transform: translateX(-50%) scale(2.1); }
+  .c-post img.mobile-zoom-220 { transform: translateX(-50%) scale(2.2); }
+  .c-post img.mobile-zoom-230 { transform: translateX(-50%) scale(2.3); }
+  .c-post img.mobile-zoom-240 { transform: translateX(-50%) scale(2.4); }
+  .c-post img.mobile-zoom-250 { transform: translateX(-50%) scale(2.5); }
 }
 
 /* p with only image inside shouldn't have bottom-margin the same as when text
@@ -319,7 +387,7 @@ img.c-post__image {
   display: block;
   width: 100%;
   border: none;
-  margin-bottom: -6px;
+  margin-bottom: 10px;
   color: var(--color-gray);
   font-size: 28px;
   font-weight: 200;
