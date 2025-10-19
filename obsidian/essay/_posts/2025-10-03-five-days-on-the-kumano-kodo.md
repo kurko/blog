@@ -337,7 +337,6 @@ We sleep tonight in an Airbnb in *Hongu*.
 <figcaption></figcaption>
 </figure>
 
-
 ## Rest day in Yunomine
 
 Today we'll head over to *Yunomine*, a small hot springs village. Tsuboyu is renowed as Japan's oldest onsen and a UNESCO World Heritage site. If things go according to plan, we'll chill, soak in hot water, and sit on a bench until our butts go numb. We'll watch birds flying, kids playing and trees dancing.
@@ -373,7 +372,13 @@ And sat down at a bustop bench.
 
 A wooden bench.
 
-<img src="day-3/bus-stop.png" />
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/L1010339.jpeg" />
+
+<audio controls controlsList="nodownload" preload="metadata">
+  <source src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/yunomunechaya.mp3" type='audio/mpeg'>
+  <source src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/yunomunechaya.m4a" type="audio/mp4">
+  Your browser does not support the audio element.
+</audio>
 
 To appreciate the scene, we play a little game: name 5 things we see. Four things we hear. Three things we feel. Two things we smell. One taste.
 
