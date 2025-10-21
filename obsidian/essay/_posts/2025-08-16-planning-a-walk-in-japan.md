@@ -284,7 +284,7 @@ The bus speeds through San Jose, I see a repetition of blocks and houses that al
 
 Cities in America aren't made for walking. You either hit some area lacking a sidewalk, or you find yourself suddenly walking on a highway, and your ears work non-stop for the tires on the tarmac. Training just isn't fun.
 
-I Back hurts [todo]
+I Back hurts [todo] *"What you’re describing (tired, achy mid-back muscles next to the spine, not sharp or 'injury pain') sounds like muscular fatigue from postural stabilizers — the muscles that keep your torso upright"*
 
 [todo]
 

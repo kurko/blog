@@ -15,9 +15,9 @@ cover_image_mobile: "/images/posts/2025-10-03-five-days-on-the-kumano-kodo/cover
 #cover_image_mobile_zoom: "160%"
 ---
 
-For thousands of years, the Kumano Kodo trails in Japan have guided pilgrims toward sacred temples and connected walkers in search of meaning, or just adventure. While walking those paths for five days in search of the latter, I may have stumbled upon a little of the former.
+For thousands of years, the *Kumano Kodo* (熊野古道) trails in Japan have guided pilgrims toward sacred temples and connected walkers in search of meaning, or just adventure. While walking those paths for five days in search of the latter, I may have stumbled upon a little of the former.
 
-The idea of a total reset had been circling my mind for some time. A need to disconnect from routine, to tune out of the noise, and reconnect with myself and my creative thoughts. The Kumano Kodo seemed like the perfect backdrop for that experiment. Now, after tracing its ancient routes, I feel renewed.
+The idea of a total reset had been circling my mind for some time. A need to disconnect from routine, to tune out of the noise, and reconnect with myself and my creative thoughts. The *Kumano Kodo* seemed like the perfect backdrop for that experiment. Now, after tracing its ancient routes, I feel renewed.
 
 The absense of Switzerland's turquoise lakes or the dramatic Alps of France meant that the landscape wouldn't steal the spotlight, it would walk beside me instead, a quiet companion. Yet, by the final day, all I wanted was to start again. I had underestimated the beauty hidden in those soft, green mountains.
 
@@ -25,25 +25,27 @@ From the start, I knew this would have to be a distraction-free walk. Even when 
 
 ## Day 1: Takijiri-oji to Chikatsuyu
 
-It's 9am, September 29. My wife and I are in *Takijiri-oji* (滝尻王子), where our walk begins, after our <a href="https://www.balsamicojam-nankiwakayama.com/kumano-winery-guest-house" target="winery-airbnb">Airbnb host</a> gave us a ride in a mini-van. The small hamlet looks neat but unsurprising, like the several others we saw on the road. The mountains and the forests, though, are imponent and seemingly impenetrable.
+It's 9am, September 29. My wife and I are in *Takijiri-oji* (滝尻王子), where our walk begins, after our <a href="https://www.balsamicojam-nankiwakayama.com/kumano-winery-guest-house" target="winery-airbnb">Airbnb host</a> gave us a ride in a mini-van. The small hamlet looks neat but unsurprising, like the several others we saw on the road. The mountains and the forests, though, are imponent and seemingly impenetrable. We are heading to *Chikatsuyu* (近露) today.
 
 <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001110.JPG" class="mobile-zoom" />
 
 <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001112.JPG" class="mobile-zoom" />
 
-"Is one of *these* the one we'll climb?", is one question that pops in my mind. At first glance, they look quite steep. The night before, a guest who walked from *Tajikiri-oji* to *Takahara* invested time in an attempt to persuade us to skip it. I sipped wine and shrugged, "where would the fun be in that? I travelled around the planet for this".
+"Is one of *these* the one we'll climb?", is one question that pops in my mind. At first glance, they look quite steep. The night before, a guest who walked from *Tajikiri-oji* to *Takahara* (高原) invested time in an attempt to persuade us to skip it. I sipped wine and shrugged, "where would the fun be in that? I travelled around the planet for this".
 
 Around the planet, indeed. Residing in Brazil, we planned a stopover in the US to dillute the hardship. The journey from Denver until arrival in Tanabe the night before was pure chaos, a tight schedule with endless potential points of failure. More on that later, however, because my eyes must now focus on these mountains.
 
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001143.JPG" />
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001143.jpg" />
 
 <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001176.JPG" />
 
-The walk starts off like climbing a literal staircase, except the steps are twice the height of a regular one. At first glance, it looks quite a beautiful scenery, "lots of photography opportunities", you think. You don't commonly see rocky stairs intertwined with tree roots like these anywhere.
+The walk starts off climbing a staircase with steps twice the regular height. At first, I'm enchanted by the beauty and historical significance. "Lots of photography opportunities", I think. You don't commonly see rocky stairs intertwined with tree roots like these anywhere.
 
-But then the real work starts. After a hundred, two meters of elevation, my body protests loudly, "what the hell are you doing, Alex?". "I didn't even have the time to wake up yet", it complains. The initial climb is sudden, dramatic and slow, and it rains lightly, with only a few drops overcome the trees protection.
+However, the staircase *never stops*. We're ten, thirty, fifty minutes in and it's an endless, tough ascend. After two hundred meters of elevation, my body is protesting loudly, "what the hell are you doing, Alex?". "I didn't even have the time to wake up yet", it complains. The initial climb is sudden, dramatic and slow. 
 
-After a while, the stairs morph into into made of marble-sized little rocks. Every step is a meticulous task of positioning the foot properly, as if my ankles are dancing. The physical intensity is only matched by the mental challenge of choosing where to thread among the infinity of roots.
+After a while, the stairs morph into marble-sized little rocks. Every step is a meticulous task of positioning the foot properly, as if my ankles are dancing. The physical intensity is only matched by the mental challenge of choosing where to thread among the infinity of roots.
+
+It rains lightly. A few drops overcome the protection from the trees.
 
 ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001192.jpeg" class="mobile-zoom" />
 
@@ -160,10 +162,9 @@ We arrive at around 5:40pm, 20 minutes before the only market around closes. We 
 
 ## Day 2: Hosshinmon-oji to Hongu
 
-We wake up in *Chikatsuyu*. This morning is the first proper morning in four days. A morning where we can sit down and chill, without the burning sensation of acceleration to get somewhere. The last night before our flight from Denver to Tokyo, I could barely sleep 2-3 hours, thinking non-stop about the trip, only to get up at 5:30 to head to the airport.
+We wake up in *Chikatsuyu*. This is the first proper morning in god-knows-how-long. Four days, I think. A morning to sit down and chill, without a burning need to get somewhere. The last night before our flight from Denver to Tokyo, I could barely sleep 2-3 hours, thinking non-stop about the trip, only to get up at 5:30 to head to the airport.
 
-So, yes, we take our time. We take the deepest and longest inhale you can imagine. We stroll the village under blue skies to buy coffee, right before we jump on a bus to get to *Hosshinmon-oji*.
-
+So, yes, we take our time. We take the deepest and longest inhale you can imagine. We stroll the village under blue skies to buy coffee, right before we jump on a bus to get to *Hosshinmon-oji* (発心門王子).
 
 <figure>
 ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010013.jpeg" />
@@ -180,7 +181,7 @@ So, yes, we take our time. We take the deepest and longest inhale you can imagin
 <figcaption>Slow stroll through Chikatsuyu</figcaption>
 </figure>
 
-The plan: walk down to *Hongu*. Most people just walk from here to *Hongu*, but, supposedly, the views as you descend from *Hosshinmon-oji* are nicer than starting in *Chikatsuyu*, so we will make that bet. We'll hop on a bus to get to the trail. Ultimately, the destination is the same.
+The plan: walk down to *Hongu* (本宮). Most people just walk straight from here, but, presumably, the views as you descend from *Hosshinmon-oji* are nicer than starting in *Chikatsuyu*, so we will make that bet. We'll hop on a bus to get to the trail. Ultimately, the destination is the same.
 
 <div class="asterisk">***</div>
 
@@ -339,7 +340,7 @@ We sleep tonight in an Airbnb in *Hongu*.
 
 ## Rest day in Yunomine
 
-Today we'll head over to *Yunomine*, a small hot springs village. Tsuboyu is renowed as Japan's oldest onsen and a UNESCO World Heritage site. If things go according to plan, we'll chill, soak in hot water, and sit on a bench until our butts go numb. We'll watch birds flying, kids playing and trees dancing.
+Today we'll head over to *Yunomine* (湯の峰), a small hot springs village. *Tsuboyu* (つぼ湯) is renowed as Japan's oldest onsen and a UNESCO World Heritage site. If things go according to plan, we'll chill, soak in hot water, and sit on a bench until our butts go numb. We'll watch birds flying, kids playing and trees dancing.
 
 We wake up to a chaotic morning, rushed and on empty stomachs. Google Maps had told us cafés and restaurants would be open today, but guess what, they were closed. Walking through streets on an empty stomach to find closed doors isn't fun. Fortunately, we stumble upon a small grocery store and throw together the quickest breakfast before check-out.
 
@@ -355,22 +356,15 @@ We wake up to a chaotic morning, rushed and on empty stomachs. Google Maps had t
 
 ***
 
-The mini-bus drops us 30 minutes away from *Yunomine* and we walk uphill. It hot and humid. No, it's actually excruciatingly hot, and the lack of shades on the road we're walking makes us stop a few times to cool down our body. Despite the short walk, my back hurts.
+We are the only passengers in the mini-bus. We are dropped 30 minutes away from *Yunomine*. We walk uphill on a hot and humid asphalt. The lack of shades on the road makes us stop a few times to cool down our body. Who said this was going to be a rest day?
 
-Who said this was going to be a rest day?
+A relatively short walk, but my back already hurts. This background discomfort has been a recurring theme since the beginning of the journey. Back in the US, while in San Jose two weeks ago, I turned to AI to help me diagnose the symptom. *"Alex, what you’re describing (tired, achy mid-back muscles next to the spine, not sharp or injury pain) sounds like muscular fatigue from postural stabilizers, the muscles that keep your torso upright"*. The knowledge that it's likely fatigue has given me confidence to continue the walk everyday, with the proper, systematic resting cadence. Still, it seems to get a little bit worse every single day.
 
-We find an empty village when we arrive. Not a single soul, such a good surprise. We wander around without our backpacks and buy tickets to *Tsuboyu*.
+We arrive to the small village and find empty streets. Not a single soul, what a great surprise. We wander around without our backpacks and buy tickets to *Tsuboyu*.
 
-I'm mildly reluctant to dip into almost-boiling water, given how hot it is, but finishing with cold water leaves a lasting freshness. Our skin stays cold for a good hour or two afterwards. A small, soaked towel wrapped strategically around my neck makes me feel like a capybara ease.
+I'm mildly reluctant to dip into boiling-looking water, given how hot it is. It's 90F (32C), and the Tsuboyu hut lets steam escape through its wall gaps, like a toaster made of wood. It's a mild sauna inside and the water is freaking hot. When it's about time to leave, I finish with cold water, which leaves a lasting freshness. Our skin stays cold for a good hour or two afterwards during lunch. A small, soaked towel wrapped strategically around my neck makes me feel like a capybara at ease.
 
-
-[TODO]
-We boiled eggs. Had lunch.
-
-
-And sat down at a bustop bench.
-
-A wooden bench.
+After lunch and the traditional *Onsen Tamago*, in which you hard boil eggs by dipping them in an open hot spring for 11 minutes, we find our selves a wooden bench to sit down and rest.
 
 <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/L1010339.jpeg" />
 
@@ -380,25 +374,23 @@ A wooden bench.
   Your browser does not support the audio element.
 </audio>
 
-To appreciate the scene, we play a little game: name 5 things we see. Four things we hear. Three things we feel. Two things we smell. One taste.
+The tranquility invites us to play a little game to enhance our perception: Five things we see, four things we hear, three things we feel, two things we smell, one taste.
 
-I recorded some audio here, just, uh...
+Treetops, children, traditional houses, flags, flowers. A breeze, a conversation in Chinese, children, birds chirping. Peace, privilege, sore muscles. Hot spring scent and flowers. Eggs.
 
-Living in the present.
+We are hyperfocused on the present. A while ago I was preocuppied about making good use of the time, now my mind has calmed down. Now, I'm just enjoying the wind blowing my skin.
 
-But now that I am here for a while, my mind has calmed down.
+Ice cream wouldn't be a bad idea.
 
-And I'm just enjoying the.. The wind blowing through my skin.
+<div class="asterisks">***</div>
 
-I might get an ice cream.
-
----
-
-We are now waiting for the bus to take us to Kawayu.
-
-
+We end the day in Kawayu, a tiny village where hot springs flow into the river. We wander the streets in robes and soak under a sky full of stars.
 
 # Day 4: Kogumotori-oji
+
+- Shingu — 新宮（しんぐう）
+- Kogumotori-goe — 小雲取越
+- Ogumotori-goe — 大雲取越
 
 Problems:
 
@@ -568,7 +560,7 @@ Boy, they destroyed it.
 
 # Day 5
 
-
+Nachi Temple & Nachi Falls — 青岸渡寺
 
 
 
