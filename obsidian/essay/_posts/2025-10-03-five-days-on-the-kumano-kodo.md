@@ -15,6 +15,12 @@ cover_image_mobile: "/images/posts/2025-10-03-five-days-on-the-kumano-kodo/cover
 #cover_image_mobile_zoom: "160%"
 ---
 
+<!--
+TODO
+- There's too much "we're uncertain" in the text. It's looking like we're cowards, which is not the case. We're just thinking too much. Overthinking. I want to dampen it, ease that.
+- Lazy images are taking longer to load on mobile (zrok) and causing blank squares to show up as I scroll.
+-->
+
 For thousands of years, the *Kumano Kodo* (熊野古道) trails in Japan have guided pilgrims toward sacred temples and connected walkers in search of meaning, or just adventure. While walking those paths for five days in search of the latter, I may have stumbled upon a little of the former.
 
 The idea of a total reset had been circling my mind for some time. A need to disconnect from routine, to tune out of the noise, and reconnect with myself and my creative thoughts. The *Kumano Kodo* seemed like the perfect backdrop for that experiment. Now, after tracing its ancient routes, I feel renewed.
@@ -29,15 +35,15 @@ It's 9am, September 29. My wife and I are in *Takijiri-oji* (滝尻王子), wher
 
 <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001110.JPG" class="mobile-zoom" />
 
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001112.JPG" class="mobile-zoom" />
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001112.JPG" class="mobile-zoom" loading="lazy" />
 
 "Is one of *these* the one we'll climb?", is one question that pops in my mind. At first glance, they look quite steep. The night before, a guest who walked from *Tajikiri-oji* to *Takahara* (高原) invested time in an attempt to persuade us to skip it. I sipped wine and shrugged, "where would the fun be in that? I travelled around the planet for this".
 
 Around the planet, indeed. Residing in Brazil, we planned a stopover in the US to dillute the hardship. The journey from Denver until arrival in Tanabe the night before was pure chaos, a tight schedule with endless potential points of failure. More on that later, however, because my eyes must now focus on these mountains.
 
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001143.jpg" />
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001143.jpg" loading="lazy" />
 
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001176.JPG" />
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001176.JPG" loading="lazy" />
 
 The walk starts off climbing a staircase with steps twice the regular height. At first, I'm enchanted by the beauty and historical significance. "Lots of photography opportunities", I think. You don't commonly see rocky stairs intertwined with tree roots like these anywhere.
 
@@ -47,24 +53,24 @@ After a while, the stairs morph into marble-sized little rocks. Every step is a 
 
 It rains lightly. A few drops overcome the protection from the trees.
 
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001192.jpeg" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001192.jpeg" class="mobile-zoom" loading="lazy" />
 
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001184.JPG" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001184.JPG" class="mobile-zoom" loading="lazy" />
 
 After a brutal initial ascend, we reach a flat section where we can accelerate and keep a better pace. The watch displays 10:42am and 317m of elevation gain. After 3.44km, heartrate drops to 111bpm.
 
 <figure>
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001209.JPG" />
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001209.JPG" loading="lazy" />
 <figcaption>A flat section, a relief for the glutes</figcaption>
 </figure>
 
 <figure>
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001221.JPG" />
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001221.JPG" loading="lazy" />
 <figcaption>A small detour in the woods to the Iimoriyama observation deck (飯盛山展望台)</figcaption>
 </figure>
 
 <figure>
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001227.JPG" />
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001227.JPG" loading="lazy" />
 <figcaption>We are rewarded with astonishing views</figcaption>
 </figure>
 
@@ -74,17 +80,17 @@ Half an hour later, we step on asphalt and arrive in a small hamlet that bifurca
 Lovely views of the mountains.
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001377.JPG" class="mobile-zoom-230" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001377.JPG" class="mobile-zoom-230" loading="lazy" />
 <figcaption>Strategic point of sale for walkers. Coffee tastes fresh.</figcaption>
 </figure>
 
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001343.JPG" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001343.JPG" loading="lazy" />
 
 We feel uncertain about continuing. The forecast indicates rain and we feel the 514 meters of elevation gain was probably enough for the day. On the other hand, it's only 12:38pm, and if we can keep good pace, we will able to arrive at our next guesthouse before 5pm. The other option is taking a bus from Takahara to our next logding.
 
 I sip my coffee shrug, "where would the fun be in that? We travelled around the planet for the challenge", and we decide to continue.
 
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001290.JPG" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001290.JPG" loading="lazy" />
 
 <div class="asterisks">***</div>
 
@@ -96,11 +102,11 @@ Being tired is fine. After all, we came here knowing we'd get exhausted, so I wi
 
 A layer of complexity (and exhaustion) added to this walk was how hectic our arrival in Japan was after a 10-hour sleepless flight. We had roughly 24 hours to arrive, travel 10h, sleep, pack, buy gear, figure out where to get bear spray. Please don't even get me started on the bear spray adventure. Then, in Tanabe the evening before the walk, we got a taxi driver that ignored our instructions and drove us elsewhere, causing all sorts of stress and we got to our Airbnb late. I mean, in the end everything worked out neatly, but it also felt like we were parachuting into the trail, like being dropped in the middle of a combat zone. It took us a while of walking to finally "cooldown" and get into the mental flow we came here for.
 
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001384.JPG" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001384.JPG" loading="lazy" />
 
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001399.jpeg" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001399.jpeg" loading="lazy" />
 
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001434.JPG" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001434.JPG" loading="lazy" />
 
 To add to the fun, my back hurts. It's fine, and I was expecting that, expecting it earlier. During my prep for this walk, my back had been bothering me quite a lot. For some reason it hadn't hurt for a while, but now it does.
 
@@ -111,7 +117,7 @@ What helps me is engaging my core deliberately, like when someone's gonna punch 
 A mile and a half into our trail, after beautiful forests and trails, we are welcomed by an incredible lake reflecting the trees and the sky.
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001439.JPG" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001439.JPG" loading="lazy" />
 <figcaption>A lake out of a fairytale</figcaption>
 </figure>
 
@@ -126,10 +132,10 @@ I have a sense of gratitude just for being able to start the trail, let alone fi
 <div class="asterisks">***</div>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001423.JPG" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001423.JPG" loading="lazy" />
 </figure>
 
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001485.JPG" class="mobile-zoom-120" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001485.JPG" class="mobile-zoom-120" loading="lazy" />
 
 The wrist watch shows 2:57pm and we made all the way to half of the trail to *Chikatsuyu*. A total of 05h06 so far, 909 m of elevation gained and 11km.
 
@@ -142,11 +148,11 @@ My back is in a lot of pain now, but according to my calculations, we're two-thi
 However, there is this annoying pain two inches below my knee when we descend. It's insistent and annoying. But it's fine, I understand, it's probably some weak muscle I ignored in the gym. A muscle that is never used until you jump into millennial hike, like the *Kumano Kodo*.
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001608.JPG" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001608.JPG" loading="lazy" />
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001581.JPG" class="mobile-zoom-150" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001581.JPG" class="mobile-zoom-150" loading="lazy" />
 </figure>
 
 We suddenly spot *Chikatsuyu* on the horizon, in between the trees, and enter the village by what looks like a backdoor, coming in from the mountains.
@@ -154,7 +160,7 @@ We suddenly spot *Chikatsuyu* on the horizon, in between the trees, and enter th
 We arrive at around 5:40pm, 20 minutes before the only market around closes. We buy instant noodles for dinner along with some deserts, and eggs and bread for breakfast the next morning.
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001641.JPG" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001641.JPG" loading="lazy" />
 <figcaption>Chikatsuyu</figcaption>
 </figure>
 
@@ -167,17 +173,17 @@ We wake up in *Chikatsuyu*. This is the first proper morning in god-knows-how-lo
 So, yes, we take our time. We take the deepest and longest inhale you can imagine. We stroll the village under blue skies to buy coffee, right before we jump on a bus to get to *Hosshinmon-oji* (発心門王子).
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010013.jpeg" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010013.jpeg" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/IMG_0803.jpeg" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/IMG_0803.jpeg" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010015.JPG" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010015.JPG" loading="lazy" />
 <figcaption>Slow stroll through Chikatsuyu</figcaption>
 </figure>
 
@@ -192,32 +198,32 @@ As we look around and try to figure out where to stay, humbly peeking over backr
 A woman points at me and to the aisle, as if saying, *"You, stay there!"* I get even more confused. But, as I scan the corridor, I don't see any suitcase or luggage wheel. Wait a second! This bus has a fifth seat that folds from beside another seat, fitting five people per row! Japan really is the country of the future.
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010020.JPG" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010020.JPG" loading="lazy" />
 <figcaption>As the bus stops and collects americans and europeans, they, one by one, interject and laugh, "hey, look, there's another seat in the middle!"</figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010031.JPG" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010031.JPG" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010044.JPG" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010044.JPG" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010049.JPG" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010049.JPG" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010053.JPG" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010053.JPG" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010079.JPG" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010079.JPG" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
@@ -226,7 +232,7 @@ We walk on asphalt for 10 minutes before getting on to serious business. The tra
 <div class="asterisk">***</div>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010041.JPG" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010041.JPG" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
@@ -236,36 +242,36 @@ The trail is breathtaking, and some spots seem to whisper, "Please, stop and adm
 We slow down, gazing at the quaint hamlets, letting our eyes absorb the light like a sensor during a long exposure, etching memories onto a film of our minds. We want to remember this moment later, as vividly as possible.
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010096.JPG" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010096.JPG" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010101.JPG" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010101.JPG" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 Suddenly we're out of the woods again, into a small village in the mountains.
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010110.JPG" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010110.JPG" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010113.JPG" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010113.JPG" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 And back again into the woods.
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010167.JPG" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010167.JPG" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010171.JPG" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010171.JPG" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
@@ -283,22 +289,22 @@ a step at a time, helped shape this trail, the Kumano Kodo.
 In between the woods, we spot what appears to be the outskirts of *Hongu*. Our expectation to see the tall torii gate grows exponentially.
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010174.JPG" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010174.JPG" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010183.JPG" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010183.JPG" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010184.JPG" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010184.JPG" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010212.jpeg" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010212.jpeg" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
@@ -311,7 +317,7 @@ On our way we continue, down the stairs that will lead to the Hongu's streets, a
 After months of planning and preparation, we arrive at the imponent *Oyunohara* (大斎原) *torii* gate, the point around which our journey orbits.
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010231.jpeg" class="mobile-zoom" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010231.jpeg" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
@@ -334,7 +340,7 @@ Being here has a special meaning this evening. This *torii* represents our quest
 We sleep tonight in an Airbnb in *Hongu*.
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010251.jpeg" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010251.jpeg" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
@@ -345,12 +351,12 @@ Today we'll head over to *Yunomine* (湯の峰), a small hot springs village. *T
 We wake up to a chaotic morning, rushed and on empty stomachs. Google Maps had told us cafés and restaurants would be open today, but guess what, they were closed. Walking through streets on an empty stomach to find closed doors isn't fun. Fortunately, we stumble upon a small grocery store and throw together the quickest breakfast before check-out.
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/L1010263.jpg" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/L1010263.jpg" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/L1010265.jpg" />
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/L1010265.jpg" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
@@ -366,7 +372,7 @@ I'm mildly reluctant to dip into boiling-looking water, given how hot it is. It'
 
 After lunch and the traditional *Onsen Tamago*, in which you hard boil eggs by dipping them in an open hot spring for 11 minutes, we find our selves a wooden bench to sit down and rest.
 
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/L1010339.jpeg" />
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/L1010339.jpeg" loading="lazy" />
 
 <audio controls controlsList="nodownload" preload="metadata">
   <source src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/yunomunechaya.mp3" type='audio/mpeg'>
@@ -386,125 +392,64 @@ Ice cream wouldn't be a bad idea.
 
 We end the day in Kawayu, a tiny village where hot springs flow into the river. We wander the streets in robes and soak under a sky full of stars.
 
-# Day 4: Kogumotori-oji
+## Day 4: Kogumotori-oji to Koguchi
 
-- Shingu — 新宮（しんぐう）
-- Kogumotori-goe — 小雲取越
-- Ogumotori-goe — 大雲取越
+Today we woke up to a gut punch before coffee. My wife's and my knees are hurting, and my back is doing a serious complaining, while today's trail is the toughest.
 
-Problems:
+First, the setting. The 13km *Kogumotori-goe* (小雲取越) trail's first third is a gradual and continuous 470 meters climb to Hyakken-gura and scores 4 out of 5 in difficulty. It's harder than Day One, which was already quite taxing. Second, the risk: *Koguchi* (小口) has no logding available today, so we must arrive before 5pm to catch the last bus to *Shingu* (新宮), non-negotiable. Tanabe's website says it's a 6-8 hour trail, which sounds feasible, but we're probably leaning towards 8 hours.
 
-- Koguchi has no logding
-- Knee pain
-- Trail is hard, 4 out of 5.
+It's 7:45am and we deliberated for an hour. We concluded it's irresponsible to walk today with this much pain. The alternatives are doing a boat tour today (but I didn't come here to sit down); finding another trail (but that's frustrating given we planned _that one_ for months); my wife taking a bus to Shingu while I do the trail on my own despite the pain (but I'd feel bad for her, despite not caring that much about my discomfort); walking a third of the trail and returning, which sounds off-putting but it'd be better than nothing. None are satisfactory.
 
-Transcript: So this is day four, the hardest day.
+### Shipping the weight
 
-We started a day with bad news. My right knee. It is hurting, aching. There's a pain. But it's not a lot. It's 2 out of 10. Score. It's enough to make us ponder what to do.
+"If only we weren't carrying our heavy backpacks", a lightbulb pop over ours heads. "What if we could leave our bags here and return"? That would be an inconvenient 16km return after a tired day of walking. "What if we could ship more weight to Kyoto"? That's not impossible. We would need a container and right now we only have two backpacks. I ask ChatGPT for ideas, "why don't you check with the guesthouse's owner if he have a cardboard box you can use?" Good idea. He does, indeed. He finds on in the trash, the perfect size.
 
-Should we keep walking? Should we catch a bus to Shingu and not doing any trail today? Should we just walk on a flat surface, stay in the a village, or maybe do a boat tour? The risk is, you know, putting too much stress on the knee and getting stuck in the middle of nowhere.
+We pack everything we can find our bags. The camera stabilizer stick, a camera, moisturizers, eyedrops. The lightweight laptop I'm carrying for writing. We tape it carefully, and there it goes to *Kyoto*.
 
-In the middle of the jungle.
+We feel a little bit more optimistic, as if a ton had been lifted from our backs and our minds. The frustration is replaced with hope, we decide to keep the expectations low and set a simpler goal: walk 5 long kilometers to *Hyakken-gura*, the highest point, and re-evaluate. The peak is a third of the way, so it's presumably easy to get back if have to.
 
-Okay, and then what?
+Once there, we will figure what to do next.
 
-This is 13 kilometers, at the end of the day. Even though there are other pilgrims on these trails, it's not that common.
+*Kohei-san*, the host, after solving our shipping and preparing a delicious breakfast, kindly offers to give us a ride to the trailhead with a smile from ear to ear.
 
-If you get injured, can you just imagine the inconvenience of waiting for someone else to return? Or maybe you just try to go walking despite the pain? Slowly, but then you get, in the middle of, in the village, gonna be the middle of nowhere.
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010352.jpg" alt="Kohei-san, owner of the Mishuku Sumiya in Kawayu" loading="lazy" />
 
-At midnight, no lights. Nowhere to sleep. Then maybe I have my first ever homeless simulation. In my life.
 
-I mean, it wouldn't be the end of the world, but it's definitely not something I want to experience today.
+### Back on trail
 
-### Shipping weight
+Twenty minutes into the walk. The adrenaline triumphs over any logical reasoning and make us both say, *"Fuck it, let's just keep going until the end of the trail"*. Ah, the overthinking! At least it served us in shipped weight, but did we need the drama? We laugh. "It would be too frustrating to return once we're on the move".
 
-So after thinking about alternatives for a while, after some discussion, we have this idea of shipping whatever is left to a later hotel. All we need is a cardboard box. We're gonna try to see if the hotel's owner has cardboard box.
+It's 9:17am. We see humans beings on the trail, all of the walking faster than we do. Our goal is reaching the peak of the trail in 2-3 hours, hoping we're left with plenty of time to continue on a slower pace.
 
-So we can ship.. Parts of our.. Weight, to the next, we'll tell.
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010370.jpg" alt="" loading="lazy" />
 
-For example, I'm carrying my laptop, which, despite being a very light one, it's, it's a kilo kilo and a half.
+I keep asking myself, "Are we behind"? I look at the offline map and I still have no idea where we are. We're walking fast and steady, like in a marathon chasing a gold medal. We feel like arriving at any moment. It feels also like the hardest trail so far. By a mile, figuratively and literally. 
 
-Or some stuff.. Like a self stick.
+Five kilometers on a straight line would take me roughly an hour to walk, so the whole 6-8 hours the Tanabe Prefecture stipulates never made sense to me.
 
-Or a stabilizer stick.
+And if we get there ahead of time, say, before 11:45am, then we're gonna make a decision about going all the way. In theory, a third done in 2:45 hours means a total trail roughly 8 hours. The last two thirds would be downhill, which is presumably easier, but also terrible for knees like ours. 
 
-Put a camera.
+If we got injured, could you imagine the inconvenience it would be? Waiting for someone to bring help? Nah, that's virtually impossible. A worst-case scenario looks like a slow zombie walking on a trail back to civilization. The scary is getting dark, no lights, nowhere to sleep, and then maybe I have my first ever homeless simulation. I mean, it wouldn't be the end of the world, but definitely not something I want to experience today.
 
-And there's some minor stuff.
+### Hyakken-gura
 
-Like moisturizer or.. Eye drops.
 
-I, um...
+After quite the struggle, we arrived at our checkpoint, the Hyakken-gura. To my surprise, it's 10:20am and I'm doing mental calculations, "How?" The terrain was the hardest we've been, but still we managed to get to our goal in half the time. We rushed.
 
-So we.. We talk to the owner.
+Looking at the Kumano mountains, I calm down, focus and enjoy the view.
 
-He's able to find a box in the trash.
+<figure>
+￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010385-hero.jpg" alt="Hyakken-gura" class="full-bleed" />
+<figcaption>The Kii mountains in all their glory.</figcaption>
+</figure>
 
-We were able to clean it up.
+---
 
-Sufficiently enough.
+The decision has been made: we're continue on our way to Koguchi. Or rather, we took pictures, turned left towards the trail and... kept marching, as if any other options would be completely inconceivable. At some point an hour ago we thought, "Yeah, I just wouldn't feel good returning", and so we just kept going. After all is said and done, the decision was based on gut, based on feeling.
 
-And then we put our stuff in it, we tape, and there he goes to Kyoto.
+And that's *fine*.
 
-We feel a little bit more optimistic. And decide to.. To compromise, when I go.. Five kilometers into this trail.
-
-To Hakon, Jura.
-
-The highest point.
-
-The highest point in this in the Kugomotori Trail.
-
-And then, once we get there, we're gonna analyze the time.
-
-Are we behind?
-
-They used on a.. On a time distribution every way.
-
-Be set up.
-
-Or...
-
-Um...
-
-Should we return?
-
-Is it five kilometers?
-
-It's not a half?
-
-It's almost there, but it's the hardest part.
-
-And if we get there ahead of time, then we're gonna make a decision to either go all the way or not.
-
-We'll see what happens.
-
-### Hitting our objectives
-
-Transcript: So I have turned a lot of struggle.
-
-We got to our checkpoint.
-
-He can, he can, you know, top.
-
-It was fairly hard, but we got there ahead of time, at around 10:20. We rushed.
-
-10 20. 1020, and then we stopped for a couple minutes to take some photos.
-
-And made the decision to...
-
-Well, to continue to go, Gucci.
-
-It's interesting because on the one hand, we've been...
-
-Well, we've been trying to be as large as possible in our decisions.
-
-But then, at some point, on the trail, we thought, yeah, I just wouldn't feel good returning.
-
-And so we just decided to go.
-
-It's, after all, is said, and, um, the decision was.. Based on gut.. Based on feeling, and that's fine.
-
-### Ending the trail
+### Koguchi
 
 Transcript: So, we ended up handing the trail.
 
@@ -518,7 +463,7 @@ At the end of the trail it.. 12, 05 or so, 12, 10.
 
 12, 10.
 
-And we.. Are now heading to Kuguchi to.. See what's up there.
+And we.. Are now heading to Koguchi to.. See what's up there.
 
 We.. We're gonna have lunch.
 
@@ -544,7 +489,10 @@ Despite all the pessimism at the beginning, we made the first trail.
 
 However, do I have the energy to do the second trail?
 
-The orgumotori?
+The Ogumotori?
+
+- Ogumotori-goe — 大雲取越
+
 
 Oji?
 
@@ -558,7 +506,7 @@ I am.. Destroyed.
 
 Boy, they destroyed it.
 
-# Day 5
+## Day 5
 
 Nachi Temple & Nachi Falls — 青岸渡寺
 

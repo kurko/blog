@@ -17,6 +17,13 @@
   <link rel='alternate' type='application/rss+xml' title='{{ site.title }}'
   href="{{ '/atom.xml' | prepend: site.baseurl | prepend: site.url }}">
 
+  {% if page.cover_image %}
+    <link rel="preload" as="image" href="{{ page.cover_image }}" fetchpriority="high"{% if page.cover_image_mobile %} media="(min-width: 481px)"{% endif %}>
+    {% if page.cover_image_mobile %}
+    <link rel="preload" as="image" href="{{ page.cover_image_mobile }}" fetchpriority="high" media="(max-width: 480px)">
+    {% endif %}
+  {% endif %}
+
   <style>
     {% include css/reset.css %}
     {% include css/layout.css %}

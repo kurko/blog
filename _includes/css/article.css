@@ -132,6 +132,12 @@
   border-radius: 3px;
 }
 
+@media (min-width: 600px) {
+  .c-post img.full-bleed {
+    /* take the full window width up to max-width */
+    max-width: min(100vw, 1480px);
+  }
+}
 /* Remove rounded corners on mobile when images reach screen edges */
 @media (max-width: 600px) {
   .c-post img {
