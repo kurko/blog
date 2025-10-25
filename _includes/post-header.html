@@ -8,23 +8,29 @@
       {% else %}
         background-position: center;
       {% endif %}
+    }
 
-      {% if page.cover_image_mobile %}
-        @media (min-width: 481px) {
-          background-image: url('{{ page.cover_image }}')
+    {% if page.cover_image_mobile %}
+      @media (min-width: 481px) {
+        .c-post__cover_image {
+          background-image: url('{{ page.cover_image }}');
         }
+      }
 
-        @media (max-width: 480px) {
+      @media (max-width: 480px) {
+        .c-post__cover_image {
           background-image: url('{{ page.cover_image_mobile }}');
 
           {% if page.cover_image_mobile_zoom %}
             background-size: {{ page.cover_image_mobile_zoom }} !important;
           {% endif %}
         }
-      {% else %}
+      }
+    {% else %}
+      .c-post__cover_image {
         background-image: url('{{ page.cover_image }}')
-      {% endif %}
-    }
+      }
+    {% endif %}
   </style>
   <div
     class="c-post__cover_image">

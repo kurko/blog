@@ -72,7 +72,7 @@
   @media (max-width: 600px) {
     .c-post__header_for_cover_image {
       --cover-image-width: 100vw;
-      --cover-image-ratio: 150%;
+      --cover-image-ratio: 170%;
     }
   }
 
