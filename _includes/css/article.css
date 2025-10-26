@@ -153,11 +153,14 @@
   transform: none;
 }
 
+figure {
+  font-size: 0;  /* Collapse whitespace text nodes */
+}
+
 figure figcaption {
-  font-size: 0.9em;
+  font-size: 0.9rem;  /* Use rem instead of em since parent is font-size: 0 */
   color: var(--color-dark-gray);
   text-align: center;
-  margin-top: -4px;
   margin-bottom: calc(2 * var(--base-spacing-unit));
 }
 

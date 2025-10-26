@@ -20,7 +20,8 @@
   --off-canvas-width: 300px;
 
   /* Breakpoints */
-  --mobile-width: 400px;
+  /* NOTE: these can't be used in @media-query declarations. */
+  --mobile-breakpoint: 600px;
   --tablet-breakpoint: 640px;
   --desktop-breakpoint: 1024px;
 
@@ -133,6 +134,30 @@ body {
 
 .o-grid__col--end {
   margin-left: auto;
+}
+
+/* ============================================
+   Responsive rules
+   ============================================ */
+
+@media (max-width: 600px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  .show-on-mobile {
+    display: initial;
+  }
+}
+
+@media (min-width: 600px) {
+  .hide-on-mobile {
+    display: initial;
+  }
+
+  .show-on-mobile {
+    display: none !important;
+  }
 }
 
 /* ============================================
