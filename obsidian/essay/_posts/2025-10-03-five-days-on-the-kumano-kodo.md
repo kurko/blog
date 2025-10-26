@@ -384,7 +384,7 @@ The tranquility invites us to play a little game to enhance our perception: Five
 
 Treetops, children, traditional houses, flags, flowers. A breeze, a conversation in Chinese, children, birds chirping. Peace, privilege, sore muscles. Hot spring scent and flowers. Eggs.
 
-We are hyperfocused on the present. A while ago I was preocuppied about making good use of the time, now my mind has calmed down. Now, I'm just enjoying the wind blowing my skin.
+We are hyperfocused on the present. A while ago I was preocuppied about making good use of the time, now my mind has calmed down. I'm just enjoying the wind blowing my skin.
 
 Ice cream wouldn't be a bad idea.
 
@@ -492,15 +492,14 @@ And that's *fine*.
 
 ### Koguchi
 
-The final descend is brutal on our joints, it's when knees suffer more. They weren't happy with 3,750 steps of an endless staircase. More pauses are taken, intercalating pain and relief through an altitude equivalent to 225 flights of stairs.
+The final descent is brutal on our knees, a continuous and relentless 2,260 ft (690 meters) drop. The steady rhythm of 3,750 steps pounds our joints like a pickaxe. The endless staircase forces frequent pauses, alternating pain with brief relief over an elevation loss equivalent to 225 flights of stairs.
 
-When I stand straight, my right knee shakes onwards and backwards, like a column struggling against an earthquake. The 2,260 ft (690 meters) is continuous and relentless.
+My right knee shakes back and forth when I stand upright, like a column in an earthquake. We see a gradual increase in brightness among the trees. 
 
-We see a gradual increase in brightness among the trees. 
-The end of trail So, we ended up handing the trail.
+The end of the trail is near.
 
 <figure>
-  ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010464.JPG" alt="" class="" />
+  ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010464.jpeg" alt="" class="" />
   <figcaption>An endless descend</figcaption>
 </figure>
 
@@ -509,58 +508,25 @@ The end of trail So, we ended up handing the trail.
   <figcaption></figcaption>
 </figure>
 
-To our surprise.
+Exhausted, we reach the end of the trail at 12:10pm. We are thankful for having arrived. We head to Koguchi to find food.
 
-Three hours and 15 minutes.
+Today, at some point we were pessimistic, then optimistic, then surprised, then hopeful, now satisfied. We made it.
 
-You're right.
+I wonder whether we would have the energy to do the next trail right after, the *Ogumotori-goe* (大雲取越), which is even harder. Another 14km. Do I have the energy to do the second trail? Probably yes. Can my knees sustain it? Certainly not. Everything hurts. I am destroyed, I'm tired.
 
-At the end of the trail it.. 12, 05 or so, 12, 10.
+I'm happy.
 
-12, 10.
+<figure>
+  ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010466.JPG" alt="" class="" />
+  <figcaption></figcaption>
+</figure>
 
-And we.. Are now heading to Koguchi to.. See what's up there.
+<figure>
+  ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010474.jpeg" alt="" class="hide-on-mobile" />
+  ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010473-mobile.jpeg" alt="" class="show-on-mobile" />
+  <figcaption></figcaption>
+</figure>
 
-We.. We're gonna have lunch.
-
-We are very tired.
-
-
-
-Let's see.
-
-Five backs, 30.
-
-Everything hurts.
-
-A little while, I wonder, under one hand, we are optimistic.
-
-We were surprised.
-
-We are positive.
-
-Uh...
-
-Despite all the pessimism at the beginning, we made the first trail.
-
-However, do I have the energy to do the second trail?
-
-The Ogumotori?
-
-- Ogumotori-goe — 大雲取越
-
-
-Oji?
-
-To...
-
-All the way tonight, she sent...
-
-Hell, no.
-
-I am.. Destroyed.
-
-Boy, they destroyed it.
 
 ## Day 5
 
@@ -568,7 +534,7 @@ Nachi Temple & Nachi Falls — 青岸渡寺
 
 
 
-# "Tomorrow" / Conclusion
+## "Tomorrow": closing thoughts
 
 <span class="asterisk">***</span>
 
