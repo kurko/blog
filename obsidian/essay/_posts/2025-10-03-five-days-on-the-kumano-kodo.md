@@ -504,7 +504,7 @@ The end of the trail is near.
 </figure>
 
 <figure>
-  ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010444.JPG" alt="" class="" />
+  ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010444.jpeg" alt="" class="" />
   <figcaption></figcaption>
 </figure>
 
@@ -512,25 +512,66 @@ Exhausted, we reach the end of the trail at 12:10pm. We are thankful for having 
 
 Today, at some point we were pessimistic, then optimistic, then surprised, then hopeful, now satisfied. We made it.
 
-I wonder whether we would have the energy to do the next trail right after, the *Ogumotori-goe* (大雲取越), which is even harder. Another 14km. Do I have the energy to do the second trail? Probably yes. Can my knees sustain it? Certainly not. Everything hurts. I am destroyed, I'm tired.
+I wonder whether we would have the energy to do the next trail right after, the *Ogumotori-goe* (大雲取越), which was known in ancient times as *Dogiri-zaka*, or *"body-breaking slope"*. Nothing less than a sudden 800 meters ascend in the first 5 kilometers.
 
-I'm happy.
+Do I have the energy to do the second trail? Probably yes. Can my knees sustain a *body-breaking slope*? Certainly not. Everything hurts. I am destroyed, I'm tired, but I'm happy.
 
 <figure>
   ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010466.JPG" alt="" class="" />
-  <figcaption></figcaption>
+  <figcaption>We walk by half-dozen houses next to the trail's end</figcaption>
 </figure>
 
 <figure>
   ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010474.jpeg" alt="" class="hide-on-mobile" />
   ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010473-mobile.jpeg" alt="" class="show-on-mobile" />
+  <figcaption>A peaceful fisherman</figcaption>
+</figure>
+
+<figure>
+  ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010480.jpeg" alt="" class="" />
+  <figcaption>Koguchi</figcaption>
+</figure>
+
+We arrive at a camping area that has a single a food truck, called *Bar Free Soul*. The owner serves us *gyoza*, and asks us to pin our contry on a large map behind the counter. I raise an eyebrow the moment I see pins everywhere, except Brazil, before adding my pin.
+
+We'll chill here until the next bus to *Shingu* stops by at 4:30pm. It's a long wait.
+
+*Fey*, our new friend, rests for an hour before finally deciding to start the next trail toward Nachi, the *Ogumotori-goe*. We clap at this brave woman as she departs with her green backpack.
+
+<figure>
+  ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010483.jpeg" alt="" class="" />
   <figcaption></figcaption>
 </figure>
 
+<figure>
+  ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010489.jpeg" alt="" class="" />
+  <figcaption></figcaption>
+</figure>
 
-## Day 5
+<figure>
+  ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010492.jpeg" alt="" class="hide-on-mobile" />
+  ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010499-mobile.jpeg" alt="" class="show-on-mobile" />
+  <figcaption>The bus from Koguchi is packed with walkers speaking a diverse set of languages</figcaption>
+</figure>
+
+[TODO] delivering the bear spray
+
+## Day 5: Shingu to Nachi Taisha
+
+Our schedule is tight today because we're sleeping in *Kyoto* tonight. We need to catch 7:00am bus toward *Kii-Katsuura* and *Nachisan*. That gives us 8:51am to 10:32am to explore the temple and falls before five or six hours of trains to Kyoto. We cannot miss that bus.
+
+But we wake up late. Empty stomachs, bags on our backs, and only 10 minutes to walk a 20-minute distance, we kick start our rushed walk towards the nearest bus stop north of us, which is impossible. Giving up, however, isn't an option. I pull up the map and spot a chance: the bus line curves through the city, so if we cut west, threading narrow streets like a needle, we might intercept it fourth stop. We hope the bus is slow, crowded even.
+
+We walk the fastest 15 minutes of our lives and make it. The bus is coming on the horizon and we saved the day.
+
+
 
 Nachi Temple & Nachi Falls — 青岸渡寺
+
+<figure>
+  ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010489.jpeg" alt="" class="" />
+  <figcaption></figcaption>
+</figure>
 
 
 
