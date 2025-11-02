@@ -15,13 +15,6 @@ cover_image_mobile: "/images/posts/2025-10-03-five-days-on-the-kumano-kodo/cover
 #cover_image_mobile_zoom: "160%"
 ---
 
-<!--
-TODO
-- There's too much "we're uncertain" in the text. It's looking like we're cowards, which is not the case. We're just thinking too much. Overthinking. I want to dampen it, ease that.
-- Lazy images are taking longer to load on mobile (zrok) and causing blank squares to show up as I scroll.
-- I want to include somewhere, perhaps in the end, that I thought the temples were the destination, but in doing the pilgrimage, I learned that the destination is the walk itself.
--->
-
 For thousands of years, the *Kumano Kodo* (熊野古道) trails in Japan have guided pilgrims toward sacred temples and connected walkers in search of meaning, or just adventure. While walking those paths for five days in search of the latter, I may have stumbled upon a little of the former.
 
 The idea of a total reset had been circling my mind for some time, a need to disconnect from routine, tune out the noise, and reconnect with my own thoughts. The *Kumano Kodo* felt like the right backdrop for that experiment. I assumed the effort would be rewarded by shrines. I didn’t know yet that the walk itself would become the destination, and each step a small arrival.
@@ -49,7 +42,7 @@ Around the planet, indeed. Residing in Brazil, we planned a stopover in the US t
 
 The walk starts off climbing a staircase with steps twice the regular height. At first, I'm enchanted by the beauty and historical significance. *"Lots of photography opportunities"*, I think. You don't commonly see rocky stairs intertwined with tree roots like these anywhere.
 
-However, the staircase *never stops*. We're ten, thirty, fifty minutes in and it's an endless, tough ascend. After two hundred meters of elevation, my body is protesting loudly, *"what the hell are you doing, Alex?"*. *"I didn't even have the time to wake up yet"*, it complains. The initial climb is sudden, dramatic and slow. 
+However, the staircase *never stops*. We're ten, thirty, fifty minutes in and it's an endless, tough ascend. After two hundred meters of elevation, my body is protesting loudly, *"what the hell are you doing, Alex?"*. *"I didn't even have the time to wake up yet"*, it complains. The initial climb is sudden, dramatic and slow.
 
 After a while, the stairs morph into marble-sized little rocks. Every step is a meticulous task of positioning the foot properly, as if my ankles are dancing. The physical intensity is only matched by the mental challenge of choosing where to tread among the infinity of roots.
 
@@ -87,9 +80,9 @@ Half an hour later, we step on asphalt and arrive in a small hamlet that bifurca
 
 ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001343.JPG" loading="lazy" />
 
-We feel uncertain about continuing. The forecast indicates rain and we feel the 514 meters of elevation gain was probably enough for the day. On the other hand, it's only 12:38pm, and if we can keep good pace, we will able to arrive at our next guesthouse before 5pm. The other option is taking a bus from *Takahara* to our next lodging.
+We're at 12:38pm with 8.5km still to Chikatsuyu. The forecast shows rain incoming, and our legs already climbed 514 meters. However, we do have time, we just need to keep a decent pace and we could reach the guesthouse before 5pm. The alternative is taking a bus from *Takahara*.
 
-I sip my coffee and shrug, *"where would the fun be in that? We travelled around the planet for the challenge"*, and we decide to continue.
+I sip my coffee and shrug, *"where would the fun be in that? We travelled around the planet for the challenge"*. And so we decide to continue.
 
 ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001290.JPG" loading="lazy" />
 
@@ -283,7 +276,7 @@ The middle of today's trail gets challenging, like a game of Tetris, except it's
 
 There are passages where my whole mental energy is focusing on where my feet are landing. Just that and nothing else. And then, at certain points, I pause and admire the beauty of what's around me.
 
-I have seen millenar three roots serving as a long stair up and down. I have seen stairs made of rocks naturally. I have seen stairs with uneven steps. I have seen them all mixed, roots, rocks, sand.
+I have seen millenary tree roots serving as a long stair up and down. I have seen stairs made of rocks naturally. I have seen stairs with uneven steps. I have seen them all mixed, roots, rocks, sand.
 
 The most impressive, however, are the ones that were crafted by the feet of the thousands and thousands of people who have,
 a step at a time, helped shape this trail, the Kumano Kodo.
@@ -424,7 +417,7 @@ The tranquility invites us to play a little game to enhance our perception: Five
 
 Treetops, children, traditional houses, flags, flowers. A breeze, a conversation in Chinese, children, birds chirping. Peace, privilege, sore muscles. Hot spring scent and flowers. Eggs.
 
-We are hyperfocused on the present. A while ago I was preoccupied about making good use of the time, now my mind has calmed down. I'm just enjoying the wind blowing my skin.
+We are hyper-focused on the present. A while ago I was preoccupied about making good use of the time, now my mind has calmed down. I'm just enjoying the wind blowing my skin.
 
 Ice cream wouldn't be a bad idea.
 
@@ -448,9 +441,9 @@ We end the day in *Kawayu* (川湯), a tiny village where hot springs flow into 
 
 We woke up to a gut punch before coffee. My wife's and my knees are hurting, and my back is doing a serious complaining, while today's trail is the toughest.
 
-Let's orient ourselves, first with the setting. The 13km *Kogumotori-goe* (小雲取越) trail's first third is a gradual and continuous 470 meters climb to *Hyakken-gura* and scores 4 out of 5 in difficulty. It's harder than Day One, which was already quite taxing. Second, the risk: *Koguchi* (小口) has no lodging available today, so we must arrive before 5pm to catch the last bus to *Shingu* (新宮), non-negotiable. *Tanabe's* website says it's a 6-8 hour trail, which sounds feasible, but we're probably leaning towards 8 hours.
+The 13km *Kogumotori-goe* (小雲取越) trail's first third scores 4 out of 5 in difficulty. It's a gradual 470 meters climb to *Hyakken-gura*, harder than Day One, which was already quite taxing. More pressing is the fact that *Koguchi* (小口) has no lodging available today, so we must arrive before 5pm to catch the last bus to *Shingu* (新宮). The trail estimates say 6-8 hours.
 
-It's 7:45am and we deliberated for an hour. We concluded it's irresponsible to walk today with this much pain. The alternatives are doing a boat tour today (but I didn't come here to sit down); finding another trail (but that's frustrating given we planned _that one_ for months); my wife taking a bus to *Shingu* while I do the trail on my own despite the pain (but I'd feel bad for her, despite not caring that much about my discomfort); walking a third of the trail and returning, which sounds off-putting but it'd be better than nothing. None are satisfactory.
+At 7:45am, we've spent an hour working the problem. The heavy backpacks aren't helping our knees or backs, so we conclude it's irresponsible to walk with this much pain. The options are doing a boat tour today (I didn't come here to sit down); finding another trail (frustrating after months of planning); my wife taking a bus to *Shingu* while I walk (I'd feel bad for her); walking a third of the trail and returning (sounds off-putting but better than nothing).
 
 ### Shipping weight
 
@@ -482,7 +475,7 @@ I keep asking myself, *"Are we behind?"* I look at the offline map and I still h
 
 Five kilometers on a straight line would take me roughly an hour to walk, so the whole 6-8 hours the *Tanabe Prefecture* stipulates never made sense to me.
 
-And if we get there ahead of time, say, before 11:45am, then we're gonna make a decision about going all the way. In theory, a third done in 2:45 hours means a total trail roughly 8 hours. The last two thirds would be downhill, which is presumably easier, but also terrible for knees like ours. 
+And if we get there ahead of time, say, before 11:45am, then we're gonna make a decision about going all the way. In theory, a third done in 2:45 hours means a total trail roughly 8 hours. The last two thirds would be downhill, which is presumably easier, but also terrible for knees like ours.
 
 If we got injured, could you imagine the inconvenience it would be? Waiting for someone to bring help? Nah, that's virtually impossible. A worst-case scenario looks like a slow zombie walking on a trail back to civilization. The scary is getting dark, no lights, nowhere to sleep, and then maybe I have my first ever homeless simulation. I mean, it wouldn't be the end of the world, but definitely not something I want to experience today.
 
@@ -546,7 +539,7 @@ And that's *fine*.
 
 The final descent is brutal on our knees, a continuous and relentless 2,260 ft (690 meters) drop. The steady rhythm of 3,750 steps pounds our joints like a pickaxe. The endless staircase forces frequent pauses, alternating pain with brief relief over an elevation loss equivalent to 225 flights of stairs.
 
-My right knee shakes back and forth when I stand upright, like a column in an earthquake. We see a gradual increase in brightness among the trees. 
+My right knee shakes back and forth when I stand upright, like a column in an earthquake. We see a gradual increase in brightness among the trees.
 
 The end of the trail is near.
 
@@ -560,11 +553,9 @@ The end of the trail is near.
   <figcaption></figcaption>
 </figure>
 
-Exhausted, we reach the end of the trail at 12:10pm. We are thankful for having arrived. We head to *Koguchi* to find food.
+Exhausted, we reach the end of the trail at 12:10pm, thankful for having arrived. We continue to *Koguchi* to find food.
 
-Today, at some point we were pessimistic, then optimistic, then surprised, then hopeful, now satisfied. We made it.
-
-I wonder whether we would have the energy to do the next trail right after, the *Ogumotori-goe* (大雲取越), which was known in ancient times as *Dogiri-zaka* (胴切坂), or *"body-breaking slope"*. Nothing less than a sudden 800 meters ascend in the first 5 kilometers.
+*"I wonder whether we would have the energy to do the next trail right after, the Ogumotori-goe (大雲取越)?"*, the fleeting thought crosses my mind. In ancient times, it was known as *Dogiri-zaka* (胴切坂), or *"body-breaking slope"*. It's nothing less than a sudden 800 meters ascend in the first 5 kilometers.
 
 Do I have the energy to do the second trail? Probably yes. Can my knees sustain a *body-breaking slope*? Certainly not. Everything hurts. I am destroyed, I'm tired, but I'm happy.
 
@@ -740,6 +731,6 @@ That’s what I’ll do.
 
 ---
 
-<ol>
-<sup>1</sup> I was able to return the bear spray back where I purchased it in Tanabe, at [Stock Outdoors](https://www.instagram.com/stock_outdoor/). The owner gave us a discount.
+<ol class="footnotes">
+<li>I was able to return the bear spray back where I purchased it in Tanabe, at <a href="https://www.instagram.com/stock_outdoor/">Stock Outdoors</a>. The owner gave us a discount.</li>
 </ol>
