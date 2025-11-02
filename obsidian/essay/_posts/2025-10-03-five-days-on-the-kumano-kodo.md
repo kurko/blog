@@ -24,13 +24,14 @@ TODO
 
 For thousands of years, the *Kumano Kodo* (熊野古道) trails in Japan have guided pilgrims toward sacred temples and connected walkers in search of meaning, or just adventure. While walking those paths for five days in search of the latter, I may have stumbled upon a little of the former.
 
-The idea of a total reset had been circling my mind for some time. A need to disconnect from routine, to tune out of the noise, and reconnect with myself and my creative thoughts. The *Kumano Kodo* seemed like the perfect backdrop for that experiment. Now, after tracing its ancient routes, I feel renewed.
+The idea of a total reset had been circling my mind for some time, a need to disconnect from routine, tune out the noise, and reconnect with my own thoughts. The *Kumano Kodo* felt like the right backdrop for that experiment. I assumed the effort would be rewarded by shrines. I didn’t know yet that the walk itself would become the destination, and each step a small arrival.
 
-The absence of Switzerland's turquoise lakes or the dramatic Alps of France meant that the landscape wouldn't steal the spotlight, it would walk beside me instead, a quiet companion. Yet, by the final day, all I wanted was to start again. I had underestimated the beauty hidden in those soft, green mountains.
+The absence of Switzerland's turquoise lakes or the dramatic Alps of France meant the landscape wouldn't steal the spotlight, it would walk beside me instead, a quiet companion. Yet, by the final day, all I wanted was to start again. Those soft, green mountains held more beauty than I expected.
 
-From the start, I knew this would have to be a distraction-free walk. Even when the idea was still forming, it was clear that I wanted full immersion: no social media, no podcasts, no music. Just the here and the now. No autopilot, only awareness.
+From the start, this had to be a distraction-free walk. Even when the idea was still forming, it was clear that I wanted full immersion: no social media, no podcasts, no music. Just the here and the now. No autopilot, only awareness.
 
 ## Day 1: Takijiri-oji to Chikatsuyu
+<span class="subtitle">Finding the rhythm of the path</span>
 
 It's 9am, September 29. My wife and I are in *Takijiri-oji* (滝尻王子), where our walk begins. Our <a href="https://www.balsamicojam-nankiwakayama.com/kumano-winery-guest-house" target="winery-airbnb">Airbnb host</a> just dropped us off in a minivan. The hamlet looks neat but unremarkable, like others we passed on the way. The mountains and forests, though, are imposing and seemingly impenetrable.
 
@@ -167,6 +168,7 @@ We arrive at around 5:40pm, 20 minutes before the only market around closes. We 
 ---
 
 ## Day 2: Hosshinmon-oji to Hongu
+<span class="subtitle">Shrines, silence, awe</span>
 
 We wake up in *Chikatsuyu*. This is the first proper morning in god-knows-how-long. Four days, I think. A morning to sit down and chill, without a burning need to get somewhere. The last night before our flight from Denver to Tokyo, I could barely sleep 2-3 hours, thinking non-stop about the trip, only to get up at 5:30 to head to the airport.
 
@@ -345,6 +347,7 @@ We sleep tonight in an Airbnb in *Hongu*.
 </figure>
 
 ## Day 3: resting in Yunomine
+<span class="subtitle">Steam, river stones, and slowness</span>
 
 We wake up to a chaotic morning, rushed and on empty stomachs. Google Maps had told us cafés and restaurants would be open today, but guess what, they were closed. Walking through streets on an empty stomach to find closed doors isn't fun. Fortunately, we stumble upon a small grocery store and throw together the quickest breakfast before check-out.
 
@@ -441,6 +444,7 @@ We end the day in *Kawayu* (川湯), a tiny village where hot springs flow into 
 </figure>
 
 ## Day 4: Kogumotori-goe to Koguchi
+<span class="subtitle">Long ridges and thoughts</span>
 
 We woke up to a gut punch before coffee. My wife's and my knees are hurting, and my back is doing a serious complaining, while today's trail is the toughest.
 
@@ -612,9 +616,10 @@ Arriving in *Shingu*, I walk to the police station. Through the large glass door
 
 Then, two policemen appear down the street. I pack my things, ready the bear spray its bag and head toward the station. Just as I'm about the reach the door, the two officers sprint past me, jump into their car, flip on the siren, and race off to deal with something clearly more urgent than a confused foreigner holding a can of bear spray.
 
-In Japan, manufacturers describe discharging contents either outdoors, or underwater in a bucket if that's not possible. Not really feasible from a hotel room. A problem for tomorrow.
+In Japan, manufacturers describe discharging contents either outdoors, or underwater in a bucket if that's not possible. Not really feasible from a hotel room. A problem for tomorrow<sup>1</sup>.
 
-## Day 5: Shingu to Nachi Taisha
+## Day 5: Shingu to Nachisan
+<span class="subtitle">Long ridges and thoughts</span>
 
 Our schedule is tight today because we're sleeping in *Kyoto* tonight. We need to catch 7:00am bus toward *Kii-Katsuura* (紀伊勝浦) and *Nachisan* (那智山). That gives us 8:51am to 10:32am to explore the temple and falls before five or six hours of trains to *Kyoto*. We cannot miss that bus.
 
@@ -641,7 +646,7 @@ We arrive at *Nachi* station on an empty stomach, and depart to *Nachisan*. We h
 
 ---
 
-I look at the clock when the bus arrives. It's 8:57am. As we step out, we reorient ourselves, among a crowd of visitors. Looking right, there's a *torii* gate leading to the *Nachi* falls. Turning my head left, a staircase that leads to the *Nachi* temple.
+I look at the clock when the bus arrives. It's 8:57am. As we step out, we reorient ourselves, among a crowd of visitors. Looking right, there's a *torii* gate leading to the *Nachi* Falls. Turning my head left, a staircase that leads to the *Nachi* shrine.
 
 *Nachi-no-Taki-mae* is a bend in the road that feels compressed by traffic and guardrails. A small parking lot sits in the corner, a clutch of souvenir shops lines the curb, and a signed path leads towards the falls. Buses sigh, people reshuffle bags, and the crowd moves as on. It works as a waystation more than a place to linger, a stop where you wait to get somewhere better. A *liminal space*.
 
@@ -663,7 +668,7 @@ A few flights later, we lift our heads to the sky and glimpse vermilion in betwe
 <figure>
   ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day5/L1010545.jpeg" alt="" class="hide-on-mobile" loading="lazy" />
   <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day5/L1010546-mobile.jpg" alt="" class="show-on-mobile" loading="lazy" />
-  <figcaption>A staircase is a small cost to pay to get to the famous Nachi temple</figcaption>
+  <figcaption>A staircase is a small cost to pay to get to the famous Nachi shrine</figcaption>
 </figure>
 
 <figure>
@@ -686,7 +691,7 @@ A few flights later, we lift our heads to the sky and glimpse vermilion in betwe
   <figcaption></figcaption>
 </figure>
 
-We arrive at our destination.
+*"We're here, pinch me please"*, I ask my partner. We have arrived. The shrine's red, once only pixels on a screen, now fills my eyes. The water that ran behind this place a thousand years ago still runs, stitching past to present.
 
 <figure>
   ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day5/L1010578-hero.jpeg" alt="" class="hide-on-mobile full-bleed" loading="lazy" />
@@ -694,14 +699,12 @@ We arrive at our destination.
   <figcaption>Nachi Shrine & Falls (青岸渡寺)</figcaption>
 </figure>
 
-*"We're here, pinch me please"*, I ask my partner. The shrine's red, once only pixels on a screen, now fills my eyes. The water that ran behind this place a thousand years ago still runs, stitching past to present.
+After days of walking on the Kumano Kodo, I finally let go of a breath I didn't know I'd been holding for years. My shoulders have never felt lighter, free from the weight from everyday's life. My chest feels full while I contemplate the satisfaction of achieving something bigger than myself. The walk has come to an end, but I feel the pilgrimage has only started.
 
-After days of walking on the Kumano Kodo, the feeling is transcendental, and I finally let go of a breath I didn't know I'd been holding for years. The pilgrimage has come to an end but I am transformed. My chest is full and my mind is renewed.
-
-I learned the destination was the path. Each step was arrival.
+I learned that the walk was the destination. Each step was an arrival, and the trail has become a metaphor for life.
 
 ## "Tomorrow"
-<span class="subtitle">Closing thoughts</span>
+<span class="subtitle">New paths</span>
 
 After finishing the Kumano in the 12th century, the poet *Saigyō Hōshi* (西行 法師) wrote the poem,
 
@@ -731,7 +734,12 @@ in places I’ve not yet seen.<br />
 </table>
 </center>
 
-[TODO]
-The poet’s vow to change the road resonates. It’s an invitation to honor what was just walked, but to pivot and keep seeking "blossoms", insights, and wonders on new paths. It’s an invitation to carry the pilgrimage mindset onward, as a new person.
+The poet’s vow to change the road resonates with me. It's an invitation to honor what was just walked, but to pivot and keep seeking "blossoms", insights, and wonders on new paths. It’s an invitation to carry the pilgrimage mindset onward, as a new person.
 
 That’s what I’ll do.
+
+---
+
+<ol>
+<sup>1</sup> I was able to return the bear spray back where I purchased it in Tanabe, at [Stock Outdoors](https://www.instagram.com/stock_outdoor/). The owner gave us a discount.
+</ol>
