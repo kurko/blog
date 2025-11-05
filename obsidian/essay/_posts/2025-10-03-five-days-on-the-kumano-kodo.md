@@ -7,8 +7,8 @@ rss: true
 date: 2025-10-03 16:00:00 +0900
 excerpt: ""
 draft: true
-cover_image: "/images/posts/2025-10-03-five-days-on-the-kumano-kodo/cover.jpg"
-cover_image_mobile: "/images/posts/2025-10-03-five-days-on-the-kumano-kodo/cover-mobile.jpg"
+cover_image: "/images/posts/2025-10-03-five-days-on-the-kumano-kodo/L1010455-cover.jpg"
+cover_image_mobile: "/images/posts/2025-10-03-five-days-on-the-kumano-kodo/L1010455-cover-mobile.jpg"
 
 #cover_image_align: "bottom"
 #page_css_class: "limit-img-width"
