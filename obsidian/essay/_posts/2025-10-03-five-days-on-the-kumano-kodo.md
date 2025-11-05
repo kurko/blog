@@ -149,9 +149,11 @@ However, there is this annoying pain two inches below my knee when we descend. I
 ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001581.JPG" class="mobile-zoom-150" loading="lazy" />
 </figure>
 
-We suddenly spot *Chikatsuyu* on the horizon, in between the trees, and enter the village by what looks like a backdoor, coming in from the mountains.
+We suddenly spot *Chikatsuyu* on the horizon, in between the trees. My eyebrows rise, my chest inflates and I exhale a sigh of relief. The light from the sun illuminates the mountains tops and we speed up our feet to get to the village before it gets darker.
 
-We arrive at around 5:40pm, 20 minutes before the only market around closes. We buy instant noodles for dinner along with some desserts, and eggs and bread for breakfast the next morning.
+We enter the village by what looks like a backdoor, coming in from the mountains. The clock shows 5:40pm, twenty minutes before the only grocery store closes. We rush our feet and get in just in time. When I put heavy backpack on shopping cart, my back smiles, a smile of relief. We buy instant noodles for dinner, along with desserts we have no idea what the label says in Japanese. We want a little surprise. Eggs and bread for breakfast the next morning aren't forgotten.
+
+At the guesthouse, shower, dinner, resting. The body pulsates a glow of soreness and pleasure. The walk was tough but rewarding. I can't wait for tomorrow.
 
 <figure>
 ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001641.JPG" loading="lazy" />
@@ -186,7 +188,7 @@ The plan: walk down to *Hongu* (本宮). Most people just walk straight from her
 
 <div class="asterisk">***</div>
 
-*"What's going on here?"* I wonder, confused as I get on the bus. There's like what appears to be two hundred people inside. It feels chaotic and messy, and a thousand eyes are gazing at us. I sigh. *"I can't believe we're standing for a whole hour with these heavy bags!"*.
+*"What's going on here?"* I wonder, confused as I get on the bus. There's like what appears to be two hundred people inside. It feels chaotic and messy, and everyone's staring at us while we orient ourselves. I sigh. *"I can't believe we're standing for a whole hour with these heavy bags!"*.
 
 As we look around and try to figure out where to stay, humbly peeking over backrests in search of spots, I notice people are sitting on their luggages in the aisle, something I'd never seen before. It looks totally unsafe, but I won't judge.
 
@@ -303,20 +305,18 @@ In between the woods, we spot what appears to be the outskirts of *Hongu*. Our e
 <figcaption></figcaption>
 </figure>
 
-We arrive at the *Hongu Taisha* area, respectfully appreciating the view of the shrine, and taking some time to admire banners, the architecture, the gold and silver.
+We arrive at the *Hongu Taisha* area, respectfully appreciating the view of the shrine, and taking some time to admire banners, the architecture, the gold and silver. We continue down the stairs leading to *Hongu*.
 
-On our way we continue, down the stairs that will lead to *Hongu's* streets, and the *torii* gate.
+Crossing the village into the fields, we arrive at a special place we've been anticipating for months: the imposing *Oyunohara* (大斎原) *torii*, a tall 111 ft gate (33.9 meters) that represents craftsmanship and transcendence.
 
 ### Portals
-
-After months of planning and preparation, we arrive at the imposing *Oyunohara* (大斎原) *torii* gate, the point around which our journey has orbited.
 
 <figure>
 ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010231.jpeg" class="mobile-zoom" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
-I feel like a tiny ant standing in front of this *torii* gate. It has great personal significance. I'll explain why.
+I feel like a tiny ant standing in front of this *torii* gate due both to its height and personal significance.
 
 Have you ever noticed how portals are everywhere in our culture? In *Alice in Wonderland*, the main character needs to go through a tiny portal to get to the *other side of her reality*. In *Narnia*, a hidden portal inside a wardrobe leads the characters to another world. In *The Matrix*, Neo passes a mental portal to wake up to the *real* world.
 
@@ -354,7 +354,7 @@ Today we'll head over to *Yunomine* (湯の峰), a small hot springs village. *T
 <figcaption></figcaption>
 </figure>
 
-<div class="asterisk">***</div>
+<div class="asterisks">***</div>
 
 We are the only passengers in the mini-bus. We are dropped 40 minutes away from *Yunomine*.
 
@@ -421,7 +421,7 @@ Ice cream wouldn't be a bad idea.
 
 <div class="asterisks">***</div>
 
-We end the day in *Kawayu* (川湯), a tiny village where hot springs flow into the river. We wander the streets in robes and soak under a sky full of stars.
+We hop on a bus towards *Kawayu* (川湯), a tiny village where hot springs flow into the river, and arrive during sunset. We borrow traditional robes from our guesthouse and wander, shy, towards the natural spa. You can use a shovel to dig your own bath spot in the river, but we decide to use an existing spot made of stones. Under a sky is full of stars, we soak, mixing and contrasting hot and cold water. A perfect ending to our night before dinner and bed.
 
 <figure>
   <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/L1010345.jpeg" loading="lazy" class="hide-on-mobile" />
@@ -573,11 +573,11 @@ Do I have the energy to do the second trail? Probably yes. Can my knees sustain 
   <figcaption>*Koguchi*</figcaption>
 </figure>
 
-We arrive at a camping area that has a single a food truck, called *Bar Free Soul*. The owner serves us *gyoza* (餃子), and asks us to pin our country on a large map behind the counter. I raise an eyebrow the moment I see pins everywhere, except Brazil, before adding my pin.
-
-We'll chill here until the next bus to *Shingu* stops by at 4:30pm. It's a long wait.
+We arrive at a camping area that has a single a food truck, called *Bar Free Soul*. The owner serves us *gyoza* (餃子), and asks us to pin our country on a large map behind the counter. I raise an eyebrow the moment I see pins everywhere, except Brazil, before adding my pin. We'll chill here until the next bus to *Shingu* stops by at 4:30pm. It's a long wait.
 
 *Fey*, our new friend, rests for an hour before finally deciding to start the next trail toward *Nachi*, the *Ogumotori-goe*. We clap at this brave woman as she departs with her green backpack.
+
+When it's time to leave, we hop on a bus to Shingu. The vehicle is packed and travel standing up for a good hour. After arriving, I'll need to figure out how to dispose of my unused bear spray.
 
 <figure>
   ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010483.jpeg" alt="" class="" loading="lazy" />
@@ -597,7 +597,7 @@ We'll chill here until the next bus to *Shingu* stops by at 4:30pm. It's a long 
 
 ### Bear spray disposal
 
-One big inconvenience is the bear spray, and disposing of it safely. Think of pepper spray, but on steroids. It shoots nearly 60ft (about 20 meters). It's an explosive red goo that you clip to your belt. You can't toss it in a regular trash bin, and you cannot fly back home with it either.
+The disposal of a bear spray is one big challenge when it's your first time disposing of it, you are in a foreign land, and you want to do just the right thing. Think of a pepper spray, but on steroids. It shoots nearly 60ft (about 20 meters). It's an explosive red goo that you clip to your belt. You can't toss it in a regular trash bin, and you cannot fly back home with it either.
 
 According to ChatGPT, Claude, Grok and Reddit (I quadruple-checked), the general guidance is to take it to a police station (*kōban*, 交番) and ask for help. Not exactly easy when you don't speak the language, and you'd rather not look like a lunatic with a canister in your bag.
 
@@ -608,7 +608,7 @@ Then, two policemen appear down the street. I pack my things, ready the bear spr
 In Japan, manufacturers describe discharging contents either outdoors, or underwater in a bucket if that's not possible. Not really feasible from a hotel room. A problem for another day<sup>1</sup>.
 
 ## Day 5: Shingu to Nachisan
-<span class="subtitle">A timeless fall</span>
+<span class="subtitle">The final ascent, and a timeless fall</span>
 
 Our schedule is tight today because we're sleeping in *Kyoto* tonight. We need to catch 7:00am bus toward *Kii-Katsuura* (紀伊勝浦) and *Nachisan* (那智山). That gives us 8:51am to 10:32am to explore the temple and falls before five or six hours of trains to *Kyoto*. We cannot miss that bus.
 
@@ -690,7 +690,7 @@ A few flights later, we lift our heads to the sky and glimpse vermilion in betwe
 
 After days of walking on the Kumano Kodo, I finally let go of a breath I didn't know I'd been holding for years. My shoulders have never felt lighter, free from the weight from everyday's life. My chest feels full while I contemplate the satisfaction of achieving something bigger than myself. The walk has come to an end, but I feel the pilgrimage has only started.
 
-I learned that the walk was the destination. Each step was an arrival, and the trail has become a metaphor for life.
+I learned that the walk was the destination. Each step was an arrival, and the trail has become a metaphor for life. The man who's stepping on the train back to Kyoto is not the same man who stepped on the Kumano Kodo.
 
 ## Tomorrow
 <span class="subtitle">New paths</span>
@@ -730,5 +730,5 @@ That’s what I’ll do.
 ---
 
 <ol class="footnotes">
-<li>I was able to return the bear spray back where I purchased it in Tanabe, at <a href="https://www.instagram.com/stock_outdoor/">Stock Outdoors</a>. The owner gave us a discount.</li>
+<li>I returned the bear spray back where I purchased it in Tanabe, at <a href="https://www.instagram.com/stock_outdoor/">Stock Outdoors</a>. The owner gave us a discount.</li>
 </ol>
