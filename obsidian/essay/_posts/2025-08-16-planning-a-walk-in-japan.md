@@ -268,6 +268,12 @@ We travel to the United States for a wedding over the weekend in Minneapolis. Th
 ## A lost week
 <span class="subtitle">I get sick and stay stuck in a hotel room. 25 days to walk.</span>
 
+[TODO] Sep 1, Mon: we get in San Francisco (Sun) and it feels like some allergy is brewing. Allergies are part of my life, so I don’t think much about it, I just swallow a pill. The runny nose and watery eyes get worse and worse. The pill goes completely ignored and the situation gets worse by the hour. The “allergy” turns out to be a full blown cold / flu. 
+
+On Tuesday, I’m able to get some work done, but end up in bed until 7pm. Wed, Thu, the entire week goes by without any exercise possible. 
+
+Friday finally gave me some breathing room for a reset, and I walked that day about 3 miles. I was weak and every step felt like a carrying a large boulder in my backpack.
+
 - San Francisco
 - I get sick on Labor Day, a holiday in the US. We stay stuck in the hotel for a whole week. Five days later, 21 days to the walk, I'm able to finally take a stroll outside for a little longer than 4km without feeling like my body is falling apart.
 - I am not productive for the whole week
