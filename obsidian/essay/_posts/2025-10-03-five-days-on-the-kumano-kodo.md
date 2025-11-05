@@ -32,7 +32,7 @@ It's 9am, September 29. My wife and I are in *Takijiri-oji* (滝尻王子), wher
 
 <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001112.JPG" class="mobile-zoom" loading="lazy" fetchpriority="low" />
 
-*"Is one of these the one we'll climb?"*, is one question that pops in my mind. At first glance, they look quite steep. The night before, a guest who walked from *Takijiri-oji* to *Takahara* (高原) invested time tried to persuade us to skip it. I sipped wine and shrugged, *"where would the fun be in that? I travelled around the planet for this"*.
+*"Is one of these the one we'll climb?"*, is one question that pops in my mind. At first glance, they look quite steep. The night before, a guest who walked from *Takijiri-oji* to *Takahara* (高原) tried to persuade us to skip it. I sipped wine and shrugged, *"where would the fun be in that? I travelled around the planet for this"*.
 
 Around the planet, indeed. Residing in Brazil, we planned a stopover in the US to dilute the hardship. The journey from Denver until arrival in *Tanabe* the night before was pure chaos, a tight schedule with endless potential points of failure. More on that later, however, because my eyes must now focus on these mountains.
 
@@ -42,7 +42,7 @@ Around the planet, indeed. Residing in Brazil, we planned a stopover in the US t
 
 The walk starts off climbing a staircase with steps twice the regular height. At first, I'm enchanted by the beauty and historical significance. *"Lots of photography opportunities"*, I think. You don't commonly see rocky stairs intertwined with tree roots like these anywhere.
 
-However, the staircase *never stops*. We're ten, thirty, fifty minutes in and it's an endless, tough ascent. After two hundred meters of elevation, my body is protesting loudly, *"what the hell are you doing, Alex?"*. *"I didn't even have the time to wake up yet"*, it complains. The initial climb is sudden, dramatic and slow.
+However, the staircase *never stops*. We're ten, thirty, fifty minutes in and it's an endless, tough ascent. After 656 feet of elevation (200 meters), my body is protesting loudly, *"what the hell are you doing, Alex?"*. *"I didn't even have the time to wake up yet"*, it complains. The initial climb is sudden, dramatic and slow.
 
 After a while, the stairs morph into marble-sized little rocks. Every step is a meticulous task of positioning the foot properly, as if my ankles are dancing. The physical intensity is only matched by the mental challenge of choosing where to tread among the infinity of roots.
 
@@ -52,7 +52,7 @@ It rains lightly. A few drops overcome the protection from the trees.
 
 ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001184.JPG" class="mobile-zoom" loading="lazy" fetchpriority="low" />
 
-After a brutal initial ascent, we reach a flat section where we can accelerate and keep a better pace. The watch displays 10:42am and 317m of elevation gain. After 3.44km, heartrate drops to 111bpm.
+After a brutal initial ascent, we reach a flat section where we can accelerate and keep a better pace. The watch displays 10:42am and 1,040 feet of elevation gain (317m). After 3.44km, heartrate drops to 111bpm.
 
 <figure>
 <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001209.JPG" loading="lazy" />
@@ -80,7 +80,7 @@ Half an hour later, we step on asphalt and arrive in a small hamlet that bifurca
 
 ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001343.JPG" loading="lazy" />
 
-We're at 12:38pm with 8.5km still to Chikatsuyu. The forecast shows rain incoming, and our legs already climbed 514 meters. However, we do have time, we just need to keep a decent pace and we could reach the guesthouse before 5pm. The alternative is taking a bus from *Takahara*.
+We're at 12:38pm with 8.5km still to Chikatsuyu. The forecast shows rain incoming, and our legs already climbed 1,686 feet (514 meters). However, we do have time, we just need to keep a decent pace and we could reach the guesthouse before 5pm. The alternative is taking a bus from *Takahara*.
 
 I sip my coffee and shrug, *"where would the fun be in that? We travelled around the planet for the challenge"*. And so we decide to continue.
 
@@ -88,11 +88,11 @@ I sip my coffee and shrug, *"where would the fun be in that? We travelled around
 
 <div class="asterisks">***</div>
 
-As we get back into the trail to *Chikatsuyu*, we meet another steep ascen. This time, it's not a staircase, but a flat, sloped surface that make your shin muscles burn. 15 minutes in and it feels extremely tiresome.
+As we get back into the trail to *Chikatsuyu*, we meet another steep ascent. This time, it's not a staircase, but a flat, sloped surface that makes your shin muscles burn. 15 minutes in and it feels extremely tiresome.
 
 Being tired is fine. After all, I expected exhaustion, so I won't dwell on that. The challenge is watching my mind autonomously asking how long still to go before it gets easier, or how long for the pain to stop. That's not really useful thought, though. It's a waste of mental energy to ponder about things you can't change, or the path that has been planned a long ago. Where we are now is just a zone of discomfort and the right thing to do is to push the body forward. That's the focus that matters.
 
-<div class="asterisk">***</div>
+<div class="asterisks">***</div>
 
 A layer of complexity (and exhaustion) added to this walk was how hectic our arrival in Japan was after a 10-hour sleepless flight. We had roughly 24 hours to arrive, travel 10h, sleep, pack, buy gear, figure out where to get bear spray. Please don't even get me started on the bear spray adventure. Then, in *Tanabe* the evening before the walk, we got a taxi driver who ignored our instructions and drove us elsewhere, causing all sorts of stress and we got to our Airbnb late. I mean, in the end everything worked out neatly, but it also felt like we were parachuting into the trail, like being dropped in the middle of a combat zone. It took us a while of walking to finally "cooldown" and get into the mental flow we came here for.
 
@@ -131,7 +131,7 @@ I have a sense of gratitude just for being able to start the trail, let alone fi
 
 ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001485.JPG" class="mobile-zoom-120" loading="lazy" />
 
-The wrist watch shows 2:57pm and we made all the way to half of the trail to *Chikatsuyu*. A total of 05h06 so far, 909 m of elevation gained and 11km.
+The wrist watch shows 2:57pm and we made all the way to half of the trail to *Chikatsuyu*. A total of 05h06 so far, 2,982 feet of elevation gained (909m) and 11km.
 
 When comparing to the beginning of the trail, the worse part was later on. Contrary to what the *Tanabe Prefecture's* website says, that *Takijiri→Takahara* is harder than *Takahara→Chikatsuyu*, I found the opposite to be true. Well, I could also attribute that to the weight, energy and aggregated tiredness, which feels like has compounded a lot.
 
@@ -186,7 +186,7 @@ So, yes, we take our time. We take the deepest and longest inhale you can imagin
 
 The plan: walk down to *Hongu* (本宮). Most people just walk straight from here, but, presumably, the views as you descend from *Hosshinmon-oji* are nicer than starting in *Chikatsuyu*, so we will make that bet. We'll hop on a bus to get to the trail. Ultimately, the destination is the same.
 
-<div class="asterisk">***</div>
+<div class="asterisks">***</div>
 
 *"What's going on here?"* I wonder, confused as I get on the bus. There's like what appears to be two hundred people inside. It feels chaotic and messy, and everyone's staring at us while we orient ourselves. I sigh. *"I can't believe we're standing for a whole hour with these heavy bags!"*.
 
@@ -226,7 +226,7 @@ A woman points at me and to the aisle, as if saying, *"You, stay there!"* I get 
 
 We walk on asphalt for 10 minutes before getting on to serious business. The trail is stunning. The modern road meets the old. Then asphalt and hamlets again, a symbiosis of community and nature.
 
-<div class="asterisk">***</div>
+<div class="asterisks">***</div>
 
 <figure>
 ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day2/L1010041.JPG" loading="lazy" />
@@ -280,8 +280,7 @@ There are passages where my whole mental energy is focusing on where my feet are
 
 I have seen millenary tree roots serving as a long stair up and down. I have seen stairs made of rocks naturally. I have seen stairs with uneven steps. I have seen them all mixed, roots, rocks, sand.
 
-The most impressive, however, are the ones that were crafted by the feet of the thousands and thousands of people who have,
-a step at a time, helped shape this trail, the Kumano Kodo.
+The most impressive, however, are the ones that were crafted by the feet of the thousands and thousands of people who have, a step at a time, helped shape this trail, the Kumano Kodo.
 
 In between the woods, we spot what appears to be the outskirts of *Hongu*. Our expectation to see the tall *torii* gate grows exponentially.
 
@@ -395,7 +394,7 @@ Before leaving the hut, I finish with cold water, which leaves a lasting freshne
 
 Our lunch involves doing the traditional *Onsen Tamago*, where you hard boil eggs by dipping them in an open hot spring for 11 minutes.
 
-After lunch, we find ourselves a wooden bench to sit down and rest after lunch. As my legs touch the wood and I sit, it feels like *Rest Day* has finally began.
+After lunch, we find ourselves a wooden bench. As my legs touch the wood and I sit, it feels like *Rest Day* has finally began.
 
 <figure>
 	<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/L1010339-hero.jpeg" loading="lazy" class="full-bleed  hide-on-mobile" />
@@ -439,7 +438,7 @@ We hop on a bus towards *Kawayu* (川湯), a tiny village where hot springs flow
 
 We woke up to a gut punch before coffee. Both my wife's knees and mine are hurting, and my back is doing a serious complaining, while today's trail is the toughest.
 
-The 13km *Kogumotori-goe* (小雲取越) trail's first third scores 4 out of 5 in difficulty. It's a gradual 470 meters climb to *Hyakken-gura*, harder than Day One, which was already quite taxing. More pressing is the fact that *Koguchi* (小口) has no lodging available today, so we must arrive before 5pm to catch the last bus to *Shingu* (新宮). The trail estimates say 6-8 hours.
+The 13km *Kogumotori-goe* (小雲取越) trail's first third scores 4 out of 5 in difficulty. It's a gradual 1,542 feet climb (470 meters) to *Hyakken-gura*, harder than Day One, which was already quite taxing. More pressing is the fact that *Koguchi* (小口) has no lodging available today, so we must arrive before 5pm to catch the last bus to *Shingu* (新宮). The trail estimates say 6-8 hours.
 
 At 7:45am, we've spent an hour working the problem. The heavy backpacks aren't helping our knees or backs, so we conclude it's irresponsible to walk with this much pain. The options are doing a boat tour today (I didn't come here to sit down); finding another trail (frustrating after months of planning); my wife taking a bus to *Shingu* while I walk (I'd feel bad for her); walking a third of the trail and returning (sounds off-putting but better than nothing).
 
@@ -488,13 +487,13 @@ Our conversation breaks off when we see someone walking backwards, moving slowly
 	<figcaption>A person on the trail.</figcaption>
 </figure>
 
-*"Hello? What's up"?* The woman looks at me. *"Uh... snake. A snake up there"*, she says, gesturing up the trail. *"Let me go take a look"*, I say, and move forward.
+*"Hello? What's up?"* The woman looks at me. *"Uh... snake. A snake up there"*, she says, gesturing up the trail. *"Let me go take a look"*, I say, and move forward.
 
 I scan the endless grass and leaf litter along the trail, but see nothing. Then, as I approach, the reptile glides down from the embankment above us onto the path, as if it wants to join our walk. As I close the distance, the snake angles across the ridgeline and disappears downhill. *"Clear!"*, I announce.
 
 *"Would you like us to walk in front of you, just in case"*, I ask. *"Yeah, sure"*. We restart the march and I present myself and my wife. *"I'm Fey"*. My wife lags behind with her while I lead the group.
 
-Over the next hour, a cultural exchange flows non-stop. We learn she's a Chinese kindergarden teacher on vacation, skipping the Chinese hiking trails this time to walk the Japanese ones. Yesterday, she walked up until late at night. *"It's common in China for people to hike in the middle of the night"*, she says. *"Aren't you scared of the dark or animals"*?, we ask. *"Yes, but we do it anyway. I use my cellphone lights"*.
+Over the next hour, a cultural exchange flows non-stop. We learn she's a Chinese kindergarden teacher on vacation, skipping the Chinese hiking trails this time to walk the Japanese ones. Yesterday, she walked up until late at night. *"It's common in China for people to hike in the middle of the night"*, she says. *"Aren't you scared of the dark or animals?"*, we ask. *"Yes, but we do it anyway. I use my cellphone lights"*.
 
 Brave woman.
 
@@ -553,7 +552,7 @@ The end of the trail is near.
 
 Exhausted, we reach the end of the trail at 12:10pm, thankful for having arrived. We continue to *Koguchi* to find food.
 
-*"I wonder whether we would have the energy to do the next trail right after, the Ogumotori-goe (大雲取越)?"*, the fleeting thought crosses my mind. In ancient times, it was known as *Dogiri-zaka* (胴切坂), or *"body-breaking slope"*. It's nothing less than a sudden 800 meters ascend in the first 5 kilometers.
+*"I wonder whether we would have the energy to do the next trail right after, the Ogumotori-goe (大雲取越)?"*, the fleeting thought crosses my mind. In ancient times, it was known as *Dogiri-zaka* (胴切坂), or *"body-breaking slope"*. It's nothing less than a sudden 2,625 feet ascent (800 meters) in the first 5 kilometers.
 
 Do I have the energy to do the second trail? Probably yes. Can my knees sustain a *body-breaking slope*? Certainly not. Everything hurts. I am destroyed, I'm tired, but I'm happy.
 
@@ -730,5 +729,5 @@ That’s what I’ll do.
 ---
 
 <ol class="footnotes">
-<li>I returned the bear spray back where I purchased it in Tanabe, at <a href="https://www.instagram.com/stock_outdoor/">Stock Outdoors</a>. The owner gave us a discount.</li>
+<li>On the journey from Nachisan to Kyoto, I made a brief stop in Tanabe and returned the bear spray to <a href="https://www.instagram.com/stock_outdoor/">Stock Outdoors</a>, where I'd purchased it. The owner graciously gave us a discount on the return.</li>
 </ol>
