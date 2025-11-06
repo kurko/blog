@@ -83,7 +83,8 @@
 
   .c-post__header_for_cover_image div.c-post__cover_image {
     margin: 0 auto;
-    max-width: var(--cover-image-width);
+    /* max-width: var(--cover-image-width); */
+    max-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,13 +97,22 @@
     position: relative;
     text-align: left;
     padding-bottom: var(--cover-image-ratio);
+    padding-bottom: min(var(--cover-image-ratio), calc(100vh));
     margin: 0 auto;
+  }
+
+  @media (min-height: 600px) {
+    /*
+    .c-post__header-content-grid {
+      padding-bottom: min(var(--cover-image-ratio), calc(100vh - 10px));
+    }
+    */
   }
 
   .c-post__header-text {
     position: absolute;
     display: table;
-    bottom: 20px;
+    bottom: 10px;
     width: 100%;
     max-width: calc(var(--grid-width) - var(--grid-gutter) * 2);
     text-align: left;
