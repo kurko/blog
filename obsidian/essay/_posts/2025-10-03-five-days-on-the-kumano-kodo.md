@@ -15,6 +15,21 @@ cover_image_mobile: "/images/posts/2025-10-03-five-days-on-the-kumano-kodo/L1010
 #cover_image_mobile_zoom: "160%"
 ---
 
+It's 9:00 am, September 29, *Takijiri-oji* (滝尻王子). The small village's river reflects the sky like a moving green glass, and the lush mountains rise above my line of sight. I set foot on a stone step braided with roots and see a sign toward *Takahara* (高原). Two hikers pass and disappear into the cedar shade while I inflate my chest and exhale a sigh of awe. In the distance, I hear a faint bell ringing.
+
+When our <a href="https://www.balsamicojam-nankiwakayama.com/kumano-winery-guest-house" target="winery-airbnb">Airbnb host</a> dropped us off this morning, the hamlet looked neat but unremarkable, like others we've passed on the way. The mountains and forests, though, looked imposing and impenetrable.
+
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001110.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
+
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001112.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
+
+*"Is one of these the one we'll climb?"*, was the question in my mind. At first glance, they look steep like a wall. Yesterday at dinner, a guest who walked from *Takijiri-oji* to *Takahara* tried to dissuade us from walking it. They vehemengly believed we should skip this section. I sipped wine and shrugged, *"where would the fun be in that? I travelled around the planet for this"*.
+
+Around the planet, indeed. Residing in Brazil, we did a stopover in the US to dilute the tedious hardship of flying so many hours in one sitting. The journey from Denver to the arrival in *Tanabe* the night before was pure chaos, a tight schedule with endless potential points of failure. More on that later, however, because my eyes must now focus on these mountains.
+
+## A total reset
+<span class="subtitle">Disconnecting from routine</span>
+
 For thousands of years, the *Kumano Kodo* (熊野古道) trails in Japan have guided pilgrims toward sacred temples and connected walkers in search of meaning, or just adventure. While walking those paths for five days in search of the latter, I may have stumbled upon a little of the former.
 
 The idea of a total reset had been circling my mind for some time, a need to disconnect from routine, tune out the noise, and reconnect with my own thoughts. The *Kumano Kodo* felt like the right backdrop for that experiment. I assumed the effort would be rewarded by shrines. I didn’t know yet that the walk itself would become the destination, and each step a small arrival.
@@ -23,22 +38,10 @@ The absence of Switzerland's turquoise lakes or the dramatic Alps of France mean
 
 From the start, this had to be a distraction-free walk. Even when the idea was still forming, it was clear that I wanted full immersion: no social media, no podcasts, no music. Just the here and the now. No autopilot, only awareness.
 
-## Day 1: Takijiri-oji to Chikatsuyu
-<span class="subtitle">Finding the rhythm of the path</span>
-
-It's 9am, September 29. My wife and I are in *Takijiri-oji* (滝尻王子), where our walk begins. Our <a href="https://www.balsamicojam-nankiwakayama.com/kumano-winery-guest-house" target="winery-airbnb">Airbnb host</a> just dropped us off in a minivan. The hamlet looks neat but unremarkable, like others we passed on the way. The mountains and forests, though, are imposing and seemingly impenetrable.
-
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001110.JPG" class="mobile-zoom" loading="lazy" fetchpriority="low" />
-
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001112.JPG" class="mobile-zoom" loading="lazy" fetchpriority="low" />
-
-*"Is one of these the one we'll climb?"*, is one question that pops in my mind. At first glance, they look quite steep. The night before, a guest who walked from *Takijiri-oji* to *Takahara* (高原) tried to persuade us to skip it. I sipped wine and shrugged, *"where would the fun be in that? I travelled around the planet for this"*.
-
-Around the planet, indeed. Residing in Brazil, we planned a stopover in the US to dilute the hardship. The journey from Denver until arrival in *Tanabe* the night before was pure chaos, a tight schedule with endless potential points of failure. More on that later, however, because my eyes must now focus on these mountains.
-
 <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001143.jpg" loading="lazy" fetchpriority="low" />
 
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001176.JPG" loading="lazy" fetchpriority="low" />
+## Day 1: Takijiri-oji to Chikatsuyu
+<span class="subtitle">Finding the rhythm of the path</span>
 
 The walk starts off climbing a staircase with steps twice the regular height. At first, I'm enchanted by the beauty and historical significance. *"Lots of photography opportunities"*, I think. You don't commonly see rocky stairs intertwined with tree roots like these anywhere.
 
@@ -47,6 +50,8 @@ However, the staircase *never stops*. We're ten, thirty, fifty minutes in and it
 After a while, the stairs morph into marble-sized little rocks. Every step is a meticulous task of positioning the foot properly, as if my ankles are dancing. The physical intensity is only matched by the mental challenge of choosing where to tread among the infinity of roots.
 
 It rains lightly. A few drops overcome the protection from the trees.
+
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001176.JPG" loading="lazy" fetchpriority="low" />
 
 ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001192.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
 
@@ -65,7 +70,7 @@ After a brutal initial ascent, we reach a flat section where we can accelerate a
 </figure>
 
 <figure>
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001227.JPG" loading="lazy" />
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001227.jpeg" loading="lazy" />
 <figcaption>We are rewarded with astonishing views</figcaption>
 </figure>
 
