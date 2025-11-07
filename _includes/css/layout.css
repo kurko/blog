@@ -38,6 +38,20 @@
   --header-background-color: #fcfcfc;
   --header-for-cover-image-background-color: rgba(0, 0, 0, 0.2);
   --website-container-background-color: #ffffff;
+  --color-border: #f6f6f6;
+  --color-gray: #919191;
+}
+
+/* Dark mode color overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #1a1a1a;
+    --header-background-color: #1a1a1a;
+    --website-container-background-color: #242424;
+    --color-border: #333333;
+    --color-gray: #aaaaaa;
+    --color-brand: #7eb3d9;
+  }
 }
 
 /* ============================================
@@ -50,7 +64,7 @@ body {
   /* Set dark background on body for pages with cover images to avoid white
    * showing around notch */
   body:has(.c-post__header_for_cover_image) {
-    background-color: #fff;
+    background-color: var(--website-container-background-color);
   }
 
 

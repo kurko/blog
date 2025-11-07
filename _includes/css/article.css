@@ -24,6 +24,26 @@
 
   /* Transitions */
   --global-transition: .15s;
+
+  /* Additional colors */
+  --color-cover-bg: #111;
+  --color-cover-text: rgba(255, 255, 255, 0.9);
+  --color-cover-time: #eee;
+  --color-draft: orange;
+}
+
+/* Dark mode color overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-gray: #aaaaaa;
+    --color-light-gray: #2d2d2d;
+    --color-dark-gray: #cccccc;
+    --color-bg-gray: #2d2d2d;
+    --color-border: #333333;
+    --color-brand: #7eb3d9;
+    --color-text: #e8e8e8;
+    --color-cover-bg: #0a0a0a;
+  }
 }
 
 /* ============================================
@@ -65,7 +85,7 @@
 .c-post__header_for_cover_image {
   width: 100%;
   height: auto;
-  background-color: #111;
+  background-color: var(--color-cover-bg);
   text-align: left;
 }
 
@@ -121,12 +141,12 @@
   }
 
   .c-post__header_for_cover_image h1 {
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--color-cover-text);
     margin-bottom: 0px;
     text-align: left;
   }
   .c-post__header_for_cover_image time {
-    color: #eee;
+    color: var(--color-cover-time);
     text-align: left;
   }
 
@@ -393,7 +413,7 @@ img.c-post__image {
 }
 
 .c-post-card__draft {
-  color: orange;
+  color: var(--color-draft);
   font-size: 0.8em;
   font-weight: normal;
   margin-left: 0.5em;
