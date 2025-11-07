@@ -15,20 +15,26 @@ cover_image_mobile: "/images/posts/2025-10-03-five-days-on-the-kumano-kodo/L1010
 #cover_image_mobile_zoom: "160%"
 ---
 
-It's 9:00 am, September 29, *Takijiri-oji* (滝尻王子). I set boot on a stone step braided with roots. I hear faint bells ringing somewhere up the slope while two hikers pass and disappear into the cedar shade. The river reflects the forest like moving green glass, and the lush mountains rise above my line of sight. I inflate my chest and exhale a sigh of awe.
+It's 9:00 am, September 29, *Takijiri-oji* (滝尻王子). The river mirrors the forest like moving green glass, and the mountains rise behind it. A faint bells rings somewhere up the slope while two hikers pass and disappear into the cedar shade. I set a boot on a stone step braided with roots, take a long breath, and let it out.
 
-When our <a href="https://www.balsamicojam-nankiwakayama.com/kumano-winery-guest-house" target="winery-airbnb">Airbnb host</a> dropped us off by the trailhead this morning, the small village looked neat, and the mountains imposing and impenetrable. People have, however, walked these hills for a thousand years. A came for five days of walking and a mental reset I couldn't define. I don't know yet that the stairs will go on for hours. I only know the pack sits on my back, my breath is steady, and my eyes aim at the trail.
+People have walked the *Kumano Kodo* (熊野古道) hills for a thousand years. I came for five days of walking and a mental reset I couldn't define. I don't know yet that the stairs will go on for hours. I only know the pack sits on my back, my breath is steady, and my eyes aim at the trail.
 
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001110.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
+*"Is one of these the one we'll climb"?* I wonder. When our <a href="https://www.balsamicojam-nankiwakayama.com/kumano-winery-guest-house" target="winery-airbnb">Airbnb host</a> dropped us at the trailhead, the mountains looked imposing and impenetrable, steep like a wall. Last night at dinner, another guest who had walked from *Takijiri-oji* to *Takahara* (高原) tried to dissuade us from starting here. They vehemengly we should skip this section. I sipped wine and shrugged: *"where would the fun be in that? I traveled around the planet for this"*.
 
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001112.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
+<figure>
+	<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001110.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
+	<figcaption></figcaption>
+</figure>
 
-*"Is one of these the one we'll climb"?* I wonder. They all look steep like a wall. Yesterday at dinner, another guest who walked from *Takijiri-oji* to *Takahara* tried to dissuade us from walking it. They vehemengly believed we should skip this section. I sipped wine and shrugged, *"where would the fun be in that? I travelled around the planet for this"*.
+<figure>
+	<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001112.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
+	<figcaption>River like green glass, mountains ahead</figcaption>
+</figure>
 
 ## A total reset
 <span class="subtitle">Disconnecting from routine</span>
 
-The idea of a total reset had been circling my mind for quite some time, a need to disconnect from routine, tune out the noise, and reconnect with my own thoughts. The *Kumano Kodo* (熊野古道) trails in Japan felt like the right backdrop for that experiment. I assumed the effort would be rewarded by shrines. I didn’t know yet that the walk itself would become the destination, and each step a small arrival.
+The idea of a total reset had been circling my mind for quite some time, a need to disconnect from routine, tune out the noise, and reconnect with my own thoughts. The *Kumano Kodo* trails in Japan felt like the right backdrop for that experiment. I assumed the effort would be rewarded by shrines. I didn’t know yet that the walk itself would become the destination, and each step a small arrival.
 
 For thousands of years, these trails have guided pilgrims toward sacred temples and connected walkers in search of meaning, or just adventure. While walking those paths for five days in search of the latter, I may have stumbled upon a little of the former.
 
@@ -74,7 +80,7 @@ After a brutal initial ascent, we reach a flat section where we can accelerate a
 
 <div class="asterisks">***</div>
 
-Half an hour later, we step on asphalt and arrive in a small village that bifurcates the trail on to *Takahara* (高原, a short 1km trip), or to *Chikatsuyu* for another 8.5km, our original plan. The place has toilets, seats, tables, a vending machine full of sold out drinks, a [cute cat](https://maps.app.goo.gl/9tvZgwJ85RSh28TG7), and pay phone available. Lovely views of the mountains.
+Half an hour later, we step on asphalt and arrive in a small village that bifurcates the trail on to *Takahara* (a short 1km trip), or to *Chikatsuyu* for another 8.5km, our original plan. The place has toilets, seats, tables, a vending machine full of sold out drinks, a [cute cat](https://maps.app.goo.gl/9tvZgwJ85RSh28TG7), and pay phone available. Lovely views of the mountains.
 
 <figure>
 ￼<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day1/L1001377.JPG" class="mobile-zoom-230" loading="lazy" />
