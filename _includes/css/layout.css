@@ -42,6 +42,13 @@
   --color-gray: #919191;
 }
 
+/* Mobile layout adjustments */
+@media (max-width: 600px) {
+  :root {
+    --grid-gutter: 16px;
+  }
+}
+
 /* Dark mode color overrides */
 @media (prefers-color-scheme: dark) {
   :root {

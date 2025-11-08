@@ -52,6 +52,15 @@
   --global-transition: .15s;
 }
 
+/* Mobile typography adjustments */
+@media (max-width: 600px) {
+  :root {
+    --font-size-base: 18px;
+    --line-height-base: 1.7;
+    --line-height-medium: 28px;  /* 18px * 1.55 rounded */
+  }
+}
+
 /* Dark mode color overrides */
 @media (prefers-color-scheme: dark) {
   :root {
@@ -92,6 +101,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h2, h3, h4, h5, h6 {
   padding-top: calc(var(--base-spacing-unit) * 2);
+}
+
+figure + h2,
+figure + h3,
+figure + h4,
+figure + h5,
+figure + h6 {
+  padding-top: 0;
 }
 
 h1 {
@@ -267,7 +284,6 @@ table thead tr th {
 table td {
   box-sizing: border-box;
   text-align: left;
-  border-bottom: 1px solid var(--color-border-blockquote);
   padding: 3px 6px;
 }
 

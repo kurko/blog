@@ -192,6 +192,8 @@ figure figcaption {
   color: var(--color-dark-gray);
   text-align: center;
   margin-bottom: calc(2 * var(--base-spacing-unit));
+  margin-top: 4px;
+  line-height: 1.2rem;
 }
 
 .c-post img.crop-vertical-1-5 {
