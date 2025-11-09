@@ -9,6 +9,9 @@ excerpt: "I walked the mountains in Japan for five days seeking a reset I couldn
 draft: false
 cover_image: "/images/posts/2025-10-03-five-days-on-the-kumano-kodo/L1010455-cover.jpg"
 cover_image_mobile: "/images/posts/2025-10-03-five-days-on-the-kumano-kodo/L1010455-cover-mobile.jpg"
+lang: en
+translations:
+  pt-br: cinco-dias-no-kumano-kodo
 
 #cover_image_align: "bottom"
 #page_css_class: "limit-img-width"

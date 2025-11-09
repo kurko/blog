@@ -5,8 +5,14 @@ layout: default
 <div class='o-wrapper'>
   <div class='o-grid'>
     {% for post in paginator.posts %}
-      {% if post.categories contains "essay" and (post.draft != true or jekyll.environment == "development") and post.published != false %}
-        {% include post-card.liquid %}
+      {% if post.categories contains "essay" %}
+        {% if post.draft != true or jekyll.environment == "development" %}
+          {% if post.published != false %}
+            {% unless post.unlisted == true %}
+              {% include post-card.liquid %}
+            {% endunless %}
+          {% endif %}
+        {% endif %}
       {% endif %}
     {% endfor %}
   </div>

@@ -35,6 +35,24 @@ layout: default
           {{ content }}
         </div>
 
+        {% if page.translations %}
+          <div class='c-post__translations'>
+            <p>
+              You can read this article in:
+              {% for translation in page.translations %}
+                <a href='/essay/{{ translation[1] }}'>{{ translation[0] }}</a>
+                {% unless forloop.last %} • {% endunless %}
+              {% endfor %}
+            </p>
+          </div>
+        {% endif %}
+
+        {% if page.translation_of %}
+          <div class='c-post__translations'>
+            <p><a href='/essay/{{ page.translation_of }}'>Read in English</a></p>
+          </div>
+        {% endif %}
+
         <div class='c-tags'>
           {% for tag in page.tags %}
             <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>

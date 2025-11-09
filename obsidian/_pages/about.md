@@ -3,7 +3,7 @@ share: true
 site_title: Alex
 title: About
 layout: page
-cover_image: "/images/pages/about3.jpeg"
+cover_image: "/images/pages/about3-hero.jpeg"
 filename: '_pages/about'
 rss: false
 date: 2020-01-02 15:02:54 -0200
