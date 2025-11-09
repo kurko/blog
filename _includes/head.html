@@ -8,6 +8,10 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
   {% endif %}
 
+  {% if page.cover_image %}
+    <meta itemprop='og:image' content='{{ base_path }}{{ page.cover_image }}'>
+  {% endif %}
+
   <title>
     {% if page.site_title %}
       {{ page.site_title }}

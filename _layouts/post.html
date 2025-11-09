@@ -4,10 +4,6 @@ layout: default
 
 {% include base_path %}
 
-{% if page.image %}
-  <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
-{% endif %}
-
 {% if page.cover_image %}
   {% include post-header.html %}
 {% endif %}
