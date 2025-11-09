@@ -39,10 +39,13 @@
       <div class="c-post__header-text">
         <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
 
-        <time
-          class='c-post__date'
-          datetime='{{ page.date | date_to_xmlschema }}'
-          itemprop='datePublished'>{{ page.date | date: '%b %Y' }}</time>
+        <!-- if the layout is that of a page, we don't show the date -->
+        {% unless page.layout == "page" %}
+          <time
+            class='c-post__date'
+            datetime='{{ page.date | date_to_xmlschema }}'
+            itemprop='datePublished'>{{ page.date | date: '%b %Y' }}</time>
+        {% endunless %}
       </div>
     </div>
 

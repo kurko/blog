@@ -69,13 +69,12 @@
   }
 }
 
-/* Post date */
+/* Post date (margin-bottom is defined by last-child */
 .c-post__date {
   position: relative;
   padding-top: 0px;
   display: block;
   text-align: center;
-  margin-bottom: 22px;
   font-size: 14px;
   font-weight: 600;
   line-height: 22px;
@@ -138,6 +137,9 @@
     text-align: left;
     padding-left: var(--grid-gutter);
     padding-right: var(--grid-gutter);
+  }
+  .c-post__header-text > *:last-child {
+    margin-bottom: 18px;
   }
 
   .c-post__header_for_cover_image h1 {

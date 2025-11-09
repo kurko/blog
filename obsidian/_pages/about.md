@@ -2,9 +2,8 @@
 share: true
 site_title: Alex
 title: About
-title_is_image: true
 layout: page
-image: '/images/pages/about2bw.jpeg'
+cover_image: "/images/pages/about3.jpeg"
 filename: '_pages/about'
 rss: false
 date: 2020-01-02 15:02:54 -0200
@@ -12,10 +11,10 @@ date: 2020-01-02 15:02:54 -0200
 
 Hello, fellow human. This is Alex. Welcome to my little corner on the internet.
 
-When you see me not <a href="https://www.linkedin.com/in/alexandredeoliveira/" target="linkedin">building software</a>), I'm <a href="https://soundcloud.com/alrowan/concerto-walk">composing music</a>, or [walking five days on the mountains of Japan](/essay/five-days-on-the-kumano-kodo). I [meditate](/essay/meditation), prioritize [nuance over extremes](/essay/the-space-between-yes-and-no), and I believe in [writing well is an act of empathy](https://github.com/ObsidianPublisher/obsidian-github-publisher/pull/36/files#diff-c49cb89b66bc4961c47c867b709bcb7956c00bff469ff5ad622be0a0e73c5dd2R94-R124).
+When you see me and I'm not <a href="https://www.linkedin.com/in/alexandredeoliveira/" target="linkedin">building software</a>, I'm <a href="https://soundcloud.com/alrowan/concerto-walk">composing music</a>, reading or [walking five days on the mountains of Japan](/essay/five-days-on-the-kumano-kodo). I [meditate](/essay/meditation), prioritize [nuance over extremes](/essay/the-space-between-yes-and-no), and I believe in [writing well is an act of empathy](https://github.com/ObsidianPublisher/obsidian-github-publisher/pull/36/files#diff-c49cb89b66bc4961c47c867b709bcb7956c00bff469ff5ad622be0a0e73c5dd2R94-R124).
 
 ## A life in five acts
-<div class="subtitle">Founding a company; work for New York; speaking around the world; health issues and coming out alive; and the one I'm in.</div>
+<div class="subtitle">Founding a company; work for New York; speaking around the world; health issues and coming out alive; and the one I'm in today.</div>
 
 From 2003 to 2009, I built websites in Brazil. In the company of one I was salesman, programmer, designer, project manager, and probably one of the first to use Google Ads, finding customers in every corner of the country. It was cool and fun, but unsustainable. The market was immature, I worked 16 hours a day for barely ~$400 a month. I was young and focused on the work, not the money, but at some point I grew tired of it, decided to fire all my customers and start over.
 
@@ -27,11 +26,14 @@ At some point around 2018 or 19, I decided to move on to management. On the one 
 
 I learned I didn't need to be a good speaker, I just needed to show up, and that's what I did next. I showed up at confs in New York, Argentina, Ukraine, Sao Paulo. An invitation came via email to speak at a Physics conference in Parma (CLConf) for my article on the [Physics of Software](/essay/software-constructal-law).
 
+<img src='/images/pages/about2bw.jpeg' />
+
 *Act Four*. 2018. Out of a sudden, I find myself in a hospital bed. Symptoms point to a tumor. Specialist doctors can't find the cause. My kidneys that are at 10% capacity, and I drink gallons of water to unclog them. Calcium is at crazy levels in my blood. 20 days and all kinds of tests later, we discover the culprit is Vitamin D intoxication. The final drug for merging that calcium into my bones makes me hallucinate hard, but I'm discharged in good health.
 
 Those quiet tears at night taught me what's really important in life. I honestly didn't know if I would be alive the next day, so all I cared about was my wife's wellbeing, my family, and knowing my friends were well. I acquired a level of perspective about value I wish everyone could see, but without the health issues. Those moments taught me to shake off the mundane, and to not stress as much about life.
 
 ### Act five
+<div class="subtitle">The one I'm in today.</div>
 
 This act is undefined, still unwritten. A blank page. It starts sometime around 2023 and I don't know where it leads. I suspect it has a combination of children, reassing where I live, maturity, getting back to origins, and getting close to 40.
 

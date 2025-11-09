@@ -2,24 +2,30 @@
 layout: default
 ---
 
-<div class="
-  o-wrapper
-  {% unless page.title_is_image %}spaced{% endunless %}
-">
+{% include base_path %}
+
+{% if page.cover_image %}
+  {% include post-header.html %}
+{% endif %}
+
+<div class="o-wrapper {% unless page.title_is_image %}spaced{% endunless %}">
 
   <div class='o-grid'>
     <div class='o-grid__col o-grid__col--4-4-s'>
-      <article class='c-post'>
-        {% if page.image %}
-          <meta itemprop='og:image' content='{{ site.baseurl }}{{ page.image }}'>
-        {% endif %}
+      <article
+        class="
+          c-post
+          {% if page.page_css_class %}{{ page.page_css_class }}{% endif %}
+        "
+        itemscope
+        itemtype='http://schema.org/BlogPosting'>
 
         <!-- We don't show a title if hide_title is set to true -->
-        {% unless page.title_is_image %}
+        {% unless page.cover_image %}
           <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
         {% endunless %}
 
-        <div class='c-content'>
+        <div class='c-content' itemprop='articleBody'>
           {% include page-image.html %}
 
           {{ content }}
