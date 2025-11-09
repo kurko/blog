@@ -6,7 +6,7 @@ filename: essay/_posts/2025-10-03-five-days-on-the-kumano-kodo
 rss: true
 date: 2025-10-03 16:00:00 +0900
 excerpt: "I walked the mountains in Japan for five days seeking a reset I couldn't define. Between the cedar shade and quiet villages, through ancient stairs, torii gates and shrines, I found what I was looking for."
-draft: true
+draft: false
 cover_image: "/images/posts/2025-10-03-five-days-on-the-kumano-kodo/L1010455-cover.jpg"
 cover_image_mobile: "/images/posts/2025-10-03-five-days-on-the-kumano-kodo/L1010455-cover-mobile.jpg"
 
