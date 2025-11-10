@@ -440,8 +440,7 @@ Ice cream wouldn't be a bad idea.
 We hop on a bus towards *Kawayu* (川湯), a tiny village where hot springs flow into the river, and arrive during sunset. We borrow traditional robes from our guesthouse and wander, shy, towards the natural spa. You can use a shovel to dig your own bath spot in the river, but we decide to use an existing spot made of stones. Under a sky full of stars, we soak, mixing and contrasting hot and cold water. A perfect ending to our night before dinner and bed.
 
 <figure>
-  <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/L1010345.jpeg" loading="lazy" class="hide-on-mobile" />
-	<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010370.jpg" alt="Fey walking in the front of us on the distance" loading="lazy" class="show-on-mobile" />
+  <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day3/L1010345.jpeg" loading="lazy" />
 	<figcaption></figcaption>
 </figure>
 
@@ -481,7 +480,7 @@ Twenty minutes into the walk, adrenaline triumphs over any logical reasoning and
 It's 9:17am. We see humans beings on the trail, everybody faster than us. Our goal is reaching the peak of the trail in 2-3 hours, hoping we're left with plenty of time to continue on a slower pace.
 
 <figure>
-<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010377.jpg" alt="" loading="lazy" />
+<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010377.JPG" alt="" loading="lazy" />
 <figcaption></figcaption>
 </figure>
 
@@ -500,7 +499,7 @@ If we got injured, could you imagine the inconvenience it would be? Waiting for 
 Our conversation breaks off when we see someone walking backwards, moving slowly. I signal my wife to stay behind and go check out.
 
 <figure>
-	<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010370.jpg" alt="Fey walking in the front of us on the distance" loading="lazy" />
+	<img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010370.JPG" alt="Fey walking in the front of us on the distance" loading="lazy" />
 	<figcaption>A person on the trail.</figcaption>
 </figure>
 
@@ -521,7 +520,7 @@ Overcoming the struggle, we arrive at our checkpoint, the *Hyakken-gura*. I wond
 None of that matters now because the mesmerizing *Kumano* mountains fill my eyes. The green horizon casts a hypnotic spell, putting everything secondary.
 
 <figure>
-  <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010385-hero.jpg" alt="Hyakken-gura" class="full-bleed hide-on-mobile" loading="lazy" />
+  <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010385-hero.JPG" alt="Hyakken-gura" class="full-bleed hide-on-mobile" loading="lazy" />
   <img src="/images/posts/2025-10-03-five-days-on-the-kumano-kodo/day4/L1010388-mobile.JPG" alt="Hyakken-gura" class="full-bleed show-on-mobile" loading="lazy" />
   <figcaption>The Kii mountains in all their glory.</figcaption>
 </figure>
