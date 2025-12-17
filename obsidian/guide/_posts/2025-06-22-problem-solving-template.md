@@ -12,7 +12,7 @@ The following is a template for RFC's and Tech Briefs I've been using since 2013
 
 ## Why would we use such a template?
 
-We engineers tend to overoptimize for solutions (to engineer literally means "find solutions"). In that process, we sometimes forget to think deeply about the problem, especially when we're passionate about the solution. Lots of engineers jump to resolution without fully understanding the problem, and/or without communicating their understanding to those around, generating more problems in the process.
+We engineers tend to over-optimize for solutions (to engineer literally means "find solutions"). In that process, we sometimes forget to think deeply about the problem, especially when we're passionate about the solution. Lots of engineers jump to resolution without fully understanding the problem, and/or without communicating their understanding to those around, generating more problems in the process.
 
 To interrupt that bias, this template serves as a sort of checklist while also giving structure to the very solution. Forcing the writer to think deeply about the problem before diving into a solution optimizes for rationality and maximizes changes of success.
 

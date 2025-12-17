@@ -1,0 +1,103 @@
+---
+share: true
+title: "How to use code agents in 2026"
+date: 2025-12-16 10:00:00 -0400
+filename: guide/_posts/2025-12-16-how-to-use-code-agents
+tags: [ai, llm, programming, claude-code]
+excerpt: "A practical guide to getting the most out of Claude Code, from prompting techniques to leveraging subagents for cleaner context."
+---
+
+I've been using Claude Code as my primary coding assistant for a while now. More recently, I learned how to start a flywheel effect and have AI coding full solutions with little invention by leveraging subagents to prevent context rot, skills to keep the agent under strict control, and tests for a deterministic point of reference.
+
+This guide distills the patterns that work for me.
+
+## Tips
+
+**Be hyper specific:** For great results, your prompt inevitably needs to be long and complete because agents need to know exactly what you want. Claude follows instructions literally, so vague requests get vague results.
+
+It follows that if you're going to invest in great prompting at every checkpoint, you will need to save them for reuse. Not like in the old days, where we kept saved snippets around as copy/pasta. Instead,
+
+1. leverage `CLAUDE.md`: have a great, general memory file you can reuse. You can copy [my universal coding prompt]({% link obsidian/guide/_posts/2025-06-22-my-universal-code-prompt.md %}) if you want a system prompt that works well across the board.
+2. use skills: these are recipes that agents pull based on what they're doing.
+
+I've had great experience using a Voice-to-Text app like [Aqua](https://aquavoice.com). Aside from outputting words faster than typing, I find myself rambling a bit longer, which ends up sharing more of my intent with the AI. Uncertainties also come out and help inform the planner on approaches.
+
+**State your intent:** A single sentence explaining what the output is for changes how Claude approaches the task. "I plan to build X on top of this feature" or "This app is low load so don't care about optimizations" are useful information. The purpose shapes approach, depth, and what gets emphasized during its thinking.
+
+One example: my personal app has to send a notification via Telegram, and later WhatsApp. Claude's first approach was calling a `TelegramClient` straight from a business class. Not great, as it will force refactoring and rework later. By stating that I wanted a second channel in the future and to use an adapter pattern, it (1) added a `MessagingChannel` class as interface between Telegram and the business domain, and (2) updated the documentation to state how the architecture should look like.
+
+**Examples are instructions:** When you provide a sample, Claude treats it as a template. This works both ways, and a sloppy example produces sloppy output. Be deliberate about what you show.
+
+A good example is my [code-review skill](https://github.com/kurko/dotfiles/blob/f0d082e3430ee7e21244a82b18d6a5857310e30f/ai/skills/code-review/skill.md?plain=1#L231-L242). The file has precise examples on output format and real-world scenarios it should look out for.
+
+**Chunk the work:** Long tasks work better as a series of checkpoints than as a single "do everything" request. The longer the AI works in one go, the higher the chance it will stray away from the original intent. Ask for one piece, verify it, then continue. The model stays more coherent and you catch mistakes early.
+
+Overall, what works for me is establishing a doc with a general architecture (as `CLAUDE.md`) that guides the whole operation, and a product doc that explains the app's rationale (e.g `docs/prd.md`). From that high level, don't descend to the *"create this button"* level, but rather state your end goal for the feature and ask it to break it down (e.g "I want the app to fetch calendar events once a day and store in a new table"). Claude's *Plan Mode* is great for breaking down that problem and creating to-dos for execution.
+
+A sophisticated approach is (1) asking Claude Code to break down that `docs/prd.md` into tasks and put them somewhere like `todo.md` (if you don't yet, use my skill, [working-off-of-todo-files](https://github.com/kurko/dotfiles/blob/d8b2da7e17dd561c7a5819d1219687f13a4c770b/ai/skills/working-off-of-todo-files/skill.md?plain=1)). Then tell Claude to work on the next task *in Plan Mode*. Review the plan, ask for specifics e.g method names and what tests will be written, and then let it roll.
+
+## Start a flywheel effect
+<span class="subtitle">Have an end-to-end protocol and see agents working on their own for longer.</span>
+
+If you could force Claude to self-correct based on a predefined quality heuristic, it would work for 30-60 minutes on its own and still produce good quality code.
+
+The main challenge is the probabilistic nature of agents. They may or may not produce what you expect. You have to nudge and push them in a particular direction, like a junior developer.
+
+The loop that worked great for me follows these steps:
+
+1. One task at a time: have a `todo.md` file, and tell the agent to work on the next one only
+2. Plan Mode: get a detailed plan for that task.
+3. Test skill: make sure the agent writes great tests, they are your deterministic point of reference, effectively your acceptance criteria.
+4. Let it cook: let the AI work with Auto-accept Edits on.
+5. Code review: let the agent review its own generated code using a skill you have defined. It will self-correct.
+6. Run tests: this is the determinism phase, and will ensure the agent fixes its own problems.
+
+I had sessions where the agent worked on its own for 30-60 minutes and the final result was acceptable. The elements that finally made it possible in 2025 were (a) Anthropic's Opus 4.5, (b) the testing skill and running specs, and (c) a code review flow.
+
+My [rspec-rails skill](https://github.com/kurko/dotfiles/blob/d8b2da7e17dd561c7a5819d1219687f13a4c770b/ai/skills/rspec-rails/SKILL.md?plain=1) guides the agent towards better tests, ones that distinguish contexts and make it think further about dependencies. The test failures serve as point of reference for the agent to self-correct.
+
+The final trick is a review process at the end. For Rails codebases, I have [this code-review skill](https://github.com/kurko/dotfiles/blob/f0d082e3430ee7e21244a82b18d6a5857310e30f/ai/skills/code-review/skill.md?plain=1#L231-L242) that works wonders.
+
+## Skills: Recipes as prompt
+
+Remember when you had to save long prompts to reuse later? Skills solve that. They load only when needed, automatically. Think of them as specialized tools you pull out for specific jobs.
+
+As your agent executes during those 30 minutes, it will figure out whether there's any relevant skill to be used, and will pull those automatically into context. It will follow your instructions more effectively without you having to write an endless initial prompt.
+
+They differ from commands because you don't need to trigger them yourself.
+
+Skills are how my agents stopped producing slop. My most useful skills right now are: writing tests; reviewing its own code; working off of `todo.md`; practicing TDD when a bug is found.
+
+## Subagents: Fighting context rot
+
+This is where things get interesting. Subagents run in their own context, do their work, and return results to the main agent, keeping the main conversation clean.
+
+Why does this matter? Context rot. The longer a conversation goes, the more diluted your instructions become. By offloading exploration, research, and specialized tasks to subagents, you keep the main thread focused. Realistically, as you approach 40% of the context window you should start seeing substantial loss in effectiveness.
+
+All you have to do is write, "using subagents, do X". My *code-review* skill tells the agent to trigger *subagents* to perform those reviews. All files are open and tests run by that subagent, and none of those tokens go into the main context.
+
+Examples of when I spawn subagents:
+
+- exploring codebase: "Read all files from bin using subagents and give me a summary"
+- running tests: "Run and fix tests using subagents"
+- researching documentation: "read docs/ using subagent and figure out which one is useful for this problem"
+
+## Parallelism
+
+When a task takes 2-5 minutes, that's when *flow* is the worst. You lack time to look elsewhere, you can't spin up two terminals side-by-side and work in parallel productively. If you go check Slack and get back later, much more time has passed. Wasted time.
+
+When the average lifecycle crosses 20 minutes, though, things change. Suddenly you're able to work on multiple projects or tasks at once because you can focus for longer. In my estimation, that moment has arrived and only much later the industry will feel its impact.
+
+On the one hand, regular developers will keep copying/pasting AI code between apps, or praying to the church of the \<tab\>\<tab\>\<tab\>. Junior developers will struggle to make it into the market because they lack judgment necessary to review great code. Interviews will be less about algorithms and knowledge, and more about critical thinking and abstract problem management.
+
+On the other hand, advanced engineers will figure out how to tame AIs and work on 4-5 tasks or projects in parallel. They will pioneer a new role that mixes skillsets from PMs (managing requirements), managers (communicate vision unambiguously) and architects (judging technical plans end-to-end). They will be in another league.
+
+Tricks above are the seeds to ensure agents can run on their own, with as little handholding as possible. I also believe strongly that the determinant element to prevent the house of cards from falling is automated tests. They represented the guardrails in the past, and will become even more important in the future.
+
+**Protip:** I get distracted when agents are running, and notifications don't work for me. I found a killer setup that holds my focus: when the agent finishes, it triggers a hook that makes my Tmux pane's background <span style="color: orange">*orange*</span>. It's ugly as hell, but my eyes can't simply <span style="color: orange">*not look at it*</span>. This has kept me in the flow while working in parallel.
+
+## What's Next
+
+Opus 4.5 pushed us into a land of rarer hallucinations, especially when it's kept under a tight leash with an iterative process. Agents still won't produce what you expect, though, without hyper-specific prompts and context rot prevention.
+
+For those who want to maximize their effectiveness, a setup for parallel execution is as close as we can get to the agent's holy grail.
