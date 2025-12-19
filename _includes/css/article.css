@@ -69,10 +69,11 @@
   }
 }
 
-/* Post date (margin-bottom is defined by last-child */
+/* Post date */
 .c-post__date {
   position: relative;
   padding-top: 0px;
+  margin-bottom: 22px;
   display: block;
   text-align: center;
   font-size: 14px;
