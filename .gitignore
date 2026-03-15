@@ -4,3 +4,9 @@ _site
 _drafts
 .DS_Store
 .jekyll-metadata
+node_modules
+yarn-error.log
+tmp/*
+*.dng
+.playwright-mcp/
+ai-notes/

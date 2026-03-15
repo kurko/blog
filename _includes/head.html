@@ -1,16 +1,46 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% if page.cover_image_mobile %}
+    <meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
+  {% else %}
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  {% endif %}
+
+  {% if page.cover_image %}
+    <meta itemprop='og:image' content='{{ base_path }}{{ page.cover_image }}'>
+  {% endif %}
+
+  <title>
+    {% if page.site_title %}
+      {{ page.site_title }}
+    {% elsif page.title %}
+      {{ page.title }} - Alex
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  </title>
   <meta name='description' content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel='canonical' href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel='alternate' type='application/rss+xml' title='{{ site.title }}'
   href="{{ '/atom.xml' | prepend: site.baseurl | prepend: site.url }}">
 
+  {% if page.cover_image %}
+    <link rel="preload" as="image" href="{{ page.cover_image }}" fetchpriority="high"{% if page.cover_image_mobile %} media="(min-width: 481px)"{% endif %}>
+    {% if page.cover_image_mobile %}
+    <link rel="preload" as="image" href="{{ page.cover_image_mobile }}" fetchpriority="high" media="(max-width: 480px)">
+    {% endif %}
+  {% endif %}
+
   <style>
+    {% include css/reset.css %}
+    {% include css/layout.css %}
+    {% include css/typography.css %}
+    {% include css/article.css %}
+    {% include css/evil-icons.css %}
     {% capture inlineCSS %}
+
       {% include app.scss %}
     {% endcapture %}
 

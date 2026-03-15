@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'bundler'
+gem 'csv'
 gem 'webrick'
 gem 'rb-fsevent'
 gem "listen", "~> 3.2"
@@ -12,3 +13,4 @@ gem 'jekyll-watch'
 gem 'jekyll-mentions'
 gem 'jekyll-sitemap'
 gem 'jekyll-redirect-from'
+gem 'mini_magick'

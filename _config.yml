@@ -20,10 +20,7 @@ linkedin:    'https://www.linkedin.com/in/alexandredeoliveira/'
 
 markdown:  kramdown
 permalink: none
-paginate:  30
-
-sass:
-  style: compressed
+paginate:  300
 
 plugins:
   - jekyll-paginate

@@ -1,0 +1,541 @@
+/**
+ * Layout CSS - Grid, structure, and positioning
+ *
+ * This file consolidates all layout-related styles from the SCSS files.
+ * It includes grid system, containers, utilities, and structural components.
+ */
+
+/* ============================================
+   CSS Custom Properties (converted from SCSS)
+   ============================================ */
+:root {
+  /* Spacing */
+  --base-spacing-unit: 12px;
+  --base-margin-unit: 18px;
+  --grid-gutter: var(--base-spacing-unit);
+
+  /* Layout dimensions */
+  --grid-width: 640px;
+  --grid-width-half: calc(var(--grid-width) / 2);
+  --off-canvas-width: 300px;
+
+  /* Breakpoints */
+  /* NOTE: these can't be used in @media-query declarations. */
+  --mobile-breakpoint: 600px;
+  --tablet-breakpoint: 640px;
+  --desktop-breakpoint: 1024px;
+
+  /* Transitions */
+  --global-transition: .15s;
+
+  /* Colors */
+  --color-text: #323232;
+  --color-brand: #006aa9;
+
+  /* Keeping the same color for header and background prevents a different color
+   * leaking above the fold in iOS (around the notch area) */
+  --background-color: #fcfcfc;
+  --header-background-color: #fcfcfc;
+  --header-for-cover-image-background-color: rgba(0, 0, 0, 0.2);
+  --website-container-background-color: #ffffff;
+  --color-border: #f6f6f6;
+  --color-gray: #919191;
+}
+
+/* Mobile layout adjustments */
+@media (max-width: 600px) {
+  :root {
+    --grid-gutter: 16px;
+  }
+}
+
+/* Dark mode color overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #1a1a1a;
+    --header-background-color: #1a1a1a;
+    --website-container-background-color: #242424;
+    --color-border: #333333;
+    --color-gray: #aaaaaa;
+    --color-brand: #7eb3d9;
+  }
+}
+
+/* ============================================
+   Base Body
+   ============================================ */
+body {
+  background-color: var(--background-color);
+}
+
+  /* Set dark background on body for pages with cover images to avoid white
+   * showing around notch */
+  body:has(.c-post__header_for_cover_image) {
+    background-color: var(--website-container-background-color);
+  }
+
+
+/* This is used to set the website background. We use body's background-color
+ * to be the color we want to show around the website on mobile devices with
+ * rounded corners and notches (iOS Safari). */
+.background-container {
+  background-color: var(--website-container-background-color);
+}
+
+/* ============================================
+   Grid System
+   ============================================ */
+.o-grid {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: var(--grid-width);
+}
+
+.o-grid::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.o-grid .o-grid {
+  margin-right: calc(-1 * var(--grid-gutter));
+  margin-left: calc(-1 * var(--grid-gutter));
+  padding: 0;
+}
+
+.o-grid--full {
+  max-width: 100vw;
+}
+
+.o-grid__col {
+  float: left;
+  padding-right: var(--grid-gutter);
+  padding-left: var(--grid-gutter);
+}
+
+/* Grid column sizes - Small (mobile) */
+.o-grid__col--1-4-s  { width: 25%; }
+.o-grid__col--1-3-s  { width: 33.33333%; }
+.o-grid__col--4-10-s { width: 40%; }
+.o-grid__col--2-4-s  { width: 50%; }
+.o-grid__col--6-10-s { width: 60%; }
+.o-grid__col--2-3-s  { width: 66.66666%; }
+.o-grid__col--3-4-s  { width: 75%; }
+.o-grid__col--4-4-s  { width: 100%; }
+
+/* Grid column sizes - Medium (tablet) */
+@media (min-width: 640px) {
+  .o-grid__col--1-4-m  { width: 25%; }
+  .o-grid__col--1-3-m  { width: 33.33333%; }
+  .o-grid__col--4-10-m { width: 40%; }
+  .o-grid__col--2-4-m  { width: 50%; }
+  .o-grid__col--6-10-m { width: 60%; }
+  .o-grid__col--3-4-m  { width: 75%; }
+  .o-grid__col--4-4-m  { width: 100%; }
+}
+
+/* Grid column sizes - Large (desktop) */
+@media (min-width: 1024px) {
+  .o-grid__col--1-4-l { width: 25%; }
+  .o-grid__col--1-3-l { width: 33.33333%; }
+  .o-grid__col--2-4-l { width: 50%; }
+  .o-grid__col--3-4-l { width: 75%; }
+}
+
+.o-grid__col--full {
+  width: 100%;
+  padding-right: var(--grid-gutter);
+  padding-left: var(--grid-gutter);
+}
+
+.o-grid__col--center {
+  margin: 0 auto;
+}
+
+.o-grid__col--end {
+  margin-left: auto;
+}
+
+/* ============================================
+   Responsive rules
+   ============================================ */
+
+@media (max-width: 600px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  .show-on-mobile {
+    display: initial;
+  }
+}
+
+@media (min-width: 600px) {
+  .hide-on-mobile {
+    display: initial;
+  }
+
+  .show-on-mobile {
+    display: none !important;
+  }
+}
+
+/* ============================================
+   Plain List Object
+   ============================================ */
+.o-plain-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* ============================================
+   Wrapper / Container
+   ============================================ */
+.o-wrapper {
+  /* padding: calc(2 * var(--base-spacing-unit)) 0; */
+}
+.o-wrapper.spaced {
+  padding: calc(2 * var(--base-spacing-unit)) 0;
+}
+
+/* Sticky footer setup */
+.c-off-canvas-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.c-off-canvas-container .o-wrapper {
+  flex: 1 0 auto;
+}
+
+/* ============================================
+   Layout Utilities
+   ============================================ */
+.u-inline { display: inline; }
+.u-block { display: block; }
+.u-inline-block { display: inline-block; }
+.u-left { float: left; }
+.u-right { float: right; }
+
+/* ============================================
+   Alignment Utilities
+   ============================================ */
+.u-text-left { text-align: left; }
+.u-text-right { text-align: right; }
+.u-text-center { text-align: center; }
+.u-text-justify { text-align: justify; }
+
+/* ============================================
+   Visibility Utilities
+   ============================================ */
+/* Hide visually and from screen readers */
+.u-hidden {
+  display: none;
+}
+
+/* Hide only visually, but have it available for screen readers */
+.u-hidden-visually {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* ============================================
+   Clearfix Utility
+   ============================================ */
+.u-clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* ============================================
+   Header Layout
+   ============================================ */
+.c-header {
+  background-color: var(--header-background-color);
+  border-bottom: 1px solid var(--color-border);
+}
+
+  /**
+   * For pages with large cover image (full bleed), we
+   * - hide the header
+   * - hide header text
+   * - keep the logo (my photo)
+   */
+  .c-header--has-cover-image {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: none;
+  }
+  .c-header--has-cover-image .c-logo__link {
+    justify-content: inherit;
+  }
+  .c-header--has-cover-image .c-logo__text,
+  .c-header--has-cover-image nav {
+    display: none !important;
+  }
+
+.c-header img.logo-image {
+  border-radius: 50%;
+  float: left;
+  display: inline;
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.c-header .c-logo__link,
+.c-header .js-off-canvas-toggle {
+  display: table;
+}
+
+.c-header .js-off-canvas-toggle {
+  padding-top: 6px;
+}
+
+.c-header__inner {
+  padding: var(--base-spacing-unit) 0;
+  /* border-bottom: 1px solid var(--color-border); */
+}
+
+@media only screen and (min-width: 400px) {
+  .c-header__inner {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+.c-header__icon {
+  vertical-align: middle;
+}
+
+/* Logo layout */
+.c-logo__link {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8px;
+}
+.c-logo__link:hover {
+  color: var(--color-brand);
+  text-decoration: none;
+}
+
+/* In very constrained sizes, the header needs to be adjusted
+ */
+@media (max-width: 426px) {
+  /* The name Alex Oliveira wraps and needs alignment.
+   */
+  .c-logo__link {
+    padding-top: 0;
+    line-height: 1.1;
+
+    min-height: 40px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+@media (min-width: 426px) {
+  .c-logo__link {
+    padding-top: 2px;
+    font-size: 22px;
+  }
+}
+
+/* Header navigation */
+.c-header__nav {
+  text-align: right;
+  padding-top: 10px;
+  color: var(--color-gray);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.c-header__nav-link {
+  color: var(--color-gray);
+  text-decoration: none;
+  transition: var(--global-transition);
+}
+
+.c-header__nav-link:hover {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.c-header__nav-link--current {
+  color: var(--color-text);
+}
+
+@media (min-width: 426px) {
+  .c-header__nav {
+    padding-top: 8px;
+    font-size: 16px;
+  }
+}
+
+/* ============================================
+   Footer Layout
+   ============================================ */
+.c-footer {
+  padding: calc(4 * var(--base-spacing-unit)) 0;
+}
+
+.c-footer li.single-icon {
+  display: inline-block;
+  width: 25px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.c-footer li.single-icon img {
+  top: 2px;
+  width: 13px;
+  display: initial;
+  position: relative;
+}
+
+/* ============================================
+   Navigation Layout
+   ============================================ */
+.c-nav__link {
+  display: block;
+}
+
+/* ============================================
+   Social Navigation
+   ============================================ */
+.c-social-nav__item {
+  display: inline-block;
+}
+
+.c-social-nav__icon {
+  fill: var(--color-text);
+  vertical-align: middle;
+  transition: var(--global-transition);
+}
+
+.c-social-nav__icon:hover,
+.c-social-nav__icon:focus {
+  fill: var(--color-brand);
+}
+
+/* ============================================
+   Off-Canvas Mobile Menu
+   ============================================ */
+/* Prevent horizontal scroll during off-canvas */
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Toggle button */
+.c-off-canvas-toggle {
+  float: right;
+  position: relative;
+  top: calc(var(--base-spacing-unit) / 2);
+  z-index: 10;
+  height: 19px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.c-off-canvas-toggle--close {
+  top: 0;
+  float: none;
+  display: block;
+  margin-left: auto;
+}
+
+/* Hamburger icon */
+.c-off-canvas-toggle__icon {
+  position: absolute;
+  left: 0;
+  height: 1px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.c-off-canvas-toggle__icon::before,
+.c-off-canvas-toggle__icon::after {
+  content: '';
+  display: block;
+  height: 100%;
+  transition: var(--global-transition);
+}
+
+.c-off-canvas-toggle__icon::before {
+  transform: translateY(16px);
+}
+
+.c-off-canvas-toggle__icon::after {
+  transform: translateY(7px);
+}
+
+/* Close state (X icon) */
+.c-off-canvas-toggle--close .c-off-canvas-toggle__icon {
+  height: 2px;
+  background-color: transparent;
+}
+
+.c-off-canvas-toggle--close .c-off-canvas-toggle__icon::before,
+.c-off-canvas-toggle--close .c-off-canvas-toggle__icon::after {
+  position: relative;
+  visibility: visible;
+}
+
+.c-off-canvas-toggle--close .c-off-canvas-toggle__icon::before {
+  top: 11px;
+  transform: rotate(-45deg);
+}
+
+.c-off-canvas-toggle--close .c-off-canvas-toggle__icon::after {
+  top: 9px;
+  transform: rotate(45deg);
+}
+
+/* Off-canvas content panel */
+.c-off-canvas-content {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: var(--off-canvas-width);
+  height: 100%;
+  padding: calc(var(--base-spacing-unit) + var(--base-spacing-unit) / 2) calc(2 * var(--base-spacing-unit));
+  transform: translate3d(var(--off-canvas-width), 0, 0);
+}
+
+/* Off-canvas container transitions */
+.c-off-canvas-container {
+  transform: translate3d(0, 0, 0);
+  transition: transform var(--global-transition) cubic-bezier(.16, .68, .43, .99);
+}
+
+.c-off-canvas-container.is-active {
+  transform: translate3d(calc(-1 * var(--off-canvas-width)), 0, 0);
+}
+
+/* Overlay when menu is active */
+.c-off-canvas-container.is-active::after {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  background-color: rgba(0, 0, 0, .2);
+}

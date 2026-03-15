@@ -7,7 +7,7 @@
             '
     >
 
-    <h3 class='c-post-card__title'>{{ post.title }}</h3>
+    <h3 class='c-post-card__title'>{{ post.title }}{% if post.draft and jekyll.environment == "development" %}<span class="c-post-card__draft">[DRAFT]</span>{% endif %}</h3>
 
     {% if post.front_page_image %}
       <img src='{{ post.front_page_image | prepend: site.baseurl }}'

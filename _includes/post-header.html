@@ -1,0 +1,53 @@
+<header class='c-post__header_for_cover_image'>
+  <style>
+    .c-post__cover_image {
+      {% if page.cover_image_align == "top" %}
+        background-position: top;
+      {% elsif page.cover_image_align == "bottom" %}
+        background-position: bottom;
+      {% else %}
+        background-position: center;
+      {% endif %}
+    }
+
+    {% if page.cover_image_mobile %}
+      @media (min-width: 481px) {
+        .c-post__cover_image {
+          background-image: url('{{ page.cover_image }}');
+        }
+      }
+
+      @media (max-width: 480px) {
+        .c-post__cover_image {
+          background-image: url('{{ page.cover_image_mobile }}');
+
+          {% if page.cover_image_mobile_zoom %}
+            background-size: {{ page.cover_image_mobile_zoom }} !important;
+          {% endif %}
+        }
+      }
+    {% else %}
+      .c-post__cover_image {
+        background-image: url('{{ page.cover_image }}')
+      }
+    {% endif %}
+  </style>
+  <div
+    class="c-post__cover_image">
+
+    <div class="c-post__header-content-grid">
+      <div class="c-post__header-text">
+        <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
+
+        <!-- if the layout is that of a page, we don't show the date -->
+        {% unless page.layout == "page" %}
+          <time
+            class='c-post__date'
+            datetime='{{ page.date | date_to_xmlschema }}'
+            itemprop='datePublished'>{{ page.date | date: '%b %Y' }}</time>
+        {% endunless %}
+      </div>
+    </div>
+
+  </div>
+</header>

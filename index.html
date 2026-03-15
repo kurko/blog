@@ -6,7 +6,13 @@ layout: default
   <div class='o-grid'>
     {% for post in paginator.posts %}
       {% if post.categories contains "essay" %}
-        {% include post-card.liquid %}
+        {% if post.draft != true or jekyll.environment == "development" %}
+          {% if post.published != false %}
+            {% unless post.unlisted == true %}
+              {% include post-card.liquid %}
+            {% endunless %}
+          {% endif %}
+        {% endif %}
       {% endif %}
     {% endfor %}
   </div>

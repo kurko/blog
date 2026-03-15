@@ -22,7 +22,7 @@ The session ends. I open my eyes and there is _only_ what's immediatelly in fron
 
 The day ahead of me awaits with many traps and challenges, but I am ready to conquer.
 
----
+<span class="dinkus">***</span>
 
 Years ago, I used to need several, several minutes of meditation until the internal battle with my mind would settle. It would parry my efforts, only to lunge back into controlling me - back and forth, many times. But over time it would retreat back and surrender. Today, I might need only 5 minutes to end the dispute, some times more, some times less.
 

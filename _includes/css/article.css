@@ -1,0 +1,556 @@
+/**
+ * Article CSS - Post and article-specific styles
+ *
+ * This file contains styles specific to blog posts, articles, and related components
+ * like post cards, tags, and pagination.
+ */
+
+/* ============================================
+   CSS Custom Properties
+   ============================================ */
+:root {
+  /* Colors - reusing from typography for consistency */
+  --color-gray: #919191;
+  --color-light-gray: #FAFAFA;
+  --color-dark-gray: #777777;
+  --color-bg-gray: #F2F2F2;
+  --color-border: #f6f6f6;
+  --color-brand: #006aa9;
+  --color-text: #323232;
+
+  /* Spacing - reusing from layout */
+  --base-spacing-unit: 12px;
+  --base-margin-unit: 18px;
+
+  /* Transitions */
+  --global-transition: .15s;
+
+  /* Additional colors */
+  --color-cover-bg: #111;
+  --color-cover-text: rgba(255, 255, 255, 0.9);
+  --color-cover-time: #eee;
+  --color-draft: orange;
+}
+
+/* Dark mode color overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-gray: #aaaaaa;
+    --color-light-gray: #2d2d2d;
+    --color-dark-gray: #cccccc;
+    --color-bg-gray: #2d2d2d;
+    --color-border: #333333;
+    --color-brand: #7eb3d9;
+    --color-text: #e8e8e8;
+    --color-cover-bg: #0a0a0a;
+  }
+}
+
+/* ============================================
+   Post Component
+   ============================================ */
+.c-post {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-bottom: calc(1 * var(--base-spacing-unit));
+}
+
+/* Post title */
+.c-post__title {
+  font-size: 28px;
+  margin-bottom: calc(1 * var(--base-spacing-unit));
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .c-post__title {
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+/* Post date (margin-bottom is defined by last-child */
+.c-post__date {
+  position: relative;
+  padding-top: 0px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  color: var(--color-gray);
+}
+
+.c-post__header_for_cover_image {
+  width: 100%;
+  height: auto;
+  background-color: var(--color-cover-bg);
+  text-align: left;
+}
+
+  @media (max-width: 600px) {
+    .c-post__header_for_cover_image {
+      --cover-image-width: 100vw;
+      --cover-image-ratio: 170%;
+    }
+  }
+
+  :root {
+    --cover-image-width: 2540px;
+    --cover-image-ratio: 52%;
+  }
+
+  .c-post__header_for_cover_image div.c-post__cover_image {
+    margin: 0 auto;
+    /* max-width: var(--cover-image-width); */
+    max-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+
+  .c-post__header-content-grid {
+    width: 100%;
+    max-width: calc(var(--grid-width));
+    position: relative;
+    text-align: left;
+    padding-bottom: var(--cover-image-ratio);
+    padding-bottom: min(var(--cover-image-ratio), calc(100vh));
+    margin: 0 auto;
+  }
+
+  @media (min-height: 600px) {
+    /*
+    .c-post__header-content-grid {
+      padding-bottom: min(var(--cover-image-ratio), calc(100vh - 10px));
+    }
+    */
+  }
+
+  .c-post__header-text {
+    position: absolute;
+    display: table;
+    bottom: 10px;
+    width: 100%;
+    max-width: calc(var(--grid-width) - var(--grid-gutter) * 2);
+    text-align: left;
+    padding-left: var(--grid-gutter);
+    padding-right: var(--grid-gutter);
+  }
+  .c-post__header-text > *:last-child {
+    margin-bottom: 18px;
+  }
+
+  .c-post__header_for_cover_image h1 {
+    color: var(--color-cover-text);
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  .c-post__header_for_cover_image time {
+    color: var(--color-cover-time);
+    text-align: left;
+  }
+
+/* IMAGES */
+/* Post image */
+.c-post img {
+  width: 100vw;
+  max-width: 800px; /* Fallback for older browsers */
+  max-width: min(100vw, 800px);
+  margin-left: 50%;
+  transform: translateX(-50%);
+  /* margin-bottom: calc(2 * var(--base-spacing-unit)); */
+  border-radius: 3px;
+}
+
+@media (min-width: 600px) {
+  .c-post img.full-bleed {
+    /* take the full window width up to max-width */
+    max-width: min(100vw, 1480px);
+  }
+}
+/* Remove rounded corners on mobile when images reach screen edges */
+@media (max-width: 600px) {
+  .c-post img {
+    border-radius: 0;
+  }
+}
+
+/* When we don't want the image to be full-bleed */
+.c-post.limit-img-width img {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  transform: none;
+}
+
+figure {
+  font-size: 0;  /* Collapse whitespace text nodes */
+}
+
+figure figcaption {
+  font-size: 0.9rem;  /* Use rem instead of em since parent is font-size: 0 */
+  color: var(--color-dark-gray);
+  text-align: center;
+  margin-bottom: calc(2 * var(--base-spacing-unit));
+  margin-top: 4px;
+  line-height: 1.2rem;
+}
+
+.c-post img.crop-vertical-1-5 {
+  height: 200px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+c-post img.gray,
+c-post img.grey,
+c-post img.grayscale {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%); /* older Safari */
+}
+
+.c-post img.small {
+  display: block;
+  width: 100%;
+  max-width: 400px; /* Fallback for older browsers */
+  transform: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+ * Mobile zoom classes for landscape images that need to be cropped/zoomed on
+ * mobile
+ */
+@media (max-width: 600px) {
+  .c-post p:has(> :is(img[class^="mobile-zoom"])),
+  .c-post figure:has(> :is(img[class^="mobile-zoom"])) {
+    /*
+     * We are scaling the image size up, and that goes over the container (and
+     * text below). By setting a hidden overflow, we make it look like a cropped
+     * zoom.
+     */
+    overflow: hidden;
+    width: 100vw;
+    /*
+     * The container elements usually keep a grid gutter on the sides, so we
+     * need to negate that here to make the image full-bleed
+     */
+    margin-left: calc(-1 * var(--grid-gutter));
+
+    /*
+     * The bottom margin ends up being necessary to avoid the following content
+     * to jump up and get too close to the image zoomed in
+     */
+    padding-bottom: calc(3 * var(--grid-gutter));
+  }
+
+  .c-post img.mobile-zoom,
+  .c-post img.mobile-zoom-110,
+  .c-post img.mobile-zoom-120,
+  .c-post img.mobile-zoom-150 {
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .c-post img.mobile-zoom {
+    transform: translateX(-50%) scale(1.6);
+  }
+
+  .c-post img.mobile-zoom-110 { transform: translateX(-50%) scale(1.1); }
+  .c-post img.mobile-zoom-120 { transform: translateX(-50%) scale(1.2); }
+  .c-post img.mobile-zoom-150 { transform: translateX(-50%) scale(1.5); }
+  .c-post img.mobile-zoom-160 { transform: translateX(-50%) scale(1.6); }
+  .c-post img.mobile-zoom-170 { transform: translateX(-50%) scale(1.7); }
+  .c-post img.mobile-zoom-180 { transform: translateX(-50%) scale(1.8); }
+  .c-post img.mobile-zoom-190 { transform: translateX(-50%) scale(1.9); }
+  .c-post img.mobile-zoom-200 { transform: translateX(-50%) scale(2.0); }
+  .c-post img.mobile-zoom-210 { transform: translateX(-50%) scale(2.1); }
+  .c-post img.mobile-zoom-220 { transform: translateX(-50%) scale(2.2); }
+  .c-post img.mobile-zoom-230 { transform: translateX(-50%) scale(2.3); }
+  .c-post img.mobile-zoom-240 { transform: translateX(-50%) scale(2.4); }
+  .c-post img.mobile-zoom-250 { transform: translateX(-50%) scale(2.5); }
+}
+
+/* p with only image inside shouldn't have bottom-margin the same as when text
+ * is present */
+p:has(> :is(img,picture,svg):only-child) {
+  margin-bottom: calc(var(--base-spacing-unit));
+}
+
+.c-post p img {
+  margin-bottom: 0;
+}
+
+img.c-post__image {
+  margin-bottom: var(--base-spacing-unit);
+}
+
+/* Gallery for side-by-side images */
+.c-post gallery {
+  display: flex;
+  gap: 12px;
+  margin-bottom: calc(2 * var(--base-spacing-unit));
+}
+
+.c-post gallery img {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  object-fit: cover;
+  transform: none;
+}
+
+/* Post update box */
+.c-post__update {
+  background: var(--color-bg-gray);
+  border-left: 3px solid var(--color-border);
+  padding: calc(var(--base-spacing-unit) * 1.5);
+  margin-bottom: calc(var(--base-spacing-unit) * 3);
+  font-size: 0.95em;
+  color: var(--color-dark-gray);
+}
+
+.c-post__update strong {
+  color: var(--color-text);
+}
+
+/* Post subtitle - for secondary info under headings */
+.c-post__subtitle,
+.c-post .subheader,
+.c-post .subtitle {
+  display: block;
+  margin-top: -18px;
+  margin-bottom: calc(var(--base-spacing-unit) * 1.5);
+  font-size: 0.9em;
+  font-style: italic;
+  color: var(--color-dark-gray);
+}
+
+/* Post eyebrow/kicker - for text above headings */
+.c-post .eyebrow,
+.c-post .kicker {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-dark-gray);
+}
+
+/* Post content lists */
+.c-content ul {
+  list-style: disc;
+}
+
+.c-content ol {
+  list-style: decimal;
+}
+
+.c-content ul:not(.c-page-list),
+.c-content ol:not(.c-page-list) {
+  margin-bottom: calc(2 * var(--base-spacing-unit));
+}
+
+.c-content ul li,
+.c-content ol li {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+/* Code blocks breakout */
+.c-post .highlight {
+  width: 100vw;
+  max-width: 800px; /* Fallback for older browsers */
+  max-width: min(100vw, 800px);
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: calc(2 * var(--base-spacing-unit));
+}
+
+/* ============================================
+   Post Card Component
+   ============================================ */
+.c-post-card {
+  display: block;
+  border-bottom: 1px solid var(--color-border);
+  transition: var(--global-transition);
+  padding: 12px 0;
+}
+
+.c-post-card:hover {
+  color: var(--color-brand);
+  text-decoration: none;
+}
+
+.c-post-card p,
+.c-post-card:hover p {
+  color: var(--color-text);
+}
+
+.c-post-card__title {
+  font-size: 24px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.c-post-card__excerpt {
+  font-size: 16px;
+}
+
+.c-post-card__excerpt p {
+  margin-bottom: 16px;
+}
+
+.c-post-card__date {
+  display: block;
+  color: var(--color-gray);
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: calc(var(--base-spacing-unit) / 2);
+  margin-bottom: calc(3 * var(--base-spacing-unit));
+}
+
+.c-post-card__draft {
+  color: var(--color-draft);
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-left: 0.5em;
+}
+
+.c-post .dinkus,
+.c-post .asterisk,
+.c-post .asterisks,
+.c-post .asterism {
+  display: block;
+  width: 100%;
+  border: none;
+  margin-bottom: 10px;
+  color: var(--color-gray);
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.c-post hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 40em) {
+  .c-post-card__title {
+      font-size: 28px;
+  }
+}
+
+/* ============================================
+   Page List Component (matches post-card styling),
+   but smaller because we have a larger title at the
+   top.
+   ============================================ */
+.c-page-list h1 {
+  margin-bottom: 8px;
+}
+
+.c-page-list .c-post-card__title {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+.c-page-list .c-post-card__excerpt {
+  font-size: 16px;
+}
+
+/* ============================================
+   Tags Component
+   ============================================ */
+.c-tags {
+  margin-bottom: calc(var(--base-spacing-unit));
+}
+
+.c-tags a {
+  display: inline-block;
+  padding: calc(var(--base-spacing-unit) / 2) var(--base-spacing-unit);
+  font-size: 14px;
+  background-color: var(--color-bg-gray);
+  transition: var(--global-transition);
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.c-tags a:not(:last-of-type) {
+  margin-right: calc(var(--base-spacing-unit) / 2);
+}
+
+.c-tags a:hover {
+  background-color: var(--color-light-gray);
+  text-decoration: none;
+}
+
+/* ============================================
+   Pagination Component
+   ============================================ */
+.c-pagination {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.c-pagination__text {
+  color: var(--color-gray);
+}
+
+.c-pagination__prev {
+  margin-right: calc(2 * var(--base-spacing-unit));
+}
+
+.c-pagination__prev .c-pagination__icon {
+  margin-right: calc(var(--base-spacing-unit) / 2);
+}
+
+.c-pagination__next {
+  margin-left: calc(2 * var(--base-spacing-unit));
+}
+
+.c-pagination__next .c-pagination__icon {
+  margin-left: calc(var(--base-spacing-unit) / 2);
+}
+
+.c-pagination__link--current {
+  color: var(--color-brand);
+}
+
+.c-pagination__link:hover,
+.c-pagination__link:focus {
+  color: var(--color-brand);
+}
+
+/* ============================================
+   Footnotes Component
+   ============================================ */
+.footnotes {
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 80px;
+  list-style-type: none !important;
+  font-size: 0.9em;
+  color: var(--color-dark-gray);
+  counter-reset: footnote-counter;
+}
+
+.footnotes li {
+  counter-increment: footnote-counter;
+  margin-left: 1.7em !important;
+  margin-right: 0 !important;
+  text-indent: -1.5em;
+}
+
+.footnotes li::before {
+  content: "[" counter(footnote-counter) "] ";
+  font-weight: normal;
+}

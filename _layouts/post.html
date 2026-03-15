@@ -4,24 +4,54 @@ layout: default
 
 {% include base_path %}
 
-{% if page.image %}
-  <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
+{% if page.cover_image %}
+  {% include post-header.html %}
 {% endif %}
 
-<div class='o-wrapper'>
+<div class="o-wrapper {% unless page.title_is_image %}spaced{% endunless %}">
   <div class='o-grid'>
     <div class='o-grid__col o-grid__col--4-4-s'>
-      <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
+      <article
+        class="
+          c-post
+          {% if page.page_css_class %}{{ page.page_css_class }}{% endif %}
+        "
+        itemscope
+        itemtype='http://schema.org/BlogPosting'>
 
-        <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
 
-        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>
+        {% unless page.cover_image %}
+          <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
+
+          <time
+            class='c-post__date'
+            datetime='{{ page.date | date_to_xmlschema }}'
+            itemprop='datePublished'>{{ page.date | date: '%b %Y' }}</time>
+        {% endunless %}
 
         <div class='c-content' itemprop='articleBody'>
           {% include page-image.html %}
 
           {{ content }}
         </div>
+
+        {% if page.translations %}
+          <div class='c-post__translations'>
+            <p>
+              You can read this article in:
+              {% for translation in page.translations %}
+                <a href='/essay/{{ translation[1] }}'>{{ translation[0] }}</a>
+                {% unless forloop.last %} • {% endunless %}
+              {% endfor %}
+            </p>
+          </div>
+        {% endif %}
+
+        {% if page.translation_of %}
+          <div class='c-post__translations'>
+            <p><a href='/essay/{{ page.translation_of }}'>Read in English</a></p>
+          </div>
+        {% endif %}
 
         <div class='c-tags'>
           {% for tag in page.tags %}
