@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marcos — Vem Comigo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --gold:    #c8a96e;
+    --gold-lt: #e0c898;
+    --cream:   #f2ede6;
+    --stone:   #9b8c7a;
+    --dark:    #0f0e0c;
+    --mid:     #191612;
+    --panel:   #221e18;
+    --green:   #3d5c3a;
+    --green-lt:#7aaa74;
+    --rust:    #a05a3a;
+  }
+
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--dark);
+    color: var(--cream);
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+  }
+
+  /* ─── TIPO ─── */
+  .eyebrow {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 0.68rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1.2rem;
+    display: block;
+  }
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: clamp(3.5rem, 7vw, 7.5rem);
+    line-height: 0.92;
+    margin-bottom: 1.8rem;
+    text-shadow: 0 2px 16px rgba(10,9,7,.4);
+  }
+  h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: clamp(2.4rem, 4.5vw, 5rem);
+    line-height: 1;
+    margin-bottom: 1.4rem;
+  }
+  .body-text {
+    font-size: clamp(0.9rem, 1.15vw, 1.05rem);
+    line-height: 1.85;
+    color: rgba(242,237,230,0.72);
+  }
+  .em { color: var(--gold-lt); font-style: italic; }
+  .rule { width: 50px; height: 1px; background: var(--gold); opacity: 0.7; margin-bottom: 2rem; }
+
+  /* ─── SLIDES ─── */
+  .slide {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  .bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pad { padding: 80px; max-width: 1400px; width: 100%; position: relative; z-index: 2; }
+
+  /* ─── FUNDOS ─── */
+  /* All backgrounds loaded via Wikipedia API in JS below */
+  #s-maquina { background: var(--mid); }
+  #s-rota { background: var(--panel); padding: 80px 0; }
+  #s-paradores { background: var(--mid); }
+  #s-cta { background: var(--dark); }
+
+  /* Default dark bg while images load */
+  .bg { background-color: #1a1510; }
+
+  /* Per-slide overlay gradients */
+  #s-hero    .bg::after { content:''; position:absolute; inset:0; background: linear-gradient(to right, rgba(10,9,7,.88) 0%, rgba(10,9,7,.7) 40%, rgba(10,9,7,.25) 80%, rgba(10,9,7,.4) 100%), linear-gradient(to bottom, rgba(10,9,7,.2) 0%, rgba(10,9,7,.05) 50%, rgba(10,9,7,.6) 100%); }
+  #s-sixsenses .bg::after { content:''; position:absolute; inset:0; background: linear-gradient(to right,  rgba(10,9,7,.9) 0%, rgba(10,9,7,.4) 60%, rgba(10,9,7,.25) 100%); }
+  #s-douro   .bg::after { content:''; position:absolute; inset:0; background: linear-gradient(to bottom, rgba(10,9,7,.2) 0%, rgba(10,9,7,.05) 40%, rgba(10,9,7,.88) 100%); }
+  #s-dia1    .bg::after { content:''; position:absolute; inset:0; background: linear-gradient(to right,  rgba(10,9,7,.9) 0%, rgba(10,9,7,.3) 65%, rgba(10,9,7,.55) 100%); }
+  #s-costeiro .bg::after { content:''; position:absolute; inset:0; background: linear-gradient(to bottom, rgba(10,9,7,.3) 0%, rgba(10,9,7,.1) 40%, rgba(10,9,7,.85) 100%); }
+  #s-floresta .bg::after { content:''; position:absolute; inset:0; background: linear-gradient(to right, rgba(10,9,7,0) 0%, rgba(10,9,7,0) 45%, rgba(10,9,7,.92) 100%); }
+  #s-santiago .bg::after { content:''; position:absolute; inset:0; background: linear-gradient(to bottom, rgba(10,9,7,.45) 0%, rgba(10,9,7,.1) 40%, rgba(10,9,7,.88) 100%); }
+
+  /* ─── HERO ─── */
+  .hero-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 80px;
+    max-width: 1400px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  .hero-top { padding-top: 20px; }
+  .hero-label { display: flex; align-items: center; gap: 16px; margin-bottom: 2.5rem; }
+  .hero-line { width: 55px; height: 1px; background: var(--gold); }
+  .hero-para {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: clamp(1.1rem, 1.8vw, 1.55rem);
+    color: var(--gold-lt);
+    max-width: 550px;
+    line-height: 1.5;
+    margin-bottom: 2.8rem;
+    text-shadow: 0 1px 6px rgba(10,9,7,.8), 0 0 28px rgba(10,9,7,.5);
+  }
+  .hero-note {
+    max-width: 500px;
+    font-size: 0.88rem;
+    line-height: 1.8;
+    color: rgba(242,237,230,0.85);
+    background: rgba(10,9,7,0.55);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    padding: 16px 20px;
+    border-left: 2px solid rgba(200,169,110,0.35);
+  }
+  .hero-stats {
+    display: flex;
+    gap: 50px;
+    padding: 18px 20px;
+    border-top: 1px solid rgba(200,169,110,0.18);
+    background: rgba(10,9,7,0.52);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    display: inline-flex;
+  }
+  .stat-num { font-family: 'Cormorant Garamond', serif; font-size: 2.8rem; color: var(--gold); line-height: 1; }
+  .stat-lbl { font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--stone); margin-top: 4px; }
+  .hero-bottom { display: flex; justify-content: space-between; align-items: flex-end; }
+  .hero-route { font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(242,237,230,0.35); }
+  .scroll-hint { display:flex; flex-direction:column; align-items:center; gap:8px; color:rgba(242,237,230,0.3); font-size:0.62rem; letter-spacing:0.2em; text-transform:uppercase; }
+  .scroll-line { width:1px; height:40px; background:linear-gradient(to bottom,rgba(200,169,110,0.5),transparent); animation: sdown 2s ease-in-out infinite; }
+  @keyframes sdown { 0%,100%{opacity:.35} 50%{opacity:1} }
+
+  /* ─── MÁQUINA ─── */
+  .maquina-inner {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 80px;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 80px;
+  }
+  .maquina-left h2 { font-size: clamp(2rem,4vw,4.2rem); }
+  .maquina-right { display: flex; flex-direction: column; gap: 30px; }
+  .item { display: flex; gap: 20px; align-items: flex-start; }
+  .item-icon {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem; font-weight: 300;
+    color: var(--gold); line-height: 1;
+    min-width: 36px;
+  }
+  .item-body h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; font-weight:400; margin-bottom: 6px; }
+  .item-body p { font-size: 0.88rem; line-height: 1.75; color: rgba(242,237,230,0.62); }
+
+  /* ─── ROTA ─── */
+  .rota-inner { max-width: 1400px; margin: 0 auto; padding: 0 80px; }
+  .days-row { display: flex; position: relative; margin-top: 50px; }
+  .days-row::before { content:''; position:absolute; top:24px; left:0; right:0; height:1px; background:linear-gradient(to right,transparent,rgba(200,169,110,0.3) 10%,rgba(200,169,110,0.3) 90%,transparent); }
+  .day { flex:1; display:flex; flex-direction:column; align-items:center; gap:12px; padding: 0 8px; min-width: 110px; }
+  .dot { width:13px; height:13px; border-radius:50%; background:var(--gold); border:2px solid var(--panel); z-index:1; flex-shrink:0; }
+  .dot.big { width:17px; height:17px; background:var(--gold-lt); box-shadow:0 0 0 4px rgba(200,169,110,0.25),0 0 20px rgba(200,169,110,0.2); }
+  .dot.special { width:17px; height:17px; background:var(--green-lt); box-shadow:0 0 0 4px rgba(122,170,116,0.25); }
+  .day-city { font-family:'Cormorant Garamond',serif; font-size:1rem; font-weight:400; color:var(--cream); text-align:center; }
+  .day-km { font-size:0.65rem; color:var(--stone); letter-spacing:0.1em; text-align:center; }
+  .day-dt { font-size:0.6rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--gold); opacity:.65; }
+  .day-tag { font-size:0.58rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--green-lt); background:rgba(122,170,116,0.1); padding:2px 7px; border-radius:2px; }
+
+  /* ─── BADGE ─── */
+  .badge { font-family:'Jost',sans-serif; font-size:0.62rem; font-weight:500; letter-spacing:0.28em; text-transform:uppercase; background:var(--gold); color:var(--dark); padding:5px 12px; border-radius:2px; }
+  .badge.green { background:var(--green-lt); }
+  .day-hdr { display:flex; align-items:center; gap:16px; margin-bottom:1.8rem; flex-wrap:wrap; }
+  .dist { font-size:0.68rem; letter-spacing:0.18em; color:var(--stone); text-transform:uppercase; }
+
+  /* ─── TAGS ─── */
+  .tags { display:flex; flex-wrap:wrap; gap:8px; margin-top:1.5rem; }
+  .tag { font-size:0.65rem; letter-spacing:0.14em; text-transform:uppercase; border:1px solid rgba(200,169,110,0.3); color:var(--gold-lt); padding:4px 11px; border-radius:2px; }
+
+  /* ─── PARADORES ─── */
+  .par-grid { display:grid; grid-template-columns:1fr 1fr; gap:3px; margin-top:40px; height:480px; }
+  .par-card { position:relative; overflow:hidden; background:var(--panel); }
+  .par-card img { width:100%; height:100%; object-fit:cover; opacity:.65; transition:transform .8s ease, opacity .4s ease; display:block; }
+  .par-card:hover img { transform:scale(1.04); opacity:.85; }
+  .par-overlay { position:absolute; bottom:0; left:0; right:0; padding:28px; background:linear-gradient(to top,rgba(10,9,7,.92) 0%,transparent 100%); }
+  .par-name { font-family:'Cormorant Garamond',serif; font-size:1.55rem; font-weight:400; margin-bottom:4px; }
+  .par-sub { font-size:0.68rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); }
+  .par-price { position:absolute; top:18px; right:18px; background:rgba(10,9,7,.7); border:1px solid rgba(200,169,110,.3); padding:7px 13px; font-family:'Cormorant Garamond',serif; font-size:1.35rem; color:var(--gold-lt); }
+
+  /* ─── QUOTE ─── */
+  .quote-wrap { max-width:760px; margin:0 auto; text-align:center; padding:110px 60px; }
+  .q-mark { font-family:'Cormorant Garamond',serif; font-size:7rem; line-height:.4; color:var(--gold); opacity:.25; display:block; margin-bottom:-.5rem; }
+  blockquote { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:clamp(1.4rem,2.8vw,2.3rem); font-weight:300; line-height:1.45; color:var(--cream); margin-bottom:2rem; }
+  cite { font-size:0.7rem; letter-spacing:0.25em; text-transform:uppercase; color:var(--stone); font-style:normal; }
+
+  /* ─── DOIS COLS ─── */
+  .two-col { display:grid; grid-template-columns:1fr 1fr; min-height:100vh; }
+  .col-img { position:relative; overflow:hidden; }
+  .col-img img { width:100%; height:100%; object-fit:cover; display:block; }
+  .col-img::after { content:''; position:absolute; inset:0; background:rgba(10,9,7,.2); }
+  .col-txt { background:var(--mid); display:flex; align-items:center; padding:80px; }
+
+  /* ─── SANTIAGO ─── */
+  .sant-grid { display:grid; grid-template-columns:1fr 1fr; gap:60px; max-width:1400px; width:100%; padding:80px; position:relative; z-index:2; }
+  .sant-l { display:flex; flex-direction:column; justify-content:flex-end; padding-bottom:10px; }
+  .sant-aside { display:flex; flex-direction:column; gap:16px; }
+  .aside-card { background:rgba(10,9,7,.6); border:1px solid rgba(200,169,110,.18); padding:26px 30px; }
+  .aside-card h4 { font-family:'Cormorant Garamond',serif; font-size:1.1rem; color:var(--gold-lt); margin-bottom:8px; }
+  .aside-card p { font-size:0.83rem; line-height:1.7; color:rgba(242,237,230,.6); }
+  .arrive-text { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:clamp(1rem,1.7vw,1.4rem); line-height:1.7; color:rgba(242,237,230,.68); margin-top:1.2rem; margin-bottom:1.8rem; }
+
+  /* ─── CTA ─── */
+  .cta-wrap { max-width:1400px; margin:0 auto; padding:100px 80px; display:grid; grid-template-columns:1.2fr 0.8fr; gap:80px; align-items:start; }
+  .cta-l h2 { font-size:clamp(2.5rem,5vw,5.8rem); line-height:.92; margin-bottom:2rem; }
+  .cta-rule { width:70px; height:1px; background:var(--gold); margin:2rem 0; }
+  .cta-body { font-size:1rem; line-height:1.85; color:rgba(242,237,230,.7); max-width:460px; margin-bottom:2.5rem; }
+  .cta-r { display:flex; flex-direction:column; gap:16px; }
+  .log-card { background:var(--panel); border:1px solid rgba(200,169,110,.1); padding:22px 26px; }
+  .log-card h4 { font-family:'Cormorant Garamond',serif; font-size:1.15rem; color:var(--gold-lt); margin-bottom:8px; }
+  .log-card p { font-size:0.82rem; line-height:1.7; color:rgba(242,237,230,.58); }
+  .log-card strong { color:var(--cream); }
+  .btn { display:inline-block; font-family:'Jost',sans-serif; font-size:0.7rem; font-weight:500; letter-spacing:0.35em; text-transform:uppercase; color:var(--dark); background:var(--gold); padding:16px 38px; text-decoration:none; margin-top:8px; }
+  .footer { border-top:1px solid rgba(200,169,110,.08); padding:28px 80px; display:flex; justify-content:space-between; align-items:center; }
+
+  /* ─── NAV ─── */
+  #nav { position:fixed; right:26px; top:50%; transform:translateY(-50%); display:flex; flex-direction:column; gap:9px; z-index:100; }
+  .ndot { width:5px; height:5px; border-radius:50%; background:rgba(200,169,110,.25); cursor:pointer; transition:all .3s; }
+  .ndot.active { background:var(--gold); box-shadow:0 0 7px rgba(200,169,110,.5); }
+
+  /* ─── ANIMAÇÕES ─── */
+  .fi { opacity:0; transform:translateY(18px); transition:opacity .85s ease,transform .85s ease; }
+  .fi.vis { opacity:1; transform:translateY(0); }
+  .fi.d1{transition-delay:.12s} .fi.d2{transition-delay:.24s} .fi.d3{transition-delay:.38s} .fi.d4{transition-delay:.52s} .fi.d5{transition-delay:.66s}
+
+  /* ─── DESTAQUE PESSOAL ─── */
+  .personal-card {
+    background: rgba(200,169,110,0.06);
+    border: 1px solid rgba(200,169,110,0.2);
+    border-left: 3px solid var(--gold);
+    padding: 20px 24px;
+    margin-top: 1.5rem;
+    font-size: 0.88rem;
+    line-height: 1.75;
+    color: rgba(242,237,230,0.72);
+    font-style: italic;
+  }
+
+  /* ─── SIXSENSES CARD ─── */
+  .ss-card {
+    background: rgba(200,169,110,0.06);
+    border: 1px solid rgba(200,169,110,0.22);
+    padding: 32px;
+    margin-top: 2rem;
+  }
+  .ss-card h3 { font-family:'Cormorant Garamond',serif; font-size:1.5rem; font-weight:400; color:var(--gold-lt); margin-bottom:0.6rem; }
+  .ss-card p { font-size:0.87rem; line-height:1.8; color:rgba(242,237,230,.65); }
+
+  @media (max-width:900px) {
+    .maquina-inner,.cta-wrap,.sant-grid { grid-template-columns:1fr; gap:40px; }
+    .two-col { grid-template-columns:1fr; }
+    .col-img { height:55vh; }
+    .par-grid { grid-template-columns:1fr; height:auto; }
+    .par-card { height:280px; }
+    .pad,.hero-wrap,.cta-wrap,.maquina-inner,.rota-inner { padding:50px 32px; }
+    .footer { padding:24px 32px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<div id="nav">
+  <div class="ndot active"></div>
+  <div class="ndot"></div>
+  <div class="ndot"></div>
+  <div class="ndot"></div>
+  <div class="ndot"></div>
+  <div class="ndot"></div>
+  <div class="ndot"></div>
+  <div class="ndot"></div>
+  <div class="ndot"></div>
+</div>
+
+<!-- ══════════════════════════════════════ -->
+<!-- HERO -->
+<!-- ══════════════════════════════════════ -->
+<section class="slide" id="s-hero" data-s="0">
+  <div class="bg" style="background-image:url('/images/pages/camino-marcos-2026/hero-baiona.jpg');background-position:center 40%"></div>
+  <div class="hero-wrap">
+    <div class="hero-top">
+      <div class="hero-label fi">
+        <div class="hero-line"></div>
+        <span class="eyebrow" style="margin-bottom:0">Para Marcos — Maio 2026</span>
+      </div>
+      <h1 class="fi d1">Marcos,<br><em style="color:var(--gold-lt);">você precisa<br>disto.</em></h1>
+      <p class="hero-para fi d2">"O Caminho não é sobre distância. É sobre o silêncio que você encontra quando para de correr."</p>
+      <p class="hero-note fi d3">Você construiu uma máquina incrível. Agora é hora de desligar a máquina — e lembrar que você também é humano. Dez dias pela costa atlântica da Galícia. E antes, três dias só seus no Vale do Douro.</p>
+    </div>
+    <div style="margin:2rem 0;" class="fi d3">
+      <div class="hero-stats">
+        <div><div class="stat-num">3</div><div class="stat-lbl">dias Douro</div></div>
+        <div><div class="stat-num">129</div><div class="stat-lbl">km Caminho</div></div>
+        <div><div class="stat-num">6</div><div class="stat-lbl">dias andando</div></div>
+        <div><div class="stat-num">2</div><div class="stat-lbl">Paradores</div></div>
+        <div><div class="stat-num">1</div><div class="stat-lbl">Compostela</div></div>
+      </div>
+    </div>
+    <div class="hero-bottom fi d4">
+      <span class="hero-route">Six Senses Douro Valley → Baiona → Vigo → Pontevedra → Santiago de Compostela</span>
+      <div class="scroll-hint"><span>Role</span><div class="scroll-line"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ -->
+<!-- A MÁQUINA -->
+<!-- ══════════════════════════════════════ -->
+<section id="s-maquina" data-s="1">
+  <div class="maquina-inner">
+    <div class="maquina-left">
+      <div class="rule fi"></div>
+      <h2 class="fi d1">Você construiu<br>uma <em style="color:var(--gold-lt);">máquina<br>impressionante.</em><br>E agora?</h2>
+      <div class="fi d2" style="margin:1.8rem 0; display:flex; align-items:center; gap:14px;">
+        <div style="flex:1;height:1px;background:rgba(200,169,110,.15)"></div>
+        <span style="color:var(--gold);opacity:.5;font-size:.85rem">✦</span>
+        <div style="flex:1;height:1px;background:rgba(200,169,110,.15)"></div>
+      </div>
+      <p class="body-text fi d2" style="max-width:400px;">Claude Code rodando automação. Chrome MCP na ElevenLabs. Upload pra Hotmart. Edição de vídeo. Dublagem. Você transformou a Oficina Criativa num sistema que funciona enquanto você dorme.</p>
+      <div class="personal-card fi d3">
+        Isso é genial. E também é um war room que não para. A questão não é parar de construir — é lembrar <em>por que</em> você começou. E isso não acontece na tela.
+      </div>
+    </div>
+    <div class="maquina-right">
+      <div class="item fi d1">
+        <div class="item-icon">—</div>
+        <div class="item-body">
+          <h4>Energia mental tem custo real</h4>
+          <p>Cada decisão de sistema, cada prompt ajustado, cada integração debugada drena o mesmo recurso que criatividade, clareza e foco estratégico. Você provavelmente sabe disso melhor do que ninguém.</p>
+        </div>
+      </div>
+      <div class="item fi d2">
+        <div class="item-icon">—</div>
+        <div class="item-body">
+          <h4>Andar é a única atividade sem output</h4>
+          <p>Não tem métrica. Não tem conversão. Não tem funil. Você coloca um pé na frente do outro e o único resultado é saber como foi — e como você estava enquanto fazia isso.</p>
+        </div>
+      </div>
+      <div class="item fi d3">
+        <div class="item-icon">—</div>
+        <div class="item-body">
+          <h4>Foco interior não vem do sistema</h4>
+          <p>O Mapa da Eficiência ajuda o seu cliente a organizar o trabalho. Mas quem cuida de você? A resposta não está num próximo lançamento. Está numa trilha sem WiFi à beira do Atlântico.</p>
+        </div>
+      </div>
+      <div class="item fi d4">
+        <div class="item-icon">—</div>
+        <div class="item-body">
+          <h4>Você morou em Portugal</h4>
+          <p>Esse país te chamou uma vez. Ele ainda chama. Existe algo muito certo em terminar essa jornada num lugar que já fez parte da sua história.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ -->
+<!-- SIX SENSES — CHEGADA SOZINHO -->
+<!-- ══════════════════════════════════════ -->
+<section class="slide" id="s-sixsenses" data-s="2">
+  <div class="bg" style="background-image:url('/images/pages/camino-marcos-2026/sixsenses-douro.jpg');background-position:center 40%"></div>
+  <div class="pad">
+    <div style="max-width:560px;">
+      <span class="eyebrow fi">Antes do Caminho · 18–21 Maio</span>
+      <h2 class="fi d1">Primeiro, três dias<br><em style="color:var(--gold-lt);">só seus.<br>No Douro.</em></h2>
+      <div class="rule fi d2"></div>
+      <p class="body-text fi d2">Eu vou estar num offsite de trabalho antes da caminhada — então você chega mais cedo. E chega bem. Direto pra um lugar que você sempre quis conhecer: o <span class="em">Six Senses Douro Valley</span>, uma quinta do século XIX no topo de uma colina olhando pro Rio Douro. Vinhedos em socalcos. Spa. Silêncio de verdade.</p>
+      <p class="body-text fi d3" style="margin-top:1rem;">Três dias antes de calçar as botas. Trata como o prólogo — o seu prólogo, sem audiência. Spa, vinhos do Douro, trilhas na mata, nada de compromisso. E quando você sair de lá pro aeroporto em direção a Baiona, vai estar pronto.</p>
+      <div class="ss-card fi d4">
+        <h3>Six Senses Douro Valley</h3>
+        <p>Quinta Vale Abraão · Samodães, Lamego · A 2h do Porto de trem. Rooms com vista pro vale e vinhedos. Spa premiado. Wine Library com vinhos do Douro em máquina self-service. Trilha na floresta. Tasting privado em adega centenária. Foi eleito um dos melhores hotéis da Europa.</p>
+      </div>
+      <div class="tags fi d5">
+        <span class="tag">2h do Porto de trem</span>
+        <span class="tag">Spa · desintoxicação real</span>
+        <span class="tag">Vinhos do Douro</span>
+        <span class="tag">Trilhas na quinta</span>
+        <span class="tag">Sem agenda</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ -->
+<!-- DOURO INTERLUDE FOTO -->
+<!-- ══════════════════════════════════════ -->
+<section class="slide" id="s-douro" data-s="3">
+  <div class="bg" style="background-image:url('/images/pages/camino-marcos-2026/douro-valley.jpg');background-position:center 50%"></div>
+  <div style="position:relative;z-index:2;width:100%;display:flex;align-items:flex-end;min-height:100vh;padding:80px;">
+    <div>
+      <span class="eyebrow fi" style="color:rgba(242,237,230,.45)">Vale do Douro · Portugal</span>
+      <h2 class="fi d1" style="font-size:clamp(2rem,5vw,5.5rem);color:white;">"A região<br><em style="color:var(--gold-lt);">vinhateira mais antiga<br>do mundo"</em></h2>
+      <p class="body-text fi d2" style="color:rgba(255,255,255,.65);margin-top:1rem;max-width:500px;">O Douro foi a primeira região vinícola regulamentada do mundo, em 1756 — há mais de 260 anos. Você vai estar num dos lugares mais fotografados de Portugal, sozinho, sem pressa, sem entregável.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ -->
+<!-- ROTA TIMELINE -->
+<!-- ══════════════════════════════════════ -->
+<section id="s-rota" data-s="4">
+  <div class="rota-inner">
+    <span class="eyebrow fi">A jornada completa · Maio 2026</span>
+    <div class="days-row">
+      <div class="day fi">
+        <div class="dot special"></div>
+        <div class="day-city">Six Senses<br>Douro Valley</div>
+        <div class="day-km">Sozinho</div>
+        <div class="day-dt">18–20 Mai</div>
+        <span class="day-tag">só seu</span>
+      </div>
+      <div class="day fi d1">
+        <div class="dot big"></div>
+        <div class="day-city">Baiona</div>
+        <div class="day-km">Chegada</div>
+        <div class="day-dt">21 Mai</div>
+      </div>
+      <div class="day fi d1">
+        <div class="dot"></div>
+        <div class="day-city">Vigo</div>
+        <div class="day-km">27 km · 7–8h</div>
+        <div class="day-dt">22 Mai</div>
+      </div>
+      <div class="day fi d2">
+        <div class="dot"></div>
+        <div class="day-city">Redondela</div>
+        <div class="day-km">16 km · 4–5h</div>
+        <div class="day-dt">23 Mai</div>
+      </div>
+      <div class="day fi d3">
+        <div class="dot"></div>
+        <div class="day-city">Pontevedra</div>
+        <div class="day-km">21 km · 5–6h</div>
+        <div class="day-dt">24 Mai</div>
+      </div>
+      <div class="day fi d3">
+        <div class="dot"></div>
+        <div class="day-city">Caldas<br>de Reis</div>
+        <div class="day-km">21 km · 5–6h</div>
+        <div class="day-dt">25 Mai</div>
+      </div>
+      <div class="day fi d4">
+        <div class="dot"></div>
+        <div class="day-city">Padrón</div>
+        <div class="day-km">19 km · 4–5h</div>
+        <div class="day-dt">26 Mai</div>
+      </div>
+      <div class="day fi d5">
+        <div class="dot big"></div>
+        <div class="day-city">Santiago</div>
+        <div class="day-km">25 km · 6–7h</div>
+        <div class="day-dt">27 Mai</div>
+        <span class="day-tag">chegada</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ -->
+<!-- DIA 1: BAIONA + PARADOR -->
+<!-- ══════════════════════════════════════ -->
+<section class="slide" id="s-dia1" data-s="5">
+  <div class="bg" style="background-image:url('/images/pages/camino-marcos-2026/hero-baiona.jpg');background-position:center 35%"></div>
+  <div class="pad">
+    <div style="max-width:580px;">
+      <div class="day-hdr fi">
+        <span class="badge">Dia 0 · 21 Maio</span>
+        <span class="dist">Chegada a Baiona · táxi de Vigo</span>
+      </div>
+      <h2 class="fi d1">Baiona —<br><em style="color:var(--gold-lt);">o primeiro porto<br>a ouvir sobre<br>a América</em></h2>
+      <div class="rule fi d2"></div>
+      <p class="body-text fi d2">Em 1493, a caravela La Pinta entrou nessa baía carregando a notícia que mudou o mundo. Você vai dormir nas mesmas muralhas que ouviram isso primeiro — o <span class="em">Parador de Baiona</span>, um castelo do século XII numa península acima do Atlântico.</p>
+      <p class="body-text fi d3" style="margin-top:1rem;">Chegamos juntos aqui depois que eu terminar meu offsite. Essa é a noite de virar a chave. Caminhamos as muralhas ao pôr do sol. Bebemos Albariño olhando pras Ilhas Cíes no horizonte. O Caminho começa no dia seguinte.</p>
+      <div class="tags fi d4">
+        <span class="tag">Parador de Baiona · €214/noite</span>
+        <span class="tag">Castelo do século XII</span>
+        <span class="tag">Vista: Ilhas Cíes</span>
+        <span class="tag">Vinho Albariño</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ -->
+<!-- COSTA -->
+<!-- ══════════════════════════════════════ -->
+<section class="slide" id="s-costeiro" data-s="6">
+  <div class="bg" style="background-image:url('/images/pages/camino-marcos-2026/cies-islands.jpg');background-position:center 35%"></div>
+  <div style="position:relative;z-index:2;width:100%;display:flex;align-items:flex-end;min-height:100vh;padding:80px;max-width:1400px;">
+    <div>
+      <div class="day-hdr fi">
+        <span class="badge">Dia 1 · 22 Maio</span>
+        <span class="dist">Baiona → Vigo · 27 km · Dia Costeiro</span>
+      </div>
+      <h2 class="fi d1" style="color:white;">O Atlântico<br>à sua esquerda<br><em style="color:var(--gold-lt);">o tempo todo</em></h2>
+      <div class="rule fi d2"></div>
+      <p class="body-text fi d2" style="color:rgba(255,255,255,.7);max-width:500px;">As flechas verdes (marcadores do Caminho Costeiro) levam você por trilhas sobre falésias com a Baía de Baiona embaixo. O dia mais longo — mas o mais atlântico. Você caminha por vilas de pescadores, praias selvagens, e chega a Vigo com as Ilhas Cíes ainda pairando no horizonte.</p>
+      <div class="tags fi d3">
+        <span class="tag">Flechas verdes · rota costeira</span>
+        <span class="tag">Praia América · bandeira azul</span>
+        <span class="tag">Ilhas Cíes no horizonte</span>
+        <span class="tag">Frutos do mar em Vigo</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ -->
+<!-- VIGO + REDONDELA: dois cols -->
+<!-- ══════════════════════════════════════ -->
+<section class="two-col" data-s="6b">
+  <div class="col-img" id="col-vigo-img">
+    <img id="img-vigo" src="/images/pages/camino-marcos-2026/vigo.jpg" alt="Vigo" loading="lazy">
+  </div>
+  <div class="col-txt">
+    <div>
+      <div class="day-hdr fi">
+        <span class="badge">Dia 1 · 22 Maio</span>
+        <span class="dist">Baiona → Vigo · 27 km</span>
+      </div>
+      <h2 class="fi d1">Vigo —<br><em style="color:var(--gold-lt);">porto do Atlântico</em></h2>
+      <div class="rule fi d2"></div>
+      <p class="body-text fi d2">Vigo é a maior cidade da Galícia e o maior porto pesqueiro da Europa. Depois de caminhar 27 km pela costa, você chega ao Casco Vello — o bairro histórico cheio de bares de ostras frescas e vinho Albariño. Descanse. Amanhã é um dia curto.</p>
+      <div class="tags fi d3">
+        <span class="tag">Casco Vello histórico</span>
+        <span class="tag">Ostras frescas · Mercado A Pedra</span>
+        <span class="tag">Vista para a Ría de Vigo</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REDONDELA dois cols -->
+<section class="two-col" data-s="6c" style="flex-direction:row-reverse;">
+  <div class="col-img">
+    <img id="img-redondela" src="/images/pages/camino-marcos-2026/redondela.jpg" alt="Redondela" loading="lazy">
+  </div>
+  <div class="col-txt">
+    <div>
+      <div class="day-hdr fi">
+        <span class="badge">Dia 2 · 23 Maio</span>
+        <span class="dist">Vigo → Redondela · 16 km · Recuperação</span>
+      </div>
+      <h2 class="fi d1">Redondela —<br><em style="color:var(--gold-lt);">onde os caminhos<br>se encontram</em></h2>
+      <div class="rule fi d2"></div>
+      <p class="body-text fi d2">O dia mais curto, de propósito. Redondela fica numa enseada da Ría de Vigo, com dois viadutos ferroviários do século XIX dominando a paisagem. É aqui que o Caminho Costeiro e o Caminho Central se juntam — você vai notar o fluxo de peregrinos dobrando. A partir daqui, caminhamos todos na mesma direção.</p>
+      <div class="tags fi d3">
+        <span class="tag">Viadutos do séc. XIX</span>
+        <span class="tag">Ría de Vigo · esteiros</span>
+        <span class="tag">Costeiro + Central se juntam aqui</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PADRÓN dois cols -->
+<section class="two-col" data-s="6d">
+  <div class="col-img">
+    <img id="img-padron" src="/images/pages/camino-marcos-2026/padron.jpg" alt="Padrón" loading="lazy">
+  </div>
+  <div class="col-txt">
+    <div>
+      <div class="day-hdr fi">
+        <span class="badge">Dia 5 · 26 Maio</span>
+        <span class="dist">Caldas de Reis → Padrón · 19 km · 4–5h</span>
+      </div>
+      <h2 class="fi d1">Padrón —<br><em style="color:var(--gold-lt);">a última noite<br>antes da catedral</em></h2>
+      <div class="rule fi d2"></div>
+      <p class="body-text fi d2">Padrón é famosa por duas coisas: os pimientos de Padrón — os pimentões verdes que ou são doces ou te incendiam a boca, nunca se sabe qual — e por ser a terra de <span class="em">Rosalía de Castro</span>, a poeta mais amada da Galícia. Jante bem. Amanhã você caminha 25 km e chega em Santiago.</p>
+      <div class="tags fi d3">
+        <span class="tag">Pimientos de Padrón</span>
+        <span class="tag">Rosalía de Castro · poeta galega</span>
+        <span class="tag">Última noite antes do fim</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ -->
+<!-- GASTRONOMIA · MICHELIN INTERLUDE -->
+<!-- ══════════════════════════════════════ -->
+<section class="slide" id="s-michelin" data-s="6e" style="min-height:70vh;">
+  <div class="bg" style="
+    background-image: url('/images/pages/camino-marcos-2026/michelin-food-banner.png');
+    background-size: cover;
+    background-position: center 40%;
+  "></div>
+  <div style="
+    position:absolute; inset:0;
+    background: linear-gradient(to right, rgba(10,9,7,.82) 0%, rgba(10,9,7,.45) 50%, rgba(10,9,7,.15) 100%);
+  "></div>
+  <div style="position:relative;z-index:2;padding:80px;max-width:700px;">
+    <span class="eyebrow fi">A mesa também é parte do caminho</span>
+    <h2 class="fi d1" style="font-size:clamp(2rem,4vw,4rem);">Estrelas Michelin<br><em style="color:var(--gold-lt);">ao longo da rota</em></h2>
+    <div class="rule fi d2"></div>
+    <p class="body-text fi d2">A Galícia é uma das regiões com mais estrelas Michelin per capita da Espanha. Ao longo dos 129 km entre Baiona e Santiago, você passa por restaurantes com cozinha contemporânea galega de nível mundial — frutos do mar da manhã convertidos em pratos da tarde, Albariño harmonizado com cada etapa.</p>
+    <p class="body-text fi d3" style="margin-top:1rem;">Não é preciso reservar com meses de antecedência nem gastar fortunas. Os menus de peregrino (€12–18) já são excepcionais. Quando quiser algo especial — uma noite nos Paradores, um jantar em Pontevedra — a Galícia entrega.</p>
+    <div class="tags fi d4">
+      <span class="tag">Polvo à galega</span>
+      <span class="tag">Percebes · Mariscos</span>
+      <span class="tag">Albariño Rías Baixas</span>
+      <span class="tag">Menu peregrino · €12–18</span>
+      <span class="tag">Pimientos de Padrón</span>
+    </div>
+  </div>
+</section>
+
+<!-- PONTEVEDRA dois cols -->
+<section class="two-col" data-s="6f">
+  <div class="col-img" id="col-pontevedra-img">
+    <img id="img-pontevedra" src="/images/pages/camino-marcos-2026/pontevedra.jpg" alt="Pontevedra" loading="lazy">
+  </div>
+  <div class="col-txt">
+    <div>
+      <div class="day-hdr fi">
+        <span class="badge">Dias 2–3 · 23–24 Maio</span>
+        <span class="dist">Vigo → Pontevedra · 37 km</span>
+      </div>
+      <h2 class="fi d1">Florestas,<br>pedras medievais<br><em style="color:var(--gold-lt);">e silêncio</em></h2>
+      <div class="rule fi d2"></div>
+      <p class="body-text fi d2">O Dia 2 é recuperação — 16 km tranquilos com vista pra Ría de Vigo. O Dia 3 cruza a <span class="em">Ponte de Pontesampaio</span>, medieval, onde Napoleão sofreu uma das suas maiores derrotas na Galícia. Depois disso, o centro histórico de Pontevedra: completamente livre de carros, granito por todo lado, praças vivas uma atrás da outra.</p>
+      <p class="body-text fi d3" style="margin-top:1rem;">Pontevedra surpreende todo mundo. É o segundo centro histórico mais importante da Galícia depois de Santiago — e ainda quase desconhecida pelo turismo internacional. Tem polvo. Tem vinho. Fique mais do que planejou.</p>
+      <div class="tags fi d4">
+        <span class="tag">Ponte medieval Pontesampaio</span>
+        <span class="tag">Pontevedra · centro sem carros</span>
+        <span class="tag">Igreja A Peregrina · planta em concha</span>
+        <span class="tag">Polvo à galega</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ -->
+<!-- FLORESTA: DIAS 4-5 INTERIOR -->
+<!-- ══════════════════════════════════════ -->
+<section class="slide" id="s-floresta" data-s="7">
+  <div class="bg" style="background-image:url('/images/pages/camino-marcos-2026/caldas-de-reis.jpg');background-position:center 45%"></div>
+  <div style="position:relative;z-index:2;width:100%;display:flex;align-items:center;justify-content:flex-end;min-height:100vh;padding:80px;">
+    <div style="max-width:540px;">
+      <div class="day-hdr fi">
+        <span class="badge">Dias 4–5 · 25–26 Maio</span>
+        <span class="dist">Pontevedra → Padrón · 40 km</span>
+      </div>
+      <h2 class="fi d1">Vinhedos,<br>fontes termais,<br><em style="color:var(--gold-lt);">e pimentões<br>de Padrón</em></h2>
+      <div class="rule fi d2"></div>
+      <p class="body-text fi d2">Dia 4 passa por bosques de castanheiros e país de Albariño — as Rías Baixas. Você termina em <span class="em">Caldas de Reis</span>, cidade termal romana com fontes de água quente no centro. Coloque os pés na fonte. Você merece.</p>
+      <p class="body-text fi d3" style="margin-top:1rem;">Dia 5 chega em <span class="em">Padrón</span> — famosa pelos seus pimentões verdes e por ser a terra de Rosalía de Castro, a maior poeta da Galícia. Mais uma noite de sono antes da catedral.</p>
+      <div class="tags fi d4">
+        <span class="tag">Rías Baixas · Albariño</span>
+        <span class="tag">Caldas de Reis · águas termais romanas</span>
+        <span class="tag">Ponte de Pontecesures</span>
+        <span class="tag">Pimientos de Padrón</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ -->
+<!-- PARADORES -->
+<!-- ══════════════════════════════════════ -->
+<section class="slide" id="s-paradores" data-s="8">
+  <div class="pad" style="max-width:1400px;">
+    <span class="eyebrow fi">Onde você vai dormir</span>
+    <h2 class="fi d1">Os Paradores —<br><em style="color:var(--gold-lt);">pernoitar dentro<br>da história</em></h2>
+    <p class="body-text fi d2" style="max-width:580px;">Paradores são os hotéis históricos do estado espanhol — castelos, mosteiros e palácios convertidos em hospedagem de alto nível. Ficamos em dois dos mais extraordinários de qualquer rota do Caminho.</p>
+    <div class="par-grid fi d3">
+      <div class="par-card">
+        <img id="img-parador-baiona"
+             src="/images/pages/camino-marcos-2026/hero-baiona.jpg"
+             alt="Parador de Baiona"
+             loading="lazy">
+        <div class="par-overlay">
+          <div class="par-name">Parador de Baiona</div>
+          <div class="par-sub">Noite 1 · Fortaleza do séc. XII · Vistas para o Atlântico</div>
+        </div>
+        <div class="par-price">€214</div>
+      </div>
+      <div class="par-card">
+        <img id="img-parador-santiago"
+             src="/images/pages/camino-marcos-2026/hostal-reis-catolicos.jpg"
+             alt="Parador de Santiago"
+             loading="lazy">
+        <div class="par-overlay">
+          <div class="par-name">Parador de Santiago</div>
+          <div class="par-sub">Noite 6 · Construído em 1501 · Plaza del Obradoiro · Um dos hotéis mais antigos do mundo</div>
+        </div>
+      </div>
+    </div>
+    <p class="body-text fi d4" style="max-width:700px;margin-top:1.5rem;font-style:italic;color:rgba(242,237,230,.5);">O Parador de Santiago — o <em style="font-style:normal;color:var(--gold)">Hostal dos Reis Católicos</em> — foi construído em 1501 pelos Reis Católicos para abrigar peregrinos chegando à catedral. Cinco séculos depois, ainda faz isso.</p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ -->
+<!-- QUOTE -->
+<!-- ══════════════════════════════════════ -->
+<section style="background:var(--dark);">
+  <div class="quote-wrap fi">
+    <span class="q-mark">"</span>
+    <blockquote>O Caminho te dá o que você precisa, não necessariamente o que você quer. Você chega pensando que é uma caminhada. Você vai embora entendendo que foi uma conversa — consigo mesmo, com o tempo, com quem estava ao seu lado.</blockquote>
+    <cite>— Peregrinos, ao longo de mil anos</cite>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ -->
+<!-- SANTIAGO -->
+<!-- ══════════════════════════════════════ -->
+<section class="slide" id="s-santiago" data-s="8">
+  <div class="bg" style="background-image:url('/images/pages/camino-marcos-2026/santiago-cathedral.jpg');background-position:center 30%"></div>
+  <div class="sant-grid">
+    <div class="sant-l">
+      <span class="eyebrow fi">Dia 6 · 27 Maio · 25 km · 6–7h</span>
+      <h2 class="fi d1" style="font-size:clamp(2.5rem,5vw,6rem);">Santiago<br><em style="color:var(--gold-lt);">de Compostela</em></h2>
+      <p class="arrive-text fi d2">Você entra na Plaza del Obradoiro e vê a catedral pela primeira vez. Estava andando em direção a ela há seis dias. Tem outros peregrinos — pessoas que andaram 800 km, pessoas que andaram 100. Não importa. A chegada é a mesma pra todo mundo.</p>
+      <div style="display:flex;align-items:flex-start;gap:14px;border-left:2px solid var(--gold);padding-left:18px;" class="fi d3">
+        <p style="font-size:.85rem;line-height:1.7;color:rgba(242,237,230,.62);"><strong style="color:var(--gold-lt);display:block;margin-bottom:4px;">A Compostela</strong>Você retira o seu certificado de peregrinação no Escritório do Peregrino. Prova oficial. Depois disso, você dorme no Parador na praça — e de manhã não tem nada pra fazer e nada pra provar.</p>
+      </div>
+    </div>
+    <div class="sant-aside">
+      <div class="aside-card fi d2">
+        <h4>A Missa do Peregrino</h4>
+        <p>Todo dia ao meio-dia a catedral celebra uma missa especial para peregrinos. O famoso <em style="color:var(--gold-lt)">Botafumeiro</em> — um imenso turíbulo banhado a prata que balança por todo o transepto — enche o espaço com incensa. Um dos rituais mais bonitos da Europa. Você não precisa ser religioso pra sentir algo ali.</p>
+      </div>
+      <div class="aside-card fi d3">
+        <h4>Dia 7 · 28 Maio · Dia livre</h4>
+        <p>Santiago de Compostela é Patrimônio da Humanidade e ainda funciona como cidade viva — mercados, café de especialidade, livrarias, bares. Um dia lento pra absorver o que você fez antes do trem de volta a Porto no dia 29.</p>
+      </div>
+      <div class="aside-card fi d4">
+        <h4>A viagem completa</h4>
+        <p>Você chegou a Portugal alguns dias antes. Passou três dias no Vale do Douro sozinho. Depois andou 129 km em seis dias pela costa da Galícia. Chegou a Santiago. E a pergunta que você vai se perguntar é: <em style="color:var(--gold-lt)">por que eu não fiz isso antes?</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════ -->
+<!-- CTA FINAL -->
+<!-- ══════════════════════════════════════ -->
+<section id="s-cta" data-s="9">
+  <div class="cta-wrap">
+    <div class="cta-l">
+      <div class="rule fi"></div>
+      <h2 class="fi d1">Marcos,<br><em style="color:var(--gold-lt);">vem comigo.</em></h2>
+      <div class="cta-rule fi d2"></div>
+      <p class="cta-body fi d2">Você construiu sistemas que trabalham por você. Você automatizou coisas que ninguém ainda pensou em automatizar. Isso é real, e é impressionante.</p>
+      <p class="cta-body fi d3" style="margin-top:-1rem;">Mas tem uma coisa que nenhum Claude Code, nenhum Chrome MCP e nenhum workflow na ElevenLabs vai fazer por você: andar até Santiago de Compostela. Isso é só seu.</p>
+      <p class="cta-body fi d4" style="margin-top:-1rem;font-style:italic;color:rgba(242,237,230,.55);">Eu estarei lá a partir do dia 21. Você pode chegar dia 18 e passar três dias no Douro antes. A gente se encontra em Baiona — e de lá, a gente anda.</p>
+    </div>
+    <div class="cta-r">
+      <div class="log-card fi d1">
+        <h4>Logística completa</h4>
+        <p>
+          <strong>Voo de chegada:</strong> Lisboa ou Porto (18 Mai)<br>
+          <strong>Trem:</strong> Porto → Régua (2h) → Six Senses Douro Valley<br>
+          <strong>Dias 18–20:</strong> Six Senses · sozinho · descanso<br>
+          <strong>Dia 21:</strong> Trem ou taxi → Vigo → Baiona<br>
+          <strong>Bagagem:</strong> Serviço de transfer disponível (anda leve)<br>
+          <strong>Voo de volta:</strong> Santiago → Paris CDG (TAP / Air France)<br>
+          <strong>Data de saída:</strong> 29 de Maio
+        </p>
+      </div>
+      <div class="log-card fi d2">
+        <h4>Estimativa de custo (por pessoa)</h4>
+        <p>
+          <strong>Six Senses (3 noites):</strong> ~€900–1.200<br>
+          <strong>Hospedagem Caminho (8 noites):</strong> ~€900–1.100<br>
+          <strong>Alimentação:</strong> ~€400 (menus de peregrino + Paradores)<br>
+          <strong>Transporte local:</strong> ~€200<br>
+          <strong style="color:var(--gold-lt)">Total (sem voos):</strong> ~€2.400–2.900
+        </p>
+      </div>
+      <div class="log-card fi d3">
+        <h4>O que levar</h4>
+        <p>Trail runners ou bota leve. 3–4 conjuntos de roupa de caminhada. Capa de chuva (Galícia em maio chove). Kit de bolhas. Mochila pequena. Câmera. Concha de vieira (pega em Baiona — é o símbolo do Caminho).</p>
+      </div>
+      <div class="log-card fi d4" style="border-color:rgba(200,169,110,.35);background:rgba(200,169,110,.04)">
+        <h4 style="color:var(--gold)">Reservar até março</h4>
+        <p>Paradores enchem rápido em maio. Six Senses idem. O ideal é fechar tudo em março — 2–3 meses antes é o timing certo pra não perder os melhores quartos.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.05rem;color:var(--stone)">Caminho Português Costeiro · Six Senses Douro Valley + Baiona → Santiago · Maio 2026</span>
+    <span style="font-size:0.6rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(242,237,230,.18)">Para Marcos, com carinho — Alex</span>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // FADE IN
+  const fis = document.querySelectorAll('.fi');
+  const obs = new IntersectionObserver(e => {
+    e.forEach(x => { if (x.isIntersecting) x.target.classList.add('vis'); });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+  fis.forEach(f => obs.observe(f));
+
+  // NAV DOTS
+  const sects = document.querySelectorAll('[data-s]');
+  const dots  = document.querySelectorAll('.ndot');
+  window.addEventListener('scroll', () => {
+    const mid = window.scrollY + window.innerHeight / 2;
+    let cur = 0;
+    sects.forEach((s, i) => { if (s.offsetTop <= mid) cur = i; });
+    dots.forEach((d, i) => d.classList.toggle('active', i === cur % dots.length));
+  }, { passive: true });
+
+  // PARALLAX
+  window.addEventListener('scroll', () => {
+    document.querySelectorAll('.bg').forEach(bg => {
+      const s = bg.closest('.slide');
+      if (!s) return;
+      const r = s.getBoundingClientRect();
+      if (r.top < window.innerHeight && r.bottom > 0) {
+        bg.style.transform = `translateY(${(r.top / window.innerHeight) * 22}px)`;
+      }
+    });
+  }, { passive: true });
+});
+</script>
+</body>
+</html>
