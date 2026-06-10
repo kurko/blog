@@ -18,32 +18,73 @@ translations:
 #cover_image_mobile_zoom: "160%"
 ---
 
-Morning of May 22 in *Baiona, Spain*. I open the window and the room is invaded with a loud but peaceful sound of ocean splashing into rocks. I'm hypnotized by the whooshing of water, louder than my thoughts. It feels like the time paused for a moment, separating what happened before from what is coming.
+Morning of May 22 in *Baiona, Spain*. I open the window and the room is invaded with a loud but peaceful sound of the ocean splashing into rocks. The whooshing of water hypnotizes me, a white noise louder than my thoughts. It feels like the time paused for a moment, separating what happened before from what is coming.
 
-We don't know yet at this point how much pain we will endure over the next six days; what the satisfaction from arriving will be like; or what lessons the next 144km will teach us. We're eager to start our pilgrimage. From our hotel, a Spanish *Parador*, we step on the *camino* heading east towards *Santiago de Compostela*. 
-
-***
+We don't know yet at this point how much pain we will endure over the next six days; what the satisfaction from arriving will be like; or what lessons the next 144km will teach us. We're eager to start our pilgrimage, though. From our hotel, a Spanish *Parador*, we'll step on the *camino* heading east towards *Santiago de Compostela*. 
 
 <figure>
 	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011281.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
 	<figcaption>Man walking out of the water</figcaption>
 </figure>
 
+Baiona's history is vast. News of the discovery of America reached it first, but the peninsula had been strategic long before that: the Romans established themselves here around 2,000 years ago to control maritime routes. In the Middle Ages, Galician nobles expanded its fortifications, and by the 16th century, the Spanish Empire had futher reinforced its stone walls. The *Parador de Baiona*, where we slept before the walk, is itself an old fortress sitting on a peninsula protecting the bay.
+
+I first heard about *Paradores* when reading [*Paul Graham* comparing it with other brands I respect](https://x.com/paulg/status/2033221545544319410), like Aman, Rimowa, Porsche and Lego. It felt fitting to book it, and staying at one did not disappoint. Starting in 1928, the Spanish government converted castles, palaces, monasteries and fortresses into luxurious hotels, while keeping prices more affordable (e.g less than $100 a night). 
+
+From Baiona, I will walk with my wife and a friend. We'll make our own history through six cities: *Vigo* (27km away), *Redondela* (16km), *Pontevedra* (24km), *Calda de Reis* (26km), *Padron* (23km), and finally 28km to Santiago.
+
 <figure>
 	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011373.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
 	<figcaption>Parador de Baiona</figcaption>
 </figure>
 
-Day one in our pilgrimage starts around a calm bay dotted with boats, floating in history. News of the discovery of America reached Baiona first, but the peninsula had been strategic long before that: the Romans established themselves here around 2,000 years ago to control maritime routes. In the Middle Ages, Galician nobles expanded its fortifications, and by the 16th century, the Spanish Empire had futher reinforced its stone walls.
+<figure>
+	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011380.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
+	<figcaption></figcaption>
+</figure>
 
-From Baiona, my wife and I and a friend make our own history through six cities: *Vigo*, 27km away (17mi), *Redondela* (16km), *Pontevedra* (24km), *Calda de Reis* (26km), *Padron* (23km), and finally 28km to Santiago.
+<figure>
+	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011316-mobile.jpeg" class="show-on-mobile" loading="lazy" fetchpriority="low" />
+	<figcaption></figcaption>
+</figure>
+
+<div class="image-gallery halves">
+	<img class="crop-square" src="/images/posts/2026-06-07-the-camino-to-santiago/L1011309-half.jpeg" loading="lazy" fetchpriority="low" />
+	<img class="crop-square" src="/images/posts/2026-06-07-the-camino-to-santiago/L1011313-half.jpeg" loading="lazy" fetchpriority="low" />
+</div>
+
+<figure>
+	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011347.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
+	<figcaption></figcaption>
+</figure>
+
+***
+
+## Day 1: Baiona to Vigo
+
+Our pilgrimage starts around a calm bay dotted with boats, floating in history. The first half of the day moves through the coast and residential areas.
 
 <figure>
 	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011368.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
 	<figcaption>Baiona</figcaption>
 </figure>
 
-While half of the day was a pleaseant coast around the bay towards Vigo, we probably took a wrong turn at some point because we walked the last 10 km beside loud traffic. My ears were buzzing with car honks, and vehicles approaching from every direction. Had we made the wrong route decision? Were the next days be like this, walking through gray outskirts, concrete roads, and the industrial edges of town?
+<figure>
+	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011389.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
+	<figcaption></figcaption>
+</figure>
+
+<figure>
+	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011421.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
+	<figcaption></figcaption>
+</figure>
+
+<div class="image-gallery halves">
+	<img class="crop-square" src="/images/posts/2026-06-07-the-camino-to-santiago/L1011396-half.jpeg" loading="lazy" fetchpriority="low" />
+	<img class="crop-square" src="/images/posts/2026-06-07-the-camino-to-santiago/L1011430-half.jpeg" loading="lazy" fetchpriority="low" />
+</div>
+
+While half of the day was a pleasant coast around the bay towards Vigo, we probably took a wrong turn at some point because we walked the last 10 km beside loud traffic. My ears were buzzing with car honks, and vehicles approaching from every direction. Had we made the wrong route decision? Were the next days be like this, walking through gray outskirts, concrete roads, and the industrial edges of town?
 
 During that second half of the day, an old pain returned in my left foot, the [same one that had haunted me in Japan some 10 months earlier](/essay/five-days-on-the-kumano-kodo). By the end, it was excruciating, an 8 out of 10.
 
@@ -51,7 +92,7 @@ Not a great way to start the journey.
 
 ***
 
-I brought with me a pocket notebook to collect my thoughts every night.
+I bring in my pocket a notebook to collect my thoughts every night.
 
 > **22/May/26 | Baiona → Vigo**
 > <br>
