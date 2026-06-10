@@ -195,6 +195,44 @@
   transform: none;
 }
 
+/* IMAGE GALLERY: compose multiple images into a single montage block.
+   The container carries the image chrome (width, radius, hairline); children
+   render edge to edge with no gap. */
+.image-gallery {
+  display: grid;
+  width: 100vw;
+  max-width: 800px; /* Fallback for older browsers */
+  max-width: min(100vw, 800px);
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: calc(2 * var(--base-spacing-unit));
+  border-radius: 3px;
+  overflow: hidden;
+  outline: 1px solid var(--color-image-outline);
+  outline-offset: -1px;
+}
+
+.image-gallery.halves {
+  grid-template-columns: 1fr 1fr;
+}
+
+.c-post .image-gallery img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 0;
+  transform: none;
+  border-radius: 0;
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  .image-gallery {
+    border-radius: 0;
+  }
+}
+
 figure {
   font-size: 0;  /* Collapse whitespace text nodes */
 }
@@ -211,6 +249,23 @@ figure figcaption {
 
 .c-post img.crop-vertical-1-5 {
   height: 200px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* Shape-named crops: WxH of the resulting box (4x5 reads "4 wide by 5 tall").
+   Center crop, so portrait sources lose top/bottom, landscape sources lose
+   sides. On a gallery, the class goes on the container and crops every half. */
+.c-post img.crop-4x5,
+.c-post .image-gallery.crop-4x5 img {
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.c-post img.crop-square,
+.c-post .image-gallery.crop-square img {
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center center;
 }
