@@ -14,6 +14,7 @@
   --color-light-gray: #FAFAFA;
   --color-dark-gray: #777777;
   --color-caption: #777777;
+  --color-image-outline: rgba(0, 0, 0, 0.08);
   --color-bg-gray: #F2F2F2;
   --color-border: #f6f6f6;
   --color-brand: #006aa9;
@@ -42,6 +43,7 @@
     /* Captions sit on photos' edge: white at reduced opacity reads better
        than a fixed gray on the dark background */
     --color-caption: rgba(255, 255, 255, 0.65);
+    --color-image-outline: rgba(255, 255, 255, 0.05);
     --color-bg-gray: #2d2d2d;
     --color-border: #333333;
     --color-brand: #7eb3d9;
@@ -167,6 +169,9 @@
   transform: translateX(-50%);
   /* margin-bottom: calc(2 * var(--base-spacing-unit)); */
   border-radius: 3px;
+  /* Inset hairline so photo edges don't bleed into a same-tone background */
+  outline: 1px solid var(--color-image-outline);
+  outline-offset: -1px;
 }
 
 @media (min-width: 600px) {
