@@ -13,6 +13,7 @@
   --color-gray: #919191;
   --color-light-gray: #FAFAFA;
   --color-dark-gray: #777777;
+  --color-caption: #777777;
   --color-bg-gray: #F2F2F2;
   --color-border: #f6f6f6;
   --color-brand: #006aa9;
@@ -38,6 +39,9 @@
     --color-gray: #aaaaaa;
     --color-light-gray: #2d2d2d;
     --color-dark-gray: #cccccc;
+    /* Captions sit on photos' edge: white at reduced opacity reads better
+       than a fixed gray on the dark background */
+    --color-caption: rgba(255, 255, 255, 0.65);
     --color-bg-gray: #2d2d2d;
     --color-border: #333333;
     --color-brand: #7eb3d9;
@@ -191,9 +195,10 @@ figure {
 }
 
 figure figcaption {
-  font-size: 0.9rem;  /* Use rem instead of em since parent is font-size: 0 */
-  color: var(--color-dark-gray);
+  font-size: 0.85rem;  /* Use rem instead of em since parent is font-size: 0 */
+  color: var(--color-caption);
   text-align: center;
+  text-wrap: balance;
   margin-bottom: calc(2 * var(--base-spacing-unit));
   margin-top: 4px;
   line-height: 1.2rem;
