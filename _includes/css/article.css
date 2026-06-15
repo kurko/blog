@@ -270,6 +270,36 @@ figure figcaption {
   object-position: center center;
 }
 
+/* Desktop-only crop: natural aspect on phones, shape-cropped on wider screens.
+   The unscoped crop-* classes above apply at every width; this one only engages
+   past the phone breakpoint, so a tall portrait stays full-height on mobile but
+   reads as a landscape band on desktop. (mobile-zoom below is the inverse: crop
+   on mobile, natural on desktop.) 601px is the exact complement of the max-width
+   600px mobile rules, so the two never overlap at the boundary. */
+@media (min-width: 601px) {
+  .c-post img.crop-desktop-4x3,
+  .c-post .image-gallery.crop-desktop-4x3 img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+/* Full-screen mobile hero: on phones the image fills the whole viewport (height
+   as well as width), cropping to cover. Pair it with a portrait source shown
+   through the hide-on-mobile / show-on-mobile swap so cover trims very little.
+   svh tracks the visible viewport, so the photo is not hidden behind Safari's
+   address bar; the plain vh line is a fallback for browsers without svh. */
+@media (max-width: 600px) {
+  .c-post img.mobile-fullscreen {
+    height: 100vh; /* Fallback for browsers without svh */
+    height: 100svh;
+    object-fit: cover;
+    object-position: center center;
+    outline: none;
+  }
+}
+
 c-post img.gray,
 c-post img.grey,
 c-post img.grayscale {
