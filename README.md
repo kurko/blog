@@ -69,6 +69,8 @@ Social media links included in `_includes/footer.html` are using
 
 ### Image guidelines
 
+Run `bin/sanitize-images` before committing them.
+
 **Dimensions**
 
 Consider 2px for retina:
