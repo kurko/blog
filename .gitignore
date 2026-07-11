@@ -10,3 +10,4 @@ tmp/*
 *.dng
 .playwright-mcp/
 ai-notes/
+.claude/worktrees/
