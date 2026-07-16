@@ -55,7 +55,7 @@ Neil Johnson said it better,
 
 <!-- <img src="../images/posts/software-complexity-constructal-law/many-small-objects-2.png" alt="system grows out of control" class="small"> -->
 
-For example, consider complexity as the number of interactions between components. With 2 components, complexity is 1, half its size.
+For example, consider complexity as the number of interactions between components. With 2 components, complexity is 1, half its size.
 
 <img src="../images/posts/software-complexity-constructal-law/complexity-evolution-1.png" alt="2 components, complexity 1" class="small">
 
