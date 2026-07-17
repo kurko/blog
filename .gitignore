@@ -11,3 +11,4 @@ tmp/*
 .playwright-mcp/
 ai-notes/
 .claude/worktrees/
+CLAUDE.local.md
