@@ -18,7 +18,7 @@ translations:
 #cover_image_mobile_zoom: "160%"
 ---
 
-Morning of May 22 in *Baiona, Spain*. I open the window and the room is invaded with a loud but peaceful sound of ocean splashing into rocks. The whooshing of water hypnotizes me, a white noise louder than my thoughts. It feels like the time paused for a moment, separating what happened before from what is coming.
+Morning of May 22 in *Baiona, Spain*. I open the window and the room is invaded with a loud but peaceful sound of ocean splashing into rocks. The whooshing of water hypnotizes me, a white noise louder than my thoughts. It feels like time paused for a moment, separating what happened before from what is coming.
 
 I don't know yet at this point how much pain we will endure over the next six days; what the satisfaction from arriving will be like; or what lessons the next 144km will teach me. Whatever's ahead, I can't wait to start.
 
@@ -34,13 +34,13 @@ I don't know yet at this point how much pain we will endure over the next six da
 
 ## Walk
 
-When I walked the [*Kumano Kodo*](/essay/five-days-on-the-kumano-kodo) in Japan, my objective was stepping back, metaphorically speaking, and reconnecting the primitive self with nature. Search for some meaning. You know, what one does when they're on the verge of turning *fourty*.
+When I walked the [*Kumano Kodo*](/essay/five-days-on-the-kumano-kodo) in Japan, my objective was stepping back, metaphorically speaking, and reconnecting the primitive self with nature. Search for some meaning. You know, what one does when they're on the verge of turning *forty*.
 
-My objective for these six days in the Camino was different. I wasn't looking for anything other than to disconnect and work on my mental health with [meditation](/essay/meditation). A walk is perfect for that because it serves as a gravitational force that pulls thoughts into a steady and slower pace matching the scenary passing by. Each step becomes a beat in the music of the mind.
+My objective for these six days in the Camino was different. I wasn't looking for anything other than to disconnect and work on my mental health with [meditation](/essay/meditation). A walk is perfect for that because it serves as a gravitational force that pulls thoughts into a steady and slower pace matching the scenery passing by. Each step becomes a beat in the music of the mind.
 
 The rules remain the same as my *Kumano Kodo* walk: no social media, music, podcast or anything robbing me from the present.
 
-With me are my wife and a friend, *Marcos*, on a walk that will traverse *Vigo* (27km away), *Redondela* (16km), *Pontevedra* (24km), *Calda de Reis* (26km), *Padron* (23km), and finally 28km to Santiago de Compostela.
+With me are my wife and a friend, *Marcos*, on a walk that will traverse *Vigo* (27km away), *Redondela* (16km), *Pontevedra* (24km), *Caldas de Reis* (26km), *Padron* (23km), and finally 28km to Santiago de Compostela.
 
 <figure>
 	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011373.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
@@ -69,9 +69,9 @@ Our pilgrimage starts around a calm bay dotted with boats, floating in history. 
 
 <a href="https://en.wikipedia.org/wiki/Baiona,_Pontevedra" target="_blank"><i>Baiona</i></a> made sense as starting point. Our walk had to fit in 6 days, be longer than 100km, and include the ocean. *Porto* didn't fit the timeline; *Tui* didn't expose the Atlantic enough; *Oia* required special logistics; starting from *Vigo* wouldn't expose us to a full day of water extending to the horizon. Baiona felt like the perfect choice at 127km from Santiago.
 
-Baiona's history was yet another reason. News of the discovery of America reached it first, but the peninsula had been strategic long before that: the Romans established themselves here around 2,000 years ago to control maritime routes. In the Middle Ages, Galician nobles expanded its fortifications, and by the 16th century, the Spanish Empire had futher reinforced its stone walls. The *Parador de Baiona*, where we slept before the walk, is itself an old fortress sitting on a peninsula protecting the bay.
+Baiona's history was yet another reason. News of the discovery of America reached it first, but the peninsula had been strategic long before that: the Romans established themselves here around 2,000 years ago to control maritime routes. In the Middle Ages, Galician nobles expanded its fortifications, and by the 16th century, the Spanish Empire had further reinforced its stone walls. The *Parador de Baiona*, where we slept before the walk, is itself an old fortress sitting on a peninsula protecting the bay.
 
-I first heard about *Paradores* when [Paul Graham's put it side by side with brands like *Aman*, *Rimowa*, *Porsche* and *Lego*](https://x.com/paulg/status/2033221545544319410). From 1928 onward, the Spanish government converted castles, palaces, monasteries and fortresses into luxurious hotels, while keeping prices more affordable. It felt fitting to book it, and it did not disappoint.
+I first heard about *Paradores* when [Paul Graham put it side by side with brands like *Aman*, *Rimowa*, *Porsche* and *Lego*](https://x.com/paulg/status/2033221545544319410). From 1928 onward, the Spanish government converted castles, palaces, monasteries and fortresses into luxurious hotels, while keeping prices more affordable. It felt fitting to book it, and it did not disappoint.
 
 <figure>
 	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011368.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
@@ -109,13 +109,13 @@ What if the next five days were as perfect as this?
 
 When we turned inland toward *Vigo* for the remaining 10 kms, my ears started buzzing with relentless car honks and my heel started pulsating with pain. Suddenly, we were being swallowed by a jungle of concrete. It was almost funny to end the day with an internal competition between thoughts and the loud traffic. It became an opportunity to practice those meditation skills while grimacing in response to the pain.
 
-My left heel ached like I had stepped on a nail. It wasn't an unknown pain because it had haunted me in Japan 10 months earlier. In some ways, I expected it, but I didn't pay much attention because it had faded away. However, a couple weeks before this walk, it started pulsating again, with intensity of 1 out of 10. I rushed to a doctor to investigate, but the tests came back inconclusive. It was too late and I would never cancel a walk because of a intensity-one pain, right?
+My left heel ached like I had stepped on a nail. It wasn't an unknown pain because it had haunted me in Japan 10 months earlier. In some ways, I expected it, but I didn't pay much attention because it had faded away. However, a couple weeks before this walk, it started pulsating again, with intensity of 1 out of 10. I rushed to a doctor to investigate, but the tests came back inconclusive. It was too late and I would never cancel a walk because of an intensity-one pain, right?
 
-What I did not expect was that it would return with such intensity. By the time I arrived at the hotel, it was excruciating, *An 8 out of 10*.
+What I did not expect was that it would return with such intensity. By the time I arrived at the hotel, it was excruciating, *an 8 out of 10*.
 
 ### Evening notes
 
-For this journey, I brought in my pocket a notebook to collect my thoughts. Every night, I'd lay down in bed, and the wouldn't end until I reflected on six things.
+For this journey, I brought in my pocket a notebook to collect my thoughts. Every night, I'd lie down in bed, and the day wouldn't end until I reflected on six things.
 
 <figure>
 	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1020016.jpeg" class="mobile-zoom" loading="lazy" fetchpriority="low" />
@@ -143,7 +143,7 @@ The next morning, I bought a pair of walking sticks.
 ## Day 2: Vigo to Redondela
 <span class="subtitle">16km. Ferns, elevation, ships on the horizon.</span>
 
-On a map, *Vigo* and *Redondela* look like a single gray patch of concrete. They touch each other and you don't know where one ends the other starts. The cities circle a green mountain sitting in between, where the *Vixiador Forest Park* is. It's like the elevated terrain pushed the road to the side.
+On a map, *Vigo* and *Redondela* look like a single gray patch of concrete. They touch each other and you don't know where one ends and the other starts. The cities circle a green mountain sitting in between, where the *Vixiador Forest Park* is. It's like the elevated terrain pushed the road to the side.
 
 To escape the gray concrete from yesterday, we ignore travel guides and draw our own route: A roughly straight line over that mountain. The plan works out, and we are rewarded with a great day. The walk alternates through greenery and tiny neighborhoods, always returning us to the trees.
 
@@ -195,7 +195,7 @@ Life feels like that sometimes. The highs and lows rob us of perspective and mak
 
 Bad moments are just checkpoints.
 
-The journey teaches us is to let go of the need to *feel* progress all the time. Progress doesn't always announce itself with checkpoints or signs. Sometimes you only recognize it when you look back.
+The journey teaches us to let go of the need to *feel* progress all the time. Progress doesn't always announce itself with checkpoints or signs. Sometimes you only recognize it when you look back.
 
 What matters is knowing where you're going and correcting your course when you've wandered off it. The green forests, the sound of running water, and the cool shade didn't bring the destination any closer, but they changed what it felt like to walk it.
 
@@ -215,9 +215,9 @@ What matters is knowing where you're going and correcting your course when you'v
 	<figcaption></figcaption>
 </figure>
 
-In retrospective, while the *Kumano Kodo* felt like a series of different hikes, the *Camino* feels like one long road that repeats once a day. 
+In retrospect, while the *Kumano Kodo* felt like a series of different hikes, the *Camino* feels like one long road that repeats once a day. 
 
-The Japanese trail is exquisite and chaotic, and you never know what to expect around the next corner. The climbs put the knees to the test. The terrain requires concentration on every step, decisions about which stone not to step on, or which gap between the roots is safer for the ankle. Every day is different. Countless time I found myself dropping my jaws facing the most beautiful landscapes.
+The Japanese trail is exquisite and chaotic, and you never know what to expect around the next corner. The climbs put the knees to the test. The terrain requires concentration on every step, decisions about which stone not to step on, or which gap between the roots is safer for the ankle. Every day is different. Countless times I found myself dropping my jaw facing the most beautiful landscapes.
 
 This one, on the other hand, is the ideal environment for reflecting, repeating itself every day. Not that the *Kumano* isn't suitable for that, but during the long straight sections on the *Camino*, you might find yourself on autopilot, absorbed in a thought, then realize several minutes have passed.
 
@@ -231,7 +231,7 @@ This one, on the other hand, is the ideal environment for reflecting, repeating 
 	<figcaption></figcaption>
 </figure>
 
-That night, I laid in bed and wrote in my tiny notebook,
+That night, I lay in bed and wrote in my tiny notebook,
 
 > **24/May/26 | Redondela → Pontevedra**
 > <br>
@@ -423,9 +423,9 @@ For hours, there's nothing competing for my attention except the trail. After a 
 ## Day 6: Padron to Santiago de Compostela
 <span class="subtitle">28km. Our final day.</span>
 
-A few kilometers into the road, while the morning sunlight invades the gaps between leaves and branches, hitting the ground in a yellow incandescent, we hear a familiar sound in the distance, a kind of flute, faint and continuous. Scotland pop on my mind.
+A few kilometers into the road, while the morning sunlight invades the gaps between leaves and branches, hitting the ground in an incandescent yellow, we hear a familiar sound in the distance, a kind of flute, faint and continuous. Scotland pops into my mind.
 
-The sound gets louder and more defined with every step. Turning a corner in the woods, we see two ancient men playing a bagpipe and a snare drum, like if leading an army into battle. We smile to a combination of elements that we will probably never experience again in our lives, the soundtrack of a six-day movie.
+The sound gets louder and more defined with every step. Turning a corner in the woods, we see two ancient men playing a bagpipe and a snare drum, as if leading an army into battle. We smile at a combination of elements that we will probably never experience again in our lives, the soundtrack of a six-day movie.
 
 We're still about 24km from our destination.
 
@@ -473,11 +473,11 @@ People came into the square from every narrow street. Every few seconds another 
 
 I had imagined this moment many times. After walking more than 140 kilometers, I expected excitement, perhaps relief, a sense of triumph, maybe even the urge to cheer.
 
-But for godsakes, I felt nothing! A kind of peaceful emptiness, like staring at a wall after a strenuous gym session!
+But for God's sake, I felt nothing! A kind of peaceful emptiness, like staring at a wall after a strenuous gym session!
 
-I laid down on the stone pavement, using my backpack as a pillow, and stared at the cathedral, waiting for feelings to rush in at any moment. My eyes wandered across the countless carvings, wondering about the people who had built each corner of that place, one generation after another. My thoughts drifted back to the previous days. My GPS said 144 kilometers, but my memory saw a single snapshot, as if the whole journey was compressed into a blur. I was tired.
+I lay down on the stone pavement, using my backpack as a pillow, and stared at the cathedral, waiting for feelings to rush in at any moment. My eyes wandered across the countless carvings, wondering about the people who had built each corner of that place, one generation after another. My thoughts drifted back to the previous days. My GPS said 144 kilometers, but my memory saw a single snapshot, as if the whole journey was compressed into a blur. I was tired.
 
-The exhaustion slowly gave place to a feeling of accomplishment. I was proud of the walk, grateful. Yet the ending itself left me strangely unsatisfied. I wouldn't understand why I felt that way until the next morning.
+The exhaustion slowly gave way to a feeling of accomplishment. I was proud of the walk, grateful. Yet the ending itself left me strangely unsatisfied. I wouldn't understand why I felt that way until the next morning.
 
 ***
 
@@ -493,7 +493,7 @@ I feel a gentle touch on my left arm. As I turn around, a smiling woman in her s
 
 After taking the photo, we start talking. She's from a small town in Mexico, and for more than ten years, had been living as if life was already behind her, not living anymore, waiting for death's arrival.
 
-One day she realized life was slipping through her fingers. A rebelious moment led her to finding the Camino. She came alone and walked more than 160 kilometers.
+One day she realized life was slipping through her fingers. A rebellious moment led her to find the Camino. She came alone and walked more than 160 kilometers.
 
 As she tells us her story, tears start coming down. She had just picked up her pilgrim certificate, which she held tightly in one hand while gesticulating with the other what had happened over the previous days. The Camino taught her a lesson: that life is meant to be lived, not watched while waiting for something that may never come.
 
@@ -542,7 +542,7 @@ Only then did Santiago truly feel like the end of the journey.
 > <br>
 > <u>Lesson</u>: despite the feeling of little progress, through climbs, descents and repeated scenery, the map shows that 5 km have passed. I didn't get this on the Kumano Kodo (there progress felt like progress).
 > <br>
-> <u>What stays behind</u>: The need to *feel* progress all the time. Progress doesn't always come with checkpoints or signs. Sometimes it only becomes visible when I look back. It is necessary, however, to have a clearly defined destination, to be willing to change direction when on the wrong path, and to enjoy the journey. The beauty of the green, the sound of crystalline water, and the refreshing shade make the passage of space and time much more tenable.
+> <u>What stays behind</u>: The need to *feel* progress all the time. Progress doesn't always come with checkpoints or signs. Sometimes it only becomes visible when I look back. It is necessary, however, to have a clearly defined destination, to be willing to change direction when on the wrong path, and to enjoy the journey. The beauty of the green, the sound of crystalline water, and the refreshing shade make the passage of space and time much more bearable.
 > <br>
 > <u>Kaizen (to improve 1%)</u>: Daily stretches and self-massage eliminate pain. During the walk, I repeated this process every night and woke up pain-free. I missed one of the days and suffered throughout the next day with discomfort. Beyond this pilgrimage, I should incorporate this process in my routine.
 > <br>
