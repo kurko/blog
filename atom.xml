@@ -17,7 +17,7 @@ layout: null
   {% endif %}
 
   {% for post in site.posts limit: 20 %}
-    {% unless post.rss == false %}
+    {% unless post.rss == false or post.draft == true %}
     <entry{% if post.lang %} xml:lang="{{ post.lang }}"{% endif %}>
       <title type="html">{{ post.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
       <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
