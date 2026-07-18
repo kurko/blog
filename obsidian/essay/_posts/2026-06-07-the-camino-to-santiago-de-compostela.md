@@ -3,7 +3,7 @@ share: false
 layout: post
 title: The Camino to Santiago de Compostela
 filename: essay/_posts/2026-06-07-the-camino-to-santiago-de-compostela
-rss: true
+rss: false
 date: 2026-06-03 16:00:00 -0300
 excerpt: "XXX"
 draft: true
