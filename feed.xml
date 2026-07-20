@@ -1,6 +1,11 @@
 ---
 layout: null
-comment: NOT BEING USED ANYMORE, but kept for the future
+comment: >-
+  Legacy RSS 2.0 feed, superseded by atom.xml. It is NOT advertised anywhere on
+  the site, but Jekyll still builds it and GitHub Pages still serves it at
+  /feed.xml and /feed, where reader apps that guess feed URLs find it. So it has
+  real subscribers and cannot simply be deleted. Keep the draft/rss guard below
+  in sync with atom.xml.
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -14,6 +19,7 @@ comment: NOT BEING USED ANYMORE, but kept for the future
     <generator>Jekyll v{{ jekyll.version }}</generator>
 
     {% for post in site.posts %}
+      {% unless post.rss == false or post.draft == true %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
@@ -21,6 +27,7 @@ comment: NOT BEING USED ANYMORE, but kept for the future
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
       </item>
+      {% endunless %}
     {% endfor %}
 
     {% for page in site.pages %}

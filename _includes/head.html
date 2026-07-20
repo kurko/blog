@@ -23,6 +23,15 @@
   </title>
   <meta name='description' content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel='canonical' href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  {% comment %}
+    Drafts stay reachable in production on purpose, so they can be previewed
+    while being written. Keep them out of search results until they are done.
+  {% endcomment %}
+  {% if page.draft %}
+    <meta name='robots' content='noindex'>
+  {% endif %}
+
   <link rel='alternate' type='application/rss+xml' title='{{ site.title }}'
   href="{{ '/atom.xml' | prepend: site.baseurl | prepend: site.url }}">
 
