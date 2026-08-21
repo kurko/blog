@@ -1,12 +1,12 @@
 ---
-share: false
+share: true
 layout: post
 title: The Camino to Santiago de Compostela
 filename: essay/_posts/2026-06-07-the-camino-to-santiago-de-compostela
 rss: false
 date: 2026-06-03 16:00:00 -0300
-excerpt: "XXX"
-draft: true
+excerpt: "Six days across Galicia to disconnect, quiet the mind and make room for perspective. Between Atlantic beaches and green forests, through old villages, aching feet and long roads, familiar problems began to look different 144 kilometers later."
+draft: false
 cover_image: "/images/posts/2026-06-07-the-camino-to-santiago/L1011365-cover.jpeg"
 cover_image_mobile: "/images/posts/2026-06-07-the-camino-to-santiago/L1011365-cover.jpeg"
 lang: en
@@ -263,7 +263,7 @@ As I walked, I found myself thinking about what this journey was really about. O
 
 While I walk, I replay conversations, revisit problems and think about the things that have been bothering me. After each kilometer, those thoughts somehow feel farther away, as if they had been left somewhere along the trail.
 
-Of course, that’s not entirely true. Most of those problems will still be waiting for me when I get back home. The walk doesn’t solve them and the distance certainly doesn’t erase them.
+Of course, that's not entirely true. Most of those problems will still be waiting for me when I get back home. The walk doesn't solve them and the distance certainly doesn't erase them.
 
 What changes, however, is the way I see them. That, more than anything else, is what stays behind on the road. Old assumptions, old judgments, old ways of interpreting the same situation.
 
@@ -352,7 +352,13 @@ For hours, there's nothing competing for my attention except the trail. After a 
 </figure>
 
 ## Day 5: Caldas de Reis to Padron
-<span class="subtitle">23km.</span>
+<span class="subtitle">23km. Forests, vineyards, old stones. Pazo Arretén. *Saudade*.</span>
+
+For months before the trip, I had been looking forward to one place in particular: Pazo Arretén. It was already in my mind long before we arrived in Padrón. I had read about it, seen a few photos, and decided it would be the kind of place where I'd like the Camino to slow down. It turned out to be exactly that, and more.
+
+This will sound worse than it is, but for the walk itself, I have almost no memory of this day. I have flashes of a church, greenery, and the destination. Nothing went wrong. There was no problem to solve, no pain strong enough to occupy every thought, no dramatic change in scenery to split the walk into chapters. The road from *Caldas de Reis* to *Padrón* was beautiful in a steady, homogeneous way: forest, stone, vineyard, village, and then another version of the same.
+
+Perhaps memory needs contrast. Day Five had no sharp edges. It survived mostly in photographs, so today I'll let them speak for themselves.
 
 <figure>
 	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011913.jpeg" class="" loading="lazy" fetchpriority="low" />
@@ -364,9 +370,17 @@ For hours, there's nothing competing for my attention except the trail. After a 
 	<figcaption></figcaption>
 </figure>
 
+Sometime before noon, we stopped at the *Santa Mariña de Carracedo* church. We put down our bags and rested in the grass. It was not the greenest grass I had ever seen, but it felt like it in the moment: a soft carpet hugging the church, wrapped around the old stones like a bright scarf around an old man. For a few minutes, there was nowhere else to be.
+
+The church grew from a medieval monastery, and its stones looked almost as old as the Camino. It was built sometime in the 12th century. Beside it stood a long building without a roof, slowly surrendering to the weather.
 
 <figure>
 	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011962.jpeg" class="" loading="lazy" fetchpriority="low" />
+	<figcaption></figcaption>
+</figure>
+
+<figure>
+	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011954.jpeg" class="" loading="lazy" fetchpriority="low" />
 	<figcaption></figcaption>
 </figure>
 
@@ -390,11 +404,36 @@ For hours, there's nothing competing for my attention except the trail. After a 
 	<figcaption></figcaption>
 </figure>
 
+I had booked *Pazo Arretén* for the night because, well, it was the best place to sleep in this small town. I had also correctly predicted that by the fifth day, I would want a long dinner and wine.
+
+What I hadn't anticipated was *Rosalía de Castro*. The *pazo* belonged for generations to her maternal ancestors, and her mother was born there. Rosalía even wrote about the house in one of her poems.
+
+Her *Cantares Gallegos*, published in 1863, is considered the first book published entirely in Galician. It helped begin the revival that returned the language to literary prominence, the *Rexurdimento*.
+
+While reading about her work, one word made me pause: **saudade**. Growing up in Brazil, I had learned *saudade* existed *only* in Portuguese. English has no clean translation. Nostalgia comes close, but feels too neat. Saudade is the deep longing left by someone, somewhere, or something absent: an ache made of affection and distance.
+
+Yet, there it was, in Galician, carrying mostly the same meaning.
+
+***
+
+We had dinner in a glass room attached to the old stone walls, watching the evening settle over the estate. The food was good, but it was the setting that stayed with me: wine from their own winery, warm light on glass and stone, the sense that time had softened everything around us. At some point, we even managed to convince the waiter's boss to let us take a bottle with us, something they don't normally sell. It felt like a small, improbable victory at the end of a long day.
+
 <figure>
 	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1012015-mobile.jpeg" class="show-on-mobile" loading="lazy" fetchpriority="low" />
+	<figcaption>Pazo Arretén's own vineyard</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1012011.jpeg" loading="lazy" fetchpriority="low" />
 	<figcaption></figcaption>
 </figure>
 
+<figure>
+	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1012043.jpeg" loading="lazy" fetchpriority="low" />
+	<figcaption></figcaption>
+</figure>
+
+That night, I wrote in my tiny notebook:
 
 > **26/May/26 | Caldas de Reis → Padron**
 > <br>
@@ -409,16 +448,6 @@ For hours, there's nothing competing for my attention except the trail. After a 
 > <u>Mind</u>: Great.
 > <br>
 > <u>A picture</u>: Pazo Arretén.
-
-<figure>
-	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1012011.jpeg" loading="lazy" fetchpriority="low" />
-	<figcaption></figcaption>
-</figure>
-
-<figure>
-	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1012043.jpeg" loading="lazy" fetchpriority="low" />
-	<figcaption></figcaption>
-</figure>
 
 ## Day 6: Padron to Santiago de Compostela
 <span class="subtitle">28km. Our final day.</span>
@@ -450,16 +479,19 @@ We're still about 24km from our destination.
   <figcaption></figcaption>
 </figure>
 
-
-About 8km away, from a peak between the trees, we see buildings and a Ferris wheel on the horizon. From there, we descend into the valley toward Agrela, and the arrival is a new, steady climb.
-
-[REVIEW]
-
 <figure>
   <img src="/images/posts/2026-06-07-the-camino-to-santiago/L1012125.jpeg" class="" loading="lazy" fetchpriority="low" />
 
   <figcaption></figcaption>
 </figure>
+
+About 8km away, from a peak between the trees, we see buildings and a Ferris wheel on the horizon. From there, we descend into the valley toward Agrela, and the arrival is a new, steady climb. We go through tiny alleyways, bridge passageways, anticipating the end is closer.
+
+Gradually, we are met by cars, sidewalks and everything that makes a lively city. We must be in *Santiago*. We see people in their walking boots across the street, couples pushing the feet forward, families rushing through the corners. We advance through neighborhoods for about an hour until we start seeing what must the city center. The pilgrimage transforms from trees and rivers into tarmac and shops.
+
+Suddenly, an alleyway is ahead of us, and hundreds of people are walking through it. It must be our final destination.
+
+***
 
 <figure>
   <img src="/images/posts/2026-06-07-the-camino-to-santiago/L1012235.jpeg" class="" loading="lazy" fetchpriority="low" />
@@ -505,7 +537,7 @@ I don't know whether the Camino, or walks more broadly, changes everyone in the 
 
 Some people find courage, others find peace. Some leave with renewed purpose. Others simply leave lighter than when they arrived. The distracted find focus, the confused find clarity.
 
-For me, it brought perspective. The problems waiting for me back home hadn’t disappeared, they would still be there after the flight back, but they would no longer occupy the same space in my mind.
+For me, it brought perspective. The problems waiting for me back home hadn't disappeared, they would still be there after the flight back, but they would no longer occupy the same space in my mind.
 
 Walking day after day doesn't solve your problems, but instead, you return with enough distance to look at them differently. In a way, it reminded me of how I felt after walking the Kumano Kodo in Japan. Every long walk seems to send us home as a slightly different version of ourselves.
 
