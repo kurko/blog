@@ -32,7 +32,7 @@ I don't know yet at this point how much pain we will endure over the next six da
 	<figcaption></figcaption>
 </figure>
 
-## Walk
+### Walk
 
 When I walked the [*Kumano Kodo*](/essay/five-days-on-the-kumano-kodo) in Japan, my objective was stepping back, metaphorically speaking, and reconnecting the primitive self with nature. Search for some meaning. You know, what one does when they're on the verge of turning *forty*.
 

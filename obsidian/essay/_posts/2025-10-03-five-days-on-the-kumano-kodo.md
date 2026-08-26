@@ -34,7 +34,7 @@ People have walked the *Kumano Kodo* (熊野古道) hills for a thousand years. 
 	<figcaption>A shy river, mountains ahead</figcaption>
 </figure>
 
-## A total reset
+### A total reset
 <span class="subtitle">Disconnecting from routine</span>
 
 The idea of a total reset had been circling my mind for quite some time, a need to disconnect from routine, tune out the noise, and reconnect with my own thoughts. The *Kumano Kodo* trails in Japan felt like the right backdrop for that experiment. I assumed the effort would be rewarded by shrines. I didn’t know yet that the walk itself would become the destination, and each step a small arrival.

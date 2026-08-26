@@ -30,7 +30,7 @@ As pessoas caminham pelas colinas do *Kumano Kodo* (熊野古道) há mil anos. 
 	<figcaption>Um rio tímido, montanhas à frente</figcaption>
 </figure>
 
-## Um recomeço total
+### Um recomeço total
 <span class="subtitle">Desconectando da rotina</span>
 
 A ideia de um recomeço total circulava minha mente há bastante tempo, uma necessidade de me desconectar da rotina, silenciar o barulho e me reconectar com meus próprios pensamentos. As trilhas do *Kumano Kodo* no Japão pareciam o cenário certo para esse experimento. Assumi que o esforço seria recompensado pelos santuários. Ainda não sabia que a caminhada em si se tornaria o destino, e cada passo uma pequena chegada.

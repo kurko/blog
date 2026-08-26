@@ -48,6 +48,9 @@
     {% include css/typography.css %}
     {% include css/article.css %}
     {% include css/evil-icons.css %}
+    {% if page.cover_image %}
+      {% include css/gallery.css %}
+    {% endif %}
     {% capture inlineCSS %}
 
       {% include app.scss %}

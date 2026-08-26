@@ -28,7 +28,7 @@ Eu ainda não sei, nesse momento, quanta dor vamos aguentar nos próximos seis d
 	<figcaption></figcaption>
 </figure>
 
-## Caminhar
+### A caminhada
 
 Quando fiz o [*Kumano Kodo*](/essay/cinco-dias-no-kumano-kodo) no Japão, meu objetivo era dar um passo atrás, metaforicamente falando, e reconectar o eu primitivo com a natureza. Buscar algum significado. Sabe, o que a gente faz quando está prestes a fazer *quarenta*.
 

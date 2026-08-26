@@ -1,0 +1,321 @@
+/* ============================================
+   Hero action pills (gallery + language)
+   ============================================ */
+
+.c-post__hero-actions {
+  /* Mirrors the site avatar inside the same centered header grid: the row
+     spans the 640px column, pills hug its right edge the way the avatar
+     hugs its left, at the same 18px line. z-index sits above the floating
+     site header (z-index 1000). */
+  position: absolute;
+  top: 18px;
+  left: 0;
+  right: 0;
+  max-width: var(--grid-width);
+  margin: 0 auto;
+  padding: 0 var(--grid-gutter);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  z-index: 1001;
+  /* The strip spans the hero; only the pills themselves should catch clicks */
+  pointer-events: none;
+}
+
+.c-post__hero-actions > .c-btn--hero {
+  pointer-events: auto;
+}
+
+/* hero.js moves the pill row and the cover-page header onto the body
+   element and pins them with real position: fixed while the hero is in
+   view; released, they fall back to absolute and scroll out with it.
+   NOTE: never write angle-bracket tags in comments here. This file is
+   inlined into the page head, and jekyll-mentions parses the built page
+   with an HTML parser that treats tag-like text as real markup. */
+.c-post__hero-actions.is-pinned,
+.c-header--has-cover-image.is-pinned {
+  position: fixed;
+}
+
+@media (max-width: 600px) {
+  .c-post__hero-actions {
+    top: 16px;
+  }
+}
+
+.c-btn--hero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.94);
+  background: rgba(20, 20, 20, 0.04);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.15s ease;
+}
+
+/* The display above would defeat the [hidden] the no-JS pill ships with */
+.c-btn--hero[hidden] {
+  display: none;
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .c-btn--hero {
+    background: rgba(0, 0, 0, 0.45);
+  }
+}
+
+.c-btn--hero:hover {
+  background: rgba(20, 20, 20, 0.16);
+}
+
+.c-btn--hero:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+  .c-btn--hero {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+/* ============================================
+   Gallery mode overlay
+   ============================================ */
+
+.c-gallery {
+  /* A dark room in both themes on purpose; not tied to --color-cover-bg */
+  --gallery-bg: #0d0d0d;
+  --gallery-text: rgba(255, 255, 255, 0.92);
+  --gallery-caption: rgba(255, 255, 255, 0.62);
+  --gallery-gap: 8px;
+  --gallery-max-width: 1700px;
+
+  position: fixed;
+  inset: 0;
+  /* Above the site logo, which floats over the hero at z-index 1000 */
+  z-index: 2000;
+  background: var(--gallery-bg);
+  color: var(--gallery-text);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.18s ease, visibility 0.18s;
+}
+
+.c-gallery.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .c-gallery {
+    transition: none;
+  }
+}
+
+/* article.css zeroes figure font-size globally to collapse whitespace */
+.c-gallery figure {
+  font-size: inherit;
+  margin: 0;
+}
+
+.c-gallery__scroll {
+  position: absolute;
+  inset: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c-gallery__bar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: rgba(13, 13, 13, 0.88);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.c-gallery__name {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  color: var(--gallery-caption);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c-gallery__close {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin-left: 16px;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--gallery-text);
+  cursor: pointer;
+}
+
+.c-gallery__close:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.c-gallery__close:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.c-gallery__inner {
+  max-width: var(--gallery-max-width);
+  margin: 0 auto;
+  padding: 0 16px 80px;
+}
+
+/* Spacing alone divides the sections; a rule line felt out of place here */
+.c-gallery__divider {
+  margin: 64px 0 18px;
+}
+
+.c-gallery__section:first-child .c-gallery__divider {
+  margin-top: 24px;
+}
+
+/* Breathing room under the bar for an untitled opening group only; a grid
+   preceded by a divider already gets its spacing from the divider */
+.c-gallery__section:first-child > .c-gallery__grid:first-child {
+  padding-top: 24px;
+}
+
+.c-gallery__divider h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  color: var(--gallery-text);
+}
+
+.c-gallery__subtitle {
+  margin: 6px 0 0;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--gallery-caption);
+}
+
+.c-gallery__grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gallery-gap);
+}
+
+.c-gallery__item {
+  flex: 0 0 auto;
+  width: 100%;
+  /* Placeholder ground while the photo streams in; cleared on load so it
+     never shows as a plate behind a hanging caption */
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 3px;
+}
+
+.c-gallery__item.is-loaded {
+  background: none;
+}
+
+/* Radius but no hairline: the outline the article uses reads as clutter on
+   this dark ground */
+.c-gallery__item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+@media (width > 600px) {
+  .c-gallery__item img {
+    cursor: zoom-in;
+  }
+}
+
+.c-gallery__caption {
+  margin: 6px 0 4px;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  text-align: center;
+  text-wrap: balance;
+  color: var(--gallery-caption);
+}
+
+@media (max-width: 600px) {
+  /* Match the article: photos edge to edge, no radius */
+  .c-gallery__inner {
+    padding: 0 0 60px;
+  }
+
+  .c-gallery__divider {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .c-gallery__grid {
+    gap: 12px;
+  }
+
+  .c-gallery__item,
+  .c-gallery__item img {
+    border-radius: 0;
+  }
+}
+
+/* ---- Zoom (desktop only) ---- */
+
+.c-gallery__zoom {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px;
+  background: var(--gallery-bg);
+  cursor: zoom-out;
+}
+
+.c-gallery__zoom.is-open {
+  display: flex;
+}
+
+.c-gallery__zoom img {
+  max-width: 100%;
+  max-height: calc(100vh - 90px);
+  width: auto;
+  height: auto;
+  border-radius: 3px;
+}
+
+.c-gallery__zoom figcaption {
+  margin: 0;
+  font-size: 0.85rem;
+  text-align: center;
+  color: var(--gallery-caption);
+}
