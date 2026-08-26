@@ -232,3 +232,30 @@ English: "where would the fun be in that? I traveled around the planet for this"
 ✅ Good: "onde estaria a graça nisso? Viajei ao redor do planeta para isso"
 ```
 *Keeps the rhetorical question + determination combo that defines the author's adventurous personality.*
+
+## Author Edits (learned from Alex's revisions)
+
+Patterns taken from diffs of Alex's own edits on top of translated drafts
+(camino article, 2026-08). Apply them proactively in future translations.
+
+### Describe the quality instead of mirroring English verb + object
+
+```
+English: "The whooshing of water hypnotizes me"
+❌ Draft: "O barulho da água me hipnotiza"
+✅ Alex's edit: "O barulho da água é hipnotizante"
+```
+*Why: mirroring the English "verb + me" shape reads like a calque. When a
+sensation is being described, "é + adjetivo" (é hipnotizante, é relaxante)
+often sounds more natural than keeping the transitive verb aimed at the
+narrator.*
+
+### Article before possessive when it improves rhythm
+
+```
+English: "a white noise louder than my thoughts"
+❌ Draft: "um ruído branco mais alto que meus pensamentos"
+✅ Alex's edit: "um ruído branco mais alto que os meus pensamentos"
+```
+*Why: both forms are grammatical, but "os meus" flows better in contemplative
+prose. Not an absolute rule; judge by rhythm, especially in longer sentences.*
