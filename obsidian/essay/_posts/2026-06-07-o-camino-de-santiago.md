@@ -14,7 +14,7 @@ cover_image: "/images/posts/2026-06-07-the-camino-to-santiago/L1011365-cover.jpe
 cover_image_mobile: "/images/posts/2026-06-07-the-camino-to-santiago/L1011365-cover.jpeg"
 ---
 
-Manhã de 22 de maio em *Baiona, Espanha*. Eu abro a janela e o quarto é invadido por um som alto, mas tranquilo, do mar quebrando nas rochas. O barulho da água me hipnotiza, um ruído branco mais alto que meus pensamentos. Parece que o tempo parou por um momento, separando o que aconteceu antes do que está por vir.
+Manhã de 22 de maio em *Baiona, Espanha*. Eu abro a janela e o quarto é invadido por um som alto, mas tranquilo, do mar quebrando nas rochas. O barulho da água é hipnotizante, um ruído branco mais alto que os meus pensamentos. Parece que o tempo parou por um momento, separando o que aconteceu antes do que está por vir.
 
 Eu ainda não sei, nesse momento, quanta dor vamos aguentar nos próximos seis dias; como será a satisfação de chegar; ou que lições os próximos 144km vão me ensinar. Seja lá o que vier pela frente, mal posso esperar para começar.
 
