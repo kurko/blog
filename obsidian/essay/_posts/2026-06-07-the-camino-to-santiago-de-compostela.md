@@ -159,7 +159,7 @@ To escape the gray concrete from yesterday, we ignore travel guides and draw our
 
 <figure>
 	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011548-hero.jpeg" class="hide-on-mobile" loading="lazy" fetchpriority="low" />
-	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011548-mobile.jpeg" class="show-on-mobile mobile-fullscreen" loading="lazy" fetchpriority="low" />
+	<img src="/images/posts/2026-06-07-the-camino-to-santiago/L1011548-mobile-portrait.jpeg" class="show-on-mobile mobile-fullscreen" loading="lazy" fetchpriority="low" />
 	<figcaption></figcaption>
 </figure>
 
