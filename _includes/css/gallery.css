@@ -65,8 +65,8 @@
 /* The shared SVG bends the backdrop while keeping the control icons sharp. */
 @supports (backdrop-filter: url('#glass-distortion') blur(3px) saturate(180%)) {
   .c-btn--hero {
-    -webkit-backdrop-filter: url('#glass-distortion') blur(3px) saturate(180%);
-    backdrop-filter: url('#glass-distortion') blur(3px) saturate(180%);
+    -webkit-backdrop-filter: url('#glass-distortion') blur(2px) saturate(180%);
+    backdrop-filter: url('#glass-distortion') blur(2px) saturate(180%);
   }
 }
 
