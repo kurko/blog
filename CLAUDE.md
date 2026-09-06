@@ -8,9 +8,10 @@ alexoliveira.cc
   allowed to write/edit new content that is not already present in the article.
   If you want to write new content, propose to the user. You are encouraged to
   propose prose improvements, in the style of _Word Painting by Rebecca McClanahan_.
-  Ultimately, Alex want to be able to say that he wrote the content, and that it
+  Ultimately, Alex wants to be able to say that he wrote the content, and that it
   is human-authored.
-- Large images should not be committed without sanitizing them first.
+- Never commit images without running `bin/sanitize-images` first. See
+  "Images" below.
 - The website should feel polished, minimal, intentional, pleasant to the eyes.
   The reader should feel the website author has good taste.
 
@@ -22,6 +23,30 @@ alexoliveira.cc
 
 - `bin/setup`
 - `bin/serve`, then localhost:4000.
-- Don't commit images without running `bin/sanitize-images` first. This will
-  ensure that all images are resized and optimized, and free of sensitive
-  information.
+
+### Images
+
+Before committing any new or changed image, run:
+
+```
+bin/sanitize-images
+```
+
+The script walks `images/posts` and `images/pages` and downsizes anything wider
+than the limit for its type. It picks the limit from the filename:
+
+- `mobile` in the name: 1400px
+- `cover`, `hero`, `large`, `big`, or `wide` in the name: 2880px
+- everything else: 2000px
+
+Originals are backed up to `tmp/<date>/` (gitignored). Use `--dry-run` to see
+what would change without touching files. Requires ImageMagick and the
+`mini_magick` gem (installed by `bin/setup`).
+
+Checklist when adding images:
+
+1. Drop the files into `images/posts/<slug>/` or `images/pages/`.
+2. Run `bin/sanitize-images` and check the summary.
+3. `git status` should show only the resized images, never anything under
+   `tmp/`.
+4. Commit.
